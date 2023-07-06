@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>web-safe-fonts on Furkan Uysal</title>
+    <link>https://furuy.com/tags/web-safe-fonts/</link>
+    <description>Recent content in web-safe-fonts on Furkan Uysal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 08 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://furuy.com/tags/web-safe-fonts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Web Safe Fonts Nedir? Nasıl Kullanılır?</title>
+      <link>https://furuy.com/web-safe-fonts/</link>
+      <pubDate>Wed, 08 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://furuy.com/web-safe-fonts/</guid>
+      <description>Birçok web sitesi, kullanıcı arayüzünü (User Interface) geliştirmek için yazı tipleri (font) kullanır. Bu yazı tipleri de genellikle, direkt olarak WOFF/WOFF2 dosyaları çağrılarak veya Google Fonts kullanılarak yapılır. Her iki yöntem de harici bir istek yaratır ve bu isteklerin boyutu da, web sitenizdeki diğer isteklere oranla bir hayli fazladır.
+Örnek olarak, Reuters&amp;rsquo;ın bir haber sayfasındaki toplam kaynağın yaklaşık %11&amp;rsquo;i yazı tipleri için kullanılıyor.
+Web Safe Fonts Nedir? Her işletim sistemi ve bazı tarayıcılar, varsayılan olarak belirli yazı tipleri barındırır; Web Safe Fonts, işte bu yazı tipleridir.</description>
+    </item>
+    
+  </channel>
+</rss>

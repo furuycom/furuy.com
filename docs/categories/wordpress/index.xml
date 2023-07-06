@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>wordpress on Furkan Uysal</title>
+    <link>https://furuy.com/categories/wordpress/</link>
+    <description>Recent content in wordpress on Furkan Uysal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 02 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://furuy.com/categories/wordpress/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>WordPress Yönetici Ve Giriş Güvenliği</title>
+      <link>https://furuy.com/wordpress-yonetici-ve-giris-guvenligi/</link>
+      <pubDate>Mon, 02 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://furuy.com/wordpress-yonetici-ve-giris-guvenligi/</guid>
+      <description>WordPress web sitenizdeki yönetici hesapları, varsayılan olarak birçok kritik yetkiye sahip olurlar. Bu hesapların güvenliği sağlanmazsa, web siteniz de tehdit altında olur. Bu yazıda, manuel olarak uygulayabileceğiniz bazı güvenlik adımlarını anlatacağım.
+&amp;lsquo;Admin&amp;rsquo; Kullanıcı Adını Kullanmayın Tüm brute-force kullanıcı adı listelerinin ilk sırasında yer alan, &amp;ldquo;admin&amp;rdquo; gibi yaygın ve tahmin edilebilir kullanıcı adlarını, hiçbir sisteminizde kullanmayın. Yalnızca web sitenizde kullanacağınız, tahmin edilemez ve özgün bir kullanıcı adı belirleyin.
+Kayıtları Kapatın WordPress, varsayılan olarak web sitenize herkesin kayıt olabilmesini sağlayan özelliği kapatır.</description>
+    </item>
+    
+    <item>
+      <title>Web Sitenize Çerezler Uyarısı Ekleyin (1 KB)</title>
+      <link>https://furuy.com/cerezler-uyarisi-ekleme/</link>
+      <pubDate>Sun, 09 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://furuy.com/cerezler-uyarisi-ekleme/</guid>
+      <description>Çerezler Uyarısı Nedir? Çerezler uyarısı, GDPR standartları kapsamında, bir yasal zorunluluk haline geldi; Öyle ki, web siteniz AB&amp;rsquo;de barındırılmasa bile, web sitenizi AB&amp;rsquo;den ziyaret edecek kişiler için bile bu bildirimi eklemek zorundasınız. Bu uygulama ile kişisel verilerin korunmasının geliştirilmesi amaçlanıyor. Bu uygulama ile birlikte de, kişisel veri toplayan taraflara bazı sorumluluklar düşüyor.
+Web sitenizde birçok birinci parti ve/veya üçüncü parti çerezler kullanılıyor olabilir. Örnekler:
+Web sitenizde Cloudflare kullanıyorsanız, Cloudflare&amp;rsquo;nin çerezleri kullandığını bilmeniz gerekiyor.</description>
+    </item>
+    
+  </channel>
+</rss>

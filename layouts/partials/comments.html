@@ -1,0 +1,14 @@
+{{with eq .Params.commentshtml false}}
+{{ else }}
+<br>
+
+<script src="https://utteranc.es/client.js"
+        repo="furkun/furuy.com"
+        issue-term="pathname"
+        label="Comment"
+        theme="preferred-color-scheme"
+        crossorigin="anonymous"
+        async>
+</script>
+
+{{end}}

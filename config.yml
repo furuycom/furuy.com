@@ -1,0 +1,148 @@
+baseURL: https://furuy.com/
+title: "Furkan Uysal"
+paginate: 10
+theme: "PaperMod"
+canonifyURLs: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+ShowFullTextinRSS: true
+enableEmoji: true
+defaultContentLanguage: en
+publishDir: docs
+permalinks:
+  posts: '/:filename/'
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  homeInfoParams:
+    Title: Welcome to my cyber corner! 🌐
+    Content: I'm trying to create useful content related to [my interests](/categories/) on my blog. 💻
+  env: production
+  title: "Furkan Uysal"
+  description: "Tech-focused personal blog."
+  author: Furkan Uysal
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: false
+  ShowCodeCopyButtons: true
+  ShowWordCount: false
+  ShowRssButtonInSectionTermList: true
+  #UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: true
+  comments: true
+  hidemeta: false
+  hideSummary: false
+  ShowToc: true
+  TocOpen: false
+  enableGitInfo: true
+  ShowLastMod: true
+  assets:
+    disableHLJS: true # to disable highlight.js
+    disableFingerprinting: true
+    favicon: "/assets/img/logo.svg"
+    favicon16x16: "/assets/img/logo.svg"
+    favicon32x32: "/assets/img/logo.svg"
+    apple_touch_icon: "/assets/img/logo.svg"
+    safari_pinned_tab: "/assets/img/logo.svg"
+    theme_color: "#000000"
+    msapplication_TileColor: "#000000"
+
+  label:
+    text: "Furkan Uysal"
+    icon: "/assets/img/logo.svg"
+    iconHeight: 35
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/furkun"
+    - name: mastodon
+      url: "https://mastodon.social/@furk"
+    - name: twitter
+      url: "https://twitter.com/furuycom"
+    - name: RSS
+      url: "index.xml"
+
+  # analytics:
+  #   google:
+  #     SiteVerificationTag: "4P3d4zOmlLWOZcAlgBbIH_OuUl5RFSB7UYPeJj7roRQ"
+
+  cover:
+    hidden: false # hide everywhere but not in structured data
+    hiddenInList: false # hide on list pages and home
+    hiddenInSingle: false # hide on single page
+    relative: true # To use relative path for cover image, used in hugo Page-bundles
+
+  editPost:
+    URL: "https://github.com/furkun/furuy.com"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    ignoreLocation: true
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+menu:
+  main:
+    - identifier: posts
+      name: 📰 Posts
+      url: /posts/
+      weight: 10
+    - identifier: categories
+      name: 📚 Categories
+      url: /categories/
+      weight: 20
+    - identifier: archives
+      name: 🗂️ Archives
+      url: /archives/
+      weight: 30
+    - identifier: legal
+      name: ℹ️ Legal
+      url: /legal/
+      weight: 40
+    - identifier: about
+      name: 🧑‍💻 About
+      url: /about/
+      weight: 50
+    - identifier: search
+      name: 🔍 Search
+      url: /search/
+      weight: 60
+
+# privacy:
+#   disqus:
+#     disable: true
+#   googleAnalytics:
+#     disable: true
+#   instagram:
+#     disable: true
+#   twitter:
+#     disable: true
+#   vimeo:
+#     disable: true
+#   youtube:
+#     disable: true
+
