@@ -25,9 +25,9 @@ minify:
   minifyOutput: true
 
 params:
-  homeInfoParams:
-    Title: Welcome to my cyber corner! 🌐
-    Content: I'm trying to create useful content related to [my interests](/categories/) on my blog. 💻
+#  homeInfoParams:
+#    Title: Welcome to my cyber corner! 🌐
+#    Content: I'm trying to create useful content related to [my interests](/categories/) on my blog. 💻
   env: production
   title: "Furkan Uysal"
   description: "Tech-focused personal blog."
@@ -42,14 +42,14 @@ params:
   ShowCodeCopyButtons: true
   ShowWordCount: false
   ShowRssButtonInSectionTermList: true
-  #UseHugoToc: true
-  disableSpecial1stPost: false
+  UseHugoToc: false
+  disableSpecial1stPost: true
   disableScrollToTop: true
   comments: true
   hidemeta: false
   hideSummary: false
   ShowToc: true
-  TocOpen: false
+  TocOpen: true
   enableGitInfo: true
   ShowLastMod: true
   assets:
@@ -80,7 +80,7 @@ params:
 
   # analytics:
   #   google:
-  #     SiteVerificationTag: "4P3d4zOmlLWOZcAlgBbIH_OuUl5RFSB7UYPeJj7roRQ"
+  #     SiteVerificationTag: ""
 
   cover:
     hidden: false # hide everywhere but not in structured data

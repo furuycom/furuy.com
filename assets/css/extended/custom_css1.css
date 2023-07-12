@@ -8,3 +8,8 @@
   min-height: auto;
   align-items: center;
 }
+
+.footer .social-icons a {
+  text-decoration: none;
+  border-bottom: none;
+}
