@@ -16,6 +16,6 @@ categories:
 tags: 
   - "tags"
 cover:
-  image: "/filename/images/filename.jpg"
+  image: "/assets/img/filename.jpg"
 ---
 
