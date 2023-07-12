@@ -99,12 +99,12 @@ Hesabınız ve hesabınızda kullandığınız e-posta adresi için giriş ipuç
 
 Olası phishing saldırılarından korunmak için yazılımı resmi web sitesinden indirin veya tarayıcı üzerinden giriş yapacaksanız, web site adresini kendiniz yazın. Doğru olduğundan emin olduğunuz giriş bağlantısını, hızlı erişim için yer imlerine ekleyebilirsiniz. Arama sonuçları ile resmi web siteye ulaşamayabilirsiniz; İlk sıralarda çıkan reklamlar yüzünden sahte web sitesine gidebilirsiniz.
 
-![Sahte bir Bitwarden reklamı.](/guvenli-parola-yoneticisi//assets/img/bitwarden-sahte-reklam.jpg)
+![Sahte bir Bitwarden reklamı.](/assets/img/bitwarden-sahte-reklam.jpg)
 
 Bir Reddit kullanıcısının karşılaştığı sahte bir reklam.  
 Kaynak: [https://www.reddit.com/r/Bitwarden/comments/10k2aj5/google\_search\_ads\_showing\_fake\_bitwarden\_web/](https://www.reddit.com/r/Bitwarden/comments/10k2aj5/google_search_ads_showing_fake_bitwarden_web/)
 
-![Sahte bir Bitwarden websitesi.](/guvenli-parola-yoneticisi//assets/img/bitwarden-sahte-web-sitesi.jpg)
+![Sahte bir Bitwarden websitesi.](/assets/img/bitwarden-sahte-web-sitesi.jpg)
 
 Bir başka sahte Bitwarden websitesi.  
 Kaynak: [https://www.reddit.com/r/Bitwarden/comments/10kswt8/god\_damn\_in\_situations\_like\_this\_how\_can\_i\_detect/](https://www.reddit.com/r/Bitwarden/comments/10kswt8/god_damn_in_situations_like_this_how_can_i_detect/)
