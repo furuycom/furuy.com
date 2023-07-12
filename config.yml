@@ -89,9 +89,9 @@ params:
     relative: true # To use relative path for cover image, used in hugo Page-bundles
 
   editPost:
-    URL: "https://github.com/furkun/furuy.com"
+    URL: "https://github.com/furkun/furuy.com/tree/main/content"
     Text: "Suggest Changes" # edit text
-    appendFilePath: false # to append file path to Edit link
+    appendFilePath: true # to append file path to Edit link
 
   # for search
   # https://fusejs.io/api/options.html
