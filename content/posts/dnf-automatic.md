@@ -19,7 +19,7 @@ cover:
 
 ## DNF Automatic'i Yükleyin
 
-Bunun için kullandığınız terminale aşağıdaki kodu yazın ve yüklemeyi onaylarak, kurulumu tamamlayın:
+Bunun için kullandığınız terminale aşağıdaki kodu yazın ve yüklemeyi onaylayarak, kurulumu tamamlayın:
 
 ```
 sudo dnf install dnf-automatic
@@ -42,9 +42,9 @@ Yukarıdaki değerler, varsayılandır.
 
 **upgrade\_type:** Bu alanda "default" veya "security" seçeneklerini kullanabilirsiniz. "default" seçeneği tüm güncellemeleri, "security" seçeneği ise yalnızca güvenlik güncellemelerini seçer. Gerek sunucunuzda, gerekse masa üstünüzde en azından "security" seçeneğini seçmek çok faydalı olacaktır. Bu sayede, güvenlik güncellemelerini hızlı ve otomatik bir şekilde yükleyebilirsiniz.
 
-**random\_sleep:** Güncellemeleri indirmeden önce uygulanacak maksimum gecikme (delay). Dakika cinsinden yazmanız gerekiyor. Systemd timer'ları zaten 1 saate kadar, rastgele bir gecikme uyguladığı için varsayılan "0" değerini değiştirmenize gerek yok.
+**random\_sleep:** Güncellemeleri indirmeden önce uygulanacak maksimum gecikme (delay). Dakika cinsinden yazmanız gerekiyor. Systemd timerları zaten 1 saate kadar, rastgele bir gecikme uyguladığı için varsayılan "0" değerini değiştirmenize gerek yok.
 
-**network\_online\_timeout:** Saniye cinsinden, internete bağlı olup olunmadığının kontrol edileceği süre. "0" bu konrolü kapatır. Varsayılan olarak kalmasını tavsiye ederim.
+**network\_online\_timeout:** Saniye cinsinden, internete bağlı olup olunmadığının kontrol edileceği süre. "0" bu kontrolü kapatır. Varsayılan olarak kalmasını tavsiye ederim.
 
 **download\_updates:** Güncelleme mevcut olduğunda, bunları otomatik olarak indirir.
 
@@ -60,7 +60,7 @@ sudo systemctl enable --now dnf-automatic.timer
 
 ### Systemd Timer
 
-Yukarıdaki dosyada herhangi bir işlem yapmadan, Systemd timer'larını kullanarak DNF Automatic'i yapılandırmanız da mümkün. Bunlardan birisini kullanmak, yukarıdaki yapılandırmanızı es geçecektir ve açıklamada belirtildiği gibi çalışacaktır. Altındaki kodu uygulamanız yeterlidir.
+Yukarıdaki dosyada herhangi bir işlem yapmadan, Systemd timerlarını kullanarak DNF Automatic'i yapılandırmanız da mümkün. Bunlardan birisini kullanmak, yukarıdaki yapılandırmanızı es geçecektir ve açıklamada belirtildiği gibi çalışacaktır. Altındaki kodu uygulamanız yeterlidir.
 
 **dnf-automatic-notifyonly**: Güncelleme olduğunda, yalnızca bildirir.
 
@@ -82,7 +82,7 @@ sudo systemctl enable --now dnf-automatic-install.timer
 
 * * *
 
-Bu işlemlerden sonra, güncellemeleri kolaylıkla otomatikleştirebilirsiniz. Systemd timer'larını kontrol etmek için aşağıdaki komutu kullanın:
+Bu işlemlerden sonra, güncellemeleri kolaylıkla otomatikleştirebilirsiniz. Systemd timerlarını kontrol etmek için aşağıdaki komutu kullanın:
 
 ```
 sudo systemctl list-timers

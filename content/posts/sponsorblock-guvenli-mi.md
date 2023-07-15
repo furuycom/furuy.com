@@ -25,14 +25,14 @@ Ayrıca, kullanım koşullarına (terms of use) göz atmak için de bu sayfayı 
 
 ### Log Dosyaları
 
-Toplanan neredeyse tüm veriler, [https://sponsor.ajay.app/database](https://sponsor.ajay.app/database) adresindeki veri tabanında [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) lisansı altında herkese açık olarak bulunuyor. Oylar ve hash'lenmiş IP adresleri ise özel bir veri tabanında bulunuyor.
+Toplanan neredeyse tüm veriler, [https://sponsor.ajay.app/database](https://sponsor.ajay.app/database) adresindeki veri tabanında [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) lisansı altında herkese açık olarak bulunuyor. Oylar ve hashlenmiş IP adresleri ise özel bir veri tabanında bulunuyor.
 
 Toplanan veriler:
 
 1. Gönderdiğiniz bilgiler (videonun segmentleri, oylar)
-2. userID'nizin hash'lenmiş hali (uzantıyı ilk kurduğunuzda rastgele üretilir)
+2. userID'nizin hashlenmiş hali (uzantıyı ilk kurduğunuzda rastgele üretilir)
 3. Gönderimi yaptığınız zaman
-4. IP adresinizin hash'lenmiş ve salt'lanmış hali. ([https://github.com/ajayyy/SponsorBlockServer/blob/master/src/utils/getHash.ts](https://github.com/ajayyy/SponsorBlockServer/blob/master/src/utils/getHash.ts))
+4. IP adresinizin hashlenmiş ve salt'lanmış hali. ([https://github.com/ajayyy/SponsorBlockServer/blob/master/src/utils/getHash.ts](https://github.com/ajayyy/SponsorBlockServer/blob/master/src/utils/getHash.ts))
 5. Client adınız (uzantı, port vs.)
 6. Tercihe bağlı olarak, her bir segment atladığınızda da kayıt oluşturulur. Bu, leaderboard oluşturmayı sağlıyor. Bunu kapatmak için uzantı seçeneklerinden: _Enable Skip Count Tracking > OFF_
 
@@ -40,7 +40,7 @@ Toplanan veriler:
 
 Her bir YouTube videosuna eriştiğinizde:
 
-- Videoya ait segmentler olup olmadığını sorgulamak için bir istek gönderilir. Bu istekte, video ID'sinin hash'lenmiş halinin ilk dört karakteri bulunur. Bazı durumlarda (1/11) video ID'si doğrudan da bulunabilir. ([https://github.com/ajayyy/SponsorBlock/wiki/K-Anonymity](https://github.com/ajayyy/SponsorBlock/wiki/K-Anonymity))
+- Videoya ait segmentler olup olmadığını sorgulamak için bir istek gönderilir. Bu istekte, video ID'sinin hashlenmiş halinin ilk dört karakteri bulunur. Bazı durumlarda (1/11) video ID'si doğrudan da bulunabilir. ([https://github.com/ajayyy/SponsorBlock/wiki/K-Anonymity](https://github.com/ajayyy/SponsorBlock/wiki/K-Anonymity))
 
 Her bir segmenti atladığınızda:
 
@@ -52,11 +52,11 @@ Her oy verdiğinizde:
 
 Her segment gönderdiğinizde:
 
-- Video ID'si, userID'niz ve hash'lenmiş IP adresiniz gönderilir.
+- Video ID'si, userID'niz ve hashlenmiş IP adresiniz gönderilir.
 
 Kullanıcı sayacı:
 
-- IP adresi; hash'lenmiş ve 48 saatte bir değişecek şekilde salt edilmiş halde bulunur. Bu veri, yalnızca hafızada (memory) tutulur. Bu veri, [istatistikler](https://sponsor.ajay.app/stats/) sayfasında kullanılır. (Detaylar: [https://github.com/ajayyy/PrivacyUserCount/#privacy-user-counter](https://github.com/ajayyy/PrivacyUserCount/#privacy-user-counter))
+- IP adresi; hashlenmiş ve 48 saatte bir değişecek şekilde salt edilmiş halde bulunur. Bu veri, yalnızca hafızada (memory) tutulur. Bu veri, [istatistikler](https://sponsor.ajay.app/stats/) sayfasında kullanılır. (Detaylar: [https://github.com/ajayyy/PrivacyUserCount/#privacy-user-counter](https://github.com/ajayyy/PrivacyUserCount/#privacy-user-counter))
 
 ### Veri Erişim Ve Silme Talepleri
 

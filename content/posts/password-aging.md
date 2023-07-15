@@ -14,7 +14,7 @@ cover:
 
 ## Password Aging Neden Bir Standart Oldu?
 
-Tahminime göre bunun en büyük nedeni, zamanında parolaların hash'lenmiş olarak değil de, plain text olarak veri tabanlarında saklanmaları idi (günümüzde bile devam ediyor maalesef). Dolayısıyla herhangi bir veri tabanı sızıntısı olduğunda, herkesin parolası apaçık ortaya çıkıyordu. O zamanın teknolojisinde göre de bu parolaların hackerlar tarafından kötü amaçlarla kullanılma süresi 90 gün olarak belirlenmiş ve standartlaşarak, üç ayda bir parolanın değiştirilmesinin iyi olabileceği düşünülmüş.
+Tahminime göre bunun en büyük nedeni, zamanında parolaların hashlenmiş olarak değil de, plain text olarak veri tabanlarında saklanmaları idi (günümüzde bile devam ediyor maalesef). Dolayısıyla herhangi bir veri tabanı sızıntısı olduğunda, herkesin parolası apaçık ortaya çıkıyordu. O zamanın teknolojisinde göre de bu parolaların hackerlar tarafından kötü amaçlarla kullanılma süresi 90 gün olarak belirlenmiş ve standartlaşarak, üç ayda bir parolanın değiştirilmesinin iyi olabileceği düşünülmüş.
 
 ## Endişeler ve Sorunlar
 

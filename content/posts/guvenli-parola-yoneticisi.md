@@ -81,7 +81,7 @@ Güçlü bir parola, güvenliğin en önemli kriterlerindendir. Aşağıdaki kri
 
 - Başka bir yerde kullanılmamalı.
 
-Bu parolayı, asla bilgisayarınızdaki bir not defterinde vs. bulundurmayın; Ya güvenli bir yerdeki bir kâğıtta (riskli), ya da ezberinizde olmalı. Güvenli bir parola oluşturmak için Zarola yöntemini de kullanabilirsiniz. Özgür Yazılım Derneği, konu hakkında mükemmel bir kaynak hazırlamış: [https://zarola.oyd.org.tr/](https://zarola.oyd.org.tr/)
+Bu parolayı, asla bilgisayarınızdaki bir not defterinde vs. bulundurmayın; Ya güvenli bir yerdeki bir kağıtta (riskli), ya da ezberinizde olmalı. Güvenli bir parola oluşturmak için Zarola yöntemini de kullanabilirsiniz. Özgür Yazılım Derneği, konu hakkında mükemmel bir kaynak hazırlamış: [https://zarola.oyd.org.tr/](https://zarola.oyd.org.tr/)
 
 ## İki Adımlı Doğrulama Kullanın
 
@@ -93,7 +93,7 @@ E-posta (tavsiye etmiyorum) veya kod uygulaması ile iki adımlı doğrulamayı 
 
 ## Hesap Kurtarmayı Devre Dışı Bırakın
 
-Hesabınız ve hesabınızda kullandığınız e-posta adresi için giriş ipuçlarını, parola hatırlatma ipuçlarını ve kurtarma yöntemlerini mutlaka devre dışı bırakın. Bunlar, bilinenin aksine [güvenlik](https://furuy.com/categories/guvenlik/) sağlamaktan ziyade, güvenliği zaafiyeti yaratırlar.
+Hesabınız ve hesabınızda kullandığınız e-posta adresi için giriş ipuçlarını, parola hatırlatma ipuçlarını ve kurtarma yöntemlerini mutlaka devre dışı bırakın. Bunlar, bilinenin aksine [güvenlik](https://furuy.com/categories/guvenlik/) sağlamaktan ziyade, güvenliği zafiyeti yaratırlar.
 
 ## Resmi Web Sitelerini Kullanın
 
@@ -123,7 +123,7 @@ Size ait olmayan cihazlardan veya herkese açık ağlardan asla parola yönetici
 
 ## Parola Yöneticisi Yedeğinin Güvenliği
 
-Parola yöneticisi yedekleri, şifrelenmemiş bir metin dosyası olarak dışarıya aktarılabiliyor. Bu özelliği kullanmayın ve geri silecek olsanız bile, parolalarınızı içeren, şifrelenmemiş (encrypted) bir dosyayı cihazınıza indirmeyin. Yedek dosyasını şifrelenmemiş veya güvenli olmayan bir biçimde indirdiyseniz, mutlaka "file shredder" yazılımları kullanın.
+Parola yöneticisi yedekleri, şifrelenmemiş bir metin dosyası olarak dışarıya aktarılabiliyor. Bu özelliği kullanmayın ve geri silecek olsanız bile, parolalarınızı içeren, şifrelenmemiş (encrypted) bir dosyayı cihazınıza indirmeyin. Yedek dosyasını şifrelenmemiş veya güvenli olmayan bir biçimde indirmişseniz, mutlaka "file shredder" yazılımları kullanın.
 
 ## Parola Yöneticisi Tarayıcı Eklentisini Kullanmayın
 
@@ -141,7 +141,7 @@ Bu sayede, parola yöneticisi bilgileriniz çalınsa bile, bazı hesaplarınız�
 
 ### Web Site Adresini Yazmayın
 
-Parola yöneticisine, web sitesinin adresini kaydetmek zorunda değilsiniz. Örneğin bir Facebook hesabı kaydedecekseniz (Facebook kullanmayın), kayıt adına (başlığa) "fb" yazmanız yeterli olabilir; URL alanına "www.facebook.com" yazmanıza gerek yok. Bu ve "bilinen kullanıcı adlarını yazmayın" yöntemleri, verilerinizin çalınması hâlinde bazı hesaplarınızı otomatik saldırılardan koruyabilir.
+Parola yöneticisine, web sitesinin adresini kaydetmek zorunda değilsiniz. Örneğin bir Facebook hesabı kaydedecekseniz (Facebook kullanmayın), kayıt adına (başlığa) "fb" yazmanız yeterli olabilir; URL alanına "www.facebook.com" yazmanıza gerek yok. Bu ve "bilinen kullanıcı adlarını yazmayın" yöntemleri, verilerinizin çalınması halinde bazı hesaplarınızı otomatik saldırılardan koruyabilir.
 
 ### Kafanızdan Salt Yapın
 
@@ -181,7 +181,7 @@ Hesabınızın parolasını korumanın en iyi yolu, onu olabildiğince az kullan
 **Çevrim içi bir parola yöneticisi kullanılıyor:** Parolalarınızın olduğu veri tabanına her zaman erişilebilme riski var. Dolaylı olarak saldırganların sürekli hedefinde olacaksınız.  
 **Çevrim dışı bir parola yöneticisi kullanılıyor:** Parolalarınızın olduğu veri tabanını korumak, güncellemeler yapmak, veri tabanının bulunduğu cihazların güvenliğini sağlamak, (kullanıyorsanız) cihazlar arasındaki senkronizasyonun güvenliğini sağlamak, veri tabanını güvenli ve düzenli bir şekilde yedeklemek tamamen sizin sorumluluğunuz altındadır.  
 
-**Benim tavsiyem:** Makul düzeyde kullanıcısı olan, açık kaynak kodlu, batı (coğrafi olarak değil, politik olarak) ülkesi menşeili, resmi bir firması olan, şeffaf, kötü bir sicili olmayan, uzun yıllardır var olan, veri tabanı şifrelemesi güçlü, yakın bir zamanda sahibi değişmemiş (satılmamış) bir parola yöneticisi kullanmanızı öneririm.
+**Benim tavsiyem:** Makul düzeyde kullanıcısı olan, açık kaynak kodlu, batı (coğrafi olarak değil, politik olarak) ülkesi menşeli resmi bir firması olan, şeffaf, kötü bir sicili olmayan, uzun yıllardır var olan, veri tabanı şifrelemesi güçlü, yakın bir zamanda sahibi değişmemiş (satılmamış) bir parola yöneticisi kullanmanızı öneririm.
 
 * * *
 

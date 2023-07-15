@@ -15,7 +15,7 @@ Firefox, kullanmayanların ön yargıyla yaklaştığı, kullananların ise asla
 
 ## Google, Firefox'tan Nefret Ediyor
 
-Web'in bizzat kendisi olmak isteyen Google; kendi kullanıcılarını gizli sekmede bile takip eden, özgür bir yazılım olmayan Chrome tarayısının tek rakibine karşı, uzun zamandır adil olmayan bir savaş veriyor. Neredeyse tüm [Android](https://furuy.com/categories/android/) cihazlar, Google Chrome yüklü olarak geliyor ve ADB aracı kullanmak haricinde, kaldırmanıza da izin verilmiyor.
+Web'in bizzat kendisi olmak isteyen Google; kendi kullanıcılarını gizli sekmede bile takip eden, özgür bir yazılım olmayan Chrome tarayıcısının tek rakibine karşı, uzun zamandır adil olmayan bir savaş veriyor. Neredeyse tüm [Android](https://furuy.com/categories/android/) cihazlar, Google Chrome yüklü olarak geliyor ve ADB aracı kullanmak haricinde, kaldırmanıza da izin verilmiyor.
 
 Bir başka örnek ise, Google'ın kendi hizmetlerini, kasıtlı olarak Firefox kullanıcılarının kullanım deneyimi düşürecek şekilde sunması. Aşağıdaki görselin sağında görebileceğiniz gibi Google, Firefox Android tarayıcısında çok farklı ve eski görünüyor.
 
@@ -33,7 +33,7 @@ Firefox, Android tarayıcılar arasında, resmi olarak eklenti desteği sunabile
 
 ### uBlock Origin
 
-uBlock Origin, yalnızca bir "reklam engelleyici" olarak bilinse de, çok daha kapsamlıdır. uBlock Origin ile; reklamlardan, can sıkıcı ögelerden, zararlı web sitelerinden ve takipçilerden kurtulabilirsiniz. Daha fazla filtre bulmak için "[FilterLists İle Yeni Reklam Engelleyici Filtreleri Bulun](https://furuy.com/filterlists-com/)" başlıklı yazımı okuyabilirsiniz. Reklamlardan, takipçilerden, pop-up'lardan, tonla uyarıdan, bildirim izinlerinden vs. kurtulduğunuz tertemiz bir web'e hoş geldiniz. Ayrıca, uBlock Origin'in, Firefox tarayısında en iyi şekilde çalıştığını da yeniden hatırlatayım. \[1\]
+uBlock Origin, yalnızca bir "reklam engelleyici" olarak bilinse de, çok daha kapsamlıdır. uBlock Origin ile; reklamlardan, can sıkıcı ögelerden, zararlı web sitelerinden ve takipçilerden kurtulabilirsiniz. Daha fazla filtre bulmak için "[FilterLists İle Yeni Reklam Engelleyici Filtreleri Bulun](https://furuy.com/filterlists-com/)" başlıklı yazımı okuyabilirsiniz. Reklamlardan, takipçilerden, pop-uplardan, tonla uyarıdan, bildirim izinlerinden vs. kurtulduğunuz tertemiz bir web'e hoş geldiniz. Ayrıca, uBlock Origin'in, Firefox tarayıcısında en iyi şekilde çalıştığını da yeniden hatırlatayım. \[1\]
 
 Eklentiyi yükleyin: [https://addons.mozilla.org/android/addon/ublock-origin/](https://addons.mozilla.org/android/addon/ublock-origin/)
 
@@ -69,7 +69,7 @@ Bu eklentiler haricinde, mağazada ve uygulama içindeki eklentiler bölümünde
 
 ## Otomatik Güvenlik Ve Mahremiyet
 
-Firefox, Google Chrome gibi birçok tarayıcının aksine varsayılan olarak; sosyal medya takipçilerini, çarpraz site takip çerezlerini, cryptominer'ları, cihaz parmak izi takip unsurlarını ve yönlendirme takipçilerini engeller. Firefox, çevrim içi mahremiyetinizi ve güvenliğinizi korumak için en iyi tarayıcıdır.
+Firefox, Google Chrome gibi birçok tarayıcının aksine varsayılan olarak; sosyal medya takipçilerini, çarpraz site takip çerezlerini, cryptominerları, cihaz parmak izi takip unsurlarını ve yönlendirme takipçilerini engeller. Firefox, çevrim içi mahremiyetinizi ve güvenliğinizi korumak için en iyi tarayıcıdır.
 
 ## ![Firefox Android Koruma Özellikleri](/assets/img/firefox-android-koruma.jpg)
 
@@ -92,7 +92,7 @@ Firefox'un müthiş özellikleri sayesinde, elimizde bu özelliklere sahip bir t
 - Güvenlik sağlar. Sizi birçok zararlı web sitesinden korur.
 - Mahremiyetinizi korur: Birçok takipçiyi engeller.
 - Reklamları ve birçok gereksiz, rahatsız edici ögeyi engeller. Özellikle de Chrome'dan geçiş yapacaksanız, web sayfalarının temizliği gözlerinizi kamaştıracak. :)
-- Hızı hissedeceksiniz: Üstünüzdeki reklamları, popup pencelerini, abone ol bildirimlerini, newsletter kutucuklarını, sizi takip eden takipçileri ve gereksiz ağırlıkları attıktan sonra, hızı fark edeceksiniz.
+- Hızı hissedeceksiniz: Üstünüzdeki reklamları, popup pençelerini, abone ol bildirimlerini, newsletter kutucuklarını, sizi takip eden takipçileri ve gereksiz ağırlıkları attıktan sonra, hızı fark edeceksiniz.
 - Sadelik: Google Chrome'daki "sekme grupları" (tab groups) gibi bir gecede gelen, alışamayacağınız ve kapatamayacağınız karmaşıklıklar, dayatmalar yok.
 - Eksiksiz masa üstü deneyimi: Masa üstünde kullandığınız tarayıcı işlevselliğinden mahrum kalmayın. Masa üstünde kullandığınız tüm özellikler, yüzde yüz uyumlu olarak mobil tarayıcınızda da olsun.
 

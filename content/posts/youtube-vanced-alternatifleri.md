@@ -20,7 +20,7 @@ Reklamsız YouTube uygulaması veya ücretsiz YouTube Premium olarak bilinen You
 
 ### YouTube Vanced Güvenli Mi?
 
-Hayır çünkü Vanced, açık kaynak kodlu olmayan bir yazılımın, modifiye edilmiş bir versiyonu; Bu da, uygulamanın güvenli olup olmadığını öğrenebilmemize imkân vermiyor. Resmi olmayan kaynaklardan indirilen APK uygulamaları da, tehlikeyi katbekat artırıyor.
+Hayır çünkü Vanced, açık kaynak kodlu olmayan bir yazılımın, modifiye edilmiş bir versiyonu; Bu da, uygulamanın güvenli olup olmadığını öğrenebilmemize imkan vermiyor. Resmi olmayan kaynaklardan indirilen APK uygulamaları da, tehlikeyi katbekat artırıyor.
 
 ### YouTube Vanced Hâlâ Çalışıyor Mu?
 
@@ -73,7 +73,7 @@ GitHub sayfası: [https://github.com/polymorphicshade/NewPipe](https://github.co
 
 ![Firefox](/assets/img/firefox-android.jpg)
 
-Hiçbir uygulama kullanmadan, yalnızca Firefox tarayıcısı ile reklamsız YouTube'u kullanmanız da mümkün. Firefox'u kullanmamızın nedeni, tarayıcı eklentilerini resmi olarak kullanmanıza izin veren tek uygulama olması. (Diğer muhteşem özelliklerine de göz atmak isterseniz, [Firefox Neden En İyi Android Web Tarayıcısı?](https://furuy.com/firefox-neden-en-iyi-android-web-tarayicisi/) başlıklı yazımı okuyabilirsiniz.) YouTube'un mobil sürümünü, olabildiğince işlevsel hâle getirmek için bu eklentileri kullanacağız:
+Hiçbir uygulama kullanmadan, yalnızca Firefox tarayıcısı ile reklamsız YouTube'u kullanmanız da mümkün. Firefox'u kullanmamızın nedeni, tarayıcı eklentilerini resmi olarak kullanmanıza izin veren tek uygulama olması. (Diğer muhteşem özelliklerine de göz atmak isterseniz, [Firefox Neden En İyi Android Web Tarayıcısı?](https://furuy.com/firefox-neden-en-iyi-android-web-tarayicisi/) başlıklı yazımı okuyabilirsiniz.) YouTube'un mobil sürümünü, olabildiğince işlevsel hale getirmek için bu eklentileri kullanacağız:
 
 ### uBlock Origin
 

@@ -16,13 +16,13 @@ Web sitenizde birçok birinci parti ve/veya üçüncü parti çerezler kullanıl
 
 - Web sitenizde Cloudflare kullanıyorsanız, Cloudflare'nin çerezleri kullandığını bilmeniz gerekiyor. Örneğin "Always online" ve ziyaretçilerin güvenilir olup olmadığını öğrenmek için türlü çerezler kullanılır. Detayları öğrenin: [https://support.cloudflare.com/hc/en-us/articles/200170156-Understanding-the-Cloudflare-Cookies](https://support.cloudflare.com/hc/en-us/articles/200170156-Understanding-the-Cloudflare-Cookies)
 - WordPress web sitenizde, varsayılan olarak ziyaretçilerin yorum yaptığı isimleri hatırlamak için çerezler kullanılır.
-- Web sitenizde Google Analytics kullanıyorsanız, çerezlerin yine çok kapsamlı bir şekilde kullandıldığını hatırlatmak gerek.
+- Web sitenizde Google Analytics kullanıyorsanız, çerezlerin yine çok kapsamlı bir şekilde kullanıldığını hatırlatmak gerek.
 
 Bu gibi çerez kullanım durumlarında, ziyaretçilerin kişisel verilerini toplamış oluyorsunuz ve GDPR kapsamında, bunu ziyaretçilerinize bildirmeniz gerekiyor.
 
 ## Çerezler uyarısı nasıl kullanılmalı? Eklemek şart mı?
 
-GDPR'a uygun bir şekilde çerezler uyarısı için, bu yazıda paylaşacağım kodu web sitenize eklemeniz yeterli değil. Ziyaretçilerinize, hangi çerezleri kullandığınızı bildirmek zorundasınız. Çerez kullanımlarımız için bir gizlilik politikası veya çerezler politikası sayfası eklemeniz ve bu sayfayın bağlantısını da çerezler uyarısına veya menünüze eklemelisiniz. Kullanılan çerezlerin açıklandığı sayfaya, üçüncü taraf çerezlerin gizlilik politikalarını eklemeyi de unutmayın.
+GDPR'a uygun bir şekilde çerezler uyarısı için, bu yazıda paylaşacağım kodu web sitenize eklemeniz yeterli değil. Ziyaretçilerinize, hangi çerezleri kullandığınızı bildirmek zorundasınız. Çerez kullanımlarımız için bir gizlilik politikası veya çerezler politikası sayfası eklemeniz ve bu sayfanın bağlantısını da çerezler uyarısına veya menünüze eklemelisiniz. Kullanılan çerezlerin açıklandığı sayfaya, üçüncü taraf çerezlerin gizlilik politikalarını eklemeyi de unutmayın.
 
 Özellikle de daha büyük web sitelerinde, ziyaretçilerin kişisel verileri gösterdiğiniz saygıyı belirtmek adına, tercihe bağlı çerezler bölümü eklemeyi düşünebilirsiniz. Bu sayede ziyaretçi, gerekli olmayan çerezlerin kullanılmamasını seçerek, kendisi hakkında daha az kişisel veri toplanmasını sağlayabilir. Son düzenlemeleri takip etmenizde fayda var. Burada yer alan bilgiler, güncel olmayabilir.
 

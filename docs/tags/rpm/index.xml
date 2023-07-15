@@ -13,7 +13,7 @@
       
       <guid>https://furuy.com/dnf-automatic/</guid>
       <description>DNF Automatic ile Fedora ve RHEL gibi DNF paket yöneticisine sahip GNU/Linux dağıtımlarındaki güncelleme işlemlerini otomatikleştirmeniz mümkün.
-DNF Automatic&amp;rsquo;i Yükleyin Bunun için kullandığınız terminale aşağıdaki kodu yazın ve yüklemeyi onaylarak, kurulumu tamamlayın:
+DNF Automatic&amp;rsquo;i Yükleyin Bunun için kullandığınız terminale aşağıdaki kodu yazın ve yüklemeyi onaylayarak, kurulumu tamamlayın:
 sudo dnf install dnf-automatic DNF Automatic&amp;rsquo;i Yapılandırın Otomatik güncellemeleri yapılandırmak için iki yöntem mevcut:
 /etc/dnf/automatic.conf Dosyasını Düzenleyin Bu dosya, varsayılan yapılandırma dosyasıdır. Paketi yüklediğinizde oluşturulacaktır. Herhangi bir metin editörü ile dosyayı açın:
 sudo vim /etc/dnf/automatic.conf Yukarıdaki değerler, varsayılandır.</description>

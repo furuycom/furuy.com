@@ -36,9 +36,9 @@ Bu sayfada, gerekli olan filtreleri aktifleştirebilirsiniz ama yalnızca gerekl
 
 Ayrıca yeni özellik ile, istediğiniz filtreler abone olabiliyorsunuz.
 
-## Farklı Filtereler Bulmak Ve Brave'e Eklemek
+## Farklı Filtreler Bulmak Ve Brave'e Eklemek
 
-Farklı filtereler kullanarak, daha fazla reklamı engelleyebilir ve tarayıcı deneyiminizi artırabilirsiniz.
+Farklı filtreler kullanarak, daha fazla reklamı engelleyebilir ve tarayıcı deneyiminizi artırabilirsiniz.
 
 Burada dikkat çekmek istediğim bir nokta var: Bazı filtreler, hem Adblock Plus, hem de Adaway uyumlu olabiliyor. Adaway ile hosts filtrelemesi yapmak varken, bunları tarayıcınıza eklemeyin. Bu sayede hem tarayıcınız yavaşlamaz, hem de o web sitesine bağlantıyı tamamen engellemiş olursunuz. 
 
@@ -54,7 +54,7 @@ Kullanmak istediğiniz filtrenin solundaki mavi butona tıklayın ve açılan pe
 
 ## Brave İle İstediğiniz Reklamı Engelleme
 
-Reklam engellemek için Adblock Plus syntax'ı kullanıldığını öğrendik. Artık, buna göre istediğimiz reklamı engelleyebiliriz. Adblock Plus syntax'ını öğrenmek için bu sayfayı ziyaret edebilirsiniz:
+Reklam engellemek için Adblock Plus syntax'ı kullanıldığını öğrendik. Artık, buna göre istediğimiz reklamı engelleyebiliriz. Adblock Plus syntaxını öğrenmek için bu sayfayı ziyaret edebilirsiniz:
 
 [How to write filters | Adblock Plus Help Center](https://help.eyeo.com/adblockplus/how-to-write-filters)
 

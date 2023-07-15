@@ -30,12 +30,12 @@ Uygulamanın genel özellikleri şu şekilde:
 - Database ve uygulama ayarları encrypted olarak saklanır
 - Gereksiz izinler istemez
 - Karanlık ve aydınlık tema
-- Klit ekranı geçmişi
-- Bldirim geçmişi
+- Kilit ekranı geçmişi
+- Bildirim geçmişi
 - Kulaklık takma ve çıkarma geçmişi
 - Şarj cihazı takma ve çıkarma geçmişi
 - Uygulamaların izinleri kullanma geçmişi
 - Mikrofon ve kamera kullanım bildirimi
-- Mikrofon ve kamera kullanımını gösteren nokalar ve bunları özelleştirme seçenekleri
+- Mikrofon ve kamera kullanımını gösteren noktalar ve bunları özelleştirme seçenekleri
 
 Uygulamayı kullanabilmek için, erişilebilirlik izni vermeniz gerekiyor. Bunun haricinde herhangi bir kurulum adımı bulunmuyor. Uygulamanın düzgün bir şekilde çalışabilmesi için "Diğer uygulamaların üzerinde göster" izni vermeniz ve arka planda çalışabilmesi için de pil tasarrufunu kapatmanız gerekebilir.

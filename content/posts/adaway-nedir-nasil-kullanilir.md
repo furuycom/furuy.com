@@ -10,7 +10,7 @@ cover:
 
 ## AdAway Nedir?
 
-Adaway, [Android](https://furuy.com/categories/android/) için en etkili reklam engelleme uygulamalarındandır. AdAway'i diğer reklam engelleyicilerden ayıran ana özelliği, root modudur. Root modu, sistemin hosts dosyasına eklemeler yaparak, reklam türevi istenmeyen web sitelerine bağlanılmasını engeller. **AdAway rootsuz** da çalışmaktadır ancak aynı işlevi gören Netguard, AdGuard ve Blokada gibi birçok alternatifi de olduğu için bu yazıda root modu üzerine bilgi vereceğim. Root modu sayesinde, uygulamanın sürekli arka planda çalışarak pil tüketmesinin onüne geçebilir ve VPN kullanırken de reklamları engellemeye devam edebilirsiniz.
+Adaway, [Android](https://furuy.com/categories/android/) için en etkili reklam engelleme uygulamalarındandır. AdAway'i diğer reklam engelleyicilerden ayıran ana özelliği, root modudur. Root modu, sistemin hosts dosyasına eklemeler yaparak, reklam türevi istenmeyen web sitelerine bağlanılmasını engeller. **AdAway rootsuz** da çalışmaktadır ancak aynı işlevi gören Netguard, AdGuard ve Blokada gibi birçok alternatifi de olduğu için bu yazıda root modu üzerine bilgi vereceğim. Root modu sayesinde, uygulamanın sürekli arka planda çalışarak pil tüketmesinin önüne geçebilir ve VPN kullanırken de reklamları engellemeye devam edebilirsiniz.
 
 ### AdAway'in Temel Özellikleri
 
@@ -32,7 +32,7 @@ AdAway'i F-droid üzerinden indirin: [https://f-droid.org/packages/org.adaway/](
 
 ## AdAway Host Kaynakları
 
-AdAway, varsayılan olarak çok az hosts kaynağı içerir. Daha fazla engelleme yapmak için "[FilterLists İle Yeni Reklam Engelleyici Filtreleri Bulun](https://furuy.com/filterlists-com/)" isimli yazıma göz atabilirsiniz. Bu sayede, birçok faydalı filtreyi daha kullanabilirsiniz. Dikkat etmeniz gereken, reklam engelleme filtresinin hosts syntax'ında olmasıdır. Adblock Plus veya uBlock filtreleri, AdAway'de kullanılamaz.
+AdAway, varsayılan olarak çok az hosts kaynağı içerir. Daha fazla engelleme yapmak için "[FilterLists İle Yeni Reklam Engelleyici Filtreleri Bulun](https://furuy.com/filterlists-com/)" isimli yazıma göz atabilirsiniz. Bu sayede, birçok faydalı filtreyi daha kullanabilirsiniz. Dikkat etmeniz gereken, reklam engelleme filtresinin hosts syntaxında olmasıdır. Adblock Plus veya uBlock filtreleri, AdAway'de kullanılamaz.
 
 ## AdAway Nasıl Kullanılır?
 

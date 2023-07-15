@@ -28,15 +28,15 @@ Kısacası insanlar, haklı olarak, satın aldıkları ürünlerden tam verimi a
 
 ## Geliştiricisi Kim?
 
-Nasıl ki bilgisayarınıza, herhangi bir web sitesinden indirdiğiniz ISO dosyasından işletim sistemi kurmuyorsanız -umarım yapmıyorsunuzdur-, sürekli yanınızda taşıdığınız akıllı telefonunuza da rastgele bir işletim sistemi kurmamalısınız. Neden mi? Kendinizi, telefonunuzun yerine koyun; Ekranınızı sürekli izleyebildiğinizi, mikrofon ile ortamı sürekli dinleyebildiğinizi ve ön/arka kameralar ile her yeri görüntüleyebilidiğinizi hatırlayın. Sanırım bu yeterli olmuştur.
+Nasıl ki bilgisayarınıza, herhangi bir web sitesinden indirdiğiniz ISO dosyasından işletim sistemi kurmuyorsanız -umarım yapmıyorsunuzdur-, sürekli yanınızda taşıdığınız akıllı telefonunuza da rastgele bir işletim sistemi kurmamalısınız. Neden mi? Kendinizi, telefonunuzun yerine koyun; Ekranınızı sürekli izleyebildiğinizi, mikrofon ile ortamı sürekli dinleyebildiğinizi ve ön/arka kameralar ile her yeri izleyebildiğinizi hatırlayın. Sanırım bu yeterli olmuştur.
 
 - Kullanacağınız ROM'un geliştiricilerinin kim olduğunu araştırın.
 
 - Yalnızca official ve stable ROM'ların, en güncel sürümlerini kullanın.
 
-- ROM'u yalnızca resmî kaynağından indirin ve indirdikten sonra hash kontrolü yapın.
+- ROM'u yalnızca resmi kaynağından indirin ve indirdikten sonra hash kontrolü yapın.
 
-- ROM hakkkında, resmi kaynağın dışındaki web sitelerinden ve Reddit topluluklarından araştırma yapın.
+- ROM hakkında, resmi kaynağın dışındaki web sitelerinden ve Reddit topluluklarından araştırma yapın.
 
 - ROM'un GitHub sayfasını kontrol edin.
 
@@ -48,13 +48,13 @@ Evet, yalnızca [Android](https://furuy.com/categories/android/) sürümünün g
 
 ## Verified Boot
 
-TWRP'de, değiştirilmiş bir stock ROM kurarken veya Makisk yüklerken işaretleyerek kaldırdığınız **dm-verity** ile tanışın. Bu özelliği kapatmayı unutursanız, cihazınız açılış ekranında kalır (bootloop). Peki ama neden?
+TWRP'de, değiştirilmiş bir stock ROM kurarken veya Magisk yüklerken işaretleyerek kaldırdığınız **dm-verity** ile tanışın. Bu özelliği kapatmayı unutursanız, cihazınız açılış ekranında kalır (bootloop). Peki ama neden?
 
 Türkçe'ye "Doğrulanmış Önyükleme" olarak çevrilen bu özelliğin ne işe yaradığını adından da anlayabiliriz. Cihazın başlatılırken yapılan bu doğrulama ile "system, vendor, oem" alanlarına müdahale edilmesi engellenir. Ayrıca, "Rollback protection" adında "downgrade" yapılmasını engelleyen bir koruma da vardır. Bu sayede, güvenlik açıkları içerebilecek önceki sürümün yüklenmesi engellenmiş olur. Verified Boot'u, BIOS'taki Secure Boot özelliği gibi düşünebilirsiniz.
 
 **UYARI:** Cihazın bootloader kilidini açmak bile Verified Boot özelliğini kapatır!
 
-Kullanacağınız ROM'un verified boot desteklediğinden, bootloader kilidinin kapatılabilir olduğundan emin olun ve cihazınızı root'lamayın.
+Kullanacağınız ROM'un verified boot desteklediğinden, bootloader kilidinin kapatılabilir olduğundan emin olun ve cihazınızı rootlamayın.
 
 İleri okuma: [https://source.android.com/security/verifiedboot](https://source.android.com/security/verifiedboot)
 
@@ -74,7 +74,7 @@ Android, başka uygulamaları taklit eden sahte package name'li uygulamaların y
 
 ## Data Encryption
 
-Veri şifreleme, artık bir standart haline geldi. Bu sayede, dosyalarınızı yetkisiz erişimden koruyabiliyorsunuz. Bazı ROM'lar, ne yazık ki bu hâlâ bu güvenlik standartını desteklemiyorlar. Data Encryption'ı desteklemeyen ROM'ları kesinlikle kullanmayın ve kullanabilidiğiniz her yerde bu özelliği kullanın.
+Veri şifreleme, artık bir standart haline geldi. Bu sayede, dosyalarınızı yetkisiz erişimden koruyabiliyorsunuz. Bazı ROM'lar, ne yazık ki bu hâlâ bu güvenlik standardını desteklemiyorlar. Data Encryption'ı desteklemeyen ROMları kesinlikle kullanmayın ve kullanabildiğiniz her yerde bu özelliği kullanın.
 
 ## Sonuç Ve Tavsiye
 

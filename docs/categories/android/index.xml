@@ -5,7 +5,19 @@
     <link>https://furuy.com/categories/android/</link>
     <description>Recent content in android on Furkan Uysal</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 16 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://furuy.com/categories/android/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 13 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://furuy.com/categories/android/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Güvenli Android Doğrulama Yöntemleri (Parola, Biyometrik vs.)</title>
+      <link>https://furuy.com/guvenli-android-dogrulama-yontemleri/</link>
+      <pubDate>Thu, 13 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://furuy.com/guvenli-android-dogrulama-yontemleri/</guid>
+      <description>Bu yazıda, Android cihazlardaki giriş/doğrulama yöntemlerinin ne kadar güvenli olduğundan ve güncel bilgiler ışığında nasıl bir tercih yapmanız gerektiğinden bahsedeceğim.
+Ekran Kilidi Belirleyin Öncelikle, mutlaka bir ekran kilidi belirlemeniz ve bunlardan da en güvenlisini seçmeniz gerekiyor.
+PIN ve Desen Kilidi Kullanmayın PIN ve desen (patter) kilidi yöntemlerini güvenli olmadıkları için eliyoruz. Bunları kullanmanız kesinlikle önerilmiyor.
+Biyometrik Ekran Kilidi Yöntemleri Neden Kullanılmamalı? Yüz tanıma kilidi, hâlâ en güvensiz yöntemlerden birisi. Bugün bile birçok akıllı telefon markası, müşterilerine genellikle de kurulum sırasında yüz tanıma kilidinin diğer yöntemlerden daha güvensiz olduğunu vurguluyor.</description>
+    </item>
+    
     <item>
       <title>YouTube Deneyiminizi Artırabileceğiniz 3 Vanced Alternatifi</title>
       <link>https://furuy.com/youtube-vanced-alternatifleri/</link>
@@ -13,7 +25,7 @@
       
       <guid>https://furuy.com/youtube-vanced-alternatifleri/</guid>
       <description>Reklamsız YouTube uygulaması veya ücretsiz YouTube Premium olarak bilinen YouTube Vanced&amp;rsquo;in Twitter hesabında, uygulamanın kapanacağını açıklandı. Birçok kullanıcısı olduğu için büyük yankı uyandıran bu haber ile birlikte, Vanced kullanıcıları yeni alternatif arayışına girdiler. Ben de bu vesile ile YouTube Vanced uygulaması hakkında birkaç önemli bilgi verip, YouTube deneyiminizi artırmanıza yarayacak özgür yazılımlar ve yardımcı araçlar önereceğim.
-YouTube Vanced Güvenli Mi? Hayır çünkü Vanced, açık kaynak kodlu olmayan bir yazılımın, modifiye edilmiş bir versiyonu; Bu da, uygulamanın güvenli olup olmadığını öğrenebilmemize imkân vermiyor.</description>
+YouTube Vanced Güvenli Mi? Hayır çünkü Vanced, açık kaynak kodlu olmayan bir yazılımın, modifiye edilmiş bir versiyonu; Bu da, uygulamanın güvenli olup olmadığını öğrenebilmemize imkan vermiyor.</description>
     </item>
     
     <item>
@@ -23,7 +35,7 @@ YouTube Vanced Güvenli Mi? Hayır çünkü Vanced, açık kaynak kodlu olmayan 
       
       <guid>https://furuy.com/firefox-neden-en-iyi-android-web-tarayicisi/</guid>
       <description>Firefox, kullanmayanların ön yargıyla yaklaştığı, kullananların ise asla vazgeçemediği bir web tarayıcısı. Bu yazıda, Firefox&amp;rsquo;un neden en iyi Android web tarayıcısı olduğundan ve neden fazla &amp;ldquo;kullanılmadığından&amp;rdquo; bahsedeceğim.
-Google, Firefox&amp;rsquo;tan Nefret Ediyor Web&amp;rsquo;in bizzat kendisi olmak isteyen Google; kendi kullanıcılarını gizli sekmede bile takip eden, özgür bir yazılım olmayan Chrome tarayısının tek rakibine karşı, uzun zamandır adil olmayan bir savaş veriyor. Neredeyse tüm Android cihazlar, Google Chrome yüklü olarak geliyor ve ADB aracı kullanmak haricinde, kaldırmanıza da izin verilmiyor.</description>
+Google, Firefox&amp;rsquo;tan Nefret Ediyor Web&amp;rsquo;in bizzat kendisi olmak isteyen Google; kendi kullanıcılarını gizli sekmede bile takip eden, özgür bir yazılım olmayan Chrome tarayıcısının tek rakibine karşı, uzun zamandır adil olmayan bir savaş veriyor. Neredeyse tüm Android cihazlar, Google Chrome yüklü olarak geliyor ve ADB aracı kullanmak haricinde, kaldırmanıza da izin verilmiyor.</description>
     </item>
     
     <item>
@@ -46,7 +58,7 @@ Kısacası insanlar, haklı olarak, satın aldıkları ürünlerden tam verimi a
       <pubDate>Sun, 16 May 2021 00:00:00 +0000</pubDate>
       
       <guid>https://furuy.com/adaway-nedir-nasil-kullanilir/</guid>
-      <description>AdAway Nedir? Adaway, Android için en etkili reklam engelleme uygulamalarındandır. AdAway&amp;rsquo;i diğer reklam engelleyicilerden ayıran ana özelliği, root modudur. Root modu, sistemin hosts dosyasına eklemeler yaparak, reklam türevi istenmeyen web sitelerine bağlanılmasını engeller. AdAway rootsuz da çalışmaktadır ancak aynı işlevi gören Netguard, AdGuard ve Blokada gibi birçok alternatifi de olduğu için bu yazıda root modu üzerine bilgi vereceğim. Root modu sayesinde, uygulamanın sürekli arka planda çalışarak pil tüketmesinin onüne geçebilir ve VPN kullanırken de reklamları engellemeye devam edebilirsiniz.</description>
+      <description>AdAway Nedir? Adaway, Android için en etkili reklam engelleme uygulamalarındandır. AdAway&amp;rsquo;i diğer reklam engelleyicilerden ayıran ana özelliği, root modudur. Root modu, sistemin hosts dosyasına eklemeler yaparak, reklam türevi istenmeyen web sitelerine bağlanılmasını engeller. AdAway rootsuz da çalışmaktadır ancak aynı işlevi gören Netguard, AdGuard ve Blokada gibi birçok alternatifi de olduğu için bu yazıda root modu üzerine bilgi vereceğim. Root modu sayesinde, uygulamanın sürekli arka planda çalışarak pil tüketmesinin önüne geçebilir ve VPN kullanırken de reklamları engellemeye devam edebilirsiniz.</description>
     </item>
     
     <item>

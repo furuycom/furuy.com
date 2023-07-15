@@ -11,7 +11,7 @@ cover:
   image: "/assets/img/google-amp-neden-cok-tehlikeli.jpg"
 ---
 
-Google, mobil web deneyimini geliştirmek ve sayfaların mobilde daha hızlı yüklenmelerini sağlamak amacıyla, 2015 yılında AMP'i duyurmuştu. Şubat 2016 tarihinden itibaten de, mobil arama sonuçlarında AMP sayfaları görünmeye başlamıştı. Kısa bir zaman içerisinde AMP, standart hâline gelmeye başladı bile. Bunun en temel nedenleri; mobil internet kullanıcı sayısının fazla olması, birçok kişinin Google arama matorunu kullanması ve web site yöneticilerinin, "SEO kuralları" adı altındaki Google'ın her dayatmasını kabul etmeleri...
+Google, mobil web deneyimini geliştirmek ve sayfaların mobilde daha hızlı yüklenmelerini sağlamak amacıyla, 2015 yılında AMP'i duyurmuştu. Şubat 2016 tarihinden itibaren de, mobil arama sonuçlarında AMP sayfaları görünmeye başlamıştı. Kısa bir zaman içerisinde AMP, standart haline gelmeye başladı bile. Bunun en temel nedenleri; mobil internet kullanıcı sayısının fazla olması, birçok kişinin Google arama motorunu kullanması ve web site yöneticilerinin, "SEO kuralları" adı altındaki Google'ın her dayatmasını kabul etmeleri...
 
 ## Bir Google Rüyası: AMP
 
@@ -33,11 +33,11 @@ AMP görsel etiketi:
 <amp-img src="gorsel.jpg" width="100" height="100" layout="responsive"></amp-img>
 ```
 
-Yalnızca AMP etiketlerini kullanacağınız için de, web sitenize şu anki kadar yetkin olamayacaksınız. Web siteniz üzerindeki kontrolünüz, subdomain olarak ücretsiz blog açmanıza imkân veren web sitelerindeki kontrol alanınız kadar olacak.
+Yalnızca AMP etiketlerini kullanacağınız için de, web sitenize şu anki kadar yetkin olamayacaksınız. Web siteniz üzerindeki kontrolünüz, subdomain olarak ücretsiz blog açmanıza imkan veren web sitelerindeki kontrol alanınız kadar olacak.
 
 ### Googlebot'un Anladığı Dilden Konuşun
 
-Google nedir? Google, bir arama motorudur. Arama motorlarının amacı nedir? Web'i olabildiğince etkili bir şekilde taramak... Yani Google, kendisini geliştirmek zorunda; Sizin web siteniz, kendisini Google'a daha iyi anlatmak zorunda değil. Google'ın, kendi koyduğu kurallar ile inşâ edilmiş bir Web'i crawl etmesi çok daha kolay olacak. Bu da, Google'ın tekelinin yıkılmasını neredeyse imkânsız hâle getirecek.
+Google nedir? Google, bir arama motorudur. Arama motorlarının amacı nedir? Web'i olabildiğince etkili bir şekilde taramak... Yani Google, kendisini geliştirmek zorunda; Sizin web siteniz, kendisini Google'a daha iyi anlatmak zorunda değil. Google'ın, kendi koyduğu kurallar ile inşa edilmiş bir Web'i crawl etmesi çok daha kolay olacak. Bu da, Google'ın tekelinin yıkılmasını neredeyse imkansız hale getirecek.
 
 ### Google AMP Cache: Bir Domain Değil, Kullanıcı Adı Seçin
 

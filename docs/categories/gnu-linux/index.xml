@@ -13,7 +13,7 @@
       
       <guid>https://furuy.com/dnf-automatic/</guid>
       <description>DNF Automatic ile Fedora ve RHEL gibi DNF paket yöneticisine sahip GNU/Linux dağıtımlarındaki güncelleme işlemlerini otomatikleştirmeniz mümkün.
-DNF Automatic&amp;rsquo;i Yükleyin Bunun için kullandığınız terminale aşağıdaki kodu yazın ve yüklemeyi onaylarak, kurulumu tamamlayın:
+DNF Automatic&amp;rsquo;i Yükleyin Bunun için kullandığınız terminale aşağıdaki kodu yazın ve yüklemeyi onaylayarak, kurulumu tamamlayın:
 sudo dnf install dnf-automatic DNF Automatic&amp;rsquo;i Yapılandırın Otomatik güncellemeleri yapılandırmak için iki yöntem mevcut:
 /etc/dnf/automatic.conf Dosyasını Düzenleyin Bu dosya, varsayılan yapılandırma dosyasıdır. Paketi yüklediğinizde oluşturulacaktır. Herhangi bir metin editörü ile dosyayı açın:
 sudo vim /etc/dnf/automatic.conf Yukarıdaki değerler, varsayılandır.</description>
@@ -26,7 +26,7 @@ sudo vim /etc/dnf/automatic.conf Yukarıdaki değerler, varsayılandır.</descri
       
       <guid>https://furuy.com/youtube-vanced-alternatifleri/</guid>
       <description>Reklamsız YouTube uygulaması veya ücretsiz YouTube Premium olarak bilinen YouTube Vanced&amp;rsquo;in Twitter hesabında, uygulamanın kapanacağını açıklandı. Birçok kullanıcısı olduğu için büyük yankı uyandıran bu haber ile birlikte, Vanced kullanıcıları yeni alternatif arayışına girdiler. Ben de bu vesile ile YouTube Vanced uygulaması hakkında birkaç önemli bilgi verip, YouTube deneyiminizi artırmanıza yarayacak özgür yazılımlar ve yardımcı araçlar önereceğim.
-YouTube Vanced Güvenli Mi? Hayır çünkü Vanced, açık kaynak kodlu olmayan bir yazılımın, modifiye edilmiş bir versiyonu; Bu da, uygulamanın güvenli olup olmadığını öğrenebilmemize imkân vermiyor.</description>
+YouTube Vanced Güvenli Mi? Hayır çünkü Vanced, açık kaynak kodlu olmayan bir yazılımın, modifiye edilmiş bir versiyonu; Bu da, uygulamanın güvenli olup olmadığını öğrenebilmemize imkan vermiyor.</description>
     </item>
     
   </channel>

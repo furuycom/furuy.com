@@ -47,7 +47,7 @@ return 86400;
 
 ## Kullanıcı Taramasını Devre Dışı Bırakın
 
-WordPress kullanıcıları, ID numaralarına göre taranabilir. Örneğin, example.com/**?author=1** bağlantısına gidecek olursanız, sizi ID numarası 1 olan kullanıcıya yönlendirecektir. Bu da, varsayılan yönetici hesabınızı açığa çıkaracak ve web sitenizdeki kullanıcıların taranmasına imkân verecek. Bunu engellemek için, ana dizindeki **.htaccess** dosyasına bu kodu ekleyin:
+WordPress kullanıcıları, ID numaralarına göre taranabilir. Örneğin, example.com/**?author=1** bağlantısına gidecek olursanız, sizi ID numarası 1 olan kullanıcıya yönlendirecektir. Bu da, varsayılan yönetici hesabınızı açığa çıkaracak ve web sitenizdeki kullanıcıların taranmasına imkan verecek. Bunu engellemek için, ana dizindeki **.htaccess** dosyasına bu kodu ekleyin:
 
 ```
 RewriteEngine On
