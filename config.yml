@@ -76,7 +76,7 @@ params:
     - name: twitter
       url: "https://twitter.com/furuycom"
     - name: RSS
-      url: "index.xml"
+      url: "/index.xml"
 
   # analytics:
   #   google:
