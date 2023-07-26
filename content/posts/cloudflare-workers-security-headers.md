@@ -19,6 +19,7 @@ Açılacak bir sonraki sayfada ise "Create a Worker" butonuna tıklayın.
 
 Script alanına, kullanmak istediğiniz scripti yazabilir veya benim şu an için kullandığım scripti yapıştırabilirsiniz:
 
+```
 addEventListener('fetch', event => {
 event.respondWith(handleRequest(event.request));
 })
@@ -58,6 +59,7 @@ function isResponseContentTypeNotHtml(headers) {
 const contentType = headers.get('content-type');
 return !contentType || !contentType.includes("text/html");
 }
+```
 
 İşlemleri tamamladıktan sonra, "Save and Deploy" butonuna basın ve geri dönün.
 

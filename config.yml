@@ -47,18 +47,18 @@ params:
   disableScrollToTop: true
   comments: true
   hidemeta: false
-  hideSummary: false
+  hideSummary: true
   ShowToc: true
   TocOpen: true
   enableGitInfo: true
   ShowLastMod: true
   assets:
-    disableHLJS: true # to disable highlight.js
+    disableHLJS: false # to disable highlight.js
     disableFingerprinting: true
-    favicon: "/assets/img/logo.svg"
-    favicon16x16: "/assets/img/logo.svg"
-    favicon32x32: "/assets/img/logo.svg"
-    apple_touch_icon: "/assets/img/logo.svg"
+    favicon: "/assets/img/favicon.ico"
+    favicon16x16: "/assets/img/favicon-16x16.png"
+    favicon32x32: "/assets/img/favicon-32x32.png"
+    apple_touch_icon: "/assets/img/apple-touch-icon.png"
     safari_pinned_tab: "/assets/img/logo.svg"
     theme_color: "#000000"
     msapplication_TileColor: "#000000"
@@ -87,6 +87,7 @@ params:
     hiddenInList: false # hide on list pages and home
     hiddenInSingle: false # hide on single page
     relative: true # To use relative path for cover image, used in hugo Page-bundles
+    linkFullImages: true
 
   editPost:
     URL: "https://github.com/furkun/furuy.com/tree/main/content"
@@ -131,7 +132,7 @@ menu:
       name: 🔍 Search
       url: /search/
       weight: 60
-
+    
 # privacy:
 #   disqus:
 #     disable: true

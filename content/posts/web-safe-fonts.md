@@ -39,13 +39,13 @@ Web Safe Fonts uyumluluklarını görmek için ziyaret edebilirsiniz (Windows & 
 ## Kullanımı Ve Yedek Font'lar
 
 Aşağıdaki gibi basit bir kod ile, istediğiniz yazı tipini kullanmanız mümkün:
-
+```
 p {font-family: Arial, sans-serif;}
-
+```
 Web Safe Font'lar her cihazda olamayacağından dolayı, yedek font'lar (**font fallbacks**) da belirlemeniz mümkün. Soldan sağa doğru öncelik ile kodu aşağıdaki gibi düzenleyebilirsiniz:
-
+```
 p {font-family: Arial, Verdana, sans-serif;}
-
+```
 Bu sayede, eğer Arial yazı tipi bulunmaz ise Verdana yazı tipi kullanılır. Bu yazı tiplerini çoğaltabilirsiniz. Belirtmiş olduğunuz hiçbir yazı tipi bulunamaz ise de, sans-serif ailesinden bir yazı tipi kullanılır.
 
 * * *
