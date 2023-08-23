@@ -17,6 +17,5 @@ I'm trying to create useful content related to [my interests](/categories/) on m
 
 [GitHub](https://github.com/furkun)\
 [Mastodon](https://mastodon.social/@furk)\
-[Twitter](https://twitter.com/furuycom)\
 [RSS](/index.xml)\
 [Google News](https://news.google.com/publications/CAAqBwgKMIf_kgswxoTcAg)

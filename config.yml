@@ -73,8 +73,6 @@ params:
       url: "https://github.com/furkun"
     - name: mastodon
       url: "https://mastodon.social/@furk"
-    - name: twitter
-      url: "https://twitter.com/furuycom"
     - name: RSS
       url: "/index.xml"
 
