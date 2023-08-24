@@ -206,22 +206,10 @@
     <loc>https://furuy.com/tags/sifre-yoneticisi/</loc>
     <lastmod>2023-07-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://furuy.com/search/</loc>
+    <loc>https://furuy.com/ara/</loc>
   </url><url>
     <loc>https://furuy.com/archives/</loc>
   </url><url>
     <loc>https://furuy.com/hakkimda/</loc>
-  </url><url>
-    <loc>https://furuy.com/legal/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://furuy.com/en/legal/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr"
-                href="https://furuy.com/legal/"
-                />
   </url>
 </urlset>
