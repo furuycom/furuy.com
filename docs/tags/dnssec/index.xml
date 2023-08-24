@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>dnssec on Furkan Uysal</title>
+    <link>https://furuy.com/tags/dnssec/</link>
+    <description>Recent content in dnssec on Furkan Uysal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>tr-TR</language>
+    <lastBuildDate>Fri, 17 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://furuy.com/tags/dnssec/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GoDaddy &amp; Cloudflare DNSSEC Kurulumu</title>
+      <link>https://furuy.com/godaddy-cloudflare-dnssec/</link>
+      <pubDate>Fri, 17 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://furuy.com/godaddy-cloudflare-dnssec/</guid>
+      <description>GoDaddy&amp;rsquo;de barınan ve Cloudflare&amp;rsquo;a bağlı bir alan adı için DNSSEC&amp;rsquo;i aktifleştirmek çok kolay. DNSSEC özelliğini, aktifleştirebildiğiniz her alan adınız için aktifleştirmenizi tavsiye ederim. Şimdi gelin, bunu nasıl yapabileceğimize bakalım.
+Cloudflare Öncellikle, Cloudflare hesabınıza giriş yapın ve istediğiniz alan adınızı seçin. Ardından, menüde bulunan DNS&amp;rsquo;e tıklayın. Sayfanın biraz aşağısında, DNSSEC bölümünü bulacaksınız. &amp;ldquo;Enable DNSSEC&amp;rdquo; butonuna basın ve burada görünen &amp;ldquo;Key Tag, Algorithm, Digest Type-2, Digest&amp;rdquo; bilgilerini not edin ve &amp;ldquo;Confirm&amp;rdquo; butonuna tıklayarak onaylayın.</description>
+    </item>
+    
+  </channel>
+</rss>

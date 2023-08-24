@@ -9,7 +9,7 @@ buildFuture: false
 buildExpired: false
 ShowFullTextinRSS: true
 enableEmoji: true
-defaultContentLanguageInSubdir: true
+defaultContentLanguageInSubdir: false
 defaultContentLanguage: tr
 languages:
   tr:
