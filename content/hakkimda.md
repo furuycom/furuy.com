@@ -17,6 +17,6 @@ Blogumda [ilgi alanlarım](/categories/) hakkında içerikler üretiyorum.
 
 [Mastodon](https://mastodon.social/@furk)\
 [GitHub](https://github.com/furkun)\
-[RSS (Türkçe 🇹🇷)](/tr/index.xml)\
+[RSS (Türkçe 🇹🇷)](/index.xml)\
 [RSS (English 🇺🇸)](/en/index.xml)\
 [Google News](https://news.google.com/publications/CAAqBwgKMIf_kgswxoTcAg)

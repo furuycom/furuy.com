@@ -114,7 +114,7 @@ params:
       url: "https://github.com/furkun"
     - name: RSS
       title: "RSS (Türkçe 🇹🇷)"
-      url: "/tr/index.xml"
+      url: "/index.xml"
     - name: RSS
       title: "RSS (English 🇺🇸)"
       url: "/en/index.xml"
