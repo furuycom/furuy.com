@@ -28,6 +28,20 @@
                 href="https://furuy.com/en/"
                 />
   </url><url>
+    <loc>https://furuy.com/en/legal/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://furuy.com/legal/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://furuy.com/en/legal/"
+                />
+  </url><url>
+    <loc>https://furuy.com/search/</loc>
+  </url><url>
     <loc>https://furuy.com/en/tags/</loc>
     <xhtml:link
                 rel="alternate"
