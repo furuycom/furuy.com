@@ -7,8 +7,6 @@ categories:
 tags: 
   - "password-manager"
   - "sifre-yoneticisi"
-cover:
-  image: "/assets/img/guvenli-parola-yoneticisi.jpg"
 ---
 
 Parola yönetici araçların önemi, günden güne daha iyi anlaşılmaktadır. Güvenlik amacıyla kullanılan bu araçlar, tehlikeli de olabilirler. Bu araçlar bilinçsiz veya tedbirsiz kullanılırsa, kullanıcının internetteki tüm varlığı, kötü niyetli kişilere altın tepside sunulmuş olur. Bu tür istenmeyen durumlardan kaçınmak için bu rehberi dikkatli bir şekilde okuyup, tavsiyeleri uygulamanızı ve konu hakkındaki bilgilerinizin güncel kalması için de siber güvenlik alanında yetkin kaynaklarını takip etmenizi öneririm.

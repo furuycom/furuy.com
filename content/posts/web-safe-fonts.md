@@ -5,8 +5,6 @@ categories:
   - "webmaster"
 tags: 
   - "web-safe-fonts"
-cover:
-  image: "/assets/img/web-safe-fonts.jpg"
 ---
 
 Birçok web sitesi, kullanıcı arayüzünü (User Interface) geliştirmek için yazı tipleri (font) kullanır. Bu yazı tipleri de genellikle, direkt olarak WOFF/WOFF2 dosyaları çağrılarak veya Google Fonts kullanılarak yapılır. Her iki yöntem de harici bir istek yaratır ve bu isteklerin boyutu da, web sitenizdeki diğer isteklere oranla bir hayli fazladır.

@@ -8,8 +8,6 @@ tags:
   - "android-custom-rom"
   - "grapheneos"
   - "xda"
-cover:
-  image: "/assets/img/custom-rom-kullanmak-guvenli-mi.png"
 ---
 
 Custom ROM'lar, birçok olumlu getirileri ile Android kullanıcıları tarafından tercih edilebiliyorlar. Bu getirilerden bazıları şunlar:

@@ -7,8 +7,6 @@ categories:
   - "uygulamalar"
 tags: 
   - "mozilla-firefox"
-cover:
-  image: "/assets/img/firefox-android.jpg"
 ---
 
 Firefox, kullanmayanların ön yargıyla yaklaştığı, kullananların ise asla vazgeçemediği bir web tarayıcısı. Bu yazıda, Firefox'un neden en iyi Android web tarayıcısı olduğundan ve neden fazla "kullanılmadığından" bahsedeceğim.

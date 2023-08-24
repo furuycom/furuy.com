@@ -12,8 +12,6 @@ tags:
   - "sponsorblock"
   - "ublock-origin"
   - "youtube"
-cover:
-    image: "/assets/img/youtube.png"
 ---
 
 Reklamsız YouTube uygulaması veya ücretsiz YouTube Premium olarak bilinen YouTube Vanced'in Twitter hesabında, uygulamanın kapanacağını [açıklandı](https://twitter.com/YTVanced/status/1503052250268286980). Birçok kullanıcısı olduğu için büyük yankı uyandıran bu haber ile birlikte, Vanced kullanıcıları yeni alternatif arayışına girdiler. Ben de bu vesile ile YouTube Vanced uygulaması hakkında birkaç önemli bilgi verip, YouTube deneyiminizi artırmanıza yarayacak özgür yazılımlar ve yardımcı araçlar önereceğim.
@@ -34,8 +32,6 @@ Resmi GitHub bağlantısı: [https://github.com/revanced](https://github.com/rev
 Açık kaynak kodlu olmayan, güncellenmeyen veya güvenilir olmayan kaynaklardan indirilen uygulamaların tehlikeli olduğunu anladığımıza göre, güvenli yollardan YouTube deneyiminizi nasıl artırabileceğinize bakalım.
 
 ## NewPipe (Android)
-
-![NewPipe](/assets/img/NewPipe_logo_400x400.png)
 
 NewPipe, Android için özgür bir YouTube istemcisidir. Uygulamanın temel özellikleri bu şekilde:
 
@@ -70,8 +66,6 @@ Kısacası, "YouTube God Mode" :)
 GitHub sayfası: [https://github.com/polymorphicshade/NewPipe](https://github.com/polymorphicshade/NewPipe)
 
 ## Firefox (Android & PC)
-
-![Firefox](/assets/img/firefox-android.jpg)
 
 Hiçbir uygulama kullanmadan, yalnızca Firefox tarayıcısı ile reklamsız YouTube'u kullanmanız da mümkün. Firefox'u kullanmamızın nedeni, tarayıcı eklentilerini resmi olarak kullanmanıza izin veren tek uygulama olması. (Diğer muhteşem özelliklerine de göz atmak isterseniz, [Firefox Neden En İyi Android Web Tarayıcısı?](https://furuy.com/firefox-neden-en-iyi-android-web-tarayicisi/) başlıklı yazımı okuyabilirsiniz.) YouTube'un mobil sürümünü, olabildiğince işlevsel hale getirmek için bu eklentileri kullanacağız:
 

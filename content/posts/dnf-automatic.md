@@ -11,8 +11,6 @@ tags:
   - "rhel"
   - "rpm"
   - "systemd"
-cover:
-  image: "/assets/img/dnf-automatic.jpg"
 ---
 
 **DNF Automatic** ile Fedora ve RHEL gibi DNF paket yöneticisine sahip [GNU/Linux](https://furuy.com/categories/gnu-linux/) dağıtımlarındaki güncelleme işlemlerini otomatikleştirmeniz mümkün.

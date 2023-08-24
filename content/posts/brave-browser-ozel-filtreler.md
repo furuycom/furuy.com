@@ -5,8 +5,6 @@ categories:
   - "uygulamalar"
 tags: 
   - "brave-browser"
-cover:
-  image: "/assets/img/brave-browser.jpg"
 ---
 
 Brave Browser, reklam engelleme ve diğer birçok özelliği ile tavsiye edilen bir tarayıcı. Brave Browser'ın güzel özelliklerinden bazıları şunlar:

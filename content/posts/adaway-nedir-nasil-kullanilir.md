@@ -4,8 +4,6 @@ date: "2021-05-16"
 categories: 
   - "android"
   - "uygulamalar"
-cover:
-  image: "/assets/img/adaway.jpg"
 ---
 
 ## AdAway Nedir?

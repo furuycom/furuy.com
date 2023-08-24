@@ -7,8 +7,6 @@ categories:
   - "uygulamalar"
 tags: 
   - "sponsorblock"
-cover:
-  image: "/assets/img/sponsorblock.jpg"
 ---
 
 SponsorBlock, YouTube'daki bir videoda bulunan sponsorlu ve diğer istenmeyen kısımları atlayabilmenizi sağlayan bir yazılımdır. Genellikle tarayıcı uzantısı olarak kullanılan bu yazılım, size bir hayli zaman kazandırabilir ve videoya daha iyi odaklanabilmenizi sağlar. Bu yazıda, SponsorBlock'un ne kadar güvenli olduğundan ve mahremiyetinize ne kadar saygı duyduğundan bahsedeceğim.

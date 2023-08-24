@@ -6,8 +6,6 @@ categories:
 tags: 
   - "parola-eskitme"
   - "password-aging"
-cover:
-  image: "/assets/img/password-aging.jpg"
 ---
 
 **Password aging** veya Türkçe'ye "**parola eskitme**" olarak çevrilebilecek güvenlik mekanizması, kullanıcıların uzun zaman boyunca aynı parolayı kullanmalarını engeller. Sistem yöneticileri tarafından belirlenen zaman aralığında (password expiration policy), kullanıcılardan yeni bir parola oluşturmaları istenir. Bu yöntem her ne kadar güvenliği artırabiliyor olsa da, durumu tam tersine de çevirebilir. Bu yazıda, okuduğunuz özette kısaca bahsettiğim konuları biraz daha detaylandırmaya çalışacağım.

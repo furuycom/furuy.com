@@ -4,8 +4,6 @@ date: "2021-05-09"
 categories: 
   - "webmaster"
   - "wordpress"
-cover:
-  image: "/assets/img/cerezler-uyarisi.jpg"
 ---
 
 ## Çerezler Uyarısı Nedir?
@@ -61,7 +59,7 @@ Bu kod sayesinde, çerez uyarısı göstermek için eklenti kullanmanıza gerek 
 
 ## Sonuç
 
-![Çerezler Uyarısı - WordPress](/assets/img/cerezler-uyarisi-wordpress-scaled.jpg)
+![Çerezler Uyarısı - WordPress](/assets/img/cerezler-uyarisi.png)
 
 * * *
 

@@ -3,8 +3,6 @@ title: "FilterLists İle Yeni Reklam Engelleyici Filtreleri Bulun"
 date: "2021-05-03"
 categories: 
   - "internet"
-cover:
-  image: "/assets/img/filterlists-logo.jpg"
 ---
 
 FilterLists; Adaway, uBlock Origin, Adguard ve Adblock Plus gibi araçlarda kullanabileceğiniz, reklam/zararlı yazılım/paywall/anti-adblock gibi birçok filtreyi bulabilmenizi sağlayan bir web sitesidir. Filtrelenebilen arşiv sayesinde, ihtiyacınıza yönelik filtreleri kolayca bulmanız mümkün.
