@@ -5,5 +5,6 @@ Disallow: /tags/*
 Disallow: /page/*
 Disallow: /about/
 Disallow: /search/
+Disallow: /hakkimda/
 
 Sitemap: https://furuy.com/sitemap.xml

@@ -9,7 +9,43 @@ buildFuture: false
 buildExpired: false
 ShowFullTextinRSS: true
 enableEmoji: true
-defaultContentLanguage: en
+defaultContentLanguageInSubdir: true
+defaultContentLanguage: tr
+languages:
+  tr:
+    languageName: ":tr: Türkçe"
+    languageCode: tr-TR
+    languageAltTitle: Türkçe
+    weight: 1
+    menu:
+      main:
+      - name: 📚 Kategoriler
+        url: /categories/
+        weight: 20
+      - name: 🧑‍💻 Hakkımda
+        url: /hakkimda/
+        weight: 50
+      - name: 🔍 Ara
+        url: /search/
+        weight: 60
+  en:
+    languageName: ":us: English"
+    languageCode: en-US
+    languageAltTitle: English
+    weight: 2
+    menu:
+      main:
+      - name: 📚 Categories
+        url: /categories/
+        weight: 20
+      - name: 🧑‍💻 About
+        url: /about/
+        weight: 50
+      - name: 🔍 Search
+        url: /search/
+        weight: 60
+
+
 publishDir: docs
 permalinks:
   posts: '/:filename/'
@@ -33,6 +69,7 @@ params:
   description: "Tech-focused personal blog."
   author: Furkan Uysal
   DateFormat: "January 2, 2006"
+  displayFullLangName: true
   defaultTheme: auto # dark, light
   disableThemeToggle: false
   ShowReadingTime: true
@@ -69,21 +106,23 @@ params:
     iconHeight: 35
 
   socialIcons:
-    - name: github
-      url: "https://github.com/furkun"
     - name: mastodon
+      title: "Mastodon"
       url: "https://mastodon.social/@furk"
+    - name: github
+      title: "GitHub"
+      url: "https://github.com/furkun"
     - name: RSS
-      url: "/index.xml"
-
-  # analytics:
-  #   google:
-  #     SiteVerificationTag: ""
+      title: "RSS (Türkçe 🇹🇷)"
+      url: "/tr/index.xml"
+    - name: RSS
+      title: "RSS (English 🇺🇸)"
+      url: "/en/index.xml"
 
   cover:
-    hidden: false # hide everywhere but not in structured data
-    hiddenInList: false # hide on list pages and home
-    hiddenInSingle: false # hide on single page
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
     relative: true # To use relative path for cover image, used in hugo Page-bundles
     linkFullImages: true
 
@@ -103,33 +142,6 @@ params:
     threshold: 0.4
     minMatchCharLength: 0
     keys: ["title", "permalink", "summary", "content"]
-
-menu:
-  main:
-    - identifier: posts
-      name: 📰 Posts
-      url: /posts/
-      weight: 10
-    - identifier: categories
-      name: 📚 Categories
-      url: /categories/
-      weight: 20
-    - identifier: archives
-      name: 🗂️ Archives
-      url: /archives/
-      weight: 30
-    - identifier: legal
-      name: ℹ️ Legal
-      url: /legal/
-      weight: 40
-    - identifier: about
-      name: 🧑‍💻 About
-      url: /about/
-      weight: 50
-    - identifier: search
-      name: 🔍 Search
-      url: /search/
-      weight: 60
     
 privacy:
   disqus:

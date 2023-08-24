@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Furkan Uysal</title>
+    <link>https://furuy.com/en/</link>
+    <description>Recent content on Furkan Uysal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language><atom:link href="https://furuy.com/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About Me</title>
+      <link>https://furuy.com/en/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://furuy.com/en/about/</guid>
+      <description>Hi, I am Furkan. I&amp;rsquo;m trying to create useful content related to my interests on my blog.
+Links Mastodon
+GitHub
+RSS (English 🇺🇸)
+RSS (Türkçe 🇹🇷)
+Google News</description>
+    </item>
+    
+  </channel>
+</rss>
