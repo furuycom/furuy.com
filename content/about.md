@@ -1,5 +1,5 @@
 ---
-title: "Hakkımda"
+title: "About Me"
 commentshtml: false
 hidemeta : true
 ShowToc: false
@@ -9,14 +9,13 @@ ShowWordCount: false
 robotsNoIndex: true
 ---
 
-# Merhaba, ben Furkan.
+# Hi, I am Furkan.
 
-Blogumda [ilgi alanlarım](/categories/) hakkında içerikler üretiyorum.
+I'm trying to create useful content related to [my interests](/categories/) on my blog.
 
-## Bağlantılar
+## Links
 
 [Mastodon](https://mastodon.social/@furk)\
 [GitHub](https://github.com/furkun)\
-[RSS (Türkçe 🇹🇷)](/index.xml)\
-[RSS (English 🇺🇸)](/en/index.xml)\
+[RSS](/index.xml)\
 [Google News](https://news.google.com/publications/CAAqBwgKMIf_kgswxoTcAg)

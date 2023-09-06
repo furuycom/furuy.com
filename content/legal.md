@@ -7,7 +7,7 @@ ShowReadingTime: false
 cover.hidden: true
 ShowWordCount: false
 robotsNoIndex: true
-draft: true
+draft: false
 ---
 
 # About this website

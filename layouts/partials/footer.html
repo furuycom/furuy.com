@@ -1,6 +1,13 @@
 {{- if not (.Param "hideFooter") }}
 <footer class="footer">
     {{ partial "social_icons.html" site.Params.socialIcons }}
+    <span>
+        <a href="/posts/">📰 Posts</a> •
+        <a href="/categories/">📚 Categories</a> •  
+        <a href="/archives/">🗂️ Archives</a> •  
+        <a href="/legal/">ℹ️ Legal</a> 
+    </span>
+    <br>
     {{- if site.Copyright }}
     <span>{{ site.Copyright | markdownify }}</span>
     {{- else }}

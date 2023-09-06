@@ -5,7 +5,6 @@
     <link>https://furuy.com/</link>
     <description>Recent content on Furkan Uysal</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>tr-TR</language>
     <lastBuildDate>Thu, 17 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://furuy.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Geometri - Atatürk</title>
@@ -212,21 +211,31 @@ Açık kaynak kodlu Fingerprint koruması HTTPS Everywhere Reklam engelleme Taki
 Yazıya geçmeden, konu hakkında deneyimli kişilerin bile sıklıkla yaptığı bir yanlış kullanımı da düzelteyim: İnternette, giriş yaparken veya kayıt olurken yazdığınız şeye &amp;ldquo;şifre&amp;rdquo; değil, &amp;ldquo;parola&amp;rdquo; denir.</description>
     </item>
     
+    <item>
+      <title>About Me</title>
+      <link>https://furuy.com/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://furuy.com/about/</guid>
+      <description>Hi, I am Furkan. I&amp;rsquo;m trying to create useful content related to my interests on my blog.
+Links Mastodon
+GitHub
+RSS
+Google News</description>
+    </item>
     
     
     <item>
-      <title>Hakkımda</title>
-      <link>https://furuy.com/hakkimda/</link>
+      <title>Legal</title>
+      <link>https://furuy.com/legal/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://furuy.com/hakkimda/</guid>
-      <description>Merhaba, ben Furkan. Blogumda ilgi alanlarım hakkında içerikler üretiyorum.
-Bağlantılar Mastodon
-GitHub
-RSS (Türkçe 🇹🇷)
-RSS (English 🇺🇸)
-Google News</description>
+      <guid>https://furuy.com/legal/</guid>
+      <description>About this website This is a personal, non-commercial website, established for personal blogging.
+Disclaimer The information in this website is provided &amp;ldquo;as is&amp;rdquo; with no warranties, and confers no rights.
+Privacy Policy GitHub Pages This website is hosted as a GitHub Pages website. GitHub may collect user personal information from visitors to this GitHub Pages website, including logs of visitor IP addresses, to comply with legal obligations, and to maintain the security and integrity of this website and the service.</description>
     </item>
+    
     
   </channel>
 </rss>
