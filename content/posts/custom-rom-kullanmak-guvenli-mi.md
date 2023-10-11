@@ -78,11 +78,9 @@ Veri şifreleme, artık bir standart haline geldi. Bu sayede, dosyalarınızı y
 
 Edward Snowden'ın tavsiyesi: [https://twitter.com/Snowden/status/1175430722733129729](https://twitter.com/Snowden/status/1175430722733129729)
 
-Mahremiyet odaklı düşünürseniz, kesinlikle bir Custom ROM kullanmanız gerektiği kanaatine varacaksınız. Peki ya hangi Custom ROM kullanılmalı? Buna verebileceğim tek bir cevap var: **GrapheneOS**. ([https://grapheneos.org)](https://grapheneos.org)
+Mahremiyet odaklı düşünürseniz, kesinlikle bir Custom ROM kullanmanız gerektiği kanaatine varacaksınız. Peki ya hangi Custom ROM kullanılmalı? Benim ilk tavsiyem **GrapheneOS**. ([https://grapheneos.org)](https://grapheneos.org)
 
-Benim bildiğim kadarıyla, tüm güvenlik kriterlerini karşılayan tek Custom ROM, şu an için yalnızca GrapheneOS. Yalnız bir kötü yanı var ki, resmi ROM desteği yalnızca Google Pixel cihazlar için mevcut. Ne yazık ki bu cihaz da Türkiye'de satılmıyor...
-
-Cihazınız yakın bir zamanda güncelleme almış ve henüz kritik bir güvenlik açığı barındırmıyorsa, orijinal yazılımı kullanmaya devam edebilirsiniz. Uzun zamandır güncellenmeyen veya kritik bir güvenlik açığı barındıran bir cihaz kullanıyorsanız, güvenli bir custom ROM kullanabilirsiniz.
+Eğer GrapheneOS destekleyen bir cihazınız yoksa, LineageOS veya crDroid gibi bilinen, aktif olarak geliştirilen, official bir ROM kullanmanızı öneririm. Official (resmi) olmayan, Telegram'daki herhangi bir kişinin yaptığı, varsayılan olarak Dolby Atmos, Google Camera gibi açık kaynak kodlu olmayan uygulamalar içeren ROM'ları kesinlikle kullanmayın. 
 
 * * *
 
