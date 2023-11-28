@@ -10,7 +10,7 @@ buildExpired: false
 ShowFullTextinRSS: true
 enableEmoji: true
 defaultContentLanguageInSubdir: false
-defaultContentLanguage: en
+defaultContentLanguage: tr
 
 
 publishDir: docs
