@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>gnu-linux on Furkan Uysal</title>
+    <title>gnu-linux on Furuy.com</title>
     <link>https://furuy.com/categories/gnu-linux/</link>
-    <description>Recent content in gnu-linux on Furkan Uysal</description>
+    <description>Recent content in gnu-linux on Furuy.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Thu, 26 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://furuy.com/categories/gnu-linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -12,15 +12,15 @@
       <pubDate>Thu, 26 May 2022 00:00:00 +0000</pubDate>
       
       <guid>https://furuy.com/dnf-automatic/</guid>
-      <description>DNF Automatic ile Fedora ve RHEL gibi DNF paket yöneticisine sahip GNU/Linux dağıtımlarındaki güncelleme işlemlerini otomatikleştirmeniz mümkün.
+      <description>Bu yazı uzun zamandır güncellenmemektedir!
+DNF Automatic ile Fedora ve RHEL gibi DNF paket yöneticisine sahip GNU/Linux dağıtımlarındaki güncelleme işlemlerini otomatikleştirmeniz mümkün.
 DNF Automatic&amp;rsquo;i Yükleyin Bunun için kullandığınız terminale aşağıdaki kodu yazın ve yüklemeyi onaylayarak, kurulumu tamamlayın:
 sudo dnf install dnf-automatic DNF Automatic&amp;rsquo;i Yapılandırın Otomatik güncellemeleri yapılandırmak için iki yöntem mevcut:
-/etc/dnf/automatic.conf Dosyasını Düzenleyin Bu dosya, varsayılan yapılandırma dosyasıdır. Paketi yüklediğinizde oluşturulacaktır. Herhangi bir metin editörü ile dosyayı açın:
-sudo vim /etc/dnf/automatic.conf Yukarıdaki değerler, varsayılandır.</description>
+/etc/dnf/automatic.conf Dosyasını Düzenleyin Bu dosya, varsayılan yapılandırma dosyasıdır. Paketi yüklediğinizde oluşturulacaktır. Herhangi bir metin editörü ile dosyayı açın:</description>
     </item>
     
     <item>
-      <title>YouTube Deneyiminizi Artırabileceğiniz 3 Vanced Alternatifi</title>
+      <title>YouTube Vanced Alternatifleri</title>
       <link>https://furuy.com/youtube-vanced-alternatifleri/</link>
       <pubDate>Sat, 16 Apr 2022 00:00:00 +0000</pubDate>
       

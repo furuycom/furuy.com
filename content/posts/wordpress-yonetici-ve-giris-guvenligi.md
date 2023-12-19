@@ -7,6 +7,8 @@ categories:
   - "wordpress"
 ---
 
+> Bu yazı uzun zamandır güncellenmemektedir!
+
 WordPress web sitenizdeki yönetici hesapları, varsayılan olarak birçok kritik yetkiye sahip olurlar. Bu hesapların güvenliği sağlanmazsa, web siteniz de tehdit altında olur. Bu yazıda, manuel olarak uygulayabileceğiniz bazı güvenlik adımlarını anlatacağım.
 
 ## 'Admin' Kullanıcı Adını Kullanmayın

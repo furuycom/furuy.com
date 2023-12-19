@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>brave-browser on Furkan Uysal</title>
+    <title>brave-browser on Furuy.com</title>
     <link>https://furuy.com/tags/brave-browser/</link>
-    <description>Recent content in brave-browser on Furkan Uysal</description>
+    <description>Recent content in brave-browser on Furuy.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Fri, 16 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://furuy.com/tags/brave-browser/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Brave Tarayıcısı İle İstediğiniz Reklamı Engelleyin</title>
+      <title>Brave Reklam Engelleyici Rehberi</title>
       <link>https://furuy.com/brave-browser-ozel-filtreler/</link>
       <pubDate>Fri, 16 Apr 2021 00:00:00 +0000</pubDate>
       
       <guid>https://furuy.com/brave-browser-ozel-filtreler/</guid>
-      <description>Brave Browser, reklam engelleme ve diğer birçok özelliği ile tavsiye edilen bir tarayıcı. Brave Browser&amp;rsquo;ın güzel özelliklerinden bazıları şunlar:
-Açık kaynak kodlu Fingerprint koruması HTTPS Everywhere Reklam engelleme Takipçi engelleme Çerezler denetimi Brave Browser, Google Chrome tarayıcısının güzel bir alternatifi olarak karşımıza çıkıyor ama yine de kullanmanızı tavsiye etmiyorum. Firefox tarayıcısını beğenmediyseniz, son çare olarak deneyebilirsiniz ama Chromium tabanlı olduğu için Google&amp;rsquo;dan bağımsız kalması mümkün değil. Firefox&amp;rsquo;a mutlaka bir şans verin.</description>
+      <description>Brave, varsayılan olarak reklam engelleme özelliğine sahip bir internet tarayıcısıdır. Bu yazıda, Brave&amp;rsquo;in reklam engelleme özelliğini daha etkili bir şekilde kullanmayı öğreneceksiniz.
+Brave Shields Brave, varsayılan olarak yalnızca üçüncü taraf reklamları engeller. Örneğin bir web sitedeki sponsorlu içerikleri engellemez. Birinci parti de dahil tüm reklamları engellemek için &amp;ldquo;Block trackers &amp;amp; ads (Aggressive)&amp;rdquo; seçeneğini seçmeniz gerekiyor.
+Content Filtering Burada farklı filtre listeleri kullanarak daha fazla reklam ve istenmeyen öge engellemeniz mümkün. Bu sayfaya Brave Shields ayarlarından ulaşabilirsiniz.</description>
     </item>
     
   </channel>

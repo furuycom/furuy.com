@@ -1,10 +1,13 @@
 ---
 title: "Access Dots Özelliğini Android'de Kullanma"
 date: "2021-04-30"
+lastmod: "2022-05-26"
 categories: 
   - "android"
   - "guvenlik-mahremiyet"
 ---
+
+> Bu yazı uzun zamandır güncellenmemektedir!
 
 Access Dots, iOS 14 ile tanıtılan, kullanıcının gizliliğini geliştirmeyi amaçlayan yeni bir özellik. Bu özellik sayesinde, arka planda mikrofona veya kameraya erişilirse, ekranda renkli noktalar beliriyor. Her bir izin için farklı bir renk kullanıldığından, hangi iznin kullanıldığını kolayca anlayabiliyorsunuz.
 

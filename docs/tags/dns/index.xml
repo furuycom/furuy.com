@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>dns on Furuy.com</title>
+    <link>https://furuy.com/tags/dns/</link>
+    <description>Recent content in dns on Furuy.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 14 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://furuy.com/tags/dns/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>NextDNS Rehberi</title>
+      <link>https://furuy.com/nextdns-rehberi/</link>
+      <pubDate>Thu, 14 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://furuy.com/nextdns-rehberi/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

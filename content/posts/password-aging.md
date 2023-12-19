@@ -1,6 +1,7 @@
 ---
-title: "Password Aging (Parola Eskitme) ve Riskleri"
+title: "Password Aging (Parola Eskitme) Riskleri"
 date: "2021-12-23"
+lastmod: "2023-12-18"
 categories: 
   - "guvenlik-mahremiyet"
 tags: 
@@ -12,17 +13,17 @@ tags:
 
 ## Password Aging Neden Bir Standart Oldu?
 
-Tahminime göre bunun en büyük nedeni, zamanında parolaların hashlenmiş olarak değil de, plain text olarak veri tabanlarında saklanmaları idi (günümüzde bile devam ediyor maalesef). Dolayısıyla herhangi bir veri tabanı sızıntısı olduğunda, herkesin parolası apaçık ortaya çıkıyordu. O zamanın teknolojisinde göre de bu parolaların hackerlar tarafından kötü amaçlarla kullanılma süresi 90 gün olarak belirlenmiş ve standartlaşarak, üç ayda bir parolanın değiştirilmesinin iyi olabileceği düşünülmüş.
+Tahminime göre bunun en büyük nedeni, zamanında parolaların hashlenmiş olarak değil de, plain text olarak veri tabanlarında saklanmasıydı. Dolayısıyla herhangi bir veri tabanı sızıntısı olduğunda, herkesin parolası apaçık ortaya çıkıyordu. O zamanın teknolojisinde göre de bu parolaların hackerlar tarafından kötü amaçlarla kullanılma süresi 90 gün olarak belirlenmiş ve standartlaşarak, üç ayda bir parolanın değiştirilmesinin uygun olacağı düşünülmüş.
 
 ## Endişeler ve Sorunlar
 
 ### Geçerlilik
 
-Günümüzde, ele geçirilen parolalar eskiden olduğu gibi yavaş ve manuel olarak değil; gelişmiş araçlar ve gelişmiş donanımlı sunucularda otomatik olarak taranıp, kullanılıyorlar. Bugünün araçları ile parolasını bildiğiniz bir hesapla ilişkili e-posta, sosyal medya ve diğer online hesapların bulunması yalnızca dakikalar sürüyor.
+Günümüzde ele geçirilen parolalar eskiden olduğu gibi manuel olarak değil, yüksek donanımlı sunucularda gelişmiş araçlar kullanılarak deneniyor. Ayrıca ele geçirilen bilgilerden, ilişkili diğer hesaplar da kontrol edilebiliyor.
 
 ### Maliyet
 
-Çalışanlarınızdan, örneğin her üç ayda bir parolalarını değiştirmelerini istediğinizde ortaya çıkan bir zaman ve dolayısıyla maddi maliyete inanamazsınız. İkinci kaynakta buna güzel bir örnek verilmiş.
+Çalışanlarınızdan, üç ayda bir parolalarını değiştirmelerini istediğinizde zaman kaybı ve türlü güvenlik açıkları ortaya çıkıyor.
 
 ### Güvenlik Tehlikeleri
 

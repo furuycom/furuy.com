@@ -9,6 +9,8 @@ tags:
   - "mozilla-firefox"
 ---
 
+> Bu yazı uzun zamandır güncellenmemektedir!
+
 Firefox, kullanmayanların ön yargıyla yaklaştığı, kullananların ise asla vazgeçemediği bir web tarayıcısı. Bu yazıda, Firefox'un neden en iyi Android web tarayıcısı olduğundan ve neden fazla "kullanılmadığından" bahsedeceğim.
 
 ## Google, Firefox'tan Nefret Ediyor

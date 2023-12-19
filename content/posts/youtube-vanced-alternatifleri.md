@@ -1,6 +1,7 @@
 ---
-title: "YouTube Deneyiminizi Artırabileceğiniz 3 Vanced Alternatifi"
+title: "YouTube Vanced Alternatifleri"
 date: "2022-04-16"
+lastmod: "2023-12-18"
 categories: 
   - "android"
   - "gnu-linux"
@@ -11,6 +12,8 @@ tags:
   - "newpipe"
   - "sponsorblock"
   - "ublock-origin"
+  - "dearrow"
+  - "firefox-android"
   - "youtube"
 ---
 
@@ -22,21 +25,21 @@ Hayır çünkü Vanced, açık kaynak kodlu olmayan bir yazılımın, modifiye e
 
 ### YouTube Vanced Hâlâ Çalışıyor Mu?
 
-Kullanıcılar bazı sorunlar yaşamaya başlamış olsalar da, uygulama Google tarafından henüz engellenmiş değil. Geliştiriciler, uygulamanın uzun bir süre daha kullanılabileceğini söylediler ancak güncel olmayan bir uygulamayı, güvenliğiniz için kesinlikle kullanmamalısınız.
+Hayır, artık çalışmıyor çünkü uzun zamandır güncellenmiyor.
 
 ### YouTube Vanced Yerine Ne Kullanabilirim?
 
-YouTube Vanced'in geliştirilmiş bir alternatifi de, ReVanced'dir. (Orijinal YouTube uygulaması açık kaynak kodlu olmadığı için, bu yazılım da tamamen açık kaynak kodlu değildir ama kullanılan fonksiyonlar açık kaynak kodludur. Resmi bir YouTube uygulamasını, açık kaynak kodlu araçlar ile düzenleyebilir ve derleyebilirsiniz.)  
+YouTube Vanced'in en iyi alternatifi ReVanced'dir. Burada bir noktaya dikkat etmeniz gerekiyor: ReVanced, resmi YouTube uygulamasını -ve desteklenen diğer uygulamaları- modifiye edebilmenizi sağlar; Vanced'in aksine size hazır bir YouTube APK dosyası vermez. Dolayısıyla ReVanced adıyla herhangi bir YouTube APK'sı kesinlikle kullanmayın. Orijinal YouTube APK dosyasını bulmanız ve gerekli düzenlemeleri yaptıktan sonra derlemeniz gerekiyor.
 Resmi GitHub bağlantısı: [https://github.com/revanced](https://github.com/revanced)
 
-Açık kaynak kodlu olmayan, güncellenmeyen veya güvenilir olmayan kaynaklardan indirilen uygulamaların tehlikeli olduğunu anladığımıza göre, güvenli yollardan YouTube deneyiminizi nasıl artırabileceğinize bakalım.
+ReVanced kurulumunda zorlandıysanız, aşağıdaki daha kolay alternatifleri kullanabilirsiniz.
 
 ## NewPipe (Android)
 
-NewPipe, Android için özgür bir YouTube istemcisidir. Uygulamanın temel özellikleri bu şekilde:
+NewPipe, Android için FOSS bir YouTube istemcisidir. Uygulamanın temel özellikleri bu şekilde:
 
 - Ücretsiz ve özgür yazılım.
-- Google hesabınız ile giriş yapamıyorsunuz. Bir kere kullandıktan sonra, tüm verilerinizi yedeklemeniz ve yedeği geri yüklemeniz mümkün.
+- Google hesabınız ile giriş yapamıyorsunuz ama içe aktarma ve yedekleme fonksiyonları mevcut.
 - Google API'lerini kullanmaz. Yalnızca gerekli ve zorunlu olan veriler Google'a gönderilir. Diğer verileriniz, çevrim dışı olarak cihazınızda saklanır.
 - Video, ses ve alt yazı indirme.
 - Reklamsız.
@@ -67,7 +70,7 @@ GitHub sayfası: [https://github.com/polymorphicshade/NewPipe](https://github.co
 
 ## Firefox (Android & PC)
 
-Hiçbir uygulama kullanmadan, yalnızca Firefox tarayıcısı ile reklamsız YouTube'u kullanmanız da mümkün. Firefox'u kullanmamızın nedeni, tarayıcı eklentilerini resmi olarak kullanmanıza izin veren tek uygulama olması. (Diğer muhteşem özelliklerine de göz atmak isterseniz, [Firefox Neden En İyi Android Web Tarayıcısı?](https://furuy.com/firefox-neden-en-iyi-android-web-tarayicisi/) başlıklı yazımı okuyabilirsiniz.) YouTube'un mobil sürümünü, olabildiğince işlevsel hale getirmek için bu eklentileri kullanacağız:
+Hiçbir uygulama kullanmadan, yalnızca Firefox tarayıcısı ile reklamsız YouTube'u kullanmanız da mümkün. Firefox'u kullanmamızın nedeni, tarayıcı eklentilerini resmi olarak kullanmanıza izin veren tek Android tarayıcısı olması. (Diğer muhteşem özelliklerine de göz atmak isterseniz, [Firefox Neden En İyi Android Web Tarayıcısı?](https://furuy.com/firefox-neden-en-iyi-android-web-tarayicisi/) başlıklı yazımı okuyabilirsiniz.) YouTube'un mobil sürümünü, olabildiğince işlevsel hale getirmek için bu eklentileri kullanacağız:
 
 ### uBlock Origin
 
@@ -82,13 +85,16 @@ Bu eklenti sayesinde, mobilde YouTube'u arka planda dinleyebilirsiniz. Eklentiyi
 
 Eklentiyi yükleyin: [https://addons.mozilla.org/android/addon/video-background-play-fix/](https://addons.mozilla.org/android/addon/video-background-play-fix/)
 
-**UYARI:** Aşağıdaki iki eklentiyi mobilde ilk kez yüklemek biraz zor olabilir çünkü bu eklentiler, henüz mobilde resmi olarak desteklenmiyor. Yine de kullanmak için [Fennec F-Droid](https://f-droid.org/en/packages/org.mozilla.fennec_fdroid/) (önerilen) veya [Firefox Nightly](https://play.google.com/store/apps/details?id=org.mozilla.fenix) (önermiyorum) tarayıcılarından birisini kullanmanız gerekiyor. Bu tarayıcılardan seçtiğiniz birisini yükledikten sonra da, bu adımları takip edin: [https://www.ghacks.net/2020/10/01/you-can-now-install-any-add-on-in-firefox-nightly-for-android-but-it-is-complicated/](https://www.ghacks.net/2020/10/01/you-can-now-install-any-add-on-in-firefox-nightly-for-android-but-it-is-complicated/)
-
 ### SponsorBlock
 
 Videolardaki reklamlardan kurtulduk. Şimdi sırada, video içindeki rahatsız edici kısımlardan kurtulmak var. Bu eklenti sayesinde videolardaki intro, outro, reklam ve "abone olun" bildirimleri gibi alanları otomatik olarak atlayabilirsiniz. Eklenti hakkında yazdığım [SponsorBlock Kullanmak Güvenli Mi?](https://furuy.com/sponsorblock-guvenli-mi/) yazısını da okuyabilirsiniz.
 
 Eklentiyi yükleyin: [https://addons.mozilla.org/firefox/addon/sponsorblock/](https://addons.mozilla.org/firefox/addon/sponsorblock/)
+
+### DeArrow
+DeArrow, YouTube videolarının thumbnail görsellerini ve başlıklarını düzenleyerek, clickbaitsiz bir deneyim sunmayı amaçlar. Geliştiricisi, SponsorBlock'un geliştiricisidir.
+
+Eklentiyi yükleyin: [https://addons.mozilla.org/en-US/android/addon/dearrow/](https://addons.mozilla.org/en-US/android/addon/dearrow/)
 
 ### Return YouTube Dislike
 
@@ -98,20 +104,6 @@ Eklentinin resmi web sitesi: [https://www.returnyoutubedislike.com/](https://www
 Eklentiyi yükleyin: [https://addons.mozilla.org/firefox/addon/return-youtube-dislikes/](https://addons.mozilla.org/firefox/addon/return-youtube-dislikes/)
 
 * * *
-
-Bunları uyguladıktan sonraki sonuç:
-
-![Youtube Vanced Kapatıldı Alternatifler Ne?](/assets/img/youtube-vanced-kapatildi-alternatifler-ne.png-1024x545.png)
-
-Bu videoyu izlemenizi ve ilgili YouTube kanalını takip etmenizi kesinlikle öneririm: [https://www.youtube.com/watch?v=cZDZTw9wKTw](https://www.youtube.com/watch?v=cZDZTw9wKTw)
-
-- Reklam yok.
-- Dikkat dağıtan öneriler vs. yok.
-- Dislike sayıları görünüyor.
-- SponsorBlock ile istemediğiniz kısımlar otomatik atlanıyor.
-- Videoları arka planda dinleyebiliyorsunuz.
-
-Ayrıca YouTube'u, Firefox menüsünden ana ekranınıza ekleyerek, bir uygulama gibi kolaylıkla çalıştırabilir veya tarayıcının ana sayfasına sabitleyebilirsiniz.
 
 ## FreeTube (Linux, MacOS & Windows)
 
@@ -127,4 +119,4 @@ FreeTube, resmi olmayan bir YouTube istemcisidir. Öne çıkan özellikleri bu �
 - Favoriler oynatma listesi (Watch Later gibi kullanabilirsiniz ama şu an için yalnızca bir oynatma listesi desteği mevcut.)
 - Sponsor Block
 
-İndirme bağlantılarının da yer aldığı resmi web sitesi: [https://freetubeapp.io/](https://freetubeapp.io/)
+Web sitesi: [https://freetubeapp.io/](https://freetubeapp.io/)

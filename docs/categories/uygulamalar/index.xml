@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>uygulamalar on Furkan Uysal</title>
+    <title>uygulamalar on Furuy.com</title>
     <link>https://furuy.com/categories/uygulamalar/</link>
-    <description>Recent content in uygulamalar on Furkan Uysal</description>
+    <description>Recent content in uygulamalar on Furuy.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sat, 16 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://furuy.com/categories/uygulamalar/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>YouTube Deneyiminizi Artırabileceğiniz 3 Vanced Alternatifi</title>
+      <title>YouTube Vanced Alternatifleri</title>
       <link>https://furuy.com/youtube-vanced-alternatifleri/</link>
       <pubDate>Sat, 16 Apr 2022 00:00:00 +0000</pubDate>
       
@@ -17,12 +17,13 @@ YouTube Vanced Güvenli Mi? Hayır çünkü Vanced, açık kaynak kodlu olmayan 
     </item>
     
     <item>
-      <title>SponsorBlock Kullanmak Güvenli Mi?</title>
+      <title>SponsorBlock Güvenli Mi?</title>
       <link>https://furuy.com/sponsorblock-guvenli-mi/</link>
       <pubDate>Sun, 29 Aug 2021 00:00:00 +0000</pubDate>
       
       <guid>https://furuy.com/sponsorblock-guvenli-mi/</guid>
-      <description>SponsorBlock, YouTube&amp;rsquo;daki bir videoda bulunan sponsorlu ve diğer istenmeyen kısımları atlayabilmenizi sağlayan bir yazılımdır. Genellikle tarayıcı uzantısı olarak kullanılan bu yazılım, size bir hayli zaman kazandırabilir ve videoya daha iyi odaklanabilmenizi sağlar. Bu yazıda, SponsorBlock&amp;rsquo;un ne kadar güvenli olduğundan ve mahremiyetinize ne kadar saygı duyduğundan bahsedeceğim.
+      <description>Bu yazı uzun zamandır güncellenmemektedir!
+SponsorBlock, YouTube&amp;rsquo;daki bir videoda bulunan sponsorlu ve diğer istenmeyen kısımları atlayabilmenizi sağlayan bir yazılımdır. Genellikle tarayıcı uzantısı olarak kullanılan bu yazılım, size bir hayli zaman kazandırabilir ve videoya daha iyi odaklanabilmenizi sağlar. Bu yazıda, SponsorBlock&amp;rsquo;un ne kadar güvenli olduğundan ve mahremiyetinize ne kadar saygı duyduğundan bahsedeceğim.
 Açık Kaynak Kodlu SponsorBlock, hem uygulama hem de sunucu taraflı olarak tamamen açık kaynak kodludur. Tarayıcı uzantısı olan uzantının kaynak kodlarına bu bağlantıdan, sunucu kaynak kodlarına ise bu bağlantıdan erişebilirsiniz.</description>
     </item>
     
@@ -32,7 +33,8 @@ Açık Kaynak Kodlu SponsorBlock, hem uygulama hem de sunucu taraflı olarak tam
       <pubDate>Mon, 02 Aug 2021 00:00:00 +0000</pubDate>
       
       <guid>https://furuy.com/firefox-neden-en-iyi-android-web-tarayicisi/</guid>
-      <description>Firefox, kullanmayanların ön yargıyla yaklaştığı, kullananların ise asla vazgeçemediği bir web tarayıcısı. Bu yazıda, Firefox&amp;rsquo;un neden en iyi Android web tarayıcısı olduğundan ve neden fazla &amp;ldquo;kullanılmadığından&amp;rdquo; bahsedeceğim.
+      <description>Bu yazı uzun zamandır güncellenmemektedir!
+Firefox, kullanmayanların ön yargıyla yaklaştığı, kullananların ise asla vazgeçemediği bir web tarayıcısı. Bu yazıda, Firefox&amp;rsquo;un neden en iyi Android web tarayıcısı olduğundan ve neden fazla &amp;ldquo;kullanılmadığından&amp;rdquo; bahsedeceğim.
 Google, Firefox&amp;rsquo;tan Nefret Ediyor Web&amp;rsquo;in bizzat kendisi olmak isteyen Google; kendi kullanıcılarını gizli sekmede bile takip eden, özgür bir yazılım olmayan Chrome tarayıcısının tek rakibine karşı, uzun zamandır adil olmayan bir savaş veriyor. Neredeyse tüm Android cihazlar, Google Chrome yüklü olarak geliyor ve ADB aracı kullanmak haricinde, kaldırmanıza da izin verilmiyor.</description>
     </item>
     
@@ -46,13 +48,14 @@ Google, Firefox&amp;rsquo;tan Nefret Ediyor Web&amp;rsquo;in bizzat kendisi olma
     </item>
     
     <item>
-      <title>Brave Tarayıcısı İle İstediğiniz Reklamı Engelleyin</title>
+      <title>Brave Reklam Engelleyici Rehberi</title>
       <link>https://furuy.com/brave-browser-ozel-filtreler/</link>
       <pubDate>Fri, 16 Apr 2021 00:00:00 +0000</pubDate>
       
       <guid>https://furuy.com/brave-browser-ozel-filtreler/</guid>
-      <description>Brave Browser, reklam engelleme ve diğer birçok özelliği ile tavsiye edilen bir tarayıcı. Brave Browser&amp;rsquo;ın güzel özelliklerinden bazıları şunlar:
-Açık kaynak kodlu Fingerprint koruması HTTPS Everywhere Reklam engelleme Takipçi engelleme Çerezler denetimi Brave Browser, Google Chrome tarayıcısının güzel bir alternatifi olarak karşımıza çıkıyor ama yine de kullanmanızı tavsiye etmiyorum. Firefox tarayıcısını beğenmediyseniz, son çare olarak deneyebilirsiniz ama Chromium tabanlı olduğu için Google&amp;rsquo;dan bağımsız kalması mümkün değil. Firefox&amp;rsquo;a mutlaka bir şans verin.</description>
+      <description>Brave, varsayılan olarak reklam engelleme özelliğine sahip bir internet tarayıcısıdır. Bu yazıda, Brave&amp;rsquo;in reklam engelleme özelliğini daha etkili bir şekilde kullanmayı öğreneceksiniz.
+Brave Shields Brave, varsayılan olarak yalnızca üçüncü taraf reklamları engeller. Örneğin bir web sitedeki sponsorlu içerikleri engellemez. Birinci parti de dahil tüm reklamları engellemek için &amp;ldquo;Block trackers &amp;amp; ads (Aggressive)&amp;rdquo; seçeneğini seçmeniz gerekiyor.
+Content Filtering Burada farklı filtre listeleri kullanarak daha fazla reklam ve istenmeyen öge engellemeniz mümkün. Bu sayfaya Brave Shields ayarlarından ulaşabilirsiniz.</description>
     </item>
     
   </channel>

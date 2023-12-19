@@ -7,6 +7,8 @@ tags:
   - "security-headers"
 ---
 
+> Bu yazı uzun zamandır güncellenmemektedir!
+
 HTTP Security Headers'ı, Cloudflare ile kullanmanız mümkün. Cloudflare'ın ücretsiz [Workers](https://workers.cloudflare.com/) planı, şu an için günde 100.000 isteğe ve 30 Worker script'ine izin vermekte. Şayet bunlar, ihtiyaçlarınızı karşılamaya yetiyor ve Cloudflare kullandığınız bir web siteye Security Headers eklemek istiyorsanız, bu küçük rehber tam da size göre.
 
 ## Bir Workers Oluşturun

@@ -1,5 +1,5 @@
 ---
-title: "Parola Yöneticileri Güvenli Bir Şekilde Nasıl Kullanılır?"
+title: "Parola Yöneticileri İçin Güvenlik Tavsiyeleri"
 date: "2021-03-30"
 lastmod: "2023-07-06"
 categories: 
@@ -9,7 +9,7 @@ tags:
   - "sifre-yoneticisi"
 ---
 
-Parola yönetici araçların önemi, günden güne daha iyi anlaşılmaktadır. Güvenlik amacıyla kullanılan bu araçlar, tehlikeli de olabilirler. Bu araçlar bilinçsiz veya tedbirsiz kullanılırsa, kullanıcının internetteki tüm varlığı, kötü niyetli kişilere altın tepside sunulmuş olur. Bu tür istenmeyen durumlardan kaçınmak için bu rehberi dikkatli bir şekilde okuyup, tavsiyeleri uygulamanızı ve konu hakkındaki bilgilerinizin güncel kalması için de siber güvenlik alanında yetkin kaynaklarını takip etmenizi öneririm.
+Parola yöneticilerinin önemi günden güne daha iyi anlaşılmaktadır. Güvenlik amacıyla kullanılan bu araçlar, tehlikeli de olabilirler. Bu araçlar bilinçsiz veya tedbirsiz kullanılırsa, kullanıcının internetteki tüm varlığı, kötü niyetli kişilere altın tepside sunulmuş olur. Bu tür istenmeyen durumlardan kaçınmak için bu rehberi dikkatli bir şekilde okuyup, tavsiyeleri uygulamanızı ve konu hakkındaki bilgilerinizin güncel kalması için de siber güvenlik alanında yetkin kaynaklarını takip etmenizi öneririm.
 
 Yazıya geçmeden, konu hakkında deneyimli kişilerin bile sıklıkla yaptığı bir yanlış kullanımı da düzelteyim: İnternette, giriş yaparken veya kayıt olurken yazdığınız şeye "şifre" değil, "parola" denir. Bu yüzden de "şifre yöneticisi" yerine, doğru kullanım olan "**parola yöneticisi**" sözcüğünü kullanacağım.
 

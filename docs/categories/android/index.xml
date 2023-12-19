@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>android on Furkan Uysal</title>
+    <title>android on Furuy.com</title>
     <link>https://furuy.com/categories/android/</link>
-    <description>Recent content in android on Furkan Uysal</description>
+    <description>Recent content in android on Furuy.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Thu, 13 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://furuy.com/categories/android/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -19,7 +19,7 @@ Biyometrik Ekran Kilidi Yöntemleri Neden Kullanılmamalı? Yüz tanıma kilidi,
     </item>
     
     <item>
-      <title>YouTube Deneyiminizi Artırabileceğiniz 3 Vanced Alternatifi</title>
+      <title>YouTube Vanced Alternatifleri</title>
       <link>https://furuy.com/youtube-vanced-alternatifleri/</link>
       <pubDate>Sat, 16 Apr 2022 00:00:00 +0000</pubDate>
       
@@ -34,7 +34,8 @@ YouTube Vanced Güvenli Mi? Hayır çünkü Vanced, açık kaynak kodlu olmayan 
       <pubDate>Mon, 02 Aug 2021 00:00:00 +0000</pubDate>
       
       <guid>https://furuy.com/firefox-neden-en-iyi-android-web-tarayicisi/</guid>
-      <description>Firefox, kullanmayanların ön yargıyla yaklaştığı, kullananların ise asla vazgeçemediği bir web tarayıcısı. Bu yazıda, Firefox&amp;rsquo;un neden en iyi Android web tarayıcısı olduğundan ve neden fazla &amp;ldquo;kullanılmadığından&amp;rdquo; bahsedeceğim.
+      <description>Bu yazı uzun zamandır güncellenmemektedir!
+Firefox, kullanmayanların ön yargıyla yaklaştığı, kullananların ise asla vazgeçemediği bir web tarayıcısı. Bu yazıda, Firefox&amp;rsquo;un neden en iyi Android web tarayıcısı olduğundan ve neden fazla &amp;ldquo;kullanılmadığından&amp;rdquo; bahsedeceğim.
 Google, Firefox&amp;rsquo;tan Nefret Ediyor Web&amp;rsquo;in bizzat kendisi olmak isteyen Google; kendi kullanıcılarını gizli sekmede bile takip eden, özgür bir yazılım olmayan Chrome tarayıcısının tek rakibine karşı, uzun zamandır adil olmayan bir savaş veriyor. Neredeyse tüm Android cihazlar, Google Chrome yüklü olarak geliyor ve ADB aracı kullanmak haricinde, kaldırmanıza da izin verilmiyor.</description>
     </item>
     
@@ -44,12 +45,13 @@ Google, Firefox&amp;rsquo;tan Nefret Ediyor Web&amp;rsquo;in bizzat kendisi olma
       <pubDate>Mon, 26 Jul 2021 00:00:00 +0000</pubDate>
       
       <guid>https://furuy.com/custom-rom-kullanmak-guvenli-mi/</guid>
-      <description>Custom ROM&amp;rsquo;lar, birçok olumlu getirileri ile Android kullanıcıları tarafından tercih edilebiliyorlar. Bu getirilerden bazıları şunlar:
+      <description>Bu yazı uzun zamandır güncellenmemektedir!
+Custom ROM&amp;rsquo;lar, birçok olumlu getirileri ile Android kullanıcıları tarafından tercih edilebiliyorlar. Bu getirilerden bazıları şunlar:
 Mahremiyetinizi (yanlış bilinen tabiriyle gizliliğinizi) korumak için daha iyi bir tercihtir.
 Gereksiz sistem uygulamaları olmaz veya daha az olur.
 Daha fazla özelleştirme ve kişiselleştirme imkanı sunar.
 Daha hafif olurlar. Bu nedenle de, pil ve RAM kullanımı daha az olur.
-Kısacası insanlar, haklı olarak, satın aldıkları ürünlerden tam verimi alabilmek için Custom ROM kullanıyorlar. Peki ya bu Custom ROM&amp;rsquo;lar ne kadar güvenli?</description>
+Kısacası insanlar, haklı olarak, satın aldıkları ürünlerden tam verimi alabilmek için Custom ROM kullanıyorlar.</description>
     </item>
     
     <item>
@@ -67,9 +69,9 @@ Kısacası insanlar, haklı olarak, satın aldıkları ürünlerden tam verimi a
       <pubDate>Fri, 30 Apr 2021 00:00:00 +0000</pubDate>
       
       <guid>https://furuy.com/access-dots-android/</guid>
-      <description>Access Dots, iOS 14 ile tanıtılan, kullanıcının gizliliğini geliştirmeyi amaçlayan yeni bir özellik. Bu özellik sayesinde, arka planda mikrofona veya kameraya erişilirse, ekranda renkli noktalar beliriyor. Her bir izin için farklı bir renk kullanıldığından, hangi iznin kullanıldığını kolayca anlayabiliyorsunuz.
-EKLEME (26.05.2022): Android 12 ile birlikte, bu özelliği üçüncü bir parti uygulamaya gerek olmadan kullanabilirsiniz. Detaylar için, Android&amp;rsquo;in resmi web sitesindeki bu bağlantıyı ziyaret edin: https://source.android.com/devices/tech/config/privacy-indicators
-Android için Access Dots Vigilante isimli açık kaynak kodlu uygulama, Access Dots özelliğini Android&amp;lsquo;de kullanabilmenizi sağlıyor.</description>
+      <description>Bu yazı uzun zamandır güncellenmemektedir!
+Access Dots, iOS 14 ile tanıtılan, kullanıcının gizliliğini geliştirmeyi amaçlayan yeni bir özellik. Bu özellik sayesinde, arka planda mikrofona veya kameraya erişilirse, ekranda renkli noktalar beliriyor. Her bir izin için farklı bir renk kullanıldığından, hangi iznin kullanıldığını kolayca anlayabiliyorsunuz.
+EKLEME (26.05.2022): Android 12 ile birlikte, bu özelliği üçüncü bir parti uygulamaya gerek olmadan kullanabilirsiniz. Detaylar için, Android&amp;rsquo;in resmi web sitesindeki bu bağlantıyı ziyaret edin: https://source.</description>
     </item>
     
   </channel>

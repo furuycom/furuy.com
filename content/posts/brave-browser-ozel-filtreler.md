@@ -1,99 +1,52 @@
 ---
-title: "Brave Tarayıcısı İle İstediğiniz Reklamı Engelleyin"
+title: "Brave Reklam Engelleyici Rehberi"
 date: "2021-04-16"
+lastmod: "2023-12-19"
 categories: 
   - "uygulamalar"
 tags: 
   - "brave-browser"
 ---
 
-Brave Browser, reklam engelleme ve diğer birçok özelliği ile tavsiye edilen bir tarayıcı. Brave Browser'ın güzel özelliklerinden bazıları şunlar:
+Brave, varsayılan olarak reklam engelleme özelliğine sahip bir internet tarayıcısıdır. Bu yazıda, Brave'in reklam engelleme özelliğini daha etkili bir şekilde kullanmayı öğreneceksiniz.
+ 
+## Brave Shields
 
-- Açık kaynak kodlu
-- Fingerprint koruması
-- HTTPS Everywhere
-- Reklam engelleme
-- Takipçi engelleme
-- Çerezler denetimi
+Brave, varsayılan olarak yalnızca üçüncü taraf reklamları engeller. Örneğin bir web sitedeki sponsorlu içerikleri engellemez. Birinci parti de dahil tüm reklamları engellemek için "**Block trackers & ads (Aggressive)**" seçeneğini seçmeniz gerekiyor.
 
-Brave Browser, Google Chrome tarayıcısının güzel bir alternatifi olarak karşımıza çıkıyor ama yine de kullanmanızı tavsiye etmiyorum. Firefox tarayıcısını beğenmediyseniz, son çare olarak deneyebilirsiniz ama Chromium tabanlı olduğu için Google'dan bağımsız kalması mümkün değil. Firefox'a mutlaka bir şans verin.
+## Content Filtering
 
-## Brave Reklam Engelleme Özelliği
+Burada farklı filtre listeleri kullanarak daha fazla reklam ve istenmeyen öge engellemeniz mümkün.
+Bu sayfaya Brave Shields ayarlarından ulaşabilirsiniz. Ayrıca **brave://adblock** ve masa üstünde **brave://settings/shields/filters** sayfasından da ulaşabilirsiniz.
 
-Google politikaları nedeniyle reklam engelleyici uygulamalar, kısıtlı bir reklam engelleme özelliği sunabiliyorlar; bu politikalara uymayan Adaway ve Adguard gibi uygulamalar, Play Store'da yer alamıyorlar. (Adguard'ın tam sürümünü, resmi web sitesinden .apk olarak indirmeniz gerekiyor; Google Play Store'daki sürümü tam işlevli değildir.)
+### Filter Lists
 
-Bu politikalar elbette Brave tarayıcısını da etkilemiş olacak ki, varsayılan olarak her reklam engellenmiyor. Burada yardımımıza, Brave'in özel filtreler özelliği yetişiyor. (Firefox'un uBlock Origin eklentisini destekleyen Android tarayıcısının yanında çok yetersiz kalsa da, Chrome tarayıcısından çok daha iyi.)
+Burada, açıklamalarına göre istediğiniz harici filtreleri kullanabilirsiniz. Yalnızca ihtiyacınız olanları etkinleştirin çünkü çok fazla filtre listesi tarayıcınızı yavaşlatabilir. Benim tavsiyelerim bu şekilde:
+- EasyList Cookie
+- Fanboy's Annoyances
+- Fanboy's Social
+- Fanboy's Anti-Newsletter
+- Fanboy's Mobile Notifications
+- Fanboy's Anti-chat Apps
+- uBlock Annoyanyes
+- YouTube Mobile Distractions
+- YouTube Mobile Recommendations
+- Bypass Paywalls Clean Filters
+- Adguard Turkish
 
-## Brave Browser - Özel Filtreler
+Ayrıca ülkelere ve dillere göre de filtreler bulunuyor. İhtiyacınıza göre bunları da kullanabilirsiniz. Easylist, Fanboy, Adguard ve uBlock filtreleri genellikle sorunsuzdur.
 
-Özel filtreler ekleyebileceğiniz sayfaya ulaşmak için, adres çubuğuna "**brave://adblock**" yazın.
+### Custom Filter Lists
 
-![brave://adblock](/assets/img/brave-adblock.jpg)
+Yukarıdakiler haricinde bir filtre kullanmak isterseniz, bu sayfadan harici filtreler ekleyebilirsiniz.
 
-Bu sayfada, gerekli olan filtreleri aktifleştirebilirsiniz ama yalnızca gerekli olanları aktifleştirin çünkü birçok filtre, isimlerinden de görebileceğiniz üzere ülke bazlı oluşturulmuş ve çok fazla filtre kullanmak, tarayıcınızı yavaşlatabilir. Benim seçtiğim filtreleri seçmeniz yeterli olabilir.
 
-Ayrıca yeni özellik ile, istediğiniz filtreler abone olabiliyorsunuz.
+Özel filtreler bulmak için [FilterLists.com](https://filterlists.com/) sitesini ziyaret edebilir ve  [FilterLists İle Yeni Reklam Engelleyici Filtreleri Bulun](https://furuy.com/filterlists-com/) isimli yazımı okuyabilirsiniz.
+Burada "Syntaxes" kısmından "uBlock Origin Static" seçeneğini işaretlemeniz gerekiyor çünkü bu [destekleniyor.](https://support.brave.com/hc/en-us/articles/6449369961741)
 
-## Farklı Filtreler Bulmak Ve Brave'e Eklemek
+### Custom Filters
+Harici bir engelleme yapmak için **Adblock Plus syntax**'ı kullanabilirsiniz.
 
-Farklı filtreler kullanarak, daha fazla reklamı engelleyebilir ve tarayıcı deneyiminizi artırabilirsiniz.
+**Not:** Bu seçeneği mobilde görebilmek için "**brave://adblock**" sayfasına gitmeniz gerekiyor.
 
-Burada dikkat çekmek istediğim bir nokta var: Bazı filtreler, hem Adblock Plus, hem de Adaway uyumlu olabiliyor. Adaway ile hosts filtrelemesi yapmak varken, bunları tarayıcınıza eklemeyin. Bu sayede hem tarayıcınız yavaşlamaz, hem de o web sitesine bağlantıyı tamamen engellemiş olursunuz. 
-
-Özel filtrelerin kategorik ve açıklamalı bir şekilde yer aldığı, [FilterLists](https://filterlists.com/) isimli bir web sitesi var. Bu web sitesinden, ihtiyacınızı karşılayacak filtreleri kolaylıkla bulabilirsiniz. FilterLists hakkında detaylı bilgi almak isterseniz, [FilterLists İle Yeni Reklam Engelleyici Filtreleri Bulun](https://furuy.com/filterlists-com/) isimli yazımı okumanızı öneririm.
-
-![FilterLists.com](/assets/img/filterlists.jpg)
-
-Burada önemli olan, "Syntaxes" kısmından, yalnızca "Adblock Plus" seçeneğini işaretlemek çünkü bir üst görselde de görebileceğiniz gibi, Brave tarayıcısının  reklam engelleme aracında yalnızca Adblock Plus syntax'ı destekleniyor.
-
-![FilterLists Custom Filter](/assets/img/filterlists-custom-filter.jpg)
-
-Kullanmak istediğiniz filtrenin solundaki mavi butona tıklayın ve açılan pencerede View'e tıklayın. Açılacak yeni penceredeki her şeyi kopyalayın, "brave://adblock" sayfasının alt kısmına yapıştırın ve tarayıcıyı yeniden başlatın. **Yeni yöntem:** Buna alternatif olarak, bir filtreye abone olmak için View butonundaki bağlantıyı kopyalayın ve "brave://adblock" sayfasındaki "Subscribe to filter lists" bölümüne bu bağlantıyı ekleyin.. Bu yöntemler ile istediğiniz bir reklam engelleme filtresini kullanabilirsiniz.
-
-## Brave İle İstediğiniz Reklamı Engelleme
-
-Reklam engellemek için Adblock Plus syntax'ı kullanıldığını öğrendik. Artık, buna göre istediğimiz reklamı engelleyebiliriz. Adblock Plus syntaxını öğrenmek için bu sayfayı ziyaret edebilirsiniz:
-
-[How to write filters | Adblock Plus Help Center](https://help.eyeo.com/adblockplus/how-to-write-filters)
-
-Şimdi, anlattığımız şekilde, bir reklamı engelleyelim (mobil tarayıcıdan yapıyorum). Bir web sitesinde, aşağıdaki gibi bir reklam var (Bu makaleyi yazarken, aşağıdaki firma henüz şu anki durumda değildi. Bu bir reklam değildir, ilgili görseldeki web siteyi ziyaret etmenizi kesinlikle tavsiye etmiyorum.):
-
-![Brave Reklam Engelleme - Adım 1](/assets/img/brave-reklam-engelleme-adim-1.jpg)
-
-Öncelikle, bu reklam görselini engelleyelim (bu kodu brave://adblock sayfasına ekliyoruz):
-
-```
-https://example.com/thd/thodex1.gif
-```
-
-Sonuç:
-
-![Brave Reklam Engelleme - Adım 2](/assets/img/brave-reklam-engelleme-adim-2.jpg)
-
-Görsel yüklenmediği için kötü göründü.
-
-Bundan sonra, geriye iki yöntem kalıyor.
-
-### Bir bağlantıya yönlendiren elementleri kaldırmak
-
-```
-##a[href^="https://www.example.com/"]
-```
-
-Bu kod ile, belirttiğimiz adrese bağlantı veren tüm elementler engellenir.
-
-### Div class ile engellemek
-
-Sayfa kaynağından görebileceğiniz, elementin div class'ını bulun. Ardından kodu ekleyin:
-
-```
-##.reklam
-```
-
-### Sonuç
-
-![Brave Reklam Engelleme - Adim 3](/assets/img/brave-reklam-engelleme-adim-3.jpg)
-
-Gördüğünüz gibi, reklamı tamamen kaldırmış olduk.
-
-**EKLEME (9 Şubat 2022):** Brave'in Android tarayıcısına, reklam engelleme filtrelerine abone olma desteği gelmiş. Ayrıca, tarayıcıya eklenen kripto cüzdan gibi özellikler ve okuduğum çeşitli yazılar nedeniyle, artık şüpheyle bakıyorum. Android için şu anki tarayıcı tavsiyelerim, Firefox veya Bromite olur.
+Brave mobilde şu an için görsel bir arayüzle engelleme özelliği bulunmuyor. Bu ve benzeri çok daha fazla özelliğe erişmek için Firefox  ile uBlock Origin kullanmanızı öneririm. uBlock Origin, en gelişmiş reklam/takipçi vb. ögeleri engelleme aracıdır, en iyi Firefox'ta çalışır ve yakın zamanda Chromium tabanlı hiçbir tarayıcıda çalışmayacak!
