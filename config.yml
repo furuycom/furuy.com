@@ -56,6 +56,7 @@ params:
   TocOpen: true
   enableGitInfo: true
   ShowLastMod: true
+  hideAuthor: true
   assets:
     disableHLJS: false # to disable highlight.js
     disableFingerprinting: true
