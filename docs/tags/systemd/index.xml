@@ -4,13 +4,14 @@
     <title>systemd on Furuy.com</title>
     <link>https://furuy.com/tags/systemd/</link>
     <description>Recent content in systemd on Furuy.com</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 26 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://furuy.com/tags/systemd/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- 0.121.2</generator>
+    <language>tr</language>
+    <lastBuildDate>Thu, 26 May 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://furuy.com/tags/systemd/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>DNF Automatic İle Paketleri Otomatik Güncelleyin</title>
       <link>https://furuy.com/dnf-automatic/</link>
       <pubDate>Thu, 26 May 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://furuy.com/dnf-automatic/</guid>
       <description>Bu yazı uzun zamandır güncellenmemektedir!
 DNF Automatic ile Fedora ve RHEL gibi DNF paket yöneticisine sahip GNU/Linux dağıtımlarındaki güncelleme işlemlerini otomatikleştirmeniz mümkün.
@@ -18,6 +19,5 @@ DNF Automatic&amp;rsquo;i Yükleyin Bunun için kullandığınız terminale aşa
 sudo dnf install dnf-automatic DNF Automatic&amp;rsquo;i Yapılandırın Otomatik güncellemeleri yapılandırmak için iki yöntem mevcut:
 /etc/dnf/automatic.conf Dosyasını Düzenleyin Bu dosya, varsayılan yapılandırma dosyasıdır. Paketi yüklediğinizde oluşturulacaktır. Herhangi bir metin editörü ile dosyayı açın:</description>
     </item>
-    
   </channel>
 </rss>

@@ -15,7 +15,7 @@ I'm trying to create useful content related to [my interests](/categories/) on m
 
 ## Links
 
-[Mastodon](https://mastodon.social/@furk)\
-[GitHub](https://github.com/furkun)\
+[Mastodon](https://x.com/furuycom)\
+[GitHub](https://github.com/furuycom)\
 [RSS](/index.xml)\
 [Google News](https://news.google.com/publications/CAAqBwgKMIf_kgswxoTcAg)

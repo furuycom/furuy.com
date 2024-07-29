@@ -4,17 +4,17 @@
     <title>parola-eskitme on Furuy.com</title>
     <link>https://furuy.com/tags/parola-eskitme/</link>
     <description>Recent content in parola-eskitme on Furuy.com</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 23 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://furuy.com/tags/parola-eskitme/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- 0.121.2</generator>
+    <language>tr</language>
+    <lastBuildDate>Mon, 18 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://furuy.com/tags/parola-eskitme/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Password Aging (Parola Eskitme) Riskleri</title>
       <link>https://furuy.com/password-aging/</link>
       <pubDate>Thu, 23 Dec 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://furuy.com/password-aging/</guid>
       <description>Password aging veya Türkçe&amp;rsquo;ye &amp;ldquo;parola eskitme&amp;rdquo; olarak çevrilebilecek güvenlik mekanizması, kullanıcıların uzun zaman boyunca aynı parolayı kullanmalarını engeller. Sistem yöneticileri tarafından belirlenen zaman aralığında (password expiration policy), kullanıcılardan yeni bir parola oluşturmaları istenir. Bu yöntem her ne kadar güvenliği artırabiliyor olsa da, durumu tam tersine de çevirebilir. Bu yazıda, okuduğunuz özette kısaca bahsettiğim konuları biraz daha detaylandırmaya çalışacağım.
 Password Aging Neden Bir Standart Oldu? Tahminime göre bunun en büyük nedeni, zamanında parolaların hashlenmiş olarak değil de, plain text olarak veri tabanlarında saklanmasıydı.</description>
     </item>
-    
   </channel>
 </rss>

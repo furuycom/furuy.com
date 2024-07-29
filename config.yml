@@ -60,11 +60,11 @@ params:
   assets:
     disableHLJS: false # to disable highlight.js
     disableFingerprinting: true
-    favicon: "/assets/img/favicon.ico"
-    favicon16x16: "/assets/img/favicon-16x16.png"
-    favicon32x32: "/assets/img/favicon-32x32.png"
-    apple_touch_icon: "/assets/img/apple-touch-icon.png"
-    safari_pinned_tab: "/assets/img/logo.svg"
+    favicon: "/assets/img/logo.png"
+    #favicon16x16: "/assets/img/favicon-16x16.png"
+    #favicon32x32: "/assets/img/favicon-32x32.png"
+    #apple_touch_icon: "/assets/img/apple-touch-icon.png"
+    #safari_pinned_tab: "/assets/img/logo.svg"
     theme_color: "#000000"
     msapplication_TileColor: "#000000"
 
@@ -74,12 +74,12 @@ params:
     #iconHeight: 35
 
   socialIcons:
-    - name: mastodon
-      title: "Mastodon"
-      url: "https://mastodon.social/@furk"
+    - name: x
+      title: "X"
+      url: "https://x.com/furuycom"
     - name: github
       title: "GitHub"
-      url: "https://github.com/furkun"
+      url: "https://github.com/furuycom"
       title: "RSS"
     - name: rss
       url: "/index.xml"
@@ -92,7 +92,7 @@ params:
     linkFullImages: true
 
   editPost:
-    URL: "https://github.com/furkun/furuy.com/tree/main/content"
+    URL: "https://github.com/furuycom/furuy.com/tree/main/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 

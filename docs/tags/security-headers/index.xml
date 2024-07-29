@@ -4,18 +4,18 @@
     <title>security-headers on Furuy.com</title>
     <link>https://furuy.com/tags/security-headers/</link>
     <description>Recent content in security-headers on Furuy.com</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 17 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://furuy.com/tags/security-headers/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- 0.121.2</generator>
+    <language>tr</language>
+    <lastBuildDate>Fri, 17 Sep 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://furuy.com/tags/security-headers/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cloudflare Workers İle Security Headers Ekleme</title>
       <link>https://furuy.com/cloudflare-workers-security-headers/</link>
       <pubDate>Fri, 17 Sep 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://furuy.com/cloudflare-workers-security-headers/</guid>
       <description>Bu yazı uzun zamandır güncellenmemektedir!
 HTTP Security Headers&amp;rsquo;ı, Cloudflare ile kullanmanız mümkün. Cloudflare&amp;rsquo;ın ücretsiz Workers planı, şu an için günde 100.000 isteğe ve 30 Worker script&amp;rsquo;ine izin vermekte. Şayet bunlar, ihtiyaçlarınızı karşılamaya yetiyor ve Cloudflare kullandığınız bir web siteye Security Headers eklemek istiyorsanız, bu küçük rehber tam da size göre.
 Bir Workers Oluşturun Cloudflare hesabınıza giriş yapın ve işlem yapmak istediğiniz alan adını seçin ve menüden de &amp;ldquo;Workers&amp;rdquo; bölümünü seçin.</description>
     </item>
-    
   </channel>
 </rss>
