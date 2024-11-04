@@ -2,213 +2,213 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Furuy.com</title>
-    <link>https://furuy.com/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on Furuy.com</description>
-    <generator>Hugo -- 0.121.2</generator>
+    <generator>Hugo -- 0.126.2</generator>
     <language>tr</language>
     <lastBuildDate>Tue, 19 Dec 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://furuy.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Atatürk</title>
-      <link>https://furuy.com/tags/atat%C3%BCrk/</link>
+      <link>http://localhost:1313/tags/atat%C3%BCrk/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://furuy.com/tags/atat%C3%BCrk/</guid>
+      <guid>http://localhost:1313/tags/atat%C3%BCrk/</guid>
       <description></description>
     </item>
     <item>
-      <title>dnf</title>
-      <link>https://furuy.com/tags/dnf/</link>
+      <title>Dnf</title>
+      <link>http://localhost:1313/tags/dnf/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://furuy.com/tags/dnf/</guid>
+      <guid>http://localhost:1313/tags/dnf/</guid>
       <description></description>
     </item>
     <item>
-      <title>dnf-automatic</title>
-      <link>https://furuy.com/tags/dnf-automatic/</link>
+      <title>Dnf-Automatic</title>
+      <link>http://localhost:1313/tags/dnf-automatic/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://furuy.com/tags/dnf-automatic/</guid>
+      <guid>http://localhost:1313/tags/dnf-automatic/</guid>
       <description></description>
     </item>
     <item>
-      <title>fedora</title>
-      <link>https://furuy.com/tags/fedora/</link>
+      <title>Fedora</title>
+      <link>http://localhost:1313/tags/fedora/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://furuy.com/tags/fedora/</guid>
+      <guid>http://localhost:1313/tags/fedora/</guid>
       <description></description>
     </item>
     <item>
-      <title>rhel</title>
-      <link>https://furuy.com/tags/rhel/</link>
+      <title>Rhel</title>
+      <link>http://localhost:1313/tags/rhel/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://furuy.com/tags/rhel/</guid>
+      <guid>http://localhost:1313/tags/rhel/</guid>
       <description></description>
     </item>
     <item>
-      <title>rpm</title>
-      <link>https://furuy.com/tags/rpm/</link>
+      <title>Rpm</title>
+      <link>http://localhost:1313/tags/rpm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://furuy.com/tags/rpm/</guid>
+      <guid>http://localhost:1313/tags/rpm/</guid>
       <description></description>
     </item>
     <item>
-      <title>systemd</title>
-      <link>https://furuy.com/tags/systemd/</link>
+      <title>Systemd</title>
+      <link>http://localhost:1313/tags/systemd/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://furuy.com/tags/systemd/</guid>
+      <guid>http://localhost:1313/tags/systemd/</guid>
       <description></description>
     </item>
     <item>
-      <title>dearrow</title>
-      <link>https://furuy.com/tags/dearrow/</link>
+      <title>Dearrow</title>
+      <link>http://localhost:1313/tags/dearrow/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://furuy.com/tags/dearrow/</guid>
+      <guid>http://localhost:1313/tags/dearrow/</guid>
       <description></description>
     </item>
     <item>
-      <title>firefox-android</title>
-      <link>https://furuy.com/tags/firefox-android/</link>
+      <title>Firefox-Android</title>
+      <link>http://localhost:1313/tags/firefox-android/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://furuy.com/tags/firefox-android/</guid>
+      <guid>http://localhost:1313/tags/firefox-android/</guid>
       <description></description>
     </item>
     <item>
-      <title>freetube</title>
-      <link>https://furuy.com/tags/freetube/</link>
+      <title>Freetube</title>
+      <link>http://localhost:1313/tags/freetube/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://furuy.com/tags/freetube/</guid>
+      <guid>http://localhost:1313/tags/freetube/</guid>
       <description></description>
     </item>
     <item>
-      <title>newpipe</title>
-      <link>https://furuy.com/tags/newpipe/</link>
+      <title>Newpipe</title>
+      <link>http://localhost:1313/tags/newpipe/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://furuy.com/tags/newpipe/</guid>
+      <guid>http://localhost:1313/tags/newpipe/</guid>
       <description></description>
     </item>
     <item>
-      <title>sponsorblock</title>
-      <link>https://furuy.com/tags/sponsorblock/</link>
+      <title>Sponsorblock</title>
+      <link>http://localhost:1313/tags/sponsorblock/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://furuy.com/tags/sponsorblock/</guid>
+      <guid>http://localhost:1313/tags/sponsorblock/</guid>
       <description></description>
     </item>
     <item>
-      <title>ublock-origin</title>
-      <link>https://furuy.com/tags/ublock-origin/</link>
+      <title>Ublock-Origin</title>
+      <link>http://localhost:1313/tags/ublock-origin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://furuy.com/tags/ublock-origin/</guid>
+      <guid>http://localhost:1313/tags/ublock-origin/</guid>
       <description></description>
     </item>
     <item>
-      <title>youtube</title>
-      <link>https://furuy.com/tags/youtube/</link>
+      <title>Youtube</title>
+      <link>http://localhost:1313/tags/youtube/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://furuy.com/tags/youtube/</guid>
+      <guid>http://localhost:1313/tags/youtube/</guid>
       <description></description>
     </item>
     <item>
-      <title>parola-eskitme</title>
-      <link>https://furuy.com/tags/parola-eskitme/</link>
+      <title>Parola-Eskitme</title>
+      <link>http://localhost:1313/tags/parola-eskitme/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://furuy.com/tags/parola-eskitme/</guid>
+      <guid>http://localhost:1313/tags/parola-eskitme/</guid>
       <description></description>
     </item>
     <item>
-      <title>password-aging</title>
-      <link>https://furuy.com/tags/password-aging/</link>
+      <title>Password-Aging</title>
+      <link>http://localhost:1313/tags/password-aging/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://furuy.com/tags/password-aging/</guid>
+      <guid>http://localhost:1313/tags/password-aging/</guid>
       <description></description>
     </item>
     <item>
-      <title>cloudflare</title>
-      <link>https://furuy.com/tags/cloudflare/</link>
+      <title>Cloudflare</title>
+      <link>http://localhost:1313/tags/cloudflare/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://furuy.com/tags/cloudflare/</guid>
+      <guid>http://localhost:1313/tags/cloudflare/</guid>
       <description></description>
     </item>
     <item>
-      <title>dnssec</title>
-      <link>https://furuy.com/tags/dnssec/</link>
+      <title>Dnssec</title>
+      <link>http://localhost:1313/tags/dnssec/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://furuy.com/tags/dnssec/</guid>
+      <guid>http://localhost:1313/tags/dnssec/</guid>
       <description></description>
     </item>
     <item>
-      <title>godaddy</title>
-      <link>https://furuy.com/tags/godaddy/</link>
+      <title>Godaddy</title>
+      <link>http://localhost:1313/tags/godaddy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://furuy.com/tags/godaddy/</guid>
+      <guid>http://localhost:1313/tags/godaddy/</guid>
       <description></description>
     </item>
     <item>
-      <title>security-headers</title>
-      <link>https://furuy.com/tags/security-headers/</link>
+      <title>Security-Headers</title>
+      <link>http://localhost:1313/tags/security-headers/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://furuy.com/tags/security-headers/</guid>
+      <guid>http://localhost:1313/tags/security-headers/</guid>
       <description></description>
     </item>
     <item>
-      <title>web-safe-fonts</title>
-      <link>https://furuy.com/tags/web-safe-fonts/</link>
+      <title>Web-Safe-Fonts</title>
+      <link>http://localhost:1313/tags/web-safe-fonts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://furuy.com/tags/web-safe-fonts/</guid>
+      <guid>http://localhost:1313/tags/web-safe-fonts/</guid>
       <description></description>
     </item>
     <item>
-      <title>mozilla-firefox</title>
-      <link>https://furuy.com/tags/mozilla-firefox/</link>
+      <title>Mozilla-Firefox</title>
+      <link>http://localhost:1313/tags/mozilla-firefox/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://furuy.com/tags/mozilla-firefox/</guid>
+      <guid>http://localhost:1313/tags/mozilla-firefox/</guid>
       <description></description>
     </item>
     <item>
-      <title>android-custom-rom</title>
-      <link>https://furuy.com/tags/android-custom-rom/</link>
+      <title>Android-Custom-Rom</title>
+      <link>http://localhost:1313/tags/android-custom-rom/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://furuy.com/tags/android-custom-rom/</guid>
+      <guid>http://localhost:1313/tags/android-custom-rom/</guid>
       <description></description>
     </item>
     <item>
-      <title>grapheneos</title>
-      <link>https://furuy.com/tags/grapheneos/</link>
+      <title>Grapheneos</title>
+      <link>http://localhost:1313/tags/grapheneos/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://furuy.com/tags/grapheneos/</guid>
+      <guid>http://localhost:1313/tags/grapheneos/</guid>
       <description></description>
     </item>
     <item>
-      <title>xda</title>
-      <link>https://furuy.com/tags/xda/</link>
+      <title>Xda</title>
+      <link>http://localhost:1313/tags/xda/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://furuy.com/tags/xda/</guid>
+      <guid>http://localhost:1313/tags/xda/</guid>
       <description></description>
     </item>
     <item>
-      <title>accelerated-mobile-pages</title>
-      <link>https://furuy.com/tags/accelerated-mobile-pages/</link>
+      <title>Accelerated-Mobile-Pages</title>
+      <link>http://localhost:1313/tags/accelerated-mobile-pages/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://furuy.com/tags/accelerated-mobile-pages/</guid>
+      <guid>http://localhost:1313/tags/accelerated-mobile-pages/</guid>
       <description></description>
     </item>
     <item>
-      <title>brave-browser</title>
-      <link>https://furuy.com/tags/brave-browser/</link>
+      <title>Brave-Browser</title>
+      <link>http://localhost:1313/tags/brave-browser/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://furuy.com/tags/brave-browser/</guid>
+      <guid>http://localhost:1313/tags/brave-browser/</guid>
       <description></description>
     </item>
     <item>
-      <title>password-manager</title>
-      <link>https://furuy.com/tags/password-manager/</link>
+      <title>Password-Manager</title>
+      <link>http://localhost:1313/tags/password-manager/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://furuy.com/tags/password-manager/</guid>
+      <guid>http://localhost:1313/tags/password-manager/</guid>
       <description></description>
     </item>
     <item>
-      <title>sifre-yoneticisi</title>
-      <link>https://furuy.com/tags/sifre-yoneticisi/</link>
+      <title>Sifre-Yoneticisi</title>
+      <link>http://localhost:1313/tags/sifre-yoneticisi/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://furuy.com/tags/sifre-yoneticisi/</guid>
+      <guid>http://localhost:1313/tags/sifre-yoneticisi/</guid>
       <description></description>
     </item>
   </channel>
