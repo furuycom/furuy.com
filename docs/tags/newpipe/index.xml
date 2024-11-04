@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Newpipe on Furuy.com</title>
-    <link>http://localhost:1313/tags/newpipe/</link>
+    <link>https://furuy.com/tags/newpipe/</link>
     <description>Recent content in Newpipe on Furuy.com</description>
     <generator>Hugo -- 0.126.2</generator>
     <language>tr</language>
     <lastBuildDate>Mon, 18 Dec 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/newpipe/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://furuy.com/tags/newpipe/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>YouTube Vanced Alternatifleri</title>
-      <link>http://localhost:1313/youtube-vanced-alternatifleri/</link>
+      <link>https://furuy.com/youtube-vanced-alternatifleri/</link>
       <pubDate>Sat, 16 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/youtube-vanced-alternatifleri/</guid>
+      <guid>https://furuy.com/youtube-vanced-alternatifleri/</guid>
       <description>Reklamsız YouTube uygulaması veya ücretsiz YouTube Premium olarak bilinen YouTube Vanced&amp;rsquo;in Twitter hesabında, uygulamanın kapanacağını açıklandı. Birçok kullanıcısı olduğu için büyük yankı uyandıran bu haber ile birlikte, Vanced kullanıcıları yeni alternatif arayışına girdiler. Ben de bu vesile ile YouTube Vanced uygulaması hakkında birkaç önemli bilgi verip, YouTube deneyiminizi artırmanıza yarayacak özgür yazılımlar ve yardımcı araçlar önereceğim.
 YouTube Vanced Güvenli Mi? Hayır çünkü Vanced, açık kaynak kodlu olmayan bir yazılımın, modifiye edilmiş bir versiyonu; Bu da, uygulamanın güvenli olup olmadığını öğrenebilmemize imkan vermiyor.</description>
     </item>

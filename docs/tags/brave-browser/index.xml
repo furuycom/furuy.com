@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Brave-Browser on Furuy.com</title>
-    <link>http://localhost:1313/tags/brave-browser/</link>
+    <link>https://furuy.com/tags/brave-browser/</link>
     <description>Recent content in Brave-Browser on Furuy.com</description>
     <generator>Hugo -- 0.126.2</generator>
     <language>tr</language>
     <lastBuildDate>Tue, 19 Dec 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/brave-browser/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://furuy.com/tags/brave-browser/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Brave Reklam Engelleyici Rehberi</title>
-      <link>http://localhost:1313/brave-browser-ozel-filtreler/</link>
+      <link>https://furuy.com/brave-browser-ozel-filtreler/</link>
       <pubDate>Fri, 16 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/brave-browser-ozel-filtreler/</guid>
+      <guid>https://furuy.com/brave-browser-ozel-filtreler/</guid>
       <description>Brave, varsayılan olarak reklam engelleme özelliğine sahip bir internet tarayıcısıdır. Bu yazıda, Brave&amp;rsquo;in reklam engelleme özelliğini daha etkili bir şekilde kullanmayı öğreneceksiniz.
 Brave Shields Brave, varsayılan olarak yalnızca üçüncü taraf reklamları engeller. Örneğin bir web sitedeki sponsorlu içerikleri engellemez. Birinci parti de dahil tüm reklamları engellemek için &amp;ldquo;Block trackers &amp;amp; ads (Aggressive)&amp;rdquo; seçeneğini seçmeniz gerekiyor.
 Content Filtering Burada farklı filtre listeleri kullanarak daha fazla reklam ve istenmeyen öge engellemeniz mümkün. Bu sayfaya Brave Shields ayarlarından ulaşabilirsiniz.</description>

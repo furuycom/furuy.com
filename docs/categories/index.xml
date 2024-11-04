@@ -2,66 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Categories on Furuy.com</title>
-    <link>http://localhost:1313/categories/</link>
+    <link>https://furuy.com/categories/</link>
     <description>Recent content in Categories on Furuy.com</description>
     <generator>Hugo -- 0.126.2</generator>
     <language>tr</language>
     <lastBuildDate>Tue, 19 Dec 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://furuy.com/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Kitap</title>
-      <link>http://localhost:1313/categories/kitap/</link>
+      <link>https://furuy.com/categories/kitap/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/kitap/</guid>
+      <guid>https://furuy.com/categories/kitap/</guid>
       <description></description>
     </item>
     <item>
       <title>Android</title>
-      <link>http://localhost:1313/categories/android/</link>
+      <link>https://furuy.com/categories/android/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/android/</guid>
+      <guid>https://furuy.com/categories/android/</guid>
       <description></description>
     </item>
     <item>
       <title>Guvenlik-Mahremiyet</title>
-      <link>http://localhost:1313/categories/guvenlik-mahremiyet/</link>
+      <link>https://furuy.com/categories/guvenlik-mahremiyet/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/guvenlik-mahremiyet/</guid>
+      <guid>https://furuy.com/categories/guvenlik-mahremiyet/</guid>
       <description></description>
     </item>
     <item>
       <title>Gnu-Linux</title>
-      <link>http://localhost:1313/categories/gnu-linux/</link>
+      <link>https://furuy.com/categories/gnu-linux/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/gnu-linux/</guid>
+      <guid>https://furuy.com/categories/gnu-linux/</guid>
       <description></description>
     </item>
     <item>
       <title>Internet</title>
-      <link>http://localhost:1313/categories/internet/</link>
+      <link>https://furuy.com/categories/internet/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/internet/</guid>
+      <guid>https://furuy.com/categories/internet/</guid>
       <description></description>
     </item>
     <item>
       <title>Uygulamalar</title>
-      <link>http://localhost:1313/categories/uygulamalar/</link>
+      <link>https://furuy.com/categories/uygulamalar/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/uygulamalar/</guid>
+      <guid>https://furuy.com/categories/uygulamalar/</guid>
       <description></description>
     </item>
     <item>
       <title>Webmaster</title>
-      <link>http://localhost:1313/categories/webmaster/</link>
+      <link>https://furuy.com/categories/webmaster/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/webmaster/</guid>
+      <guid>https://furuy.com/categories/webmaster/</guid>
       <description></description>
     </item>
     <item>
       <title>Wordpress</title>
-      <link>http://localhost:1313/categories/wordpress/</link>
+      <link>https://furuy.com/categories/wordpress/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/wordpress/</guid>
+      <guid>https://furuy.com/categories/wordpress/</guid>
       <description></description>
     </item>
   </channel>
