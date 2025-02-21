@@ -2,12 +2,12 @@
 title: "GoDaddy & Cloudflare DNSSEC Kurulumu"
 date: "2021-09-17"
 categories: 
-  - "guvenlik-mahremiyet"
-  - "webmaster"
+  - "Güvenlik & Mahremiyet"
+  - "Webmaster"
 tags: 
-  - "cloudflare"
-  - "dnssec"
-  - "godaddy"
+  - "Cloudflare"
+  - "DNSSEC"
+  - "GoDaddy"
 ---
 
 > Bu yazı uzun zamandır güncellenmemektedir!

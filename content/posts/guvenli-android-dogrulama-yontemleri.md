@@ -12,8 +12,8 @@ robotsNoIndex: false
 #ShowWordCount: false
 #commentshtml: false
 categories: 
-  - "android"
-  - "guvenlik-mahremiyet"
+  - "Android"
+  - "Güvenlik & Mahremiyet"
 #cover:
 #  image: "/assets/img/filename.jpg"
 ---

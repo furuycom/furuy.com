@@ -2,8 +2,8 @@
 title: "AdAway Nedir? AdAway Nasıl Kullanılır?"
 date: "2021-05-16"
 categories: 
-  - "android"
-  - "uygulamalar"
+  - "Android"
+  - "Uygulamalar"
 ---
 
 ## AdAway Nedir?

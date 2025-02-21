@@ -37,7 +37,7 @@
       <description></description>
     </item>
     <item>
-      <title>Rhel</title>
+      <title>RHEL</title>
       <link>https://furuy.com/tags/rhel/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://furuy.com/tags/rhel/</guid>
@@ -58,63 +58,63 @@
       <description></description>
     </item>
     <item>
-      <title>Dearrow</title>
+      <title>DeArrow</title>
       <link>https://furuy.com/tags/dearrow/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://furuy.com/tags/dearrow/</guid>
       <description></description>
     </item>
     <item>
-      <title>Firefox-Android</title>
-      <link>https://furuy.com/tags/firefox-android/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://furuy.com/tags/firefox-android/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Freetube</title>
+      <title>FreeTube</title>
       <link>https://furuy.com/tags/freetube/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://furuy.com/tags/freetube/</guid>
       <description></description>
     </item>
     <item>
-      <title>Newpipe</title>
+      <title>Mozilla Firefox</title>
+      <link>https://furuy.com/tags/mozilla-firefox/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://furuy.com/tags/mozilla-firefox/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>NewPipe</title>
       <link>https://furuy.com/tags/newpipe/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://furuy.com/tags/newpipe/</guid>
       <description></description>
     </item>
     <item>
-      <title>Sponsorblock</title>
+      <title>SponsorBlock</title>
       <link>https://furuy.com/tags/sponsorblock/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://furuy.com/tags/sponsorblock/</guid>
       <description></description>
     </item>
     <item>
-      <title>Ublock-Origin</title>
+      <title>UBlock Origin</title>
       <link>https://furuy.com/tags/ublock-origin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://furuy.com/tags/ublock-origin/</guid>
       <description></description>
     </item>
     <item>
-      <title>Youtube</title>
+      <title>YouTube</title>
       <link>https://furuy.com/tags/youtube/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://furuy.com/tags/youtube/</guid>
       <description></description>
     </item>
     <item>
-      <title>Parola-Eskitme</title>
+      <title>Parola Eskitme</title>
       <link>https://furuy.com/tags/parola-eskitme/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://furuy.com/tags/parola-eskitme/</guid>
       <description></description>
     </item>
     <item>
-      <title>Password-Aging</title>
+      <title>Password Aging</title>
       <link>https://furuy.com/tags/password-aging/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://furuy.com/tags/password-aging/</guid>
@@ -128,87 +128,73 @@
       <description></description>
     </item>
     <item>
-      <title>Dnssec</title>
+      <title>DNSSEC</title>
       <link>https://furuy.com/tags/dnssec/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://furuy.com/tags/dnssec/</guid>
       <description></description>
     </item>
     <item>
-      <title>Godaddy</title>
+      <title>GoDaddy</title>
       <link>https://furuy.com/tags/godaddy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://furuy.com/tags/godaddy/</guid>
       <description></description>
     </item>
     <item>
-      <title>Security-Headers</title>
+      <title>Security Headers</title>
       <link>https://furuy.com/tags/security-headers/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://furuy.com/tags/security-headers/</guid>
       <description></description>
     </item>
     <item>
-      <title>Web-Safe-Fonts</title>
+      <title>Web Safe Fonts</title>
       <link>https://furuy.com/tags/web-safe-fonts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://furuy.com/tags/web-safe-fonts/</guid>
       <description></description>
     </item>
     <item>
-      <title>Mozilla-Firefox</title>
-      <link>https://furuy.com/tags/mozilla-firefox/</link>
+      <title>Custom ROM</title>
+      <link>https://furuy.com/tags/custom-rom/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://furuy.com/tags/mozilla-firefox/</guid>
+      <guid>https://furuy.com/tags/custom-rom/</guid>
       <description></description>
     </item>
     <item>
-      <title>Android-Custom-Rom</title>
-      <link>https://furuy.com/tags/android-custom-rom/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://furuy.com/tags/android-custom-rom/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Grapheneos</title>
+      <title>GrapheneOS</title>
       <link>https://furuy.com/tags/grapheneos/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://furuy.com/tags/grapheneos/</guid>
       <description></description>
     </item>
     <item>
-      <title>Xda</title>
+      <title>XDA</title>
       <link>https://furuy.com/tags/xda/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://furuy.com/tags/xda/</guid>
       <description></description>
     </item>
     <item>
-      <title>Accelerated-Mobile-Pages</title>
+      <title>Accelerated Mobile Pages</title>
       <link>https://furuy.com/tags/accelerated-mobile-pages/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://furuy.com/tags/accelerated-mobile-pages/</guid>
       <description></description>
     </item>
     <item>
-      <title>Brave-Browser</title>
+      <title>Brave Browser</title>
       <link>https://furuy.com/tags/brave-browser/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://furuy.com/tags/brave-browser/</guid>
       <description></description>
     </item>
     <item>
-      <title>Password-Manager</title>
-      <link>https://furuy.com/tags/password-manager/</link>
+      <title>Parola Yöneticisi</title>
+      <link>https://furuy.com/tags/parola-y%C3%B6neticisi/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://furuy.com/tags/password-manager/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Sifre-Yoneticisi</title>
-      <link>https://furuy.com/tags/sifre-yoneticisi/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://furuy.com/tags/sifre-yoneticisi/</guid>
+      <guid>https://furuy.com/tags/parola-y%C3%B6neticisi/</guid>
       <description></description>
     </item>
   </channel>

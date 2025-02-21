@@ -12,9 +12,9 @@ robotsNoIndex: false
 #ShowWordCount: false
 #commentshtml: false
 categories: 
-  - "categories"
+  - "Categories"
 tags: 
-  - "tags"
+  - "Tags"
 cover:
   image: "/assets/img/filename.jpg"
 ---

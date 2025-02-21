@@ -6,8 +6,15 @@
     <description>Recent content in Categories on Furuy.com</description>
     <generator>Hugo -- 0.126.2</generator>
     <language>tr</language>
-    <lastBuildDate>Tue, 19 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 21 Feb 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://furuy.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>İnternet</title>
+      <link>https://furuy.com/categories/internet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://furuy.com/categories/internet/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Kitap</title>
       <link>https://furuy.com/categories/kitap/</link>
@@ -23,24 +30,17 @@
       <description></description>
     </item>
     <item>
-      <title>Guvenlik-Mahremiyet</title>
-      <link>https://furuy.com/categories/guvenlik-mahremiyet/</link>
+      <title>Güvenlik &amp; Mahremiyet</title>
+      <link>https://furuy.com/categories/g%C3%BCvenlik--mahremiyet/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://furuy.com/categories/guvenlik-mahremiyet/</guid>
+      <guid>https://furuy.com/categories/g%C3%BCvenlik--mahremiyet/</guid>
       <description></description>
     </item>
     <item>
-      <title>Gnu-Linux</title>
-      <link>https://furuy.com/categories/gnu-linux/</link>
+      <title>GNU/Linux</title>
+      <link>https://furuy.com/categories/gnu/linux/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://furuy.com/categories/gnu-linux/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Internet</title>
-      <link>https://furuy.com/categories/internet/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://furuy.com/categories/internet/</guid>
+      <guid>https://furuy.com/categories/gnu/linux/</guid>
       <description></description>
     </item>
     <item>
@@ -58,7 +58,7 @@
       <description></description>
     </item>
     <item>
-      <title>Wordpress</title>
+      <title>WordPress</title>
       <link>https://furuy.com/categories/wordpress/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://furuy.com/categories/wordpress/</guid>

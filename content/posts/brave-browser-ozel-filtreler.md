@@ -3,9 +3,9 @@ title: "Brave Reklam Engelleyici Rehberi"
 date: "2021-04-16"
 lastmod: "2023-12-19"
 categories: 
-  - "uygulamalar"
+  - "Uygulamalar"
 tags: 
-  - "brave-browser"
+  - "Brave Browser"
 ---
 
 Brave, varsayılan olarak reklam engelleme özelliğine sahip bir internet tarayıcısıdır. Bu yazıda, Brave'in reklam engelleme özelliğini daha etkili bir şekilde kullanmayı öğreneceksiniz.

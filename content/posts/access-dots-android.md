@@ -3,8 +3,8 @@ title: "Access Dots Özelliğini Android'de Kullanma"
 date: "2021-04-30"
 lastmod: "2022-05-26"
 categories: 
-  - "android"
-  - "guvenlik-mahremiyet"
+  - "Android"
+  - "Güvenlik & Mahremiyet"
 ---
 
 > Bu yazı uzun zamandır güncellenmemektedir!

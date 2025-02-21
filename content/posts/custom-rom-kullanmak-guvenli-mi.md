@@ -2,12 +2,12 @@
 title: "Custom ROM Kullanmak Güvenli Mi?"
 date: "2021-07-26"
 categories: 
-  - "android"
-  - "guvenlik-mahremiyet"
+  - "Android"
+  - "Güvenlik & Mahremiyet"
 tags: 
-  - "android-custom-rom"
-  - "grapheneos"
-  - "xda"
+  - "Custom ROM"
+  - "GrapheneOS"
+  - "XDA"
 ---
 
 > Bu yazı uzun zamandır güncellenmemektedir!
@@ -22,7 +22,7 @@ Custom ROM'lar, birçok olumlu getirileri ile Android kullanıcıları tarafınd
 
 - Daha hafif olurlar. Bu nedenle de, pil ve RAM kullanımı daha az olur.
 
-Kısacası insanlar, haklı olarak, satın aldıkları ürünlerden tam verimi alabilmek için Custom ROM kullanıyorlar. Peki ya bu Custom ROM'lar ne kadar güvenli? Bu yazıda, bir Custom ROM kullanmadan önce dikkat etmeniz gereken [güvenlik](https://furuy.com/categories/guvenlik-mahremiyet/) kriterlerinden bahsedeceğim.
+Kısacası insanlar, haklı olarak, satın aldıkları ürünlerden tam verimi alabilmek için Custom ROM kullanıyorlar. Peki ya bu Custom ROM'lar ne kadar güvenli? Bu yazıda, bir Custom ROM kullanmadan önce dikkat etmeniz gereken [güvenlik](https://furuy.com/categories/Güvenlik & Mahremiyet/) kriterlerinden bahsedeceğim.
 
 **NOT:** Android, iOS'un aksine açık kaynak kodlu olduğu ve kullanıcılarına daha fazla özgürlük verdiği için güvenlik konusunda eksik görülebiliyor. Aslında bu durumun asıl nedeni, Android cihaz üreticilerinin hataları idi ama Google, yeni Android sürümleri ile güvenlik alanında çok fazla gelişme kat ederek, bir standart yaratmaya devam ediyor ve bunu, Apple'ın aksine hâlâ açık kaynak kodlu kalarak ve özellikleri kısıtlamadan yapıyor. Güvenlik, önemli özellikleri kısıtlayarak sağlanmaz. İnternete bağlanabilen her cihaz tehdit altındadır ama bu cihazın güvenliğini, onun internete erişimini engelleyerek yapamazsınız çünkü buna güvenli cihaz değil, kısıtlı cihaz denir. _Özet: Android'in güvenli olduğunu bilmek ile iOS'a güvenmek arasında çok fark var._
 

@@ -2,11 +2,11 @@
 title: "Google AMP Neden Çok Tehlikeli?"
 date: "2021-07-22"
 categories: 
-  - "guvenlik-mahremiyet"
-  - "internet"
-  - "webmaster"
+  - "Güvenlik & Mahremiyet"
+  - "İnternet"
+  - "Webmaster"
 tags: 
-  - "accelerated-mobile-pages"
+  - "Accelerated Mobile Pages"
 ---
 
 > Bu yazı uzun zamandır güncellenmemektedir!

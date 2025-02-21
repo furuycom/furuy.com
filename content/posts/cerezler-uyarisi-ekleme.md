@@ -3,8 +3,8 @@ title: "Web Sitenize Çerezler Uyarısı Ekleyin (1 KB)"
 date: "2021-05-09"
 lastmod: "2023-12-19"
 categories: 
-  - "webmaster"
-  - "wordpress"
+  - "Webmaster"
+  - "WordPress"
 ---
 
 ## Çerezler Uyarısı Nedir?

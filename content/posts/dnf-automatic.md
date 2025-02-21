@@ -2,15 +2,15 @@
 title: "DNF Automatic İle Paketleri Otomatik Güncelleyin"
 date: "2022-05-26"
 categories: 
-  - "gnu-linux"
-  - "guvenlik-mahremiyet"
+  - "GNU/Linux"
+  - "Güvenlik & Mahremiyet"
 tags: 
   - "dnf"
   - "dnf-automatic"
-  - "fedora"
-  - "rhel"
+  - "Fedora"
+  - "RHEL"
   - "rpm"
-  - "systemd"
+  - "Systemd"
 ---
 
 > Bu yazı uzun zamandır güncellenmemektedir!

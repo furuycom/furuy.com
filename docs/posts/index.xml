@@ -6,8 +6,15 @@
     <description>Recent content in Posts on Furuy.com</description>
     <generator>Hugo -- 0.126.2</generator>
     <language>tr</language>
-    <lastBuildDate>Tue, 19 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 21 Feb 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://furuy.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Erişim Engellerinin Ulusal Siber Güvenliğe Zararları</title>
+      <link>https://furuy.com/erisim-engellerinin-zararlari/</link>
+      <pubDate>Fri, 21 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://furuy.com/erisim-engellerinin-zararlari/</guid>
+      <description>Günümüzde internet, bilgiye erişim, iletişim ve ifade özgürlüğü gibi temel hakların vazgeçilmez bir parçası haline gelmiştir. Ancak, son zamanlarda Instagram ve Discord gibi popüler platformlara uygulanan erişim engelleri, dijital özgürlükleri kısıtlamanın yanı sıra ulusal siber güvenliği de ciddi şekilde tehdit etmektedir. Bu tür engeller, kullanıcıları alternatif ve genellikle daha az güvenli yöntemlere yönelterek siber güvenlik risklerini artırmaktadır. Bu makalede, erişim engellerinin yarattığı siber güvenlik açıklarını ve çözüm önerilerini detaylı bir şekilde ele alacağım.</description>
+    </item>
     <item>
       <title>Geometri - Atatürk</title>
       <link>https://furuy.com/ataturk-geometri/</link>

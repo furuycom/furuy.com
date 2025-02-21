@@ -2,9 +2,9 @@
 title: "WordPress Yönetici Ve Giriş Güvenliği"
 date: "2021-08-02"
 categories: 
-  - "guvenlik-mahremiyet"
-  - "webmaster"
-  - "wordpress"
+  - "Güvenlik & Mahremiyet"
+  - "Webmaster"
+  - "WordPress"
 ---
 
 > Bu yazı uzun zamandır güncellenmemektedir!

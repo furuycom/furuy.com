@@ -3,10 +3,10 @@ title: "Password Aging (Parola Eskitme) Riskleri"
 date: "2021-12-23"
 lastmod: "2023-12-18"
 categories: 
-  - "guvenlik-mahremiyet"
+  - "Güvenlik & Mahremiyet"
 tags: 
-  - "parola-eskitme"
-  - "password-aging"
+  - "Parola Eskitme"
+  - "Password Aging"
 ---
 
 **Password aging** veya Türkçe'ye "**parola eskitme**" olarak çevrilebilecek güvenlik mekanizması, kullanıcıların uzun zaman boyunca aynı parolayı kullanmalarını engeller. Sistem yöneticileri tarafından belirlenen zaman aralığında (password expiration policy), kullanıcılardan yeni bir parola oluşturmaları istenir. Bu yöntem her ne kadar güvenliği artırabiliyor olsa da, durumu tam tersine de çevirebilir. Bu yazıda, okuduğunuz özette kısaca bahsettiğim konuları biraz daha detaylandırmaya çalışacağım.

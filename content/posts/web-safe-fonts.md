@@ -3,9 +3,9 @@ title: "Web Safe Fonts Nedir & Nasıl Kullanılır?"
 date: "2021-09-08"
 lastmod: "2023-12-18"
 categories: 
-  - "webmaster"
+  - "Webmaster"
 tags: 
-  - "web-safe-fonts"
+  - "Web Safe Fonts"
 ---
 
 Birçok web sitesi, kullanıcı arayüzünü (User Interface) geliştirmek için yazı tipleri (font) kullanır. Bu yazı tipleri de genellikle, WOFF/WOFF2 dosyaları çağrılarak veya Google Fonts kullanılarak yapılır. Her iki yöntem de harici bir istek yaratır ve bu isteklerin boyutu da, web sitenizdeki diğer isteklere oranla bir hayli fazladır.

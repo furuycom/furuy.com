@@ -3,7 +3,7 @@ title: "FilterLists İle Yeni Reklam Engelleyici Filtreleri Bulun"
 date: "2021-05-03"
 lastmod: "2023-12-18"
 categories: 
-  - "internet"
+  - "İnternet"
 ---
 
 > Bu yazı uzun zamandır güncellenmemektedir!

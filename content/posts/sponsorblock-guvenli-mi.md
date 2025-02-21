@@ -2,11 +2,11 @@
 title: "SponsorBlock Güvenli Mi?"
 date: "2021-08-29"
 categories: 
-  - "guvenlik-mahremiyet"
-  - "internet"
-  - "uygulamalar"
+  - "Güvenlik & Mahremiyet"
+  - "İnternet"
+  - "Uygulamalar"
 tags: 
-  - "sponsorblock"
+  - "SponsorBlock"
 ---
 
 > Bu yazı uzun zamandır güncellenmemektedir!

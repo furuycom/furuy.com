@@ -2,9 +2,9 @@
 title: "Cloudflare Workers İle Security Headers Ekleme"
 date: "2021-09-17"
 categories: 
-  - "webmaster"
+  - "Webmaster"
 tags: 
-  - "security-headers"
+  - "Security Headers"
 ---
 
 > Bu yazı uzun zamandır güncellenmemektedir!

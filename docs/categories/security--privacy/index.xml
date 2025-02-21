@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Security &amp; Privacy on Furuy.com</title>
+    <link>http://localhost:1313/categories/security--privacy/</link>
+    <description>Recent content in Security &amp; Privacy on Furuy.com</description>
+    <generator>Hugo -- 0.126.2</generator>
+    <language>tr</language>
+    <lastBuildDate>Thu, 26 May 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/security--privacy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Access Dots Özelliğini Android&#39;de Kullanma</title>
+      <link>http://localhost:1313/access-dots-android/</link>
+      <pubDate>Fri, 30 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/access-dots-android/</guid>
+      <description>Bu yazı uzun zamandır güncellenmemektedir!
+Access Dots, iOS 14 ile tanıtılan, kullanıcının gizliliğini geliştirmeyi amaçlayan yeni bir özellik. Bu özellik sayesinde, arka planda mikrofona veya kameraya erişilirse, ekranda renkli noktalar beliriyor. Her bir izin için farklı bir renk kullanıldığından, hangi iznin kullanıldığını kolayca anlayabiliyorsunuz.
+EKLEME (26.05.2022): Android 12 ile birlikte, bu özelliği üçüncü bir parti uygulamaya gerek olmadan kullanabilirsiniz. Detaylar için, Android&amp;rsquo;in resmi web sitesindeki bu bağlantıyı ziyaret edin: https://source.</description>
+    </item>
+  </channel>
+</rss>

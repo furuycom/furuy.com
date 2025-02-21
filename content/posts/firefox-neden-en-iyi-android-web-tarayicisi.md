@@ -2,11 +2,11 @@
 title: "Firefox Neden En İyi Android Web Tarayıcısı?"
 date: "2021-08-02"
 categories: 
-  - "android"
-  - "internet"
-  - "uygulamalar"
+  - "Android"
+  - "İnternet"
+  - "Uygulamalar"
 tags: 
-  - "mozilla-firefox"
+  - "Mozilla Firefox"
 ---
 
 > Bu yazı uzun zamandır güncellenmemektedir!
