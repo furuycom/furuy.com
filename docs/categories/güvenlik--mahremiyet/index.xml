@@ -6,8 +6,18 @@
     <description>Recent content in Güvenlik &amp; Mahremiyet on Furuy.com</description>
     <generator>Hugo -- 0.126.2</generator>
     <language>tr</language>
-    <lastBuildDate>Mon, 18 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 10 Mar 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://furuy.com/categories/g%C3%BCvenlik--mahremiyet/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Domain Firması Seçerken Dikkat Edilmesi Gerekenler</title>
+      <link>https://furuy.com/domain-firmasi-secimi-rehberi/</link>
+      <pubDate>Mon, 10 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://furuy.com/domain-firmasi-secimi-rehberi/</guid>
+      <description>Yanlış bir domain firması seçimi, güvenlik açıkları, maliyet artışları ve yönetim zorluklarına yol açabilir. Bu makalede, güvenilir bir domain sağlayıcısında olması gereken 10 kritik özelliği paylaşacağım.
+1. Whois Gizliliği (Whois Privacy) 🔒 Whois veritabanı, domain sahibinin iletişim bilgilerini (ad, e-posta, telefon, adres vb.) herkese açık şekilde gösterir. Bu bilgiler, domain kayıt esnasında sağlanan kişisel bilgilerden oluşur. Whois gizliliği özelliği, bu kişisel verilerin ifşa edilmesini önler.
+İstenen Özellikler:
+Otomatik Whois Gizliliği: Domain kayıt esnasında otomatik olarak whois bilgileri gizlenmelidir.</description>
+    </item>
     <item>
       <title>Güvenli Android Doğrulama Yöntemleri (Parola, Biyometrik vs.)</title>
       <link>https://furuy.com/guvenli-android-dogrulama-yontemleri/</link>

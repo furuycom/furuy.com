@@ -3,18 +3,33 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://furuy.com/categories/</loc>
-    <lastmod>2025-02-21T00:00:00+00:00</lastmod>
+    <lastmod>2025-03-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://furuy.com/tags/dnssec/</loc>
+    <lastmod>2025-03-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://furuy.com/domain-firmasi-secimi-rehberi/</loc>
+    <lastmod>2025-03-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://furuy.com/</loc>
+    <lastmod>2025-03-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://furuy.com/categories/g%C3%BCvenlik--mahremiyet/</loc>
+    <lastmod>2025-03-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://furuy.com/posts/</loc>
+    <lastmod>2025-03-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://furuy.com/tags/</loc>
+    <lastmod>2025-03-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://furuy.com/categories/webmaster/</loc>
+    <lastmod>2025-03-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://furuy.com/erisim-engellerinin-zararlari/</loc>
     <lastmod>2025-02-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://furuy.com/</loc>
-    <lastmod>2025-02-21T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://furuy.com/categories/internet/</loc>
-    <lastmod>2025-02-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://furuy.com/posts/</loc>
     <lastmod>2025-02-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://furuy.com/tags/atat%C3%BCrk/</loc>
@@ -26,17 +41,11 @@
     <loc>https://furuy.com/categories/kitap/</loc>
     <lastmod>2023-08-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://furuy.com/tags/</loc>
-    <lastmod>2023-12-19T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://furuy.com/categories/android/</loc>
     <lastmod>2023-12-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://furuy.com/guvenli-android-dogrulama-yontemleri/</loc>
     <lastmod>2023-07-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://furuy.com/categories/g%C3%BCvenlik--mahremiyet/</loc>
-    <lastmod>2023-12-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://furuy.com/tags/dnf/</loc>
     <lastmod>2022-05-26T00:00:00+00:00</lastmod>
@@ -104,9 +113,6 @@
     <loc>https://furuy.com/cloudflare-workers-security-headers/</loc>
     <lastmod>2021-09-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://furuy.com/tags/dnssec/</loc>
-    <lastmod>2021-09-17T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://furuy.com/tags/godaddy/</loc>
     <lastmod>2021-09-17T00:00:00+00:00</lastmod>
   </url><url>
@@ -115,9 +121,6 @@
   </url><url>
     <loc>https://furuy.com/tags/security-headers/</loc>
     <lastmod>2021-09-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://furuy.com/categories/webmaster/</loc>
-    <lastmod>2023-12-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://furuy.com/tags/web-safe-fonts/</loc>
     <lastmod>2023-12-18T00:00:00+00:00</lastmod>

@@ -6,8 +6,22 @@
     <description>Recent content in Categories on Furuy.com</description>
     <generator>Hugo -- 0.126.2</generator>
     <language>tr</language>
-    <lastBuildDate>Fri, 21 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 10 Mar 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://furuy.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Güvenlik &amp; Mahremiyet</title>
+      <link>https://furuy.com/categories/g%C3%BCvenlik--mahremiyet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://furuy.com/categories/g%C3%BCvenlik--mahremiyet/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Webmaster</title>
+      <link>https://furuy.com/categories/webmaster/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://furuy.com/categories/webmaster/</guid>
+      <description></description>
+    </item>
     <item>
       <title>İnternet</title>
       <link>https://furuy.com/categories/internet/</link>
@@ -30,13 +44,6 @@
       <description></description>
     </item>
     <item>
-      <title>Güvenlik &amp; Mahremiyet</title>
-      <link>https://furuy.com/categories/g%C3%BCvenlik--mahremiyet/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://furuy.com/categories/g%C3%BCvenlik--mahremiyet/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>GNU/Linux</title>
       <link>https://furuy.com/categories/gnu/linux/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -48,13 +55,6 @@
       <link>https://furuy.com/categories/uygulamalar/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://furuy.com/categories/uygulamalar/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Webmaster</title>
-      <link>https://furuy.com/categories/webmaster/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://furuy.com/categories/webmaster/</guid>
       <description></description>
     </item>
     <item>
