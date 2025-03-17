@@ -80,8 +80,11 @@ params:
     - name: github
       title: "GitHub"
       url: "https://github.com/furuycom"
-      title: "RSS"
+    - name: linkedin
+      title: "LinkedIn"
+      url: "https://www.linkedin.com/in/furkanuysal"
     - name: rss
+      title: "RSS"
       url: "/index.xml"
 
   cover:
