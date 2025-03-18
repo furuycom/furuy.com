@@ -1,6 +1,7 @@
 ---
 title: "Erişim Engellerinin Ulusal Siber Güvenliğe Zararları"
 date: "2025-02-21"
+lastmod: "2025-02-21"
 draft: false
 searchHidden: false
 showtoc: true
