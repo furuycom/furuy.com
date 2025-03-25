@@ -74,9 +74,6 @@ params:
     #iconHeight: 35
 
   socialIcons:
-    - name: x
-      title: "X"
-      url: "https://x.com/furuycom"
     - name: github
       title: "GitHub"
       url: "https://github.com/furuycom"

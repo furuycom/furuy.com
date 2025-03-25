@@ -15,7 +15,6 @@ I'm trying to create useful content related to [my interests](/categories/) on m
 
 ## Links
 
-- [X (Twitter)](https://x.com/furuycom)
 - [GitHub](https://github.com/furuycom)
 - [LinkedIn](https://www.linkedin.com/in/furkanuysal)
 - [RSS](/index.xml)
