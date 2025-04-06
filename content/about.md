@@ -16,6 +16,7 @@ I'm trying to create useful content related to [my interests](/categories/) on m
 ## Links
 
 - [GitHub](https://github.com/furuycom)
+- [Bluesky](https://bsky.app/profile/furuycom.bsky.social)
 - [LinkedIn](https://www.linkedin.com/in/furkanuysal)
 - [RSS](/index.xml)
 - [Google News](https://news.google.com/publications/CAAqBwgKMIf_kgswxoTcAg)
