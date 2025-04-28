@@ -4,7 +4,7 @@
     <title>GrapheneOS on Furuy.com</title>
     <link>https://furuy.com/tags/grapheneos/</link>
     <description>Recent content in GrapheneOS on Furuy.com</description>
-    <generator>Hugo -- 0.126.2</generator>
+    <generator>Hugo -- 0.142.0</generator>
     <language>tr</language>
     <lastBuildDate>Mon, 26 Jul 2021 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://furuy.com/tags/grapheneos/index.xml" rel="self" type="application/rss+xml" />
@@ -13,13 +13,25 @@
       <link>https://furuy.com/custom-rom-kullanmak-guvenli-mi/</link>
       <pubDate>Mon, 26 Jul 2021 00:00:00 +0000</pubDate>
       <guid>https://furuy.com/custom-rom-kullanmak-guvenli-mi/</guid>
-      <description>Bu yazı uzun zamandır güncellenmemektedir!
-Custom ROM&amp;rsquo;lar, birçok olumlu getirileri ile Android kullanıcıları tarafından tercih edilebiliyorlar. Bu getirilerden bazıları şunlar:
-Mahremiyetinizi (yanlış bilinen tabiriyle gizliliğinizi) korumak için daha iyi bir tercihtir.
-Gereksiz sistem uygulamaları olmaz veya daha az olur.
-Daha fazla özelleştirme ve kişiselleştirme imkanı sunar.
-Daha hafif olurlar. Bu nedenle de, pil ve RAM kullanımı daha az olur.
-Kısacası insanlar, haklı olarak, satın aldıkları ürünlerden tam verimi alabilmek için Custom ROM kullanıyorlar.</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Bu yazı uzun zamandır güncellenmemektedir!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Custom ROM&amp;rsquo;lar, birçok olumlu getirileri ile Android kullanıcıları tarafından tercih edilebiliyorlar. Bu getirilerden bazıları şunlar:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Mahremiyetinizi (yanlış bilinen tabiriyle gizliliğinizi) korumak için daha iyi bir tercihtir.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Gereksiz sistem uygulamaları olmaz veya daha az olur.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Daha fazla özelleştirme ve kişiselleştirme imkanı sunar.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Daha hafif olurlar. Bu nedenle de, pil ve RAM kullanımı daha az olur.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Kısacası insanlar, haklı olarak, satın aldıkları ürünlerden tam verimi alabilmek için Custom ROM kullanıyorlar. Peki ya bu Custom ROM&amp;rsquo;lar ne kadar güvenli? Bu yazıda, bir Custom ROM kullanmadan önce dikkat etmeniz gereken [güvenlik](&lt;a href=&#34;https://furuy.com/categories/G&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;https://furuy.com/categories/G&lt;/a&gt;üvenlik &amp;amp; Mahremiyet/) kriterlerinden bahsedeceğim.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -4,7 +4,7 @@
     <title>Dnf on Furuy.com</title>
     <link>https://furuy.com/tags/dnf/</link>
     <description>Recent content in Dnf on Furuy.com</description>
-    <generator>Hugo -- 0.126.2</generator>
+    <generator>Hugo -- 0.142.0</generator>
     <language>tr</language>
     <lastBuildDate>Thu, 26 May 2022 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://furuy.com/tags/dnf/index.xml" rel="self" type="application/rss+xml" />
@@ -13,11 +13,19 @@
       <link>https://furuy.com/dnf-automatic/</link>
       <pubDate>Thu, 26 May 2022 00:00:00 +0000</pubDate>
       <guid>https://furuy.com/dnf-automatic/</guid>
-      <description>Bu yazı uzun zamandır güncellenmemektedir!
-DNF Automatic ile Fedora ve RHEL gibi DNF paket yöneticisine sahip GNU/Linux dağıtımlarındaki güncelleme işlemlerini otomatikleştirmeniz mümkün.
-DNF Automatic&amp;rsquo;i Yükleyin Bunun için kullandığınız terminale aşağıdaki kodu yazın ve yüklemeyi onaylayarak, kurulumu tamamlayın:
-sudo dnf install dnf-automatic DNF Automatic&amp;rsquo;i Yapılandırın Otomatik güncellemeleri yapılandırmak için iki yöntem mevcut:
-/etc/dnf/automatic.conf Dosyasını Düzenleyin Bu dosya, varsayılan yapılandırma dosyasıdır. Paketi yüklediğinizde oluşturulacaktır. Herhangi bir metin editörü ile dosyayı açın:</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Bu yazı uzun zamandır güncellenmemektedir!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;DNF Automatic&lt;/strong&gt; ile Fedora ve RHEL gibi DNF paket yöneticisine sahip &lt;a href=&#34;https://furuy.com/categories/gnu-linux/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;GNU/Linux&lt;/a&gt; dağıtımlarındaki güncelleme işlemlerini otomatikleştirmeniz mümkün.&lt;/p&gt;
+&lt;h2 id=&#34;dnf-automatici-yükleyin&#34;&gt;DNF Automatic&amp;rsquo;i Yükleyin&lt;/h2&gt;
+&lt;p&gt;Bunun için kullandığınız terminale aşağıdaki kodu yazın ve yüklemeyi onaylayarak, kurulumu tamamlayın:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo dnf install dnf-automatic
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;dnf-automatici-yapılandırın&#34;&gt;DNF Automatic&amp;rsquo;i Yapılandırın&lt;/h2&gt;
+&lt;p&gt;Otomatik güncellemeleri yapılandırmak için iki yöntem mevcut:&lt;/p&gt;
+&lt;h3 id=&#34;etcdnfautomaticconf-dosyasını-düzenleyin&#34;&gt;/etc/dnf/automatic.conf Dosyasını Düzenleyin&lt;/h3&gt;
+&lt;p&gt;Bu dosya, varsayılan yapılandırma dosyasıdır. Paketi yüklediğinizde oluşturulacaktır. Herhangi bir metin editörü ile dosyayı açın:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo vim /etc/dnf/automatic.conf
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Yukarıdaki değerler, varsayılandır.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

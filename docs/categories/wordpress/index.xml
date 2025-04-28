@@ -4,7 +4,7 @@
     <title>WordPress on Furuy.com</title>
     <link>https://furuy.com/categories/wordpress/</link>
     <description>Recent content in WordPress on Furuy.com</description>
-    <generator>Hugo -- 0.126.2</generator>
+    <generator>Hugo -- 0.142.0</generator>
     <language>tr</language>
     <lastBuildDate>Tue, 19 Dec 2023 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://furuy.com/categories/wordpress/index.xml" rel="self" type="application/rss+xml" />
@@ -13,18 +13,27 @@
       <link>https://furuy.com/wordpress-yonetici-ve-giris-guvenligi/</link>
       <pubDate>Mon, 02 Aug 2021 00:00:00 +0000</pubDate>
       <guid>https://furuy.com/wordpress-yonetici-ve-giris-guvenligi/</guid>
-      <description>Bu yazı uzun zamandır güncellenmemektedir!
-WordPress web sitenizdeki yönetici hesapları, varsayılan olarak birçok kritik yetkiye sahip olurlar. Bu hesapların güvenliği sağlanmazsa, web siteniz de tehdit altında olur. Bu yazıda, manuel olarak uygulayabileceğiniz bazı güvenlik adımlarını anlatacağım.
-&amp;lsquo;Admin&amp;rsquo; Kullanıcı Adını Kullanmayın Tüm brute-force kullanıcı adı listelerinin ilk sırasında yer alan, &amp;ldquo;admin&amp;rdquo; gibi yaygın ve tahmin edilebilir kullanıcı adlarını, hiçbir sisteminizde kullanmayın. Yalnızca web sitenizde kullanacağınız, tahmin edilemez ve özgün bir kullanıcı adı belirleyin.</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Bu yazı uzun zamandır güncellenmemektedir!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;WordPress web sitenizdeki yönetici hesapları, varsayılan olarak birçok kritik yetkiye sahip olurlar. Bu hesapların güvenliği sağlanmazsa, web siteniz de tehdit altında olur. Bu yazıda, manuel olarak uygulayabileceğiniz bazı güvenlik adımlarını anlatacağım.&lt;/p&gt;
+&lt;h2 id=&#34;admin-kullanıcı-adını-kullanmayın&#34;&gt;&amp;lsquo;Admin&amp;rsquo; Kullanıcı Adını Kullanmayın&lt;/h2&gt;
+&lt;p&gt;Tüm brute-force kullanıcı adı listelerinin ilk sırasında yer alan, &amp;ldquo;admin&amp;rdquo; gibi yaygın ve tahmin edilebilir kullanıcı adlarını, hiçbir sisteminizde kullanmayın. Yalnızca web sitenizde kullanacağınız, tahmin edilemez ve özgün bir kullanıcı adı belirleyin.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Web Sitenize Çerezler Uyarısı Ekleyin (1 KB)</title>
       <link>https://furuy.com/cerezler-uyarisi-ekleme/</link>
       <pubDate>Sun, 09 May 2021 00:00:00 +0000</pubDate>
       <guid>https://furuy.com/cerezler-uyarisi-ekleme/</guid>
-      <description>Çerezler Uyarısı Nedir? Çerezler uyarısı, GDPR standartları kapsamında, bir yasal zorunluluk haline geldi; Web siteniz AB&amp;rsquo;de barınmasa bile, AB konumlu ziyaretçiler için bu bildirimi eklemek zorundasınız. Bu uygulama ile kişisel verilerin korunmasının geliştirilmesi amaçlanıyor. Bu uygulama ile birlikte de, kişisel veri toplayan taraflara bazı sorumluluklar düşüyor.
-Web sitenizde birçok birinci parti veya üçüncü parti çerezler kullanılıyor olabilir. Örnekler:
-Web sitenizde Cloudflare kullanıyorsanız, Cloudflare&amp;rsquo;nin çerezleri kullandığını bilmeniz gerekiyor. Örneğin &amp;ldquo;Always online&amp;rdquo; ve ziyaretçilerin güvenilir olup olmadığını öğrenmek için türlü çerezler kullanılır.</description>
+      <description>&lt;h2 id=&#34;çerezler-uyarısı-nedir&#34;&gt;Çerezler Uyarısı Nedir?&lt;/h2&gt;
+&lt;p&gt;Çerezler uyarısı, &lt;a href=&#34;https://tr.m.wikipedia.org/wiki/Genel_Veri_Koruma_Y%C3%B6netmeli%C4%9Fi&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;GDPR&lt;/a&gt; standartları kapsamında, bir yasal zorunluluk haline geldi; Web siteniz AB&amp;rsquo;de barınmasa bile, AB konumlu ziyaretçiler için bu bildirimi eklemek zorundasınız. Bu uygulama ile kişisel verilerin korunmasının geliştirilmesi amaçlanıyor. Bu uygulama ile birlikte de, kişisel veri toplayan taraflara bazı sorumluluklar düşüyor.&lt;/p&gt;
+&lt;p&gt;Web sitenizde birçok birinci parti veya üçüncü parti çerezler kullanılıyor olabilir. Örnekler:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Web sitenizde Cloudflare kullanıyorsanız, Cloudflare&amp;rsquo;nin çerezleri kullandığını bilmeniz gerekiyor. Örneğin &amp;ldquo;Always online&amp;rdquo; ve ziyaretçilerin güvenilir olup olmadığını öğrenmek için türlü çerezler kullanılır. Detayları öğrenin: &lt;a href=&#34;https://support.cloudflare.com/hc/en-us/articles/200170156-Understanding-the-Cloudflare-Cookies&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;https://support.cloudflare.com/hc/en-us/articles/200170156-Understanding-the-Cloudflare-Cookies&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;WordPress web sitenizde, varsayılan olarak ziyaretçilerin yorum yaptığı isimleri hatırlamak için çerezler kullanılır.&lt;/li&gt;
+&lt;li&gt;Web sitenizde Google Analytics kullanıyorsanız, çerezlerin yine çok kapsamlı bir şekilde kullanıldığını hatırlatmak gerek.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Bu gibi çerez kullanım durumlarında, ziyaretçilerin kişisel verilerini toplamış oluyorsunuz ve GDPR kapsamında, bunu ziyaretçilerinize bildirmeniz gerekiyor.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
