@@ -7,4 +7,4 @@ Disallow: /about/
 Disallow: /search/
 Disallow: /hakkimda/
 
-Sitemap: https://furuy.com/sitemap.xml
+Sitemap: http://localhost:1313/sitemap.xml

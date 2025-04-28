@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Webmaster on Furuy.com</title>
-    <link>https://furuy.com/categories/webmaster/</link>
+    <link>http://localhost:1313/categories/webmaster/</link>
     <description>Recent content in Webmaster on Furuy.com</description>
     <generator>Hugo -- 0.147.0</generator>
     <language>tr</language>
     <lastBuildDate>Mon, 10 Mar 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://furuy.com/categories/webmaster/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/webmaster/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Domain Firması Seçerken Dikkat Edilmesi Gerekenler</title>
-      <link>https://furuy.com/domain-firmasi-secimi-rehberi/</link>
+      <link>http://localhost:1313/domain-firmasi-secimi-rehberi/</link>
       <pubDate>Mon, 10 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://furuy.com/domain-firmasi-secimi-rehberi/</guid>
+      <guid>http://localhost:1313/domain-firmasi-secimi-rehberi/</guid>
       <description>&lt;p&gt;Yanlış bir domain firması seçimi, güvenlik açıkları, maliyet artışları ve yönetim zorluklarına yol açabilir. Bu makalede, güvenilir bir domain sağlayıcısında olması gereken &lt;strong&gt;10 kritik özelliği&lt;/strong&gt; paylaşacağım.&lt;/p&gt;
 &lt;h3 id=&#34;1-whois-gizliliği-whois-privacy&#34;&gt;&lt;strong&gt;1. Whois Gizliliği (Whois Privacy)&lt;/strong&gt; 🔒&lt;/h3&gt;
 &lt;p&gt;Whois veritabanı, domain sahibinin iletişim bilgilerini (ad, e-posta, telefon, adres vb.) herkese açık şekilde gösterir. Bu bilgiler, domain kayıt esnasında sağlanan kişisel bilgilerden oluşur. Whois gizliliği özelliği, bu kişisel verilerin ifşa edilmesini önler.&lt;/p&gt;
@@ -26,9 +26,9 @@
     </item>
     <item>
       <title>Cloudflare Workers İle Security Headers Ekleme</title>
-      <link>https://furuy.com/cloudflare-workers-security-headers/</link>
+      <link>http://localhost:1313/cloudflare-workers-security-headers/</link>
       <pubDate>Fri, 17 Sep 2021 00:00:00 +0000</pubDate>
-      <guid>https://furuy.com/cloudflare-workers-security-headers/</guid>
+      <guid>http://localhost:1313/cloudflare-workers-security-headers/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Bu yazı uzun zamandır güncellenmemektedir!&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;HTTP Security Headers&amp;rsquo;ı, Cloudflare ile kullanmanız mümkün. Cloudflare&amp;rsquo;ın ücretsiz &lt;a href=&#34;https://workers.cloudflare.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Workers&lt;/a&gt; planı, şu an için günde 100.000 isteğe ve 30 Worker script&amp;rsquo;ine izin vermekte. Şayet bunlar, ihtiyaçlarınızı karşılamaya yetiyor ve Cloudflare kullandığınız bir web siteye Security Headers eklemek istiyorsanız, bu küçük rehber tam da size göre.&lt;/p&gt;
@@ -37,31 +37,31 @@
     </item>
     <item>
       <title>GoDaddy &amp; Cloudflare DNSSEC Kurulumu</title>
-      <link>https://furuy.com/godaddy-cloudflare-dnssec/</link>
+      <link>http://localhost:1313/godaddy-cloudflare-dnssec/</link>
       <pubDate>Fri, 17 Sep 2021 00:00:00 +0000</pubDate>
-      <guid>https://furuy.com/godaddy-cloudflare-dnssec/</guid>
+      <guid>http://localhost:1313/godaddy-cloudflare-dnssec/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Bu yazı uzun zamandır güncellenmemektedir!&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;GoDaddy&amp;rsquo;de barınan ve Cloudflare&amp;rsquo;a bağlı bir alan adı için DNSSEC&amp;rsquo;i aktifleştirmek çok kolay. DNSSEC özelliğini, aktifleştirebildiğiniz her alan adınız için aktifleştirmenizi tavsiye ederim. Şimdi gelin, bunu nasıl yapabileceğimize bakalım.&lt;/p&gt;
 &lt;h2 id=&#34;cloudflare&#34;&gt;Cloudflare&lt;/h2&gt;
-&lt;p&gt;Öncellikle, Cloudflare hesabınıza giriş yapın ve istediğiniz alan adınızı seçin. Ardından, menüde bulunan DNS&amp;rsquo;e tıklayın. Sayfanın biraz aşağısında, DNSSEC bölümünü bulacaksınız. &amp;ldquo;&lt;strong&gt;Enable DNSSEC&lt;/strong&gt;&amp;rdquo; butonuna basın ve burada görünen &amp;ldquo;&lt;strong&gt;Key Tag, Algorithm, Digest Type-2, Digest&lt;/strong&gt;&amp;rdquo; bilgilerini not edin ve &amp;ldquo;Confirm&amp;rdquo; butonuna tıklayarak onaylayın.&lt;img alt=&#34;Cloudflare DNSSEC Pending&#34; loading=&#34;lazy&#34; src=&#34;https://furuy.com/assets/img/cloudflare-dnssec-pending.jpg&#34;&gt;&lt;/p&gt;</description>
+&lt;p&gt;Öncellikle, Cloudflare hesabınıza giriş yapın ve istediğiniz alan adınızı seçin. Ardından, menüde bulunan DNS&amp;rsquo;e tıklayın. Sayfanın biraz aşağısında, DNSSEC bölümünü bulacaksınız. &amp;ldquo;&lt;strong&gt;Enable DNSSEC&lt;/strong&gt;&amp;rdquo; butonuna basın ve burada görünen &amp;ldquo;&lt;strong&gt;Key Tag, Algorithm, Digest Type-2, Digest&lt;/strong&gt;&amp;rdquo; bilgilerini not edin ve &amp;ldquo;Confirm&amp;rdquo; butonuna tıklayarak onaylayın.&lt;img alt=&#34;Cloudflare DNSSEC Pending&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/assets/img/cloudflare-dnssec-pending.jpg&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Web Safe Fonts Nedir &amp; Nasıl Kullanılır?</title>
-      <link>https://furuy.com/web-safe-fonts/</link>
+      <link>http://localhost:1313/web-safe-fonts/</link>
       <pubDate>Wed, 08 Sep 2021 00:00:00 +0000</pubDate>
-      <guid>https://furuy.com/web-safe-fonts/</guid>
+      <guid>http://localhost:1313/web-safe-fonts/</guid>
       <description>&lt;p&gt;Birçok web sitesi, kullanıcı arayüzünü (User Interface) geliştirmek için yazı tipleri (font) kullanır. Bu yazı tipleri de genellikle, WOFF/WOFF2 dosyaları çağrılarak veya Google Fonts kullanılarak yapılır. Her iki yöntem de harici bir istek yaratır ve bu isteklerin boyutu da, web sitenizdeki diğer isteklere oranla bir hayli fazladır.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;Reuters Google PageSpeed Insights&#34; loading=&#34;lazy&#34; src=&#34;https://furuy.com/assets/img/reuters-google-pagespeed-insights.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Reuters Google PageSpeed Insights&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/assets/img/reuters-google-pagespeed-insights.jpg&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Örnek olarak, Reuters&amp;rsquo;ın bir haber sayfasındaki toplam kaynağın yaklaşık %11&amp;rsquo;i yazı tipleri için kullanılıyor.&lt;/p&gt;
 &lt;h2 id=&#34;web-safe-fonts-nedir&#34;&gt;Web Safe Fonts Nedir?&lt;/h2&gt;
 &lt;p&gt;Her işletim sistemi ve bazı tarayıcılar, varsayılan olarak belirli yazı tipleri barındırır; Web Safe Fonts, işte bu yazı tipleridir. Bu sayede kullanacağınız yazı tipini web sitenize yüklemenize veya harici bir kaynağa istekte bulunmanıza gerek yoktur. Ziyaretçinin kullandığı tarayıcı ve internet hızı gibi değişkenlerin sorun çıkarmalarını engelleyerek, herkes için bir standart yaratmanızı sağlar.&lt;/p&gt;</description>
     </item>
     <item>
       <title>WordPress Yönetici Ve Giriş Güvenliği</title>
-      <link>https://furuy.com/wordpress-yonetici-ve-giris-guvenligi/</link>
+      <link>http://localhost:1313/wordpress-yonetici-ve-giris-guvenligi/</link>
       <pubDate>Mon, 02 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>https://furuy.com/wordpress-yonetici-ve-giris-guvenligi/</guid>
+      <guid>http://localhost:1313/wordpress-yonetici-ve-giris-guvenligi/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Bu yazı uzun zamandır güncellenmemektedir!&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;WordPress web sitenizdeki yönetici hesapları, varsayılan olarak birçok kritik yetkiye sahip olurlar. Bu hesapların güvenliği sağlanmazsa, web siteniz de tehdit altında olur. Bu yazıda, manuel olarak uygulayabileceğiniz bazı güvenlik adımlarını anlatacağım.&lt;/p&gt;
@@ -70,18 +70,18 @@
     </item>
     <item>
       <title>Google AMP Neden Çok Tehlikeli?</title>
-      <link>https://furuy.com/google-amp-neden-cok-tehlikeli/</link>
+      <link>http://localhost:1313/google-amp-neden-cok-tehlikeli/</link>
       <pubDate>Thu, 22 Jul 2021 00:00:00 +0000</pubDate>
-      <guid>https://furuy.com/google-amp-neden-cok-tehlikeli/</guid>
+      <guid>http://localhost:1313/google-amp-neden-cok-tehlikeli/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Bu yazı uzun zamandır güncellenmemektedir!&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;Google, mobil web deneyimini geliştirmek ve sayfaların mobilde daha hızlı yüklenmelerini sağlamak amacıyla, 2015 yılında AMP&amp;rsquo;i duyurmuştu. Şubat 2016 tarihinden itibaren de, mobil arama sonuçlarında AMP sayfaları görünmeye başlamıştı. Kısa bir zaman içerisinde AMP, standart haline gelmeye başladı bile. Bunun en temel nedenleri; mobil internet kullanıcı sayısının fazla olması, birçok kişinin Google arama motorunu kullanması ve web site yöneticilerinin, &amp;ldquo;SEO kuralları&amp;rdquo; adı altındaki Google&amp;rsquo;ın her dayatmasını kabul etmeleri&amp;hellip;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Web Sitenize Çerezler Uyarısı Ekleyin (1 KB)</title>
-      <link>https://furuy.com/cerezler-uyarisi-ekleme/</link>
+      <link>http://localhost:1313/cerezler-uyarisi-ekleme/</link>
       <pubDate>Sun, 09 May 2021 00:00:00 +0000</pubDate>
-      <guid>https://furuy.com/cerezler-uyarisi-ekleme/</guid>
+      <guid>http://localhost:1313/cerezler-uyarisi-ekleme/</guid>
       <description>&lt;h2 id=&#34;çerezler-uyarısı-nedir&#34;&gt;Çerezler Uyarısı Nedir?&lt;/h2&gt;
 &lt;p&gt;Çerezler uyarısı, &lt;a href=&#34;https://tr.m.wikipedia.org/wiki/Genel_Veri_Koruma_Y%C3%B6netmeli%C4%9Fi&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;GDPR&lt;/a&gt; standartları kapsamında, bir yasal zorunluluk haline geldi; Web siteniz AB&amp;rsquo;de barınmasa bile, AB konumlu ziyaretçiler için bu bildirimi eklemek zorundasınız. Bu uygulama ile kişisel verilerin korunmasının geliştirilmesi amaçlanıyor. Bu uygulama ile birlikte de, kişisel veri toplayan taraflara bazı sorumluluklar düşüyor.&lt;/p&gt;
 &lt;p&gt;Web sitenizde birçok birinci parti veya üçüncü parti çerezler kullanılıyor olabilir. Örnekler:&lt;/p&gt;

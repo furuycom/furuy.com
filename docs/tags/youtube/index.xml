@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>YouTube on Furuy.com</title>
-    <link>https://furuy.com/tags/youtube/</link>
+    <link>http://localhost:1313/tags/youtube/</link>
     <description>Recent content in YouTube on Furuy.com</description>
     <generator>Hugo -- 0.147.0</generator>
     <language>tr</language>
     <lastBuildDate>Mon, 18 Dec 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://furuy.com/tags/youtube/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/youtube/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>YouTube Vanced Alternatifleri</title>
-      <link>https://furuy.com/youtube-vanced-alternatifleri/</link>
+      <link>http://localhost:1313/youtube-vanced-alternatifleri/</link>
       <pubDate>Sat, 16 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>https://furuy.com/youtube-vanced-alternatifleri/</guid>
+      <guid>http://localhost:1313/youtube-vanced-alternatifleri/</guid>
       <description>&lt;p&gt;Reklamsız YouTube uygulaması veya ücretsiz YouTube Premium olarak bilinen YouTube Vanced&amp;rsquo;in Twitter hesabında, uygulamanın kapanacağını &lt;a href=&#34;https://twitter.com/YTVanced/status/1503052250268286980&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;açıklandı&lt;/a&gt;. Birçok kullanıcısı olduğu için büyük yankı uyandıran bu haber ile birlikte, Vanced kullanıcıları yeni alternatif arayışına girdiler. Ben de bu vesile ile YouTube Vanced uygulaması hakkında birkaç önemli bilgi verip, YouTube deneyiminizi artırmanıza yarayacak özgür yazılımlar ve yardımcı araçlar önereceğim.&lt;/p&gt;
 &lt;h3 id=&#34;youtube-vanced-güvenli-mi&#34;&gt;YouTube Vanced Güvenli Mi?&lt;/h3&gt;
 &lt;p&gt;Hayır çünkü Vanced, açık kaynak kodlu olmayan bir yazılımın, modifiye edilmiş bir versiyonu; Bu da, uygulamanın güvenli olup olmadığını öğrenebilmemize imkan vermiyor. Resmi olmayan kaynaklardan indirilen APK uygulamaları da, tehlikeyi katbekat artırıyor.&lt;/p&gt;</description>

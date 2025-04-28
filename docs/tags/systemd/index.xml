@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Systemd on Furuy.com</title>
-    <link>https://furuy.com/tags/systemd/</link>
+    <link>http://localhost:1313/tags/systemd/</link>
     <description>Recent content in Systemd on Furuy.com</description>
     <generator>Hugo -- 0.147.0</generator>
     <language>tr</language>
     <lastBuildDate>Thu, 26 May 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://furuy.com/tags/systemd/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/systemd/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>DNF Automatic İle Paketleri Otomatik Güncelleyin</title>
-      <link>https://furuy.com/dnf-automatic/</link>
+      <link>http://localhost:1313/dnf-automatic/</link>
       <pubDate>Thu, 26 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://furuy.com/dnf-automatic/</guid>
+      <guid>http://localhost:1313/dnf-automatic/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Bu yazı uzun zamandır güncellenmemektedir!&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;DNF Automatic&lt;/strong&gt; ile Fedora ve RHEL gibi DNF paket yöneticisine sahip &lt;a href=&#34;https://furuy.com/categories/gnu-linux/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;GNU/Linux&lt;/a&gt; dağıtımlarındaki güncelleme işlemlerini otomatikleştirmeniz mümkün.&lt;/p&gt;
