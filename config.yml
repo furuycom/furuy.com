@@ -15,7 +15,7 @@ defaultContentLanguage: tr
 
 publishDir: docs
 permalinks:
-  posts: '/:filename/'
+  posts: '/:contentbasename/'
 
 outputs:
     home:
@@ -132,8 +132,6 @@ privacy:
     simple: true
   twitter:
     disable: false
-    enableDNT: true
-    simple: true
   vimeo:
     disable: false
     enableDNT: true
@@ -144,8 +142,6 @@ privacy:
 
 services:
   instagram:
-    disableInlineCSS: true
-  twitter:
     disableInlineCSS: true
 
 markup:
