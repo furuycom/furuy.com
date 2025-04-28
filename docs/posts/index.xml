@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on Furuy.com</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>https://furuy.com/posts/</link>
     <description>Recent content in Posts on Furuy.com</description>
     <generator>Hugo -- 0.147.0</generator>
     <language>tr</language>
     <lastBuildDate>Tue, 18 Mar 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://furuy.com/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Kaçak Telefonların Ulusal Siber Güvenliğe Zararları</title>
-      <link>http://localhost:1313/kacak-telefon-imei-atma-zararlari/</link>
+      <link>https://furuy.com/kacak-telefon-imei-atma-zararlari/</link>
       <pubDate>Tue, 18 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/kacak-telefon-imei-atma-zararlari/</guid>
-      <description>&lt;p&gt;&lt;img alt=&#34;Kaçak Telefonların Ulusal Siber Güvenliğe Zararları&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/assets/img/kacak-telefon.png&#34;&gt;&lt;/p&gt;
+      <guid>https://furuy.com/kacak-telefon-imei-atma-zararlari/</guid>
+      <description>&lt;p&gt;&lt;img alt=&#34;Kaçak Telefonların Ulusal Siber Güvenliğe Zararları&#34; loading=&#34;lazy&#34; src=&#34;https://furuy.com/assets/img/kacak-telefon.png&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;1-giriş&#34;&gt;&lt;strong&gt;1. Giriş&lt;/strong&gt;&lt;/h2&gt;
 &lt;p&gt;Türkiye’de yüksek vergiler, pahalı IMEI kayıt ücretleri ve sınırlı taksit seçenekleri nedeniyle akıllı telefon fiyatları dünya ortalamasının oldukça üzerinde seyretmektedir. Bu durum, tüketicileri resmi garantisi olmayan, yasa dışı yöntemlerle IMEI manipülasyonu (&amp;ldquo;IMEI atma&amp;rdquo;) yapılan “kaçak” telefonlara yönlendirmektedir. Kaçak telefon kullanımı, yalnızca bireysel kullanıcıları değil, ulusal siber güvenlik yapısını da ciddi şekilde tehdit etmektedir. Bu makalede, kaçak telefon ekosisteminin teknik dinamikleri, siber güvenlik riskleri ve ulusal güvenliğe olası etkileri ele alınmaktadır.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Domain Firması Seçerken Dikkat Edilmesi Gerekenler</title>
-      <link>http://localhost:1313/domain-firmasi-secimi-rehberi/</link>
+      <link>https://furuy.com/domain-firmasi-secimi-rehberi/</link>
       <pubDate>Mon, 10 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/domain-firmasi-secimi-rehberi/</guid>
+      <guid>https://furuy.com/domain-firmasi-secimi-rehberi/</guid>
       <description>&lt;p&gt;Yanlış bir domain firması seçimi, güvenlik açıkları, maliyet artışları ve yönetim zorluklarına yol açabilir. Bu makalede, güvenilir bir domain sağlayıcısında olması gereken &lt;strong&gt;10 kritik özelliği&lt;/strong&gt; paylaşacağım.&lt;/p&gt;
 &lt;h3 id=&#34;1-whois-gizliliği-whois-privacy&#34;&gt;&lt;strong&gt;1. Whois Gizliliği (Whois Privacy)&lt;/strong&gt; 🔒&lt;/h3&gt;
 &lt;p&gt;Whois veritabanı, domain sahibinin iletişim bilgilerini (ad, e-posta, telefon, adres vb.) herkese açık şekilde gösterir. Bu bilgiler, domain kayıt esnasında sağlanan kişisel bilgilerden oluşur. Whois gizliliği özelliği, bu kişisel verilerin ifşa edilmesini önler.&lt;/p&gt;
@@ -35,16 +35,16 @@
     </item>
     <item>
       <title>Erişim Engellerinin Ulusal Siber Güvenliğe Zararları</title>
-      <link>http://localhost:1313/erisim-engellerinin-zararlari/</link>
+      <link>https://furuy.com/erisim-engellerinin-zararlari/</link>
       <pubDate>Fri, 21 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/erisim-engellerinin-zararlari/</guid>
+      <guid>https://furuy.com/erisim-engellerinin-zararlari/</guid>
       <description>&lt;p&gt;Günümüzde internet, bilgiye erişim, iletişim ve ifade özgürlüğü gibi temel hakların vazgeçilmez bir parçası haline gelmiştir. Ancak, son zamanlarda Instagram ve Discord gibi popüler platformlara uygulanan erişim engelleri, dijital özgürlükleri kısıtlamanın yanı sıra ulusal siber güvenliği de ciddi şekilde tehdit etmektedir. Bu tür engeller, kullanıcıları alternatif ve genellikle daha az güvenli yöntemlere yönelterek siber güvenlik risklerini artırmaktadır. Bu makalede, erişim engellerinin yarattığı siber güvenlik açıklarını ve çözüm önerilerini detaylı bir şekilde ele alacağım.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Geometri - Atatürk</title>
-      <link>http://localhost:1313/ataturk-geometri/</link>
+      <link>https://furuy.com/ataturk-geometri/</link>
       <pubDate>Thu, 17 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ataturk-geometri/</guid>
+      <guid>https://furuy.com/ataturk-geometri/</guid>
       <description>&lt;p&gt;Bu kitap, her zaman askeri ve siyasi başarılarını ön planda tuttuğumuz Atatürk&amp;rsquo;ün, &amp;ldquo;başöğretmen&amp;rdquo; yönünü hatırlamak için güzel bir araç. &amp;ldquo;Araç&amp;rdquo; diyorum çünkü ilk basımlardaki &amp;ldquo;Geometri öğretenlerle, bu konuda kitap yazacaklara kılavuz olarak Kültür Bakanlığı&amp;rsquo;nca neşredilmiştir&amp;rdquo; kapak notunda da belirtildiği gibi teknik bir kılavuz olarak yazılmış. Dolayısıyla kitabın, baştan sona okunacak bir formatta olmadığını bilmeniz gerekiyor. Peki bu kitaptan neler öğrenebiliriz?&lt;/p&gt;
 &lt;p&gt;Ben kitabı iki bölüme ayırıyorum: Araştırma ve Minnet&amp;hellip;&lt;/p&gt;
 &lt;h1 id=&#34;araştırma&#34;&gt;Araştırma&lt;/h1&gt;
@@ -52,9 +52,9 @@
     </item>
     <item>
       <title>Güvenli Android Doğrulama Yöntemleri (Parola, Biyometrik vs.)</title>
-      <link>http://localhost:1313/guvenli-android-dogrulama-yontemleri/</link>
+      <link>https://furuy.com/guvenli-android-dogrulama-yontemleri/</link>
       <pubDate>Thu, 13 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/guvenli-android-dogrulama-yontemleri/</guid>
+      <guid>https://furuy.com/guvenli-android-dogrulama-yontemleri/</guid>
       <description>&lt;p&gt;Bu yazıda, Android cihazlardaki giriş/doğrulama yöntemlerinin ne kadar güvenli olduğundan ve güncel bilgiler ışığında nasıl bir tercih yapmanız gerektiğinden bahsedeceğim.&lt;/p&gt;
 &lt;h2 id=&#34;ekran-kilidi-belirleyin&#34;&gt;Ekran Kilidi Belirleyin&lt;/h2&gt;
 &lt;p&gt;Öncelikle, mutlaka bir ekran kilidi belirlemeniz ve bunlardan da en güvenlisini seçmeniz gerekiyor.&lt;/p&gt;
@@ -65,9 +65,9 @@
     </item>
     <item>
       <title>DNF Automatic İle Paketleri Otomatik Güncelleyin</title>
-      <link>http://localhost:1313/dnf-automatic/</link>
+      <link>https://furuy.com/dnf-automatic/</link>
       <pubDate>Thu, 26 May 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/dnf-automatic/</guid>
+      <guid>https://furuy.com/dnf-automatic/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Bu yazı uzun zamandır güncellenmemektedir!&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;DNF Automatic&lt;/strong&gt; ile Fedora ve RHEL gibi DNF paket yöneticisine sahip &lt;a href=&#34;https://furuy.com/categories/gnu-linux/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;GNU/Linux&lt;/a&gt; dağıtımlarındaki güncelleme işlemlerini otomatikleştirmeniz mümkün.&lt;/p&gt;
@@ -83,27 +83,27 @@
     </item>
     <item>
       <title>YouTube Vanced Alternatifleri</title>
-      <link>http://localhost:1313/youtube-vanced-alternatifleri/</link>
+      <link>https://furuy.com/youtube-vanced-alternatifleri/</link>
       <pubDate>Sat, 16 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/youtube-vanced-alternatifleri/</guid>
+      <guid>https://furuy.com/youtube-vanced-alternatifleri/</guid>
       <description>&lt;p&gt;Reklamsız YouTube uygulaması veya ücretsiz YouTube Premium olarak bilinen YouTube Vanced&amp;rsquo;in Twitter hesabında, uygulamanın kapanacağını &lt;a href=&#34;https://twitter.com/YTVanced/status/1503052250268286980&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;açıklandı&lt;/a&gt;. Birçok kullanıcısı olduğu için büyük yankı uyandıran bu haber ile birlikte, Vanced kullanıcıları yeni alternatif arayışına girdiler. Ben de bu vesile ile YouTube Vanced uygulaması hakkında birkaç önemli bilgi verip, YouTube deneyiminizi artırmanıza yarayacak özgür yazılımlar ve yardımcı araçlar önereceğim.&lt;/p&gt;
 &lt;h3 id=&#34;youtube-vanced-güvenli-mi&#34;&gt;YouTube Vanced Güvenli Mi?&lt;/h3&gt;
 &lt;p&gt;Hayır çünkü Vanced, açık kaynak kodlu olmayan bir yazılımın, modifiye edilmiş bir versiyonu; Bu da, uygulamanın güvenli olup olmadığını öğrenebilmemize imkan vermiyor. Resmi olmayan kaynaklardan indirilen APK uygulamaları da, tehlikeyi katbekat artırıyor.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Password Aging (Parola Eskitme) Riskleri</title>
-      <link>http://localhost:1313/password-aging/</link>
+      <link>https://furuy.com/password-aging/</link>
       <pubDate>Thu, 23 Dec 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/password-aging/</guid>
+      <guid>https://furuy.com/password-aging/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Password aging&lt;/strong&gt; veya Türkçe&amp;rsquo;ye &amp;ldquo;&lt;strong&gt;parola eskitme&lt;/strong&gt;&amp;rdquo; olarak çevrilebilecek güvenlik mekanizması, kullanıcıların uzun zaman boyunca aynı parolayı kullanmalarını engeller. Sistem yöneticileri tarafından belirlenen zaman aralığında (password expiration policy), kullanıcılardan yeni bir parola oluşturmaları istenir. Bu yöntem her ne kadar güvenliği artırabiliyor olsa da, durumu tam tersine de çevirebilir. Bu yazıda, okuduğunuz özette kısaca bahsettiğim konuları biraz daha detaylandırmaya çalışacağım.&lt;/p&gt;
 &lt;h2 id=&#34;password-aging-neden-bir-standart-oldu&#34;&gt;Password Aging Neden Bir Standart Oldu?&lt;/h2&gt;
 &lt;p&gt;Tahminime göre bunun en büyük nedeni, zamanında parolaların hashlenmiş olarak değil de, plain text olarak veri tabanlarında saklanmasıydı. Dolayısıyla herhangi bir veri tabanı sızıntısı olduğunda, herkesin parolası apaçık ortaya çıkıyordu. O zamanın teknolojisinde göre de bu parolaların hackerlar tarafından kötü amaçlarla kullanılma süresi 90 gün olarak belirlenmiş ve standartlaşarak, üç ayda bir parolanın değiştirilmesinin uygun olacağı düşünülmüş.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Cloudflare Workers İle Security Headers Ekleme</title>
-      <link>http://localhost:1313/cloudflare-workers-security-headers/</link>
+      <link>https://furuy.com/cloudflare-workers-security-headers/</link>
       <pubDate>Fri, 17 Sep 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/cloudflare-workers-security-headers/</guid>
+      <guid>https://furuy.com/cloudflare-workers-security-headers/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Bu yazı uzun zamandır güncellenmemektedir!&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;HTTP Security Headers&amp;rsquo;ı, Cloudflare ile kullanmanız mümkün. Cloudflare&amp;rsquo;ın ücretsiz &lt;a href=&#34;https://workers.cloudflare.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Workers&lt;/a&gt; planı, şu an için günde 100.000 isteğe ve 30 Worker script&amp;rsquo;ine izin vermekte. Şayet bunlar, ihtiyaçlarınızı karşılamaya yetiyor ve Cloudflare kullandığınız bir web siteye Security Headers eklemek istiyorsanız, bu küçük rehber tam da size göre.&lt;/p&gt;
@@ -112,31 +112,31 @@
     </item>
     <item>
       <title>GoDaddy &amp; Cloudflare DNSSEC Kurulumu</title>
-      <link>http://localhost:1313/godaddy-cloudflare-dnssec/</link>
+      <link>https://furuy.com/godaddy-cloudflare-dnssec/</link>
       <pubDate>Fri, 17 Sep 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/godaddy-cloudflare-dnssec/</guid>
+      <guid>https://furuy.com/godaddy-cloudflare-dnssec/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Bu yazı uzun zamandır güncellenmemektedir!&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;GoDaddy&amp;rsquo;de barınan ve Cloudflare&amp;rsquo;a bağlı bir alan adı için DNSSEC&amp;rsquo;i aktifleştirmek çok kolay. DNSSEC özelliğini, aktifleştirebildiğiniz her alan adınız için aktifleştirmenizi tavsiye ederim. Şimdi gelin, bunu nasıl yapabileceğimize bakalım.&lt;/p&gt;
 &lt;h2 id=&#34;cloudflare&#34;&gt;Cloudflare&lt;/h2&gt;
-&lt;p&gt;Öncellikle, Cloudflare hesabınıza giriş yapın ve istediğiniz alan adınızı seçin. Ardından, menüde bulunan DNS&amp;rsquo;e tıklayın. Sayfanın biraz aşağısında, DNSSEC bölümünü bulacaksınız. &amp;ldquo;&lt;strong&gt;Enable DNSSEC&lt;/strong&gt;&amp;rdquo; butonuna basın ve burada görünen &amp;ldquo;&lt;strong&gt;Key Tag, Algorithm, Digest Type-2, Digest&lt;/strong&gt;&amp;rdquo; bilgilerini not edin ve &amp;ldquo;Confirm&amp;rdquo; butonuna tıklayarak onaylayın.&lt;img alt=&#34;Cloudflare DNSSEC Pending&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/assets/img/cloudflare-dnssec-pending.jpg&#34;&gt;&lt;/p&gt;</description>
+&lt;p&gt;Öncellikle, Cloudflare hesabınıza giriş yapın ve istediğiniz alan adınızı seçin. Ardından, menüde bulunan DNS&amp;rsquo;e tıklayın. Sayfanın biraz aşağısında, DNSSEC bölümünü bulacaksınız. &amp;ldquo;&lt;strong&gt;Enable DNSSEC&lt;/strong&gt;&amp;rdquo; butonuna basın ve burada görünen &amp;ldquo;&lt;strong&gt;Key Tag, Algorithm, Digest Type-2, Digest&lt;/strong&gt;&amp;rdquo; bilgilerini not edin ve &amp;ldquo;Confirm&amp;rdquo; butonuna tıklayarak onaylayın.&lt;img alt=&#34;Cloudflare DNSSEC Pending&#34; loading=&#34;lazy&#34; src=&#34;https://furuy.com/assets/img/cloudflare-dnssec-pending.jpg&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Web Safe Fonts Nedir &amp; Nasıl Kullanılır?</title>
-      <link>http://localhost:1313/web-safe-fonts/</link>
+      <link>https://furuy.com/web-safe-fonts/</link>
       <pubDate>Wed, 08 Sep 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/web-safe-fonts/</guid>
+      <guid>https://furuy.com/web-safe-fonts/</guid>
       <description>&lt;p&gt;Birçok web sitesi, kullanıcı arayüzünü (User Interface) geliştirmek için yazı tipleri (font) kullanır. Bu yazı tipleri de genellikle, WOFF/WOFF2 dosyaları çağrılarak veya Google Fonts kullanılarak yapılır. Her iki yöntem de harici bir istek yaratır ve bu isteklerin boyutu da, web sitenizdeki diğer isteklere oranla bir hayli fazladır.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;Reuters Google PageSpeed Insights&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/assets/img/reuters-google-pagespeed-insights.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Reuters Google PageSpeed Insights&#34; loading=&#34;lazy&#34; src=&#34;https://furuy.com/assets/img/reuters-google-pagespeed-insights.jpg&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Örnek olarak, Reuters&amp;rsquo;ın bir haber sayfasındaki toplam kaynağın yaklaşık %11&amp;rsquo;i yazı tipleri için kullanılıyor.&lt;/p&gt;
 &lt;h2 id=&#34;web-safe-fonts-nedir&#34;&gt;Web Safe Fonts Nedir?&lt;/h2&gt;
 &lt;p&gt;Her işletim sistemi ve bazı tarayıcılar, varsayılan olarak belirli yazı tipleri barındırır; Web Safe Fonts, işte bu yazı tipleridir. Bu sayede kullanacağınız yazı tipini web sitenize yüklemenize veya harici bir kaynağa istekte bulunmanıza gerek yoktur. Ziyaretçinin kullandığı tarayıcı ve internet hızı gibi değişkenlerin sorun çıkarmalarını engelleyerek, herkes için bir standart yaratmanızı sağlar.&lt;/p&gt;</description>
     </item>
     <item>
       <title>SponsorBlock Güvenli Mi?</title>
-      <link>http://localhost:1313/sponsorblock-guvenli-mi/</link>
+      <link>https://furuy.com/sponsorblock-guvenli-mi/</link>
       <pubDate>Sun, 29 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/sponsorblock-guvenli-mi/</guid>
+      <guid>https://furuy.com/sponsorblock-guvenli-mi/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Bu yazı uzun zamandır güncellenmemektedir!&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;SponsorBlock, YouTube&amp;rsquo;daki bir videoda bulunan sponsorlu ve diğer istenmeyen kısımları atlayabilmenizi sağlayan bir yazılımdır. Genellikle tarayıcı uzantısı olarak kullanılan bu yazılım, size bir hayli zaman kazandırabilir ve videoya daha iyi odaklanabilmenizi sağlar. Bu yazıda, SponsorBlock&amp;rsquo;un ne kadar güvenli olduğundan ve mahremiyetinize ne kadar saygı duyduğundan bahsedeceğim.&lt;/p&gt;
@@ -145,9 +145,9 @@
     </item>
     <item>
       <title>Firefox Neden En İyi Android Web Tarayıcısı?</title>
-      <link>http://localhost:1313/firefox-neden-en-iyi-android-web-tarayicisi/</link>
+      <link>https://furuy.com/firefox-neden-en-iyi-android-web-tarayicisi/</link>
       <pubDate>Mon, 02 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/firefox-neden-en-iyi-android-web-tarayicisi/</guid>
+      <guid>https://furuy.com/firefox-neden-en-iyi-android-web-tarayicisi/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Bu yazı uzun zamandır güncellenmemektedir!&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;Firefox, kullanmayanların ön yargıyla yaklaştığı, kullananların ise asla vazgeçemediği bir web tarayıcısı. Bu yazıda, Firefox&amp;rsquo;un neden en iyi Android web tarayıcısı olduğundan ve neden fazla &amp;ldquo;kullanılmadığından&amp;rdquo; bahsedeceğim.&lt;/p&gt;
@@ -156,9 +156,9 @@
     </item>
     <item>
       <title>WordPress Yönetici Ve Giriş Güvenliği</title>
-      <link>http://localhost:1313/wordpress-yonetici-ve-giris-guvenligi/</link>
+      <link>https://furuy.com/wordpress-yonetici-ve-giris-guvenligi/</link>
       <pubDate>Mon, 02 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/wordpress-yonetici-ve-giris-guvenligi/</guid>
+      <guid>https://furuy.com/wordpress-yonetici-ve-giris-guvenligi/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Bu yazı uzun zamandır güncellenmemektedir!&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;WordPress web sitenizdeki yönetici hesapları, varsayılan olarak birçok kritik yetkiye sahip olurlar. Bu hesapların güvenliği sağlanmazsa, web siteniz de tehdit altında olur. Bu yazıda, manuel olarak uygulayabileceğiniz bazı güvenlik adımlarını anlatacağım.&lt;/p&gt;
@@ -167,9 +167,9 @@
     </item>
     <item>
       <title>Custom ROM Kullanmak Güvenli Mi?</title>
-      <link>http://localhost:1313/custom-rom-kullanmak-guvenli-mi/</link>
+      <link>https://furuy.com/custom-rom-kullanmak-guvenli-mi/</link>
       <pubDate>Mon, 26 Jul 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/custom-rom-kullanmak-guvenli-mi/</guid>
+      <guid>https://furuy.com/custom-rom-kullanmak-guvenli-mi/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Bu yazı uzun zamandır güncellenmemektedir!&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;Custom ROM&amp;rsquo;lar, birçok olumlu getirileri ile Android kullanıcıları tarafından tercih edilebiliyorlar. Bu getirilerden bazıları şunlar:&lt;/p&gt;
@@ -191,26 +191,26 @@
     </item>
     <item>
       <title>Google AMP Neden Çok Tehlikeli?</title>
-      <link>http://localhost:1313/google-amp-neden-cok-tehlikeli/</link>
+      <link>https://furuy.com/google-amp-neden-cok-tehlikeli/</link>
       <pubDate>Thu, 22 Jul 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/google-amp-neden-cok-tehlikeli/</guid>
+      <guid>https://furuy.com/google-amp-neden-cok-tehlikeli/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Bu yazı uzun zamandır güncellenmemektedir!&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;Google, mobil web deneyimini geliştirmek ve sayfaların mobilde daha hızlı yüklenmelerini sağlamak amacıyla, 2015 yılında AMP&amp;rsquo;i duyurmuştu. Şubat 2016 tarihinden itibaren de, mobil arama sonuçlarında AMP sayfaları görünmeye başlamıştı. Kısa bir zaman içerisinde AMP, standart haline gelmeye başladı bile. Bunun en temel nedenleri; mobil internet kullanıcı sayısının fazla olması, birçok kişinin Google arama motorunu kullanması ve web site yöneticilerinin, &amp;ldquo;SEO kuralları&amp;rdquo; adı altındaki Google&amp;rsquo;ın her dayatmasını kabul etmeleri&amp;hellip;&lt;/p&gt;</description>
     </item>
     <item>
       <title>AdAway Nedir? AdAway Nasıl Kullanılır?</title>
-      <link>http://localhost:1313/adaway-nedir-nasil-kullanilir/</link>
+      <link>https://furuy.com/adaway-nedir-nasil-kullanilir/</link>
       <pubDate>Sun, 16 May 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/adaway-nedir-nasil-kullanilir/</guid>
+      <guid>https://furuy.com/adaway-nedir-nasil-kullanilir/</guid>
       <description>&lt;h2 id=&#34;adaway-nedir&#34;&gt;AdAway Nedir?&lt;/h2&gt;
 &lt;p&gt;Adaway, &lt;a href=&#34;https://furuy.com/categories/android/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Android&lt;/a&gt; için en etkili reklam engelleme uygulamalarındandır. AdAway&amp;rsquo;i diğer reklam engelleyicilerden ayıran ana özelliği, root modudur. Root modu, sistemin hosts dosyasına eklemeler yaparak, reklam türevi istenmeyen web sitelerine bağlanılmasını engeller. &lt;strong&gt;AdAway rootsuz&lt;/strong&gt; da çalışmaktadır ancak aynı işlevi gören Netguard, AdGuard ve Blokada gibi birçok alternatifi de olduğu için bu yazıda root modu üzerine bilgi vereceğim. Root modu sayesinde, uygulamanın sürekli arka planda çalışarak pil tüketmesinin önüne geçebilir ve VPN kullanırken de reklamları engellemeye devam edebilirsiniz.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Web Sitenize Çerezler Uyarısı Ekleyin (1 KB)</title>
-      <link>http://localhost:1313/cerezler-uyarisi-ekleme/</link>
+      <link>https://furuy.com/cerezler-uyarisi-ekleme/</link>
       <pubDate>Sun, 09 May 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/cerezler-uyarisi-ekleme/</guid>
+      <guid>https://furuy.com/cerezler-uyarisi-ekleme/</guid>
       <description>&lt;h2 id=&#34;çerezler-uyarısı-nedir&#34;&gt;Çerezler Uyarısı Nedir?&lt;/h2&gt;
 &lt;p&gt;Çerezler uyarısı, &lt;a href=&#34;https://tr.m.wikipedia.org/wiki/Genel_Veri_Koruma_Y%C3%B6netmeli%C4%9Fi&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;GDPR&lt;/a&gt; standartları kapsamında, bir yasal zorunluluk haline geldi; Web siteniz AB&amp;rsquo;de barınmasa bile, AB konumlu ziyaretçiler için bu bildirimi eklemek zorundasınız. Bu uygulama ile kişisel verilerin korunmasının geliştirilmesi amaçlanıyor. Bu uygulama ile birlikte de, kişisel veri toplayan taraflara bazı sorumluluklar düşüyor.&lt;/p&gt;
 &lt;p&gt;Web sitenizde birçok birinci parti veya üçüncü parti çerezler kullanılıyor olabilir. Örnekler:&lt;/p&gt;
@@ -223,9 +223,9 @@
     </item>
     <item>
       <title>FilterLists İle Yeni Reklam Engelleyici Filtreleri Bulun</title>
-      <link>http://localhost:1313/filterlists-com/</link>
+      <link>https://furuy.com/filterlists-com/</link>
       <pubDate>Mon, 03 May 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/filterlists-com/</guid>
+      <guid>https://furuy.com/filterlists-com/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Bu yazı uzun zamandır güncellenmemektedir!&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;FilterLists; Adaway, uBlock Origin, Adguard ve Adblock Plus gibi araçlarda kullanabileceğiniz, reklam/zararlı yazılım/paywall/anti-adblock gibi birçok filtreyi bulabilmenizi sağlayan bir web sitesidir. Filtrelenebilen arşiv sayesinde, ihtiyacınıza yönelik filtreleri kolayca bulmanız mümkün.&lt;/p&gt;
@@ -237,9 +237,9 @@
     </item>
     <item>
       <title>Access Dots Özelliğini Android&#39;de Kullanma</title>
-      <link>http://localhost:1313/access-dots-android/</link>
+      <link>https://furuy.com/access-dots-android/</link>
       <pubDate>Fri, 30 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/access-dots-android/</guid>
+      <guid>https://furuy.com/access-dots-android/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Bu yazı uzun zamandır güncellenmemektedir!&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;Access Dots, iOS 14 ile tanıtılan, kullanıcının gizliliğini geliştirmeyi amaçlayan yeni bir özellik. Bu özellik sayesinde, arka planda mikrofona veya kameraya erişilirse, ekranda renkli noktalar beliriyor. Her bir izin için farklı bir renk kullanıldığından, hangi iznin kullanıldığını kolayca anlayabiliyorsunuz.&lt;/p&gt;
@@ -247,9 +247,9 @@
     </item>
     <item>
       <title>Brave Reklam Engelleyici Rehberi</title>
-      <link>http://localhost:1313/brave-browser-ozel-filtreler/</link>
+      <link>https://furuy.com/brave-browser-ozel-filtreler/</link>
       <pubDate>Fri, 16 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/brave-browser-ozel-filtreler/</guid>
+      <guid>https://furuy.com/brave-browser-ozel-filtreler/</guid>
       <description>&lt;p&gt;Brave, varsayılan olarak reklam engelleme özelliğine sahip bir internet tarayıcısıdır. Bu yazıda, Brave&amp;rsquo;in reklam engelleme özelliğini daha etkili bir şekilde kullanmayı öğreneceksiniz.&lt;/p&gt;
 &lt;h2 id=&#34;brave-shields&#34;&gt;Brave Shields&lt;/h2&gt;
 &lt;p&gt;Brave, varsayılan olarak yalnızca üçüncü taraf reklamları engeller. Örneğin bir web sitedeki sponsorlu içerikleri engellemez. Birinci parti de dahil tüm reklamları engellemek için &amp;ldquo;&lt;strong&gt;Block trackers &amp;amp; ads (Aggressive)&lt;/strong&gt;&amp;rdquo; seçeneğini seçmeniz gerekiyor.&lt;/p&gt;
@@ -259,9 +259,9 @@ Bu sayfaya Brave Shields ayarlarından ulaşabilirsiniz. Ayrıca &lt;strong&gt;b
     </item>
     <item>
       <title>Parola Yöneticileri İçin Güvenlik Tavsiyeleri</title>
-      <link>http://localhost:1313/guvenli-parola-yoneticisi/</link>
+      <link>https://furuy.com/guvenli-parola-yoneticisi/</link>
       <pubDate>Tue, 30 Mar 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/guvenli-parola-yoneticisi/</guid>
+      <guid>https://furuy.com/guvenli-parola-yoneticisi/</guid>
       <description>&lt;p&gt;Parola yöneticilerinin önemi günden güne daha iyi anlaşılmaktadır. Güvenlik amacıyla kullanılan bu araçlar, tehlikeli de olabilirler. Bu araçlar bilinçsiz veya tedbirsiz kullanılırsa, kullanıcının internetteki tüm varlığı, kötü niyetli kişilere altın tepside sunulmuş olur. Bu tür istenmeyen durumlardan kaçınmak için bu rehberi dikkatli bir şekilde okuyup, tavsiyeleri uygulamanızı ve konu hakkındaki bilgilerinizin güncel kalması için de siber güvenlik alanında yetkin kaynaklarını takip etmenizi öneririm.&lt;/p&gt;
 &lt;p&gt;Yazıya geçmeden, konu hakkında deneyimli kişilerin bile sıklıkla yaptığı bir yanlış kullanımı da düzelteyim: İnternette, giriş yaparken veya kayıt olurken yazdığınız şeye &amp;ldquo;şifre&amp;rdquo; değil, &amp;ldquo;parola&amp;rdquo; denir. Bu yüzden de &amp;ldquo;şifre yöneticisi&amp;rdquo; yerine, doğru kullanım olan &amp;ldquo;&lt;strong&gt;parola yöneticisi&lt;/strong&gt;&amp;rdquo; sözcüğünü kullanacağım.&lt;/p&gt;</description>
     </item>

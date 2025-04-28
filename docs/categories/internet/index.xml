@@ -2,33 +2,33 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>İnternet on Furuy.com</title>
-    <link>http://localhost:1313/categories/internet/</link>
+    <link>https://furuy.com/categories/internet/</link>
     <description>Recent content in İnternet on Furuy.com</description>
     <generator>Hugo -- 0.147.0</generator>
     <language>tr</language>
     <lastBuildDate>Fri, 21 Feb 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/internet/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://furuy.com/categories/internet/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Erişim Engellerinin Ulusal Siber Güvenliğe Zararları</title>
-      <link>http://localhost:1313/erisim-engellerinin-zararlari/</link>
+      <link>https://furuy.com/erisim-engellerinin-zararlari/</link>
       <pubDate>Fri, 21 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/erisim-engellerinin-zararlari/</guid>
+      <guid>https://furuy.com/erisim-engellerinin-zararlari/</guid>
       <description>&lt;p&gt;Günümüzde internet, bilgiye erişim, iletişim ve ifade özgürlüğü gibi temel hakların vazgeçilmez bir parçası haline gelmiştir. Ancak, son zamanlarda Instagram ve Discord gibi popüler platformlara uygulanan erişim engelleri, dijital özgürlükleri kısıtlamanın yanı sıra ulusal siber güvenliği de ciddi şekilde tehdit etmektedir. Bu tür engeller, kullanıcıları alternatif ve genellikle daha az güvenli yöntemlere yönelterek siber güvenlik risklerini artırmaktadır. Bu makalede, erişim engellerinin yarattığı siber güvenlik açıklarını ve çözüm önerilerini detaylı bir şekilde ele alacağım.&lt;/p&gt;</description>
     </item>
     <item>
       <title>YouTube Vanced Alternatifleri</title>
-      <link>http://localhost:1313/youtube-vanced-alternatifleri/</link>
+      <link>https://furuy.com/youtube-vanced-alternatifleri/</link>
       <pubDate>Sat, 16 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/youtube-vanced-alternatifleri/</guid>
+      <guid>https://furuy.com/youtube-vanced-alternatifleri/</guid>
       <description>&lt;p&gt;Reklamsız YouTube uygulaması veya ücretsiz YouTube Premium olarak bilinen YouTube Vanced&amp;rsquo;in Twitter hesabında, uygulamanın kapanacağını &lt;a href=&#34;https://twitter.com/YTVanced/status/1503052250268286980&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;açıklandı&lt;/a&gt;. Birçok kullanıcısı olduğu için büyük yankı uyandıran bu haber ile birlikte, Vanced kullanıcıları yeni alternatif arayışına girdiler. Ben de bu vesile ile YouTube Vanced uygulaması hakkında birkaç önemli bilgi verip, YouTube deneyiminizi artırmanıza yarayacak özgür yazılımlar ve yardımcı araçlar önereceğim.&lt;/p&gt;
 &lt;h3 id=&#34;youtube-vanced-güvenli-mi&#34;&gt;YouTube Vanced Güvenli Mi?&lt;/h3&gt;
 &lt;p&gt;Hayır çünkü Vanced, açık kaynak kodlu olmayan bir yazılımın, modifiye edilmiş bir versiyonu; Bu da, uygulamanın güvenli olup olmadığını öğrenebilmemize imkan vermiyor. Resmi olmayan kaynaklardan indirilen APK uygulamaları da, tehlikeyi katbekat artırıyor.&lt;/p&gt;</description>
     </item>
     <item>
       <title>SponsorBlock Güvenli Mi?</title>
-      <link>http://localhost:1313/sponsorblock-guvenli-mi/</link>
+      <link>https://furuy.com/sponsorblock-guvenli-mi/</link>
       <pubDate>Sun, 29 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/sponsorblock-guvenli-mi/</guid>
+      <guid>https://furuy.com/sponsorblock-guvenli-mi/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Bu yazı uzun zamandır güncellenmemektedir!&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;SponsorBlock, YouTube&amp;rsquo;daki bir videoda bulunan sponsorlu ve diğer istenmeyen kısımları atlayabilmenizi sağlayan bir yazılımdır. Genellikle tarayıcı uzantısı olarak kullanılan bu yazılım, size bir hayli zaman kazandırabilir ve videoya daha iyi odaklanabilmenizi sağlar. Bu yazıda, SponsorBlock&amp;rsquo;un ne kadar güvenli olduğundan ve mahremiyetinize ne kadar saygı duyduğundan bahsedeceğim.&lt;/p&gt;
@@ -37,9 +37,9 @@
     </item>
     <item>
       <title>Firefox Neden En İyi Android Web Tarayıcısı?</title>
-      <link>http://localhost:1313/firefox-neden-en-iyi-android-web-tarayicisi/</link>
+      <link>https://furuy.com/firefox-neden-en-iyi-android-web-tarayicisi/</link>
       <pubDate>Mon, 02 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/firefox-neden-en-iyi-android-web-tarayicisi/</guid>
+      <guid>https://furuy.com/firefox-neden-en-iyi-android-web-tarayicisi/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Bu yazı uzun zamandır güncellenmemektedir!&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;Firefox, kullanmayanların ön yargıyla yaklaştığı, kullananların ise asla vazgeçemediği bir web tarayıcısı. Bu yazıda, Firefox&amp;rsquo;un neden en iyi Android web tarayıcısı olduğundan ve neden fazla &amp;ldquo;kullanılmadığından&amp;rdquo; bahsedeceğim.&lt;/p&gt;
@@ -48,18 +48,18 @@
     </item>
     <item>
       <title>Google AMP Neden Çok Tehlikeli?</title>
-      <link>http://localhost:1313/google-amp-neden-cok-tehlikeli/</link>
+      <link>https://furuy.com/google-amp-neden-cok-tehlikeli/</link>
       <pubDate>Thu, 22 Jul 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/google-amp-neden-cok-tehlikeli/</guid>
+      <guid>https://furuy.com/google-amp-neden-cok-tehlikeli/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Bu yazı uzun zamandır güncellenmemektedir!&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;Google, mobil web deneyimini geliştirmek ve sayfaların mobilde daha hızlı yüklenmelerini sağlamak amacıyla, 2015 yılında AMP&amp;rsquo;i duyurmuştu. Şubat 2016 tarihinden itibaren de, mobil arama sonuçlarında AMP sayfaları görünmeye başlamıştı. Kısa bir zaman içerisinde AMP, standart haline gelmeye başladı bile. Bunun en temel nedenleri; mobil internet kullanıcı sayısının fazla olması, birçok kişinin Google arama motorunu kullanması ve web site yöneticilerinin, &amp;ldquo;SEO kuralları&amp;rdquo; adı altındaki Google&amp;rsquo;ın her dayatmasını kabul etmeleri&amp;hellip;&lt;/p&gt;</description>
     </item>
     <item>
       <title>FilterLists İle Yeni Reklam Engelleyici Filtreleri Bulun</title>
-      <link>http://localhost:1313/filterlists-com/</link>
+      <link>https://furuy.com/filterlists-com/</link>
       <pubDate>Mon, 03 May 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/filterlists-com/</guid>
+      <guid>https://furuy.com/filterlists-com/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Bu yazı uzun zamandır güncellenmemektedir!&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;FilterLists; Adaway, uBlock Origin, Adguard ve Adblock Plus gibi araçlarda kullanabileceğiniz, reklam/zararlı yazılım/paywall/anti-adblock gibi birçok filtreyi bulabilmenizi sağlayan bir web sitesidir. Filtrelenebilen arşiv sayesinde, ihtiyacınıza yönelik filtreleri kolayca bulmanız mümkün.&lt;/p&gt;
