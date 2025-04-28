@@ -4,7 +4,7 @@
     <title>Güvenlik &amp; Mahremiyet on Furuy.com</title>
     <link>https://furuy.com/categories/g%C3%BCvenlik--mahremiyet/</link>
     <description>Recent content in Güvenlik &amp; Mahremiyet on Furuy.com</description>
-    <generator>Hugo -- 0.142.0</generator>
+    <generator>Hugo -- 0.147.0</generator>
     <language>tr</language>
     <lastBuildDate>Tue, 18 Mar 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://furuy.com/categories/g%C3%BCvenlik--mahremiyet/index.xml" rel="self" type="application/rss+xml" />
@@ -52,8 +52,7 @@
       <pubDate>Thu, 26 May 2022 00:00:00 +0000</pubDate>
       <guid>https://furuy.com/dnf-automatic/</guid>
       <description>&lt;blockquote&gt;
-&lt;p&gt;Bu yazı uzun zamandır güncellenmemektedir!&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;Bu yazı uzun zamandır güncellenmemektedir!&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;DNF Automatic&lt;/strong&gt; ile Fedora ve RHEL gibi DNF paket yöneticisine sahip &lt;a href=&#34;https://furuy.com/categories/gnu-linux/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;GNU/Linux&lt;/a&gt; dağıtımlarındaki güncelleme işlemlerini otomatikleştirmeniz mümkün.&lt;/p&gt;
 &lt;h2 id=&#34;dnf-automatici-yükleyin&#34;&gt;DNF Automatic&amp;rsquo;i Yükleyin&lt;/h2&gt;
 &lt;p&gt;Bunun için kullandığınız terminale aşağıdaki kodu yazın ve yüklemeyi onaylayarak, kurulumu tamamlayın:&lt;/p&gt;
@@ -80,8 +79,7 @@
       <pubDate>Fri, 17 Sep 2021 00:00:00 +0000</pubDate>
       <guid>https://furuy.com/godaddy-cloudflare-dnssec/</guid>
       <description>&lt;blockquote&gt;
-&lt;p&gt;Bu yazı uzun zamandır güncellenmemektedir!&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;Bu yazı uzun zamandır güncellenmemektedir!&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;GoDaddy&amp;rsquo;de barınan ve Cloudflare&amp;rsquo;a bağlı bir alan adı için DNSSEC&amp;rsquo;i aktifleştirmek çok kolay. DNSSEC özelliğini, aktifleştirebildiğiniz her alan adınız için aktifleştirmenizi tavsiye ederim. Şimdi gelin, bunu nasıl yapabileceğimize bakalım.&lt;/p&gt;
 &lt;h2 id=&#34;cloudflare&#34;&gt;Cloudflare&lt;/h2&gt;
 &lt;p&gt;Öncellikle, Cloudflare hesabınıza giriş yapın ve istediğiniz alan adınızı seçin. Ardından, menüde bulunan DNS&amp;rsquo;e tıklayın. Sayfanın biraz aşağısında, DNSSEC bölümünü bulacaksınız. &amp;ldquo;&lt;strong&gt;Enable DNSSEC&lt;/strong&gt;&amp;rdquo; butonuna basın ve burada görünen &amp;ldquo;&lt;strong&gt;Key Tag, Algorithm, Digest Type-2, Digest&lt;/strong&gt;&amp;rdquo; bilgilerini not edin ve &amp;ldquo;Confirm&amp;rdquo; butonuna tıklayarak onaylayın.&lt;img alt=&#34;Cloudflare DNSSEC Pending&#34; loading=&#34;lazy&#34; src=&#34;https://furuy.com/assets/img/cloudflare-dnssec-pending.jpg&#34;&gt;&lt;/p&gt;</description>
@@ -92,8 +90,7 @@
       <pubDate>Sun, 29 Aug 2021 00:00:00 +0000</pubDate>
       <guid>https://furuy.com/sponsorblock-guvenli-mi/</guid>
       <description>&lt;blockquote&gt;
-&lt;p&gt;Bu yazı uzun zamandır güncellenmemektedir!&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;Bu yazı uzun zamandır güncellenmemektedir!&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;SponsorBlock, YouTube&amp;rsquo;daki bir videoda bulunan sponsorlu ve diğer istenmeyen kısımları atlayabilmenizi sağlayan bir yazılımdır. Genellikle tarayıcı uzantısı olarak kullanılan bu yazılım, size bir hayli zaman kazandırabilir ve videoya daha iyi odaklanabilmenizi sağlar. Bu yazıda, SponsorBlock&amp;rsquo;un ne kadar güvenli olduğundan ve mahremiyetinize ne kadar saygı duyduğundan bahsedeceğim.&lt;/p&gt;
 &lt;h2 id=&#34;açık-kaynak-kodlu&#34;&gt;Açık Kaynak Kodlu&lt;/h2&gt;
 &lt;p&gt;SponsorBlock, hem uygulama hem de sunucu taraflı olarak tamamen açık kaynak kodludur. Tarayıcı uzantısı olan uzantının kaynak kodlarına &lt;a href=&#34;https://github.com/ajayyy/SponsorBlock&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;bu&lt;/a&gt; bağlantıdan, sunucu kaynak kodlarına ise &lt;a href=&#34;https://github.com/ajayyy/SponsorBlockServer&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;bu&lt;/a&gt; bağlantıdan erişebilirsiniz.&lt;/p&gt;</description>
@@ -104,8 +101,7 @@
       <pubDate>Mon, 02 Aug 2021 00:00:00 +0000</pubDate>
       <guid>https://furuy.com/wordpress-yonetici-ve-giris-guvenligi/</guid>
       <description>&lt;blockquote&gt;
-&lt;p&gt;Bu yazı uzun zamandır güncellenmemektedir!&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;Bu yazı uzun zamandır güncellenmemektedir!&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;WordPress web sitenizdeki yönetici hesapları, varsayılan olarak birçok kritik yetkiye sahip olurlar. Bu hesapların güvenliği sağlanmazsa, web siteniz de tehdit altında olur. Bu yazıda, manuel olarak uygulayabileceğiniz bazı güvenlik adımlarını anlatacağım.&lt;/p&gt;
 &lt;h2 id=&#34;admin-kullanıcı-adını-kullanmayın&#34;&gt;&amp;lsquo;Admin&amp;rsquo; Kullanıcı Adını Kullanmayın&lt;/h2&gt;
 &lt;p&gt;Tüm brute-force kullanıcı adı listelerinin ilk sırasında yer alan, &amp;ldquo;admin&amp;rdquo; gibi yaygın ve tahmin edilebilir kullanıcı adlarını, hiçbir sisteminizde kullanmayın. Yalnızca web sitenizde kullanacağınız, tahmin edilemez ve özgün bir kullanıcı adı belirleyin.&lt;/p&gt;</description>
@@ -116,8 +112,7 @@
       <pubDate>Mon, 26 Jul 2021 00:00:00 +0000</pubDate>
       <guid>https://furuy.com/custom-rom-kullanmak-guvenli-mi/</guid>
       <description>&lt;blockquote&gt;
-&lt;p&gt;Bu yazı uzun zamandır güncellenmemektedir!&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;Bu yazı uzun zamandır güncellenmemektedir!&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;Custom ROM&amp;rsquo;lar, birçok olumlu getirileri ile Android kullanıcıları tarafından tercih edilebiliyorlar. Bu getirilerden bazıları şunlar:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -141,8 +136,7 @@
       <pubDate>Thu, 22 Jul 2021 00:00:00 +0000</pubDate>
       <guid>https://furuy.com/google-amp-neden-cok-tehlikeli/</guid>
       <description>&lt;blockquote&gt;
-&lt;p&gt;Bu yazı uzun zamandır güncellenmemektedir!&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;Bu yazı uzun zamandır güncellenmemektedir!&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;Google, mobil web deneyimini geliştirmek ve sayfaların mobilde daha hızlı yüklenmelerini sağlamak amacıyla, 2015 yılında AMP&amp;rsquo;i duyurmuştu. Şubat 2016 tarihinden itibaren de, mobil arama sonuçlarında AMP sayfaları görünmeye başlamıştı. Kısa bir zaman içerisinde AMP, standart haline gelmeye başladı bile. Bunun en temel nedenleri; mobil internet kullanıcı sayısının fazla olması, birçok kişinin Google arama motorunu kullanması ve web site yöneticilerinin, &amp;ldquo;SEO kuralları&amp;rdquo; adı altındaki Google&amp;rsquo;ın her dayatmasını kabul etmeleri&amp;hellip;&lt;/p&gt;</description>
     </item>
     <item>
@@ -151,8 +145,7 @@
       <pubDate>Fri, 30 Apr 2021 00:00:00 +0000</pubDate>
       <guid>https://furuy.com/access-dots-android/</guid>
       <description>&lt;blockquote&gt;
-&lt;p&gt;Bu yazı uzun zamandır güncellenmemektedir!&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;Bu yazı uzun zamandır güncellenmemektedir!&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;Access Dots, iOS 14 ile tanıtılan, kullanıcının gizliliğini geliştirmeyi amaçlayan yeni bir özellik. Bu özellik sayesinde, arka planda mikrofona veya kameraya erişilirse, ekranda renkli noktalar beliriyor. Her bir izin için farklı bir renk kullanıldığından, hangi iznin kullanıldığını kolayca anlayabiliyorsunuz.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;EKLEME (26.05.2022):&lt;/strong&gt; Android 12 ile birlikte, bu özelliği üçüncü bir parti uygulamaya gerek olmadan kullanabilirsiniz. Detaylar için, Android&amp;rsquo;in resmi web sitesindeki bu bağlantıyı ziyaret edin: &lt;a href=&#34;https://source.android.com/devices/tech/config/privacy-indicators&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;https://source.android.com/devices/tech/config/privacy-indicators&lt;/a&gt;&lt;/p&gt;</description>
     </item>

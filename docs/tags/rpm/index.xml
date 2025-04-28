@@ -4,7 +4,7 @@
     <title>Rpm on Furuy.com</title>
     <link>https://furuy.com/tags/rpm/</link>
     <description>Recent content in Rpm on Furuy.com</description>
-    <generator>Hugo -- 0.142.0</generator>
+    <generator>Hugo -- 0.147.0</generator>
     <language>tr</language>
     <lastBuildDate>Thu, 26 May 2022 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://furuy.com/tags/rpm/index.xml" rel="self" type="application/rss+xml" />
@@ -14,8 +14,7 @@
       <pubDate>Thu, 26 May 2022 00:00:00 +0000</pubDate>
       <guid>https://furuy.com/dnf-automatic/</guid>
       <description>&lt;blockquote&gt;
-&lt;p&gt;Bu yazı uzun zamandır güncellenmemektedir!&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;Bu yazı uzun zamandır güncellenmemektedir!&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;DNF Automatic&lt;/strong&gt; ile Fedora ve RHEL gibi DNF paket yöneticisine sahip &lt;a href=&#34;https://furuy.com/categories/gnu-linux/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;GNU/Linux&lt;/a&gt; dağıtımlarındaki güncelleme işlemlerini otomatikleştirmeniz mümkün.&lt;/p&gt;
 &lt;h2 id=&#34;dnf-automatici-yükleyin&#34;&gt;DNF Automatic&amp;rsquo;i Yükleyin&lt;/h2&gt;
 &lt;p&gt;Bunun için kullandığınız terminale aşağıdaki kodu yazın ve yüklemeyi onaylayarak, kurulumu tamamlayın:&lt;/p&gt;
