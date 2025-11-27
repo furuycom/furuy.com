@@ -80,6 +80,9 @@ params:
     - name: mastodon
       title: "Mastodon"
       url: "https://mastodon.social/@furuycom"
+    - name: x
+      title: "X"
+      url:  "https://x.com/furuycom"
     - name: linkedin
       title: "LinkedIn"
       url: "https://www.linkedin.com/in/furkanuysal"
