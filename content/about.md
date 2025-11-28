@@ -19,5 +19,3 @@ I'm trying to create useful content related to [my interests](/categories/) on m
 - [Mastodon](https://mastodon.social/@furuycom)
 - [X ](https://x.com/furuycom)
 - [LinkedIn](https://www.linkedin.com/in/furkanuysal)
-- [RSS](/index.xml)
-- [Google News](https://news.google.com/publications/CAAqBwgKMIf_kgswxoTcAg)
