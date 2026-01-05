@@ -1,0 +1,1 @@
+[![pages-build-deployment](https://github.com/furuycom/furuy.com/actions/workflows/pages/pages-build-deployment/badge.svg?branch=main)](https://github.com/furuycom/furuy.com/actions/workflows/pages/pages-build-deployment)
