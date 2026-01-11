@@ -73,7 +73,7 @@ enableGitInfo = true
   # Label
   [params.label]
     text = "Furkan Uysal"
-    #icon = "/assets/img/favicon.svg"
+    icon = "/assets/img/favicon.svg"
 
   # Social Icons
   [[params.socialIcons]]

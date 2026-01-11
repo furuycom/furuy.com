@@ -17,3 +17,26 @@
 .chroma {
     background-color: unset !important;
 }
+
+/* Mobile Menu: Center and stack */
+@media screen and (max-width: 768px) {
+    .nav {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    #menu {
+        justify-content: center;
+        margin: 0;
+        overflow-x: visible;
+        flex-wrap: wrap;
+        white-space: normal;
+    }
+}
+
+/* Reduce visual weight of theme/language switches */
+.logo-switches {
+    transform-origin: left center;
+    opacity: 0.9;
+}
