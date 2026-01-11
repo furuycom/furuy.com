@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Web Safe Fonts on Furkan Uysal</title>
+    <link>https://furuy.com/tr/etiketler/web-safe-fonts/</link>
+    <description>Recent content in Web Safe Fonts on Furkan Uysal</description>
+    <generator>Hugo -- 0.154.2</generator>
+    <language>tr-TR</language>
+    <copyright>Furkan Uysal — CC0 1.0 Evrensel · Yasal</copyright>
+    <lastBuildDate>Sun, 11 Jan 2026 16:50:26 +0300</lastBuildDate>
+    <atom:link href="https://furuy.com/tr/etiketler/web-safe-fonts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Web Safe Fonts Nedir &amp; Nasıl Kullanılır?</title>
+      <link>https://furuy.com/tr/yazilar/web-safe-fonts/</link>
+      <pubDate>Wed, 08 Sep 2021 00:00:00 +0300</pubDate>
+      <guid>https://furuy.com/tr/yazilar/web-safe-fonts/</guid>
+      <description>&lt;p&gt;Birçok web sitesi, kullanıcı arayüzünü (User Interface) geliştirmek için yazı tipleri (font) kullanır. Bu yazı tipleri de genellikle, WOFF/WOFF2 dosyaları çağrılarak veya Google Fonts kullanılarak yapılır. Her iki yöntem de harici bir istek yaratır ve bu isteklerin boyutu da, web sitenizdeki diğer isteklere oranla bir hayli fazladır.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Reuters Google PageSpeed Insights&#34; loading=&#34;lazy&#34; src=&#34;https://furuy.com/assets/img/reuters-google-pagespeed-insights.webp&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Örnek olarak, Reuters&amp;rsquo;ın bir haber sayfasındaki toplam kaynağın yaklaşık %11&amp;rsquo;i yazı tipleri için kullanılıyor.&lt;/p&gt;
+&lt;h2 id=&#34;web-safe-fonts-nedir&#34;&gt;Web Safe Fonts Nedir?&lt;/h2&gt;
+&lt;p&gt;Her işletim sistemi ve bazı tarayıcılar, varsayılan olarak belirli yazı tipleri barındırır; Web Safe Fonts, işte bu yazı tipleridir. Bu sayede kullanacağınız yazı tipini web sitenize yüklemenize veya harici bir kaynağa istekte bulunmanıza gerek yoktur. Ziyaretçinin kullandığı tarayıcı ve internet hızı gibi değişkenlerin sorun çıkarmalarını engelleyerek, herkes için bir standart yaratmanızı sağlar.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Android on Furkan Uysal</title>
+    <link>https://furuy.com/tr/kategoriler/android/</link>
+    <description>Recent content in Android on Furkan Uysal</description>
+    <generator>Hugo -- 0.154.2</generator>
+    <language>tr-TR</language>
+    <copyright>Furkan Uysal — CC0 1.0 Evrensel · Yasal</copyright>
+    <lastBuildDate>Sun, 11 Jan 2026 16:50:26 +0300</lastBuildDate>
+    <atom:link href="https://furuy.com/tr/kategoriler/android/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kaçak Telefonların Ulusal Siber Güvenliğe Zararları</title>
+      <link>https://furuy.com/tr/yazilar/kacak-telefon-imei-atma-zararlari/</link>
+      <pubDate>Tue, 18 Mar 2025 00:00:00 +0300</pubDate>
+      <guid>https://furuy.com/tr/yazilar/kacak-telefon-imei-atma-zararlari/</guid>
+      <description>&lt;p&gt;&lt;img alt=&#34;Kaçak Telefonların Ulusal Siber Güvenliğe Zararları&#34; loading=&#34;lazy&#34; src=&#34;https://furuy.com/assets/img/kacak-telefon.webp&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;1-giriş&#34;&gt;&lt;strong&gt;1. Giriş&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Türkiye&amp;rsquo;de yüksek vergiler, pahalı IMEI kayıt ücretleri ve sınırlı taksit seçenekleri nedeniyle akıllı telefon fiyatları dünya ortalamasının oldukça üzerinde seyretmektedir. Bu durum, tüketicileri resmi garantisi olmayan, yasa dışı yöntemlerle IMEI manipülasyonu (&amp;ldquo;IMEI atma&amp;rdquo;) yapılan &amp;ldquo;kaçak&amp;rdquo; telefonlara yönlendirmektedir. Kaçak telefon kullanımı, yalnızca bireysel kullanıcıları değil, ulusal siber güvenlik yapısını da ciddi şekilde tehdit etmektedir. Bu makalede, kaçak telefon ekosisteminin teknik dinamikleri, siber güvenlik riskleri ve ulusal güvenliğe olası etkileri ele alınmaktadır.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Güvenli Android Doğrulama Yöntemleri (Parola, Biyometrik vs.)</title>
+      <link>https://furuy.com/tr/yazilar/guvenli-android-dogrulama-yontemleri/</link>
+      <pubDate>Thu, 13 Jul 2023 00:00:00 +0300</pubDate>
+      <guid>https://furuy.com/tr/yazilar/guvenli-android-dogrulama-yontemleri/</guid>
+      <description>&lt;p&gt;Bu yazıda, Android cihazlardaki giriş/doğrulama yöntemlerinin ne kadar güvenli olduğundan ve güncel bilgiler ışığında nasıl bir tercih yapmanız gerektiğinden bahsedeceğim.&lt;/p&gt;
+&lt;h2 id=&#34;ekran-kilidi-belirleyin&#34;&gt;Ekran Kilidi Belirleyin&lt;/h2&gt;
+&lt;p&gt;Öncelikle, mutlaka bir ekran kilidi belirlemeniz ve bunlardan da en güvenlisini seçmeniz gerekiyor.&lt;/p&gt;
+&lt;h3 id=&#34;pin-ve-desen-kilidi-kullanmayın&#34;&gt;PIN ve Desen Kilidi Kullanmayın&lt;/h3&gt;
+&lt;p&gt;PIN ve desen (patter) kilidi yöntemlerini güvenli olmadıkları için eliyoruz. Bunları kullanmanız kesinlikle önerilmiyor.&lt;/p&gt;
+&lt;h3 id=&#34;biyometrik-ekran-kilidi-yöntemleri-neden-kullanılmamalı&#34;&gt;Biyometrik Ekran Kilidi Yöntemleri Neden Kullanılmamalı?&lt;/h3&gt;
+&lt;p&gt;Yüz tanıma kilidi, hâlâ en güvensiz yöntemlerden birisi. Bugün bile birçok akıllı telefon markası, müşterilerine genellikle de kurulum sırasında yüz tanıma kilidinin diğer yöntemlerden daha güvensiz olduğunu vurguluyor.[1] Dolayısıyla yüz tanıma kilidi kullanmanız da önerilmiyor.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>YouTube Vanced Alternatifleri</title>
+      <link>https://furuy.com/tr/yazilar/youtube-vanced-alternatifleri/</link>
+      <pubDate>Sat, 16 Apr 2022 00:00:00 +0300</pubDate>
+      <guid>https://furuy.com/tr/yazilar/youtube-vanced-alternatifleri/</guid>
+      <description>&lt;p&gt;Reklamsız YouTube uygulaması veya ücretsiz YouTube Premium olarak bilinen YouTube Vanced&amp;rsquo;in Twitter hesabında, uygulamanın kapanacağını &lt;a href=&#34;https://twitter.com/YTVanced/status/1503052250268286980&#34;&gt;açıklandı&lt;/a&gt;. Birçok kullanıcısı olduğu için büyük yankı uyandıran bu haber ile birlikte, Vanced kullanıcıları yeni alternatif arayışına girdiler. Ben de bu vesile ile YouTube Vanced uygulaması hakkında birkaç önemli bilgi verip, YouTube deneyiminizi artırmanıza yarayacak özgür yazılımlar ve yardımcı araçlar önereceğim.&lt;/p&gt;
+&lt;h3 id=&#34;youtube-vanced-güvenli-mi&#34;&gt;YouTube Vanced Güvenli Mi?&lt;/h3&gt;
+&lt;p&gt;Hayır çünkü Vanced, açık kaynak kodlu olmayan bir yazılımın, modifiye edilmiş bir versiyonu; Bu da, uygulamanın güvenli olup olmadığını öğrenebilmemize imkan vermiyor. Resmi olmayan kaynaklardan indirilen APK uygulamaları da, tehlikeyi katbekat artırıyor.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Firefox Neden En İyi Android Web Tarayıcısı?</title>
+      <link>https://furuy.com/tr/yazilar/firefox-neden-en-iyi-android-web-tarayicisi/</link>
+      <pubDate>Mon, 02 Aug 2021 00:00:00 +0300</pubDate>
+      <guid>https://furuy.com/tr/yazilar/firefox-neden-en-iyi-android-web-tarayicisi/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Bu yazı uzun zamandır güncellenmemektedir!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Firefox, kullanmayanların ön yargıyla yaklaştığı, kullananların ise asla vazgeçemediği bir web tarayıcısı. Bu yazıda, Firefox&amp;rsquo;un neden en iyi Android web tarayıcısı olduğundan ve neden fazla &amp;ldquo;kullanılmadığından&amp;rdquo; bahsedeceğim.&lt;/p&gt;
+&lt;h2 id=&#34;google-firefoxtan-nefret-ediyor&#34;&gt;Google, Firefox&amp;rsquo;tan Nefret Ediyor&lt;/h2&gt;
+&lt;p&gt;Web&amp;rsquo;in bizzat kendisi olmak isteyen Google; kendi kullanıcılarını gizli sekmede bile takip eden, özgür bir yazılım olmayan Chrome tarayıcısının tek rakibine karşı, uzun zamandır adil olmayan bir savaş veriyor. Neredeyse tüm &lt;a href=&#34;https://furuy.com/categories/android/&#34;&gt;Android&lt;/a&gt; cihazlar, Google Chrome yüklü olarak geliyor ve ADB aracı kullanmak haricinde, kaldırmanıza da izin verilmiyor.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Custom ROM Kullanmak Güvenli Mi?</title>
+      <link>https://furuy.com/tr/yazilar/custom-rom-kullanmak-guvenli-mi/</link>
+      <pubDate>Mon, 26 Jul 2021 00:00:00 +0300</pubDate>
+      <guid>https://furuy.com/tr/yazilar/custom-rom-kullanmak-guvenli-mi/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Bu yazı uzun zamandır güncellenmemektedir!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Custom ROM&amp;rsquo;lar, birçok olumlu getirileri ile Android kullanıcıları tarafından tercih edilebiliyorlar. Bu getirilerden bazıları şunlar:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Mahremiyetinizi (yanlış bilinen tabiriyle gizliliğinizi) korumak için daha iyi bir tercihtir.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Gereksiz sistem uygulamaları olmaz veya daha az olur.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Daha fazla özelleştirme ve kişiselleştirme imkanı sunar.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Daha hafif olurlar. Bu nedenle de, pil ve RAM kullanımı daha az olur.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Kısacası insanlar, haklı olarak, satın aldıkları ürünlerden tam verimi alabilmek için Custom ROM kullanıyorlar. Peki ya bu Custom ROM&amp;rsquo;lar ne kadar güvenli? Bu yazıda, bir Custom ROM kullanmadan önce dikkat etmeniz gereken [güvenlik](&lt;a href=&#34;https://furuy.com/categories/G&#34;&gt;https://furuy.com/categories/G&lt;/a&gt;üvenlik &amp;amp; Mahremiyet/) kriterlerinden bahsedeceğim.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>AdAway Nedir? AdAway Nasıl Kullanılır?</title>
+      <link>https://furuy.com/tr/yazilar/adaway-nedir-nasil-kullanilir/</link>
+      <pubDate>Sun, 16 May 2021 00:00:00 +0300</pubDate>
+      <guid>https://furuy.com/tr/yazilar/adaway-nedir-nasil-kullanilir/</guid>
+      <description>&lt;h2 id=&#34;adaway-nedir&#34;&gt;AdAway Nedir?&lt;/h2&gt;
+&lt;p&gt;Adaway, &lt;a href=&#34;https://furuy.com/categories/android/&#34;&gt;Android&lt;/a&gt; için en etkili reklam engelleme uygulamalarındandır. AdAway&amp;rsquo;i diğer reklam engelleyicilerden ayıran ana özelliği, root modudur. Root modu, sistemin hosts dosyasına eklemeler yaparak, reklam türevi istenmeyen web sitelerine bağlanılmasını engeller. &lt;strong&gt;AdAway rootsuz&lt;/strong&gt; da çalışmaktadır ancak aynı işlevi gören Netguard, AdGuard ve Blokada gibi birçok alternatifi de olduğu için bu yazıda root modu üzerine bilgi vereceğim. Root modu sayesinde, uygulamanın sürekli arka planda çalışarak pil tüketmesinin önüne geçebilir ve VPN kullanırken de reklamları engellemeye devam edebilirsiniz.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Access Dots Özelliğini Android&#39;de Kullanma</title>
+      <link>https://furuy.com/tr/yazilar/access-dots-android/</link>
+      <pubDate>Fri, 30 Apr 2021 00:00:00 +0300</pubDate>
+      <guid>https://furuy.com/tr/yazilar/access-dots-android/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Bu yazı uzun zamandır güncellenmemektedir!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Access Dots, iOS 14 ile tanıtılan, kullanıcının gizliliğini geliştirmeyi amaçlayan yeni bir özellik. Bu özellik sayesinde, arka planda mikrofona veya kameraya erişilirse, ekranda renkli noktalar beliriyor. Her bir izin için farklı bir renk kullanıldığından, hangi iznin kullanıldığını kolayca anlayabiliyorsunuz.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;EKLEME (26.05.2022):&lt;/strong&gt; Android 12 ile birlikte, bu özelliği üçüncü bir parti uygulamaya gerek olmadan kullanabilirsiniz. Detaylar için, Android&amp;rsquo;in resmi web sitesindeki bu bağlantıyı ziyaret edin: &lt;a href=&#34;https://source.android.com/devices/tech/config/privacy-indicators&#34;&gt;https://source.android.com/devices/tech/config/privacy-indicators&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;android-için-access-dots&#34;&gt;Android için Access Dots&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Vigilante&lt;/strong&gt; isimli açık kaynak kodlu uygulama, &lt;strong&gt;Access Dots&lt;/strong&gt; özelliğini &lt;a href=&#34;https://furuy.com/categories/android/&#34;&gt;Android&lt;/a&gt;&amp;lsquo;de kullanabilmenizi sağlıyor. Uygulamayı, tamamen ücretsiz olarak F-droid üzerinden yükleyebilirsiniz:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

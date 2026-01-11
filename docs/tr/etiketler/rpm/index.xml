@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Rpm on Furkan Uysal</title>
+    <link>https://furuy.com/tr/etiketler/rpm/</link>
+    <description>Recent content in Rpm on Furkan Uysal</description>
+    <generator>Hugo -- 0.154.2</generator>
+    <language>tr-TR</language>
+    <copyright>Furkan Uysal — CC0 1.0 Evrensel · Yasal</copyright>
+    <lastBuildDate>Sun, 11 Jan 2026 16:50:26 +0300</lastBuildDate>
+    <atom:link href="https://furuy.com/tr/etiketler/rpm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DNF Automatic İle Paketleri Otomatik Güncelleyin</title>
+      <link>https://furuy.com/tr/yazilar/dnf-automatic/</link>
+      <pubDate>Thu, 26 May 2022 00:00:00 +0300</pubDate>
+      <guid>https://furuy.com/tr/yazilar/dnf-automatic/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Bu yazı uzun zamandır güncellenmemektedir!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;DNF Automatic&lt;/strong&gt; ile Fedora ve RHEL gibi DNF paket yöneticisine sahip &lt;a href=&#34;https://furuy.com/categories/gnu-linux/&#34;&gt;GNU/Linux&lt;/a&gt; dağıtımlarındaki güncelleme işlemlerini otomatikleştirmeniz mümkün.&lt;/p&gt;
+&lt;h2 id=&#34;dnf-automatici-yükleyin&#34;&gt;DNF Automatic&amp;rsquo;i Yükleyin&lt;/h2&gt;
+&lt;p&gt;Bunun için kullandığınız terminale aşağıdaki kodu yazın ve yüklemeyi onaylayarak, kurulumu tamamlayın:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo dnf install dnf-automatic
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;dnf-automatici-yapılandırın&#34;&gt;DNF Automatic&amp;rsquo;i Yapılandırın&lt;/h2&gt;
+&lt;p&gt;Otomatik güncellemeleri yapılandırmak için iki yöntem mevcut:&lt;/p&gt;
+&lt;h3 id=&#34;etcdnfautomaticconf-dosyasını-düzenleyin&#34;&gt;/etc/dnf/automatic.conf Dosyasını Düzenleyin&lt;/h3&gt;
+&lt;p&gt;Bu dosya, varsayılan yapılandırma dosyasıdır. Paketi yüklediğinizde oluşturulacaktır. Herhangi bir metin editörü ile dosyayı açın:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

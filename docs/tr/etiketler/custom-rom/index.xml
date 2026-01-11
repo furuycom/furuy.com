@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Custom ROM on Furkan Uysal</title>
+    <link>https://furuy.com/tr/etiketler/custom-rom/</link>
+    <description>Recent content in Custom ROM on Furkan Uysal</description>
+    <generator>Hugo -- 0.154.2</generator>
+    <language>tr-TR</language>
+    <copyright>Furkan Uysal — CC0 1.0 Evrensel · Yasal</copyright>
+    <lastBuildDate>Sun, 11 Jan 2026 16:50:26 +0300</lastBuildDate>
+    <atom:link href="https://furuy.com/tr/etiketler/custom-rom/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kaçak Telefonların Ulusal Siber Güvenliğe Zararları</title>
+      <link>https://furuy.com/tr/yazilar/kacak-telefon-imei-atma-zararlari/</link>
+      <pubDate>Tue, 18 Mar 2025 00:00:00 +0300</pubDate>
+      <guid>https://furuy.com/tr/yazilar/kacak-telefon-imei-atma-zararlari/</guid>
+      <description>&lt;p&gt;&lt;img alt=&#34;Kaçak Telefonların Ulusal Siber Güvenliğe Zararları&#34; loading=&#34;lazy&#34; src=&#34;https://furuy.com/assets/img/kacak-telefon.webp&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;1-giriş&#34;&gt;&lt;strong&gt;1. Giriş&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Türkiye&amp;rsquo;de yüksek vergiler, pahalı IMEI kayıt ücretleri ve sınırlı taksit seçenekleri nedeniyle akıllı telefon fiyatları dünya ortalamasının oldukça üzerinde seyretmektedir. Bu durum, tüketicileri resmi garantisi olmayan, yasa dışı yöntemlerle IMEI manipülasyonu (&amp;ldquo;IMEI atma&amp;rdquo;) yapılan &amp;ldquo;kaçak&amp;rdquo; telefonlara yönlendirmektedir. Kaçak telefon kullanımı, yalnızca bireysel kullanıcıları değil, ulusal siber güvenlik yapısını da ciddi şekilde tehdit etmektedir. Bu makalede, kaçak telefon ekosisteminin teknik dinamikleri, siber güvenlik riskleri ve ulusal güvenliğe olası etkileri ele alınmaktadır.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Custom ROM Kullanmak Güvenli Mi?</title>
+      <link>https://furuy.com/tr/yazilar/custom-rom-kullanmak-guvenli-mi/</link>
+      <pubDate>Mon, 26 Jul 2021 00:00:00 +0300</pubDate>
+      <guid>https://furuy.com/tr/yazilar/custom-rom-kullanmak-guvenli-mi/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Bu yazı uzun zamandır güncellenmemektedir!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Custom ROM&amp;rsquo;lar, birçok olumlu getirileri ile Android kullanıcıları tarafından tercih edilebiliyorlar. Bu getirilerden bazıları şunlar:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Mahremiyetinizi (yanlış bilinen tabiriyle gizliliğinizi) korumak için daha iyi bir tercihtir.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Gereksiz sistem uygulamaları olmaz veya daha az olur.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Daha fazla özelleştirme ve kişiselleştirme imkanı sunar.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Daha hafif olurlar. Bu nedenle de, pil ve RAM kullanımı daha az olur.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Kısacası insanlar, haklı olarak, satın aldıkları ürünlerden tam verimi alabilmek için Custom ROM kullanıyorlar. Peki ya bu Custom ROM&amp;rsquo;lar ne kadar güvenli? Bu yazıda, bir Custom ROM kullanmadan önce dikkat etmeniz gereken [güvenlik](&lt;a href=&#34;https://furuy.com/categories/G&#34;&gt;https://furuy.com/categories/G&lt;/a&gt;üvenlik &amp;amp; Mahremiyet/) kriterlerinden bahsedeceğim.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

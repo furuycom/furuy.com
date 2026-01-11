@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Brave Browser on Furkan Uysal</title>
+    <link>https://furuy.com/tr/etiketler/brave-browser/</link>
+    <description>Recent content in Brave Browser on Furkan Uysal</description>
+    <generator>Hugo -- 0.154.2</generator>
+    <language>tr-TR</language>
+    <copyright>Furkan Uysal — CC0 1.0 Evrensel · Yasal</copyright>
+    <lastBuildDate>Sun, 11 Jan 2026 16:50:26 +0300</lastBuildDate>
+    <atom:link href="https://furuy.com/tr/etiketler/brave-browser/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Brave Reklam Engelleyici Rehberi</title>
+      <link>https://furuy.com/tr/yazilar/brave-browser-ozel-filtreler/</link>
+      <pubDate>Fri, 16 Apr 2021 00:00:00 +0300</pubDate>
+      <guid>https://furuy.com/tr/yazilar/brave-browser-ozel-filtreler/</guid>
+      <description>&lt;p&gt;Brave, varsayılan olarak reklam engelleme özelliğine sahip bir internet tarayıcısıdır. Bu yazıda, Brave&amp;rsquo;in reklam engelleme özelliğini daha etkili bir şekilde kullanmayı öğreneceksiniz.&lt;/p&gt;
+&lt;h2 id=&#34;brave-shields&#34;&gt;Brave Shields&lt;/h2&gt;
+&lt;p&gt;Brave, varsayılan olarak yalnızca üçüncü taraf reklamları engeller. Örneğin bir web sitedeki sponsorlu içerikleri engellemez. Birinci parti de dahil tüm reklamları engellemek için &amp;ldquo;&lt;strong&gt;Block trackers &amp;amp; ads (Aggressive)&lt;/strong&gt;&amp;rdquo; seçeneğini seçmeniz gerekiyor.&lt;/p&gt;
+&lt;h2 id=&#34;content-filtering&#34;&gt;Content Filtering&lt;/h2&gt;
+&lt;p&gt;Burada farklı filtre listeleri kullanarak daha fazla reklam ve istenmeyen öge engellemeniz mümkün.
+Bu sayfaya Brave Shields ayarlarından ulaşabilirsiniz. Ayrıca &lt;strong&gt;brave://adblock&lt;/strong&gt; ve masa üstünde &lt;strong&gt;brave://settings/shields/filters&lt;/strong&gt; sayfasından da ulaşabilirsiniz.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
