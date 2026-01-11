@@ -139,19 +139,13 @@ enableGitInfo = true
       identifier = "posts"
       name = "Blog"
       pageRef = "/posts/"
-      weight = 20
-
-    [[languages.en.menus.main]]
-      identifier = "archives"
-      name = "Archive"
-      pageRef = "/archives/"
-      weight = 25
+      weight = 15
 
     [[languages.en.menus.main]]
       identifier = "search"
       name = "Search"
       pageRef = "/search/"
-      weight = 30
+      weight = 20
 
     [languages.en.params]
       #description = "Tech-focused personal site."
@@ -214,19 +208,13 @@ enableGitInfo = true
       identifier = "yazilar"
       name = "Blog"
       pageRef = "/yazilar/"
-      weight = 20
-
-    [[languages.tr.menus.main]]
-      identifier = "arsiv"
-      name = "Arşiv"
-      pageRef = "/arsiv/"
-      weight = 25
+      weight = 15
 
     [[languages.tr.menus.main]]
       identifier = "ara"
       name = "Ara"
       pageRef = "/ara/"
-      weight = 30
+      weight = 20
 
     [languages.tr.params]
       #description = "Teknoloji odaklı kişisel site."
