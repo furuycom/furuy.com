@@ -1,10 +1,2 @@
 User-agent: *
-Disallow: /posts/*
-Disallow: /categories/*
-Disallow: /tags/*
-Disallow: /page/*
-Disallow: /about/
-Disallow: /search/
-Disallow: /hakkimda/
-
 Sitemap: {{ "sitemap.xml" | absURL }}

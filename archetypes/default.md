@@ -1,21 +1,21 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
-date: "2023-12-13"
-lastmod: "2023-12-13"
+title: '{{ replace .File.ContentBaseName `-` ` ` | title }}'
+date: "{{ .Date }}"
+lastmod: "{{ .Lastmod }}"
+# translationKey:  ""
 draft: true
-searchHidden: false
-showtoc: true
-hidemeta: false
-robotsNoIndex: false
-#tocopen: false
-#cover.hidden: true
-#ShowWordCount: false
-#commentshtml: false
-categories: 
-  - "Categories"
-tags: 
-  - "Tags"
-cover:
-  image: "/assets/img/filename.jpg"
----
 
+# searchHidden: true
+# ShowToc: false
+# hideMeta: true
+# robotsNoIndex: true
+# sitemap:
+#   disable: true
+# comments: false
+
+# categories: ["..."]
+# tags: ["..."]
+
+# cover:
+#   image: "/assets/img/filename.webp"
+---

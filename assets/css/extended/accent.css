@@ -1,0 +1,71 @@
+:root {
+    --accent: #0c8f60;
+    --accent-rgb: 12, 143, 96;
+    --accent-hover: #086644;
+}
+
+:root[data-theme="dark"] {
+    --accent: #35f0a1;
+    --accent-rgb: 53, 240, 161;
+    --accent-hover: #0c8f60;
+}
+
+::selection {
+    background: rgba(var(--accent-rgb), 0.28);
+}
+::-moz-selection {
+    background: rgba(var(--accent-rgb), 0.28);
+}
+
+.post-content a,
+.post-meta .i18n_list li a,
+.toc a:hover {
+    box-shadow: 0 1px var(--accent);
+}
+
+#menu .active {
+    border-bottom-color: var(--accent);
+}
+
+#menu a:hover,
+.logo a:hover {
+    color: var(--accent);
+}
+
+.social-icons a {
+    transition: color 0.15s ease;
+}
+.social-icons a:hover {
+    color: var(--accent);
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+    border-radius: 6px;
+}
+
+html {
+    scrollbar-color: rgba(var(--accent-rgb), 0.45) transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(var(--accent-rgb), 0.45);
+}
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(var(--accent-rgb), 0.65);
+}
+
+.top-link:hover {
+    color: var(--accent);
+}
+
+#searchbox input:focus {
+    border-color: var(--accent);
+}
+#searchbox input:focus-visible {
+    outline: none;
+}

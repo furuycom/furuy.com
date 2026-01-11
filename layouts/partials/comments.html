@@ -1,8 +1,8 @@
-{{with eq .Params.commentshtml false}}
-{{ else }}
-<br>
-
-<script src="https://giscus.app/client.js"
+{{- if .Param "comments" -}}
+<br />
+<div class="comments">
+    <script
+        src="https://giscus.app/client.js"
         data-repo="furuycom/furuy.com"
         data-repo-id="R_kgDOJ4bUIg"
         data-category="giscus"
@@ -13,10 +13,57 @@
         data-emit-metadata="0"
         data-input-position="bottom"
         data-theme="preferred_color_scheme"
-        data-lang="en"
+        data-lang="{{ .Lang }}"
         data-loading="lazy"
         crossorigin="anonymous"
-        async>
-</script>
+        async
+    ></script>
 
-{{end}}
+    <script>
+        <!-- Syncs Giscus theme with site theme toggle -->
+        (() => {
+            const ORIGIN = "https://giscus.app";
+            const container = document.currentScript.closest(".comments");
+            if (!container) return;
+
+            const mql = window.matchMedia("(prefers-color-scheme: dark)");
+            let lastTheme;
+
+            const getTheme = () => {
+                const t = document.documentElement.dataset.theme; // "light" | "dark" | "auto" | ""
+                const dark =
+                    t === "dark" || ((t === "auto" || !t) && mql.matches);
+                return dark ? "transparent_dark" : "light";
+            };
+
+            const sync = () => {
+                const iframe = container.querySelector("iframe.giscus-frame");
+                if (!iframe) return false;
+
+                const theme = getTheme();
+                if (theme === lastTheme) return true; // gereksiz postMessage yok
+
+                iframe.contentWindow.postMessage(
+                    { giscus: { setConfig: { theme } } },
+                    ORIGIN,
+                );
+
+                lastTheme = theme;
+                return true;
+            };
+
+            sync();
+
+            new MutationObserver(sync).observe(document.documentElement, {
+                attributes: true,
+                attributeFilter: ["data-theme"],
+            });
+
+            const obs = new MutationObserver(() => {
+                if (sync()) obs.disconnect();
+            });
+            obs.observe(container, { childList: true, subtree: true });
+        })();
+    </script>
+</div>
+{{- end -}}
