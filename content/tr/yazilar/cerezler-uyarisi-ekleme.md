@@ -12,11 +12,13 @@ lastmod: "2023-12-19"
 #   disable: true
 # comments: false
 
-categories: 
-  - "Webmaster"
+categories: "Web Yönetimi"
+tags:
+  - "Çerez Politikası"
+  - "KVKK"
+  - "GDPR"
   - "WordPress"
-# tags: ["..."]
-
+  
 # cover:
 #   image: "/assets/img/filename.webp"
 
@@ -31,7 +33,7 @@ aliases:
 
 Web sitenizde birçok birinci parti veya üçüncü parti çerezler kullanılıyor olabilir. Örnekler:
 
-- Web sitenizde Cloudflare kullanıyorsanız, Cloudflare'nin çerezleri kullandığını bilmeniz gerekiyor. Örneğin "Always online" ve ziyaretçilerin güvenilir olup olmadığını öğrenmek için türlü çerezler kullanılır. Detayları öğrenin: [https://support.cloudflare.com/hc/en-us/articles/200170156-Understanding-the-Cloudflare-Cookies](https://support.cloudflare.com/hc/en-us/articles/200170156-Understanding-the-Cloudflare-Cookies)
+- Web sitenizde Cloudflare kullanıyorsanız, Cloudflare'nin çerezleri kullandığını bilmeniz gerekiyor. Örneğin "Always online" ve ziyaretçilerin güvenilir olup olmadığını öğrenmek için türlü çerezler kullanılır. Detayları öğrenin: https://support.cloudflare.com/hc/en-us/articles/200170156-Understanding-the-Cloudflare-Cookies
 - WordPress web sitenizde, varsayılan olarak ziyaretçilerin yorum yaptığı isimleri hatırlamak için çerezler kullanılır.
 - Web sitenizde Google Analytics kullanıyorsanız, çerezlerin yine çok kapsamlı bir şekilde kullanıldığını hatırlatmak gerek.
 
@@ -52,7 +54,7 @@ Kullanacağımız kodun özellikleri:
 - Hiçbir harici kaynak gerekmez
 - Tüm kodlar inline'dir
 - jQuery gerekmez
-- Database sorguları yapmaz
+- Veri tabanı sorguları yapmaz
 - Özelleştirilebilir
 
 Kod:
@@ -71,9 +73,9 @@ Bu kod sayesinde, çerez uyarısı göstermek için eklenti kullanmanıza gerek 
 
 1. WordPress yönetim paneline giriş yapın.
 2. Soldaki menüden **Görünüm** > **Tema Düzenleyici** bağlantısına tıklayın.
-4. **Tema dosyaları** kısmından **footer.php** dosyasını seçin.
-5. Yukarıdaki kodu, **</body>** kodunun önüne ekleyin.
-6. Kaydedin ve değişikliklerin görünebilmesi için önbelleği temizleyin.
+3. **Tema dosyaları** kısmından **footer.php** dosyasını seçin.
+4. Yukarıdaki kodu, **</body>** kodunun önüne ekleyin.
+5. Kaydedin ve değişikliklerin görünebilmesi için önbelleği temizleyin.
 
 ## Sonuç
 

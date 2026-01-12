@@ -13,8 +13,10 @@ date: "2021-09-17"
 # comments: false
 
 categories: 
-  - "Webmaster"
-tags: 
+  - "Web Yönetimi"
+tags:
+  - "Cloudflare"
+  - "Web Güvenliği"
   - "Security Headers"
 
 # cover:
@@ -24,12 +26,9 @@ aliases:
   - /cloudflare-workers-security-headers/
 ---
 
+HTTP Security Headers'ı, Cloudflare ile kullanmanız mümkün. Cloudflare'ın ücretsiz [Workers](https://workers.cloudflare.com/) planı, şu an için günde 100.000 isteğe ve 30 Worker script'ine izin vermekte. Şayet bunlar, ihtiyaçlarınızı karşılamaya yetiyor ve Cloudflare kullandığınız bir web sitesine Security Headers eklemek istiyorsanız, bu küçük rehber tam da size göre.
 
-> Bu yazı uzun zamandır güncellenmemektedir!
-
-HTTP Security Headers'ı, Cloudflare ile kullanmanız mümkün. Cloudflare'ın ücretsiz [Workers](https://workers.cloudflare.com/) planı, şu an için günde 100.000 isteğe ve 30 Worker script'ine izin vermekte. Şayet bunlar, ihtiyaçlarınızı karşılamaya yetiyor ve Cloudflare kullandığınız bir web siteye Security Headers eklemek istiyorsanız, bu küçük rehber tam da size göre.
-
-## Bir Workers Oluşturun
+## Bir Worker Oluşturun
 
 Cloudflare hesabınıza giriş yapın ve işlem yapmak istediğiniz alan adını seçin ve menüden de "Workers" bölümünü seçin. Yeni bir Worker oluşturmak için "Manage Workers" butonuna tıklayın.
 
@@ -37,7 +36,7 @@ Açılacak bir sonraki sayfada ise "Create a Worker" butonuna tıklayın.
 
 Script alanına, kullanmak istediğiniz scripti yazabilir veya benim şu an için kullandığım scripti yapıştırabilirsiniz:
 
-```
+```js
 addEventListener('fetch', event => {
 event.respondWith(handleRequest(event.request));
 })
@@ -54,18 +53,18 @@ const securityHeaderMap = {
 "X-Frame-Options" : "SAMEORIGIN",
 "X-Xss-Protection" : "1; mode=block"
 };
-const headerDeletionList = \[
+const headerDeletionList =
 "Server",
 "Public-Key-Pins",
 "X-Powered-By",
 "X-AspNet-Version"
-\];
+;
 async function getSecuredResponse(response) {
 let responseHeaders = new Headers(response.headers);
 if(isResponseContentTypeNotHtml(responseHeaders)) {
 return response;
 }
-Object.entries(securityHeaderMap).map((\[name, value\]) => responseHeaders.set(name, value));
+Object.entries(securityHeaderMap).map((name, value) => responseHeaders.set(name, value));
 headerDeletionList.forEach(name => responseHeaders.delete(name));
 return new Response(response.body , {
 status: response.status,
@@ -82,7 +81,7 @@ return !contentType || !contentType.includes("text/html");
 İşlemleri tamamladıktan sonra, "Save and Deploy" butonuna basın ve geri dönün.
 
 
-"Add route" butonuna basın ve bilgileri doldurun (_https://furuy.com/\*_ veya _https://www.furuy.com/\*_ şeklinde). Worker için biraz önce oluşturduğunuz Worker'ı seçin ve kaydedin.
+"Add route" butonuna basın ve bilgileri doldurun (`https://furuy.com/*` veya `https://www.furuy.com/*` şeklinde). Worker için biraz önce oluşturduğunuz Worker'ı seçin ve kaydedin.
 
 Sonucu görüntülemek için [SecurityHeaders.com](https://securityheaders.com/) web sitesini kullanabilirsiniz:
 
@@ -92,4 +91,4 @@ Sonucu görüntülemek için [SecurityHeaders.com](https://securityheaders.com/)
 
 **KAYNAK**
 
-1. [https://developers.cloudflare.com/workers/examples/security-headers](https://developers.cloudflare.com/workers/examples/security-headers)
+1. https://developers.cloudflare.com/workers/examples/security-headers

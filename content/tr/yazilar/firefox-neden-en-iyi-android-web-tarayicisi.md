@@ -13,11 +13,13 @@ date: "2021-08-02"
 # comments: false
 
 categories: 
-  - "Android"
-  - "İnternet"
   - "Uygulamalar"
-tags: 
-  - "Mozilla Firefox"
+tags:
+  - "Firefox"
+  - "Android"
+  - "Özgür Yazılım"
+  - "Tarayıcı Eklentileri"
+  - "Mahremiyet"
 
 # cover:
 #   image: "/assets/img/filename.webp"
@@ -26,14 +28,11 @@ aliases:
   - /firefox-neden-en-iyi-android-web-tarayicisi/
 ---
 
-
-> Bu yazı uzun zamandır güncellenmemektedir!
-
 Firefox, kullanmayanların ön yargıyla yaklaştığı, kullananların ise asla vazgeçemediği bir web tarayıcısı. Bu yazıda, Firefox'un neden en iyi Android web tarayıcısı olduğundan ve neden fazla "kullanılmadığından" bahsedeceğim.
 
 ## Google, Firefox'tan Nefret Ediyor
 
-Web'in bizzat kendisi olmak isteyen Google; kendi kullanıcılarını gizli sekmede bile takip eden, özgür bir yazılım olmayan Chrome tarayıcısının tek rakibine karşı, uzun zamandır adil olmayan bir savaş veriyor. Neredeyse tüm [Android](https://furuy.com/categories/android/) cihazlar, Google Chrome yüklü olarak geliyor ve ADB aracı kullanmak haricinde, kaldırmanıza da izin verilmiyor.
+Web'in bizzat kendisi olmak isteyen Google; kendi kullanıcılarını gizli sekmede bile takip eden, özgür bir yazılım olmayan Chrome tarayıcısının tek rakibine karşı, uzun zamandır adil olmayan bir savaş veriyor. Neredeyse tüm [Android](/categories/android/) cihazlar, Google Chrome yüklü olarak geliyor ve ADB aracı kullanmak haricinde, kaldırmanıza da izin verilmiyor.
 
 Bir başka örnek ise, Google'ın kendi hizmetlerini, kasıtlı olarak Firefox kullanıcılarının kullanım deneyimi düşürecek şekilde sunması. Aşağıdaki görselin sağında görebileceğiniz gibi Google, Firefox Android tarayıcısında çok farklı ve eski görünüyor.
 
@@ -51,7 +50,7 @@ Firefox, Android tarayıcılar arasında, resmi olarak eklenti desteği sunabile
 
 ### uBlock Origin
 
-uBlock Origin, yalnızca bir "reklam engelleyici" olarak bilinse de, çok daha kapsamlıdır. uBlock Origin ile; reklamlardan, can sıkıcı ögelerden, zararlı web sitelerinden ve takipçilerden kurtulabilirsiniz. Daha fazla filtre bulmak için "[FilterLists İle Yeni Reklam Engelleyici Filtreleri Bulun](https://furuy.com/filterlists-com/)" başlıklı yazımı okuyabilirsiniz. Reklamlardan, takipçilerden, pop-uplardan, tonla uyarıdan, bildirim izinlerinden vs. kurtulduğunuz tertemiz bir web'e hoş geldiniz. Ayrıca, uBlock Origin'in, Firefox tarayıcısında en iyi şekilde çalıştığını da yeniden hatırlatayım. \[1\]
+uBlock Origin, yalnızca bir "reklam engelleyici" olarak bilinse de, çok daha kapsamlıdır. uBlock Origin ile; reklamlardan, can sıkıcı ögelerden, zararlı web sitelerinden ve takipçilerden kurtulabilirsiniz. Daha fazla filtre bulmak için "[FilterLists İle Yeni Reklam Engelleyici Filtreleri Bulun](/filterlists-com/)" başlıklı yazımı okuyabilirsiniz. Reklamlardan, takipçilerden, pop-uplardan, tonla uyarıdan, bildirim izinlerinden vs. kurtulduğunuz tertemiz bir web'e hoş geldiniz. Ayrıca, uBlock Origin'in, Firefox tarayıcısında en iyi şekilde çalıştığını da yeniden hatırlatayım. [1]
 
 Eklentiyi yükleyin: [https://addons.mozilla.org/android/addon/ublock-origin/](https://addons.mozilla.org/android/addon/ublock-origin/)
 
@@ -63,13 +62,13 @@ Eklentiyi yükleyin: [https://addons.mozilla.org/android/addon/darkreader/](http
 
 ### Bitwarden
 
-Açık kaynak kodlu parola yöneticisi olan [Bitwarden](https://bitwarden.com/)'ın eklentisini tarayıcıda kullanabilirsiniz. Bu sayede mobilde de güvende kalabilirsiniz. Ayrıca, konu ile ilgili "[Parola Yöneticisi Güvenli Bir Şekilde Nasıl Kullanılır?](https://furuy.com/guvenli-parola-yoneticisi/)" adlı yazımı da okuyabilirsiniz.
+Açık kaynak kodlu parola yöneticisi olan [Bitwarden](https://bitwarden.com/)'ın eklentisini tarayıcıda kullanabilirsiniz. Bu sayede mobilde de güvende kalabilirsiniz. Ayrıca, konu ile ilgili "[Parola Yöneticisi Güvenli Bir Şekilde Nasıl Kullanılır?](/guvenli-parola-yoneticisi/)" adlı yazımı da okuyabilirsiniz.
 
 Eklentiyi yükleyin: [https://addons.mozilla.org/android/addon/bitwarden-password-manager/](https://addons.mozilla.org/android/addon/bitwarden-password-manager/)
 
 ### HTTPS Everywhere
 
-**GÜNCELLEME:** Firefox, artık mobilde de resmi olarak "HTTPS Only" özelliği sunduğu için bu eklentiyi kullanmanıza gerek kalmadı. Yazının devamında detaylandıracağım.
+> Not: Firefox, artık mobilde de resmi olarak "HTTPS Only" özelliği sunduğu için bu eklentiyi kullanmanıza gerek kalmadı. Yazının devamında detaylandıracağım.
 
 Eklentiyi yükleyin: [https://addons.mozilla.org/android/addon/https-everywhere/](https://addons.mozilla.org/android/addon/https-everywhere/)
 
@@ -81,21 +80,21 @@ Eklentiyi yükleyin: [https://addons.mozilla.org/android/addon/privacy-badger17/
 
 ### Video Background Play Fix
 
-Web sitelerde oynattığınız müzikler ve videoların arka planda çalmaya devam etmelerini istiyorsanız, bu eklentiyi kullanabilirsiniz. "[YouTube Deneyiminizi Artırabileceğiniz 3 Vanced Alternatifi](https://furuy.com/youtube-vanced-alternatifleri/)" başlıklı yazımda da bu eklentiden bahsettim.
+Web sitelerde oynattığınız müzikler ve videoların arka planda çalmaya devam etmelerini istiyorsanız, bu eklentiyi kullanabilirsiniz. "[YouTube Deneyiminizi Artırabileceğiniz 3 Vanced Alternatifi](/youtube-vanced-alternatifleri/)" başlıklı yazımda da bu eklentiden bahsettim.
 
 Bu eklentiler haricinde, mağazada ve uygulama içindeki eklentiler bölümünde diğer eklentileri de keşfedebilirsiniz.
 
 ## Otomatik Güvenlik Ve Mahremiyet
 
-Firefox, Google Chrome gibi birçok tarayıcının aksine varsayılan olarak; sosyal medya takipçilerini, çarpraz site takip çerezlerini, cryptominerları, cihaz parmak izi takip unsurlarını ve yönlendirme takipçilerini engeller. Firefox, çevrim içi mahremiyetinizi ve güvenliğinizi korumak için en iyi tarayıcıdır.
+Firefox, Google Chrome gibi birçok tarayıcının aksine varsayılan olarak; sosyal medya takipçilerini, çapraz site takip çerezlerini, kripto madencilerini, cihaz parmak izi takip unsurlarını ve yönlendirme takipçilerini engeller. Firefox, çevrim içi mahremiyetinizi ve güvenliğinizi korumak için en iyi tarayıcıdır.
 
-## ![Firefox Android Koruma Özellikleri](/assets/img/firefox-android-koruma.webp)
+![Firefox Android Koruma Özellikleri](/assets/img/firefox-android-koruma.webp)
 
 ## Senkronizasyon
 
 Firefox'un güçlü senkronizasyon özelliği sayesinde; yer imlerinizi, kredi kartlarınızı (şifrelenmiş olarak), tarayıcı geçmişinizi, girişlerinizi ve açık sekmelerinizi anlık olarak birçok cihazınızla senkronize edebilir, istemediğiniz senkronizasyon ögelerini iptal edebilirsiniz.
 
-## Açık Kaynak Kodlu
+## Açık Kaynak
 
 Firefox, özgür bir yazılımdır; açık kaynak kodlu ve ücretsizdir. Google Chrome'un aksine, gizli sekmede sizi takip edip, yaptıklarınızı paylaşmaz.
 
@@ -112,7 +111,7 @@ Firefox'un müthiş özellikleri sayesinde, elimizde bu özelliklere sahip bir t
 - Reklamları ve birçok gereksiz, rahatsız edici ögeyi engeller. Özellikle de Chrome'dan geçiş yapacaksanız, web sayfalarının temizliği gözlerinizi kamaştıracak. :)
 - Hızı hissedeceksiniz: Üstünüzdeki reklamları, popup pençelerini, abone ol bildirimlerini, newsletter kutucuklarını, sizi takip eden takipçileri ve gereksiz ağırlıkları attıktan sonra, hızı fark edeceksiniz.
 - Sadelik: Google Chrome'daki "sekme grupları" (tab groups) gibi bir gecede gelen, alışamayacağınız ve kapatamayacağınız karmaşıklıklar, dayatmalar yok.
-- Eksiksiz masa üstü deneyimi: Masa üstünde kullandığınız tarayıcı işlevselliğinden mahrum kalmayın. Masa üstünde kullandığınız tüm özellikler, yüzde yüz uyumlu olarak mobil tarayıcınızda da olsun.
+- Eksiksiz masaüstü deneyimi: Masaüstünde kullandığınız tarayıcı işlevselliğinden mahrum kalmayın. Masaüstünde kullandığınız tüm özellikler, yüzde yüz uyumlu olarak mobil tarayıcınızda da olsun.
 
 * * *
 

@@ -13,9 +13,10 @@ lastmod: "2022-05-26"
 # comments: false
 
 categories: 
-  - "Android"
-  - "Güvenlik & Mahremiyet"
-# tags: ["..."]
+  - "Mahremiyet"
+tags: 
+- Android
+- Uygulama İzinleri
 
 # cover:
 #   image: "/assets/img/filename.webp"
@@ -24,17 +25,15 @@ aliases:
   - /access-dots-android/
 ---
 
-> Bu yazı uzun zamandır güncellenmemektedir!
-
 Access Dots, iOS 14 ile tanıtılan, kullanıcının gizliliğini geliştirmeyi amaçlayan yeni bir özellik. Bu özellik sayesinde, arka planda mikrofona veya kameraya erişilirse, ekranda renkli noktalar beliriyor. Her bir izin için farklı bir renk kullanıldığından, hangi iznin kullanıldığını kolayca anlayabiliyorsunuz.
 
-**EKLEME (26.05.2022):** Android 12 ile birlikte, bu özelliği üçüncü bir parti uygulamaya gerek olmadan kullanabilirsiniz. Detaylar için, Android'in resmi web sitesindeki bu bağlantıyı ziyaret edin: [https://source.android.com/devices/tech/config/privacy-indicators](https://source.android.com/devices/tech/config/privacy-indicators)
+**EKLEME (26.05.2022):** Android 12 ile birlikte, bu özelliği üçüncü taraf uygulamaya gerek olmadan kullanabilirsiniz. Detaylar için, Android'in resmi web sitesindeki bu bağlantıyı ziyaret edin: https://source.android.com/devices/tech/config/privacy-indicators
 
 ## Android için Access Dots
 
-**Vigilante** isimli açık kaynak kodlu uygulama, **Access Dots** özelliğini [Android](https://furuy.com/categories/android/)'de kullanabilmenizi sağlıyor. Uygulamayı, tamamen ücretsiz olarak F-droid üzerinden yükleyebilirsiniz:
+**Vigilante** isimli açık kaynak kodlu uygulama, **Access Dots** özelliğini [Android](/categories/android/)'de kullanabilmenizi sağlıyor. Uygulamayı, tamamen ücretsiz olarak F-Droid üzerinden yükleyebilirsiniz:
 
-[https://f-droid.org/en/packages/com.crazylegend.vigilante/](https://f-droid.org/en/packages/com.crazylegend.vigilante/)
+https://f-droid.org/en/packages/com.crazylegend.vigilante/
 
 ### Vigilante
 
@@ -45,7 +44,7 @@ Uygulamanın genel özellikleri şu şekilde:
 - Tamamen ücretsiz
 - Açık kaynak kodlu (özgür yazılım)
 - İnternet bağlantısı gerekmez
-- Database ve uygulama ayarları encrypted olarak saklanır
+- Veri tabanı ve uygulama ayarları şifreli olarak saklanır
 - Gereksiz izinler istemez
 - Karanlık ve aydınlık tema
 - Kilit ekranı geçmişi

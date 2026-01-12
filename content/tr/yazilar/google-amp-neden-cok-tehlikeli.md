@@ -13,11 +13,13 @@ date: "2021-07-22"
 # comments: false
 
 categories: 
-  - "Güvenlik & Mahremiyet"
-  - "İnternet"
-  - "Webmaster"
-tags: 
-  - "Accelerated Mobile Pages"
+  - "İnternet & Özgürlük"
+tags:
+  - "AMP"
+  - "Google"
+  - "Web Standartları"
+  - "SEO"
+  - "Mahremiyet"
 
 # cover:
 #   image: "/assets/img/filename.webp"
@@ -25,9 +27,6 @@ tags:
 aliases:
   - /google-amp-neden-cok-tehlikeli/
 ---
-
-
-> Bu yazı uzun zamandır güncellenmemektedir!
 
 Google, mobil web deneyimini geliştirmek ve sayfaların mobilde daha hızlı yüklenmelerini sağlamak amacıyla, 2015 yılında AMP'i duyurmuştu. Şubat 2016 tarihinden itibaren de, mobil arama sonuçlarında AMP sayfaları görünmeye başlamıştı. Kısa bir zaman içerisinde AMP, standart haline gelmeye başladı bile. Bunun en temel nedenleri; mobil internet kullanıcı sayısının fazla olması, birçok kişinin Google arama motorunu kullanması ve web site yöneticilerinin, "SEO kuralları" adı altındaki Google'ın her dayatmasını kabul etmeleri...
 
@@ -41,13 +40,13 @@ AMP'in kendi standartları olduğu için, artık HTML standartları kullanmayaca
 
 HTML görsel etiketi:
 
-```
+```html
 <img src="gorsel.webp" alt="görsel">
 ```
 
 AMP görsel etiketi:
 
-```
+```html
 <amp-img src="gorsel.webp" width="100" height="100" layout="responsive"></amp-img>
 ```
 
@@ -55,11 +54,11 @@ Yalnızca AMP etiketlerini kullanacağınız için de, web sitenize şu anki kad
 
 ### Googlebot'un Anladığı Dilden Konuşun
 
-Google nedir? Google, bir arama motorudur. Arama motorlarının amacı nedir? Web'i olabildiğince etkili bir şekilde taramak... Yani Google, kendisini geliştirmek zorunda; Sizin web siteniz, kendisini Google'a daha iyi anlatmak zorunda değil. Google'ın, kendi koyduğu kurallar ile inşa edilmiş bir Web'i crawl etmesi çok daha kolay olacak. Bu da, Google'ın tekelinin yıkılmasını neredeyse imkansız hale getirecek.
+Google nedir? Google, bir arama motorudur. Arama motorlarının amacı nedir? Web'i olabildiğince etkili bir şekilde taramak... Yani Google, kendisini geliştirmek zorunda; Sizin web siteniz, kendisini Google'a daha iyi anlatmak zorunda değil. Google'ın, kendi koyduğu kurallar ile inşa edilmiş bir Web'i taraması çok daha kolay olacak. Bu da, Google'ın tekelinin yıkılmasını neredeyse imkansız hale getirecek.
 
 ### Google AMP Cache: Bir Domain Değil, Kullanıcı Adı Seçin
 
-Hem web siteler daha hızlı yükleniyor, hem de Google arama sonuçlarında ön sıralarda çıkıyoruz. Herkes memnun. Sorun nerede? Şimdi olayın, "by Google" kısmına gelelim. Basın özgürlüğünde, 180 ülke içerisinde 153. sırada olan ülkemizde, yasaklı bir haber sitesinin AMP versiyonuna erişebildiğinizi fark ettiniz mi? Domainin Türkiye'de engelli olmasına rağmen, o web sitesine nasıl eriştiniz? Aslında, o web sitesine değil, "_www.google.com_/amp/s/**example.com**" veya "**example-com**.cdn._ampproject.org_" adreslerine eriştiniz. Yani artık, web siteye direkt olarak erişmiyorsunuz. Bunun, Facebook'ta veya Blogspot'ta gönderi yayınlamaktan ne farkı var? Google, sosyal medya ağı ve alan adımız da kullanıcı adımız mı olacak?
+Hem web siteleri daha hızlı yükleniyor, hem de Google arama sonuçlarında ön sıralarda çıkıyoruz. Herkes memnun. Sorun nerede? Şimdi olayın, "by Google" kısmına gelelim. Basın özgürlüğünde, 180 ülke içerisinde 153. sırada olan ülkemizde, yasaklı bir haber sitesinin AMP versiyonuna erişebildiğinizi fark ettiniz mi? Domainin Türkiye'de engelli olmasına rağmen, o web sitesine nasıl eriştiniz? Aslında, o web sitesine değil, "www.google.com/amp/s/**example.com**" veya "**example-com**.cdn.ampproject.org" adreslerine eriştiniz. Yani artık, web siteye direkt olarak erişmiyorsunuz. Bunun, Facebook'ta veya Blogspot'ta gönderi yayınlamaktan ne farkı var? Google, sosyal medya ağı ve alan adımız da kullanıcı adımız mı olacak?
 
 ### Dayatmalar
 
@@ -69,7 +68,7 @@ Google, News ağına alacağı web sitelerin AMP kullanmalarını zorunlu kılı
 
 ### Web Sitenizi Optimize Edin
 
-Google AMP, web sitenizin daha hızlı yüklenmesini sağlar ama bunu yapmanın tek yolu, AMP kullanmak değildir. Özellikle de [WordPress](https://furuy.com/categories/wordpress/) gibi popüler bir CMS kullanıyorsanız, web sitenizin daha hızlı yüklenmesini sağlayacak birçok eklenti, birçok rehber ve Cloudflare CDN gibi ücretsiz hizmetler mevcut. Web sitenizi nasıl optimize edebileceğinizi öğrenin.
+Google AMP, web sitenizin daha hızlı yüklenmesini sağlar ama bunu yapmanın tek yolu, AMP kullanmak değildir. Özellikle de WordPress gibi popüler bir CMS kullanıyorsanız, web sitenizin daha hızlı yüklenmesini sağlayacak birçok eklenti, birçok rehber ve Cloudflare CDN gibi ücretsiz hizmetler mevcut. Web sitenizi nasıl optimize edebileceğinizi öğrenin.
 
 ### WWW, GWW Değil!
 
@@ -77,4 +76,4 @@ World Wide Web'in, Google Wide Web olmasına izin vermeyin. Web sitenizi Google 
 
 ### Google'ın Alternatiflerine Şans Verin
 
-Google'a alternatif olan, [DucDuckGo](https://duckduckgo.com/) ve yeni çıkan [Brave Search](https://search.brave.com/) gibi birçok arama motoru var. Bu arama motorlarına bir şans verin. Google'ın arama sonuçlarından vazgeçemiyorsanız, Searx gibi alternatifleri deneyin.
+Google'a alternatif olan, [DuckDuckGo](https://duckduckgo.com/) ve yeni çıkan [Brave Search](https://search.brave.com/) gibi birçok arama motoru var. Bu arama motorlarına bir şans verin. Google'ın arama sonuçlarından vazgeçemiyorsanız, Searx gibi alternatifleri deneyin.

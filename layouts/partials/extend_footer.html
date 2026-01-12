@@ -1,0 +1,26 @@
+<script>
+    // Mark old posts by adding an hourglass icon next to the date.
+    (() => {
+        const TH = 365,
+            DAY = 864e5,
+            now = Date.now();
+        for (const m of document.querySelectorAll(".post-meta")) {
+            const t = m.querySelector("time[datetime],span[title]");
+            if (
+                !t ||
+                t.previousElementSibling?.classList?.contains("stale-icon")
+            )
+                continue;
+
+            const s =
+                t.getAttribute("datetime") || t.getAttribute("title") || "";
+            const d = Date.parse(s);
+            if (!Number.isFinite(d) || (now - d) / DAY <= TH) continue;
+
+            const b = document.createElement("span");
+            b.className = "stale-icon";
+            b.setAttribute("aria-hidden", "true");
+            t.insertAdjacentElement("beforebegin", b);
+        }
+    })();
+</script>

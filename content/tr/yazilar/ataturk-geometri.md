@@ -14,8 +14,9 @@ lastmod: "2023-08-17"
 
 categories: 
   - "Kitap"
-tags: 
+tags:
   - "Atatürk"
+  - "Geometri"
 
 # cover:
 #   image: "/assets/img/filename.webp"
@@ -29,12 +30,12 @@ Bu kitap, her zaman askeri ve siyasi başarılarını ön planda tuttuğumuz Ata
 
 Ben kitabı iki bölüme ayırıyorum: Araştırma ve Minnet...
 
-# Araştırma
+## Araştırma
 Benim okuduğum Türkiye İş Bankası Kültür Yayınları'nın 2. basımındaki kitapta, tarihçi Zafer Toprak'ın yazdığı mükemmel bir ön söz var. Sanırım kitaptaki en önemli bölüm de burası çünkü burada yazanlar, kitap içeriğini oluşturan süreci anlatıyor. Bu kısmı atlarsanız, minnet bölümünde aynı duyguları hissedemeyebilirsiniz. Burada önemli gördüğüm bilgileri kısaca paylaşmak istiyorum.
 
-Atatürk'ün Türk Dili Kurumu'nu kurmasının ve dil devriminin temel amacı, ülkedeki herkesi okuryazar yapabilmekti. Bunun ve  Atatürk'ün uygar toplum idealinin önündeki büyük engellerden birisi de, eğitim dilinin gündelik dilden farklı olmasıydı. Bu sorunun çözülebilmesi için Türkçeleştirme çalışmaları başlatılarak, yabancı sözcüklerin Türkçeye uygun karşılıkları türetiliyordu. 
+Atatürk'ün Türk Dili Kurumu'nu kurmasının ve dil devriminin temel amacı, ülkedeki herkesi okuryazar yapabilmekti. Bunun ve Atatürk'ün uygar toplum idealinin önündeki büyük engellerden birisi de, eğitim dilinin gündelik dilden farklı olmasıydı. Bu sorunun çözülebilmesi için Türkçeleştirme çalışmaları başlatılarak, yabancı sözcüklerin Türkçeye uygun karşılıkları türetiliyordu. 
 
-Türkçeleştirme için sözcüğün öncelikle Batı dillerindeki karşılığı araştırılıyordu. Bu fazlasıyla önemli çünkü bilimsel gelişmelerin neredeyse tamamı günümüzde de olduğu gibi Batı kaynaklıydı ve artık bilimin dili olan Batı dilleri (İngilizce, Fransızca, Almanca) ortak kökenli oldukları için sözcükleri de birbirlerine yakındı. Türkçe de gelişmelere açık, çağdaş bir dil haline getirildi.Şimdi kitapta da anlatılan örnek ile adım adım bu işin nasıl yapıldığını görelim. 
+Türkçeleştirme için sözcüğün öncelikle Batı dillerindeki karşılığı araştırılıyordu. Bu fazlasıyla önemli çünkü bilimsel gelişmelerin neredeyse tamamı günümüzde de olduğu gibi Batı kaynaklıydı ve artık bilimin dili olan Batı dilleri (İngilizce, Fransızca, Almanca) ortak kökenli oldukları için sözcükleri de birbirlerine yakındı. Türkçe de gelişmelere açık, çağdaş bir dil haline getirildi. Şimdi kitapta da anlatılan örnek ile adım adım bu işin nasıl yapıldığını görelim. 
 
 1. Öncelikle Türkçeleştirmek istenen terim olarak "**riyaziye**" seçiliyor ve kökeni araştırılıyor. "Riyaziyat" teriminin "riyazat"tan geldiği ve "sofuların sıkı perhizi" anlamına geldiği bulunuyor. 
 Ardından terimin Batı dillerindeki karşılıkları ve anlamı araştırılıyor.
@@ -56,6 +57,7 @@ Bunun üzerine Atatürk, "Burada sofuların perhizlerinin işi yoktur. Bu terimi
 |**Türkçe**|Matematik|
 
 2. Seçilen terim Türkçe fonetiğe uygun hale getirilerek dilimize kazandırılıyor.
+
 Örneğin Fransızcadaki "que" ve İngilizcedeki "c, al" ekleri Türkçeye "k" olarak, "th" eki "t" olarak, "ph" de "f" olarak çevrildi:\
 **Mathematique:** Matematik\
 **Arithmetique:** Aritmetik
@@ -73,18 +75,19 @@ Bunun üzerine Atatürk, "Burada sofuların perhizlerinin işi yoktur. Bu terimi
 |muhammes|beşgen|
 |menşûr-i muhammesi|beşgen prizma|
 |zâviye-i mücâvire|komşu açı|
-zâviyetan-ı mütabâdiletân-ı dâhiletan|iç ters açılar|
+|zâviyetan-ı mütabâdiletân-ı dâhiletan|iç ters açılar|
 
 Daha fazla örnek görmek için göz atabilirsiniz: https://eksiseyler.com/ataturkun-yazdigi-geometri-kitabinda-tanimladigi-ve-bugun-hala-kullandigimiz-terimler
 
->Bir müsellesin mesaha-i sathiyesi, kaidesinin irtifaına hâsıl-ı zarbinin nısfına müsavidir. (Üçgenin alanı taban uzunluğu ile yüksekliğinin çarpımının yarısına eşittir)
+> Bir müsellesin mesaha-i sathiyesi, kaidesinin irtifaına hâsıl-ı zarbinin nısfına müsavidir. (Üçgenin alanı taban uzunluğu ile yüksekliğinin çarpımının yarısına eşittir)
 
 Ayrıca aşağıdaki videoları da izlemenizi öneriyorum.
 
-{{< youtube zfYIKlIR7pc >}}\
+{{< youtube zfYIKlIR7pc >}}
+
 {{< youtube 5XVYSBx0t9Y >}}
 
-# Minnet
+## Minnet
 
 Günümüzde;
 - Okuryazarlık bu kadar yüksekse
@@ -95,9 +98,9 @@ Günümüzde;
 
 Tüm bunları, çoğu zaman yalnızca askeri ve siyasi yönleri ile gurur duyduğumuz Başöğretmen Atatürk'e borçluyuz. Bunu klasik bir Atatürk övgüsü olarak düşünmemek gerek çünkü bu ve birçok devrim, bugün bile fazla ütopik görülebilecek düzeyde. Dolayısıyla bize düşen görev, Atatürk'ü mitolojik bir karakter gibi görüp yalnızca saygı duymak veya saçıyla-gözüyle övünmek yerine, tüm zor koşullara rağmen kendimizi geliştirmek ve zamanı geldiğinde bu fikirlerimizi uygulamaya koymaktır. 
 
->"Dünyada her şey için, maddiyat için, maneviyat için, hayat için, muvaffakiyet için en hakiki mürşit ilimdir, fendir." Mustafa Kemal Atatürk
+> "Dünyada her şey için, maddiyat için, maneviyat için, hayat için, muvaffakiyet için en hakiki mürşit ilimdir, fendir." Mustafa Kemal Atatürk
 
-# Kaynaklar
+## Kaynaklar
 1. Mustafa Kemal Atatürk, Geometri, Türkiye İş Bankası Kültür Yayınları, 2022 
 2. https://tr.wikipedia.org/wiki/Geometri_(kitap)
 3. https://www.iskultur.com.tr/geometri.aspx

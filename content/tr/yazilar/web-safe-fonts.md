@@ -13,9 +13,11 @@ lastmod: "2023-12-18"
 # comments: false
 
 categories: 
-  - "Webmaster"
-tags: 
+  - "Web Yönetimi"
+tags:
   - "Web Safe Fonts"
+  - "Performans"
+  - "Tipografi"
 
 # cover:
 #   image: "/assets/img/filename.webp"
@@ -33,14 +35,14 @@ Birçok web sitesi, kullanıcı arayüzünü (User Interface) geliştirmek için
 
 ## Web Safe Fonts Nedir?
 
-Her işletim sistemi ve bazı tarayıcılar, varsayılan olarak belirli yazı tipleri barındırır; Web Safe Fonts, işte bu yazı tipleridir. Bu sayede kullanacağınız yazı tipini web sitenize yüklemenize veya harici bir kaynağa istekte bulunmanıza gerek yoktur. Ziyaretçinin kullandığı tarayıcı ve internet hızı gibi değişkenlerin sorun çıkarmalarını engelleyerek, herkes için bir standart yaratmanızı sağlar.
+Her işletim sistemi ve bazı tarayıcılar, varsayılan olarak belirli yazı tipleri barındırır; Web Safe Fonts, işte bu yazı tipleridir. Bu sayede kullanacağınız yazı tipini web sitenize yüklemenize veya harici bir kaynağa istekte bulunmanıza gerek yoktur. Ziyaretçinin kullandığı tarayıcı ve internet hızı gibi değişkenlerin sorun çıkarmasını engelleyerek, herkes için bir standart yaratmanızı sağlar.
 
 ## Neden Web Safe Fonts Kullanılır?
 
 1. **Performans:** Örnek görselde de görebileceğiniz gibi, harici yazı tipleri web sitenize ekstra yük yükler ve bu da, web sitenizin daha yavaş açılmasına neden olur.
 2. **Mahremiyet:** Harici bir kaynaktan herhangi bir dosya çağırmanız durumunda, kaynağın gizlilik politikasını da göz önünde bulundurmanız gerekiyor. Google Fonts API kullanıyorsanız, ziyaretçilerinizin türlü bilgilerini Google ile paylaştığınızı da bilmeniz ve bunu belirtmeniz gerekiyor. SSS sayfasındaki bu başlığa göz atabilirsiniz: [What does using the Google Fonts API mean for the privacy of my users?](https://developers.google.com/fonts/faq2#what_does_using_the_google_fonts_api_mean_for_the_privacy_of_my_users)
 
-## En İyi Web Safe Font'lar
+## En İyi Web Safe Fontlar
 
 Araştırdığım kadarıyla, en çok kullanılan ve neredeyse her işletim sisteminde mevcut olan beş yazı tipi şu şekilde:
 
@@ -50,16 +52,16 @@ Araştırdığım kadarıyla, en çok kullanılan ve neredeyse her işletim sist
 - Times New Roman (Serif)
 - Courier New (Monospaced)
 
-Web Safe Fonts uyumluluklarını görmek için ziyaret edebilirsiniz (Windows & Mac): [https://www.cssfontstack.com/](https://www.cssfontstack.com/)
+Web Safe Fonts uyumluluklarını görmek için [CSS Font Stack](https://www.cssfontstack.com/) sitesini ziyaret edebilirsiniz (Windows & Mac).
 
-## Kullanımı Ve Yedek Font'lar
+## Kullanımı Ve Yedek Fontlar
 
 Aşağıdaki gibi basit bir kod ile, istediğiniz yazı tipini kullanmanız mümkün:
-```
+```css
 p {font-family: Arial, sans-serif;}
 ```
-Web Safe Font'lar her cihazda olamayacağından dolayı, yedek font'lar (**font fallbacks**) da belirlemeniz mümkün. Soldan sağa doğru öncelik ile kodu aşağıdaki gibi düzenleyebilirsiniz:
-```
+Web Safe Fontlar her cihazda olamayacağından dolayı, yedek fontlar (**font fallbacks**) da belirlemeniz mümkün. Soldan sağa doğru öncelik ile kodu aşağıdaki gibi düzenleyebilirsiniz:
+```css
 p {font-family: Arial, Verdana, sans-serif;}
 ```
 Bu sayede, eğer Arial yazı tipi bulunmaz ise Verdana yazı tipi kullanılır. Bu yazı tiplerini çoğaltabilirsiniz. Belirtmiş olduğunuz hiçbir yazı tipi bulunamaz ise de, sans-serif ailesinden bir yazı tipi kullanılır.
@@ -68,5 +70,5 @@ Bu sayede, eğer Arial yazı tipi bulunmaz ise Verdana yazı tipi kullanılır. 
 
 **KAYNAKLAR**
 
-1. [https://www.w3schools.com/css/css\_font\_websafe.asp](https://www.w3schools.com/css/css_font_websafe.asp)
-2. [https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling\_text/Fundamentals#web\_safe\_fonts](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Fundamentals#web_safe_fonts)
+1. https://www.w3schools.com/css/css_font_websafe.asp
+2. https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Text_styling/Fundamentals#web_safe_fonts

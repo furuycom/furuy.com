@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://furuy.com/sitemap.xml
+Sitemap: http://localhost:1313/sitemap.xml

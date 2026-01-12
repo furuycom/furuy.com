@@ -13,8 +13,11 @@ date: "2021-05-16"
 
 categories: 
   - "Android"
-  - "Uygulamalar"
-# tags: ["..."]
+tags:
+  - "AdAway"
+  - "Reklam Engelleme"
+  - "Özgür Yazılım"
+  - "Root"
 
 # cover:
 #   image: "/assets/img/filename.webp"
@@ -26,7 +29,7 @@ aliases:
 
 ## AdAway Nedir?
 
-Adaway, [Android](https://furuy.com/categories/android/) için en etkili reklam engelleme uygulamalarındandır. AdAway'i diğer reklam engelleyicilerden ayıran ana özelliği, root modudur. Root modu, sistemin hosts dosyasına eklemeler yaparak, reklam türevi istenmeyen web sitelerine bağlanılmasını engeller. **AdAway rootsuz** da çalışmaktadır ancak aynı işlevi gören Netguard, AdGuard ve Blokada gibi birçok alternatifi de olduğu için bu yazıda root modu üzerine bilgi vereceğim. Root modu sayesinde, uygulamanın sürekli arka planda çalışarak pil tüketmesinin önüne geçebilir ve VPN kullanırken de reklamları engellemeye devam edebilirsiniz.
+AdAway, [Android](/categories/android/) için en etkili reklam engelleme uygulamalarındandır. AdAway'i diğer reklam engelleyicilerden ayıran ana özelliği, root modudur. Root modu, sistemin hosts dosyasına eklemeler yaparak, reklam türevi istenmeyen web sitelerine bağlanılmasını engeller. **AdAway rootsuz** da çalışmaktadır ancak aynı işlevi gören NetGuard, AdGuard ve Blokada gibi birçok alternatifi de olduğu için bu yazıda root modu üzerine bilgi vereceğim. Root modu sayesinde, uygulamanın sürekli arka planda çalışarak pil tüketmesinin önüne geçebilir ve VPN kullanırken de reklamları engellemeye devam edebilirsiniz.
 
 ### AdAway'in Temel Özellikleri
 
@@ -42,43 +45,43 @@ Magisk Manager'da bütünleşik olarak bulunan "**Systemless hosts**" modülün�
 
 ## AdAway İndir
 
-AdAway'in resmi web sitesi: [https://adaway.org/](https://adaway.org/)
+AdAway'in resmi web sitesi: https://adaway.org/
 
-AdAway'i F-droid üzerinden indirin: [https://f-droid.org/packages/org.adaway/](https://f-droid.org/packages/org.adaway/)
+AdAway'i F-Droid üzerinden indirin: https://f-droid.org/packages/org.adaway/
 
 ## AdAway Host Kaynakları
 
-AdAway, varsayılan olarak çok az hosts kaynağı içerir. Daha fazla engelleme yapmak için "[FilterLists İle Yeni Reklam Engelleyici Filtreleri Bulun](https://furuy.com/filterlists-com/)" isimli yazıma göz atabilirsiniz. Bu sayede, birçok faydalı filtreyi daha kullanabilirsiniz. Dikkat etmeniz gereken, reklam engelleme filtresinin hosts syntaxında olmasıdır. Adblock Plus veya uBlock filtreleri, AdAway'de kullanılamaz.
+AdAway, varsayılan olarak çok az hosts kaynağı içerir. Daha fazla engelleme yapmak için "[FilterLists İle Yeni Reklam Engelleyici Filtreleri Bulun](/filterlists-com/)" isimli yazıma göz atabilirsiniz. Bu sayede, birçok faydalı filtreyi daha kullanabilirsiniz. Dikkat etmeniz gereken, reklam engelleme filtresinin hosts söz diziminde (syntax) olmasıdır. Adblock Plus veya uBlock filtreleri, AdAway'de kullanılamaz.
 
 ## AdAway Nasıl Kullanılır?
 
-**_1-_** AdAway uygulamasını, belirttiğim güvenilir kaynakların birisinden indirin ve yükleyin.
+1. AdAway uygulamasını, belirttiğim güvenilir kaynakların birisinden indirin ve yükleyin.
 
-**_2-_** İlk adım olarak, Magisk Manager ayarlarından "Systemless hosts" modülünü ekleyin ve cihazınızı yeniden başlatın.
+2. İlk adım olarak, Magisk Manager ayarlarından "Systemless hosts" modülünü ekleyin ve cihazınızı yeniden başlatın.
 
-**_3-_** Uygulamayı açtıktan sonra, sizi kurulum ekranı karşılayacak. Burada, root modu veya VPN modu olarak iki seçenek bulunuyor. Root modunu seçin ve ardından root izni vererek devam edin.
+3. Uygulamayı açtıktan sonra, sizi kurulum ekranı karşılayacak. Burada, root modu veya VPN modu olarak iki seçenek bulunuyor. Root modunu seçin ve ardından root izni vererek devam edin.
 
-![AdAway Adım 1](/assets/img/adaway-adim-1.webp)
+![AdAway Root İzni İsteme Ekranı](/assets/img/adaway-adim-1.webp)
 
-**_4-_** Sonraki kurulum ekranında da senkronize ve güncelleme işlemi yapılacak. Kaynakları indirme işlemini tamamlanana kadar bekleyin ve diğer adıma geçin.
+4. Sonraki kurulum ekranında da senkronize ve güncelleme işlemi yapılacak. Kaynakları indirme işlemini tamamlanana kadar bekleyin ve diğer adıma geçin.
 
-![AdAway Adım 2](/assets/img/adaway-adim-2.webp)
+![AdAway Senkronizasyon Ekranı](/assets/img/adaway-adim-2.webp)
 
-**_5-_** Kurulumun son sayfası olan "Support Me" sayfasını da geçerek uygulamaya devam edin.
+5. Kurulumun son sayfası olan `Support Me` sayfasını da geçerek uygulamaya devam edin.
 
-**_6-_** Menüden "**Preferences**" sayfasını açın ve "**Root based ad blocker**" başlığına tıklayın.
+6. Menüden `Preferences` sayfasını açın ve "**Root based ad blocker**" başlığına tıklayın.
 
-![AdAway Adım 3](/assets/img/adaway-adim-3.webp)
+![AdAway Tercihler Menüsü](/assets/img/adaway-adim-3.webp)
 
-**_7-_** Yukarıdaki görselde de olduğu gibi, **Test web server** durumu "**Not running**" olabilir. Bunu çalışır hale getirmek için bir sertifika yüklemeniz gerekir ama bu işlemin çok tehlikeli olabileceği için güvenilir bir kaynaktan olsa bile sertifika yüklemenizi önermem. Bu özellik, yalnızca reklam engellendiği zaman uygulama donuyorsa kullanılabilir. Sonucu aşağıdaki gibi test edebilirsiniz:
+7. Yukarıdaki görselde de olduğu gibi, `Test web server` durumu `Not running` olabilir. Bunu çalışır hale getirmek için bir sertifika yüklemeniz gerekir ama bu işlemin çok tehlikeli olabileceği için güvenilir bir kaynaktan olsa bile sertifika yüklemenizi önermem. Bu özellik, yalnızca reklam engellendiği zaman uygulama donuyorsa kullanılabilir. Sonucu aşağıdaki gibi test edebilirsiniz:
 
-![AdAway Adım 4](/assets/img/adaway-adim-4.webp)
+![AdAway Web Sunucusu Testi](/assets/img/adaway-adim-4.webp)
 
-![AdAway Adım 5](/assets/img/adaway-adim-5.webp)
+![AdAway Test Başarılı Bildirimi](/assets/img/adaway-adim-5.webp)
 
-**_8-_** Aşağıdaki görseldeki numaralara göre açıklamalar:
+8. Aşağıdaki görseldeki numaralara göre açıklamalar:
 
-![AdAway Nasıl Kullanılır](/assets/img/adaway-nasil-kullanilir.webp)
+![AdAway Ana Ekran Arayüzü](/assets/img/adaway-nasil-kullanilir.webp)
 
 1: Engellenen toplam domain veya IP adresi.
 
@@ -98,19 +101,19 @@ AdAway, varsayılan olarak çok az hosts kaynağı içerir. Daha fazla engelleme
 
 **Label:** Filtrenin ismi (herhangi bir şey yapabilirsiniz)
 
-**List format:** Bu listedeki alan adlarının engellenmesini istiyorsanız varsayılan olarak "block" seçili kalsın. Bir whitelist ekliyorsanız, "allow" u seçin.
+**List format:** Bu listedeki alan adlarının engellenmesini istiyorsanız varsayılan olarak "block" seçili kalsın. Bir beyaz liste (izin verilenler) ekliyorsanız, "allow" seçin.
 
 **Type:** Hosts kaynağının yerel bir dosya olarak mı ekleneceği yoksa internetten mi çekileceği soruluyor.
 
-![AdAway Add Source](/assets/img/adaway-add-source.webp)
+![AdAway Host Kaynağı Ekleme Penceresi](/assets/img/adaway-add-source.webp)
 
 Gerekli bilgileri doldurun ve kaydedin.
 
-![AdAway Host Sources](/assets/img/adaway-hosts-sources.webp)
+![AdAway Kaynak Listesi ve Onay Ekranı](/assets/img/adaway-hosts-sources.webp)
 
-Host kaynağını ekledikten sonra, yukarıdaki gibi bir uyarı göreceksiniz. APPLY'a tıklayarak değişiklikleri kaydederek, hosts dosyasını güncelleyebilirsiniz. Bu işlem, kaynak dosyanın boyutuna göre kısa veya uzun zaman alabilir. Aynı güncelleme ve hosts dosyası yaratma işlemini, ana ekrandaki butonlar ile de yapabilirsiniz.
+Host kaynağını ekledikten sonra, yukarıdaki gibi bir uyarı göreceksiniz. `APPLY`'a tıklayarak değişiklikleri kaydederek, hosts dosyasını güncelleyebilirsiniz. Bu işlem, kaynak dosyanın boyutuna göre kısa veya uzun zaman alabilir. Aynı güncelleme ve hosts dosyası yaratma işlemini, ana ekrandaki butonlar ile de yapabilirsiniz.
 
-![AdAway Hosts Sources 2](/assets/img/adaway-hosts-sources-2.webp)
+![AdAway Kaynakları Uygulama Ekranı](/assets/img/adaway-hosts-sources-2.webp)
 
 İşlem tamamlandıktan sonra, kaynağın en son güncellendiği tarihi ve kaç adet kural içerdiğini görebilirsiniz. Kaynağı devre dışı bırakmak için de, soldaki kutucukları kullanabilirsiniz. Devre dışı bırakma işleminden sonra, dosyayı yeniden güncellemeniz gerekiyor.
 
@@ -122,11 +125,11 @@ AdAway ile bir domain'e erişilmesini kısıtlayabilir, kısıtlanmış bir doma
 
 Eğer Magisk Manager'daki "Systemless Hosts" modülünü kullanıyorsanız:
 
-/data/adb/modules/hosts/system/etc/
+`/data/adb/modules/hosts/system/etc/`
 
 Varsayılan orijinal dizin kullanılıyor ise de:
 
-/system/etc/
+`/system/etc/`
 
 Bu klasörlerde bulunan "hosts" dosyasını, Root'lu bir dosya yöneticisinden görüntüleyebilirsiniz.
 

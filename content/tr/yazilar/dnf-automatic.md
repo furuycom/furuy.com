@@ -14,14 +14,9 @@ date: "2022-05-26"
 
 categories: 
   - "GNU/Linux"
-  - "Güvenlik & Mahremiyet"
-tags: 
-  - "dnf"
-  - "dnf-automatic"
+tags:
   - "Fedora"
-  - "RHEL"
-  - "rpm"
-  - "Systemd"
+  - "dnf"
 
 # cover:
 #   image: "/assets/img/filename.webp"
@@ -30,16 +25,13 @@ aliases:
   - /dnf-automatic/
 ---
 
-
-> Bu yazı uzun zamandır güncellenmemektedir!
-
-**DNF Automatic** ile Fedora ve RHEL gibi DNF paket yöneticisine sahip [GNU/Linux](https://furuy.com/categories/gnu-linux/) dağıtımlarındaki güncelleme işlemlerini otomatikleştirmeniz mümkün.
+**DNF Automatic** ile Fedora ve RHEL gibi DNF paket yöneticisine sahip GNU/Linux dağıtımlarındaki güncelleme işlemlerini otomatikleştirmeniz mümkün.
 
 ## DNF Automatic'i Yükleyin
 
 Bunun için kullandığınız terminale aşağıdaki kodu yazın ve yüklemeyi onaylayarak, kurulumu tamamlayın:
 
-```
+```bash
 sudo dnf install dnf-automatic
 ```
 
@@ -51,58 +43,58 @@ Otomatik güncellemeleri yapılandırmak için iki yöntem mevcut:
 
 Bu dosya, varsayılan yapılandırma dosyasıdır. Paketi yüklediğinizde oluşturulacaktır. Herhangi bir metin editörü ile dosyayı açın:
 
-```
+```bash
 sudo vim /etc/dnf/automatic.conf
 ```
 
 
 Yukarıdaki değerler, varsayılandır.
 
-**upgrade\_type:** Bu alanda "default" veya "security" seçeneklerini kullanabilirsiniz. "default" seçeneği tüm güncellemeleri, "security" seçeneği ise yalnızca güvenlik güncellemelerini seçer. Gerek sunucunuzda, gerekse masa üstünüzde en azından "security" seçeneğini seçmek çok faydalı olacaktır. Bu sayede, güvenlik güncellemelerini hızlı ve otomatik bir şekilde yükleyebilirsiniz.
+**upgrade_type:** Bu alanda "default" veya "security" seçeneklerini kullanabilirsiniz. "default" seçeneği tüm güncellemeleri, "security" seçeneği ise yalnızca güvenlik güncellemelerini seçer. Gerek sunucunuzda, gerekse masaüstünüzde en azından "security" seçeneğini seçmek çok faydalı olacaktır. Bu sayede, güvenlik güncellemelerini hızlı ve otomatik bir şekilde yükleyebilirsiniz.
 
-**random\_sleep:** Güncellemeleri indirmeden önce uygulanacak maksimum gecikme (delay). Dakika cinsinden yazmanız gerekiyor. Systemd timerları zaten 1 saate kadar, rastgele bir gecikme uyguladığı için varsayılan "0" değerini değiştirmenize gerek yok.
+**random_sleep:** Güncellemeleri indirmeden önce uygulanacak maksimum gecikme (delay). Dakika cinsinden yazmanız gerekiyor. systemd timerları zaten 1 saate kadar, rastgele bir gecikme uyguladığı için varsayılan "0" değerini değiştirmenize gerek yok.
 
-**network\_online\_timeout:** Saniye cinsinden, internete bağlı olup olunmadığının kontrol edileceği süre. "0" bu kontrolü kapatır. Varsayılan olarak kalmasını tavsiye ederim.
+**network_online_timeout:** Saniye cinsinden, internete bağlı olup olunmadığının kontrol edileceği süre. "0" bu kontrolü kapatır. Varsayılan olarak kalmasını tavsiye ederim.
 
-**download\_updates:** Güncelleme mevcut olduğunda, bunları otomatik olarak indirir.
+**download_updates:** Güncelleme mevcut olduğunda, bunları otomatik olarak indirir.
 
-**apply\_updates:** Güncelleme mevcut olduğunda, bunları otomatik olarak yükler.
+**apply_updates:** Güncelleme mevcut olduğunda, bunları otomatik olarak yükler.
 
-Bunların altındaki, "\[emitters\]" ile başlayan alanlar, işlemler tamamlandığında sonuçların nasıl raporlanacağını ayarlamanızı sağlar. E-posta raporlaması gibi bir ayarlama yapmayacaksanız, bu alanları varsayılan olarak bırakabilirsiniz.
+Bunların altındaki, "[emitters]" ile başlayan alanlar, işlemler tamamlandığında sonuçların nasıl raporlanacağını ayarlamanızı sağlar. E-posta raporlaması gibi bir ayarlama yapmayacaksanız, bu alanları varsayılan olarak bırakabilirsiniz.
 
 Son olarak, systemctl komutu ile servisi aktifleştirin:
 
-```
+```bash
 sudo systemctl enable --now dnf-automatic.timer
 ```
 
-### Systemd Timer
+### systemd Timer
 
-Yukarıdaki dosyada herhangi bir işlem yapmadan, Systemd timerlarını kullanarak DNF Automatic'i yapılandırmanız da mümkün. Bunlardan birisini kullanmak, yukarıdaki yapılandırmanızı es geçecektir ve açıklamada belirtildiği gibi çalışacaktır. Altındaki kodu uygulamanız yeterlidir.
+Yukarıdaki dosyada herhangi bir işlem yapmadan, systemd timerlarını kullanarak DNF Automatic'i yapılandırmanız da mümkün. Bunlardan birisini kullanmak, yukarıdaki yapılandırmanızı es geçer ve açıklamada belirtildiği gibi çalışacaktır. Altındaki kodu uygulamanız yeterlidir.
 
 **dnf-automatic-notifyonly**: Güncelleme olduğunda, yalnızca bildirir.
 
-```
+```bash
 sudo systemctl enable --now dnf-automatic-notifyonly.timer
 ```
 
 **dnf-automatic-download**: Güncellemeleri indirir.
 
-```
+```bash
 sudo systemctl enable --now dnf-automatic-download.timer
 ```
 
 **dnf-automatic-install**: Güncellemeleri yükler.
 
-```
+```bash
 sudo systemctl enable --now dnf-automatic-install.timer
 ```
 
 * * *
 
-Bu işlemlerden sonra, güncellemeleri kolaylıkla otomatikleştirebilirsiniz. Systemd timerlarını kontrol etmek için aşağıdaki komutu kullanın:
+Bu işlemlerden sonra, güncellemeleri kolaylıkla otomatikleştirebilirsiniz. systemd zamanlayıcıları kontrol etmek için aşağıdaki komutu kullanın:
 
-```
+```bash
 sudo systemctl list-timers
 ```
 

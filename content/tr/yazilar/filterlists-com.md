@@ -13,8 +13,11 @@ lastmod: "2023-12-18"
 # comments: false
 
 categories: 
-  - "İnternet"
-# tags: ["..."]
+  - "Eklentiler"
+tags:
+  - "Filtre Listeleri"
+  - "uBlock Origin"
+  - "Reklam Engelleme"
 
 # cover:
 #   image: "/assets/img/filename.webp"
@@ -23,10 +26,7 @@ aliases:
   - /filterlists-com/
 ---
 
-
-> Bu yazı uzun zamandır güncellenmemektedir!
-
-FilterLists; Adaway, uBlock Origin, Adguard ve Adblock Plus gibi araçlarda kullanabileceğiniz, reklam/zararlı yazılım/paywall/anti-adblock gibi birçok filtreyi bulabilmenizi sağlayan bir web sitesidir. Filtrelenebilen arşiv sayesinde, ihtiyacınıza yönelik filtreleri kolayca bulmanız mümkün.
+FilterLists; AdAway, uBlock Origin, Adguard ve Adblock Plus gibi araçlarda kullanabileceğiniz, reklam/zararlı yazılım/paywall/anti-adblock gibi birçok filtreyi bulabilmenizi sağlayan bir web sitesidir. Filtrelenebilen arşiv sayesinde, ihtiyacınıza yönelik filtreleri kolayca bulmanız mümkün.
 
 ## Filtreleme Yöntemleri
 
@@ -44,7 +44,7 @@ Mevcut filtrenin desteklendiği yazılıma göre filtreleme yapabilirsiniz. Örn
 
 ### Syntaxes
 
-Reklam engelleme yazılımlarının syntaxına yani söz dizimine göre filtreleme yapabilirsiniz. Örnek: Adblock Plus, Domains, Hosts...
+Reklam engelleme yazılımlarının söz dizimine (syntax) göre filtreleme yapabilirsiniz. Örnek: Adblock Plus, Domains, Hosts...
 
 ### Languages
 
@@ -64,8 +64,8 @@ Lisanslara göre filtreleme yapabilirsiniz.
 
 ## Info
 
-Herhangi bir özel filtrenin solundaki mavi info butonu ile filtre detaylarını görebilirsiniz. Destekleyen uygulamalarda, "Subscribe" butonuna tıklayarak özel filtreyi reklam engelleyiciye ekleyebilir ve abone olabilirsiniz. Bu bölümden ayrıca, geliştirici bilgileri ve Github sayfası gibi detayları görmeniz de mümkün .
+Herhangi bir özel filtrenin solundaki mavi info butonu ile filtre detaylarını görebilirsiniz. Destekleyen uygulamalarda, "Subscribe" butonuna tıklayarak özel filtreyi reklam engelleyiciye ekleyebilir ve abone olabilirsiniz. Bu bölümden ayrıca, geliştirici bilgileri ve GitHub sayfası gibi detayları görmeniz de mümkün .
 
 ## FilterLists
 
-FilterLists'in resmi web sitesi ziyaret edin: [https://filterlists.com](https://filterlists.com)
+FilterLists'in [Resmi Web Sitesini](https://filterlists.com) ziyaret edin.

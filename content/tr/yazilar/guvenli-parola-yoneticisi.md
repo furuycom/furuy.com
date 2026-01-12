@@ -13,9 +13,13 @@ lastmod: "2023-07-06"
 # comments: false
 
 categories: 
-  - "Güvenlik & Mahremiyet"
-tags: 
+  - "Güvenlik"
+tags:
   - "Parola Yöneticisi"
+  - "Bitwarden"
+  - "KeePass"
+  - "Özgür Yazılım"
+  - "2FA"
 
 # cover:
 #   image: "/assets/img/filename.webp"
@@ -23,7 +27,6 @@ tags:
 aliases:
   - /guvenli-parola-yoneticisi/
 ---
-
 
 Parola yöneticilerinin önemi günden güne daha iyi anlaşılmaktadır. Güvenlik amacıyla kullanılan bu araçlar, tehlikeli de olabilirler. Bu araçlar bilinçsiz veya tedbirsiz kullanılırsa, kullanıcının internetteki tüm varlığı, kötü niyetli kişilere altın tepside sunulmuş olur. Bu tür istenmeyen durumlardan kaçınmak için bu rehberi dikkatli bir şekilde okuyup, tavsiyeleri uygulamanızı ve konu hakkındaki bilgilerinizin güncel kalması için de siber güvenlik alanında yetkin kaynaklarını takip etmenizi öneririm.
 
@@ -35,27 +38,27 @@ Kullanacağınız parola yöneticisinin güvenli olması, dikkat etmeniz gereken
 
 1. Kullanacağınız yazılımın açık kaynak kodlu olduğundan emin olun.
 
-3. Verilerin şifrelenmiş (encrypted) olarak saklandığından emin olun.
+2. Verilerin şifreli (encrypted) olarak saklandığından emin olun.
 
-5. E-posta hesabınızla birlikte riske girebilecek Google'ın parola yöneticisi gibi bütünleşik araçları kullanmayın.
+3. E-posta hesabınızla birlikte riske girebilecek Google'ın parola yöneticisi gibi bütünleşik araçları kullanmayın.
 
-Bu kriterler uyan Bitwarden veya KeePass yazılımlarını kullanabilirsiniz.
+Bu kriterlere uyan Bitwarden veya KeePass yazılımlarını kullanabilirsiniz.
 
 ### Bitwarden
 
 ![Bitwarden - Parola Yöneticisi](/assets/img/bitwarden.webp)
 
-- Bitwarden, açık kaynak kodlu\[1\] ve yarı-ücretsiz (freemium) bir parola yöneticisidir.
+- Bitwarden, açık kaynak kodlu [1] ve yarı-ücretsiz (freemium) bir parola yöneticisidir.
 
 - İsterseniz Bitwarden'in ücretsiz sürümünü kullanabilir, isterseniz de kendi sunucunuzda kullanabilirsiniz.
 
-- Verileriniz, AES-256 gibi gelişmiş şifreleme yöntemleri ile şifrelenir. \[2\]
+- Verileriniz, AES-256 gibi gelişmiş şifreleme yöntemleri ile şifrelenir. [2]
 
 - Birçok platform için uygulaması bulunmakla birlikte, tarayıcı üzerinden de kullanılabiliyor.
 
-- Bitwarden'in resmi web sitesini ziyaret edebilirsiniz: [https://bitwarden.com/](https://bitwarden.com/)
+- Bitwarden'in resmi web sitesini ziyaret edebilirsiniz: https://bitwarden.com/
 
-- Resmi indirme bağlantıları: [https://bitwarden.com/download/](https://bitwarden.com/download/)
+- Resmi indirme bağlantıları: https://bitwarden.com/download/
 
 ### KeePass
 
@@ -95,7 +98,7 @@ Güçlü bir parola, güvenliğin en önemli kriterlerindendir. Aşağıdaki kri
 
 - Başka bir yerde kullanılmamalı.
 
-Bu parolayı, asla bilgisayarınızdaki bir not defterinde vs. bulundurmayın; Ya güvenli bir yerdeki bir kağıtta (riskli), ya da ezberinizde olmalı. Güvenli bir parola oluşturmak için Zarola yöntemini de kullanabilirsiniz. Özgür Yazılım Derneği, konu hakkında mükemmel bir kaynak hazırlamış: [https://zarola.oyd.org.tr/](https://zarola.oyd.org.tr/)
+Bu parolayı, asla bilgisayarınızdaki bir not defterinde vs. bulundurmayın; Ya güvenli bir yerdeki bir kağıtta (riskli), ya da ezberinizde olmalı. Güvenli bir parola oluşturmak için Zarola yöntemini de kullanabilirsiniz. Özgür Yazılım Derneği, konu hakkında mükemmel bir kaynak hazırlamış: https://zarola.oyd.org.tr/
 
 ## İki Adımlı Doğrulama Kullanın
 
@@ -107,25 +110,25 @@ E-posta (tavsiye etmiyorum) veya kod uygulaması ile iki adımlı doğrulamayı 
 
 ## Hesap Kurtarmayı Devre Dışı Bırakın
 
-Hesabınız ve hesabınızda kullandığınız e-posta adresi için giriş ipuçlarını, parola hatırlatma ipuçlarını ve kurtarma yöntemlerini mutlaka devre dışı bırakın. Bunlar, bilinenin aksine [güvenlik](https://furuy.com/categories/guvenlik/) sağlamaktan ziyade, güvenliği zafiyeti yaratırlar.
+Hesabınız ve hesabınızda kullandığınız e-posta adresi için giriş ipuçlarını, parola hatırlatma ipuçlarını ve kurtarma yöntemlerini mutlaka devre dışı bırakın. Bunlar, bilinenin aksine güvenlik sağlamaktan ziyade, güvenlik zafiyeti yaratırlar.
 
 ## Resmi Web Sitelerini Kullanın
 
-Olası phishing saldırılarından korunmak için yazılımı resmi web sitesinden indirin veya tarayıcı üzerinden giriş yapacaksanız, web site adresini kendiniz yazın. Doğru olduğundan emin olduğunuz giriş bağlantısını, hızlı erişim için yer imlerine ekleyebilirsiniz. Arama sonuçları ile resmi web siteye ulaşamayabilirsiniz; İlk sıralarda çıkan reklamlar yüzünden sahte web sitesine gidebilirsiniz.
+Olası phishing saldırılarından korunmak için yazılımı resmi web sitesinden indirin veya tarayıcı üzerinden giriş yapacaksanız, web site adresini kendiniz yazın. Doğru olduğundan emin olduğunuz giriş bağlantısını, hızlı erişim için yer imlerine ekleyebilirsiniz. Arama sonuçları ile resmi web sitesine ulaşamayabilirsiniz; İlk sıralarda çıkan reklamlar yüzünden sahte web sitesine gidebilirsiniz.
 
 ![Sahte bir Bitwarden reklamı.](/assets/img/bitwarden-sahte-reklam.webp)
 
 Bir Reddit kullanıcısının karşılaştığı sahte bir reklam.  
-Kaynak: [https://www.reddit.com/r/Bitwarden/comments/10k2aj5/google\_search\_ads\_showing\_fake\_bitwarden\_web/](https://www.reddit.com/r/Bitwarden/comments/10k2aj5/google_search_ads_showing_fake_bitwarden_web/)
+Kaynak: https://www.reddit.com/r/Bitwarden/comments/10k2aj5/google_search_ads_showing_fake_bitwarden_web/
 
 ![Sahte bir Bitwarden websitesi.](/assets/img/bitwarden-sahte-web-sitesi.webp)
 
 Bir başka sahte Bitwarden websitesi.  
-Kaynak: [https://www.reddit.com/r/Bitwarden/comments/10kswt8/god\_damn\_in\_situations\_like\_this\_how\_can\_i\_detect/](https://www.reddit.com/r/Bitwarden/comments/10kswt8/god_damn_in_situations_like_this_how_can_i_detect/)
+Kaynak: https://www.reddit.com/r/Bitwarden/comments/10kswt8/god_damn_in_situations_like_this_how_can_i_detect/
 
-Web site adresini kontrol edin ve tarayıcınızda sayfa url'si yerine sayfa başlığını gösteren özellik aktif ise devre dışı bırakın. [Firefox](https://furuy.com/firefox-neden-en-iyi-android-web-tarayicisi/) tarayıcı kullanıyorsanız, about:config sayfasından "**network.IDN\_show\_punycode**" seçeneğini aktifleştirin.
+Web sitesi adresini kontrol edin ve tarayıcınızda sayfa url'si yerine sayfa başlığını gösteren özellik aktif ise devre dışı bırakın. [Firefox](/firefox-neden-en-iyi-android-web-tarayicisi/) tarayıcı kullanıyorsanız, about:config sayfasından "**network.IDN\_show\_punycode**" seçeneğini aktifleştirin.
 
-Keepass gibi indirilebilir bir yazılım ise mutlaka hash kontrolü yapın: [https://keepass.info/integrity.html](https://keepass.info/integrity.html)
+KeePass gibi indirilebilir bir yazılım ise mutlaka hash kontrolü yapın: https://keepass.info/integrity.html
 
 ## Yazılımı Güncel Tutun
 
@@ -137,7 +140,7 @@ Size ait olmayan cihazlardan veya herkese açık ağlardan asla parola yönetici
 
 ## Parola Yöneticisi Yedeğinin Güvenliği
 
-Parola yöneticisi yedekleri, şifrelenmemiş bir metin dosyası olarak dışarıya aktarılabiliyor. Bu özelliği kullanmayın ve geri silecek olsanız bile, parolalarınızı içeren, şifrelenmemiş (encrypted) bir dosyayı cihazınıza indirmeyin. Yedek dosyasını şifrelenmemiş veya güvenli olmayan bir biçimde indirmişseniz, mutlaka "file shredder" yazılımları kullanın.
+Parola yöneticisi yedekleri, şifrelenmemiş bir metin dosyası olarak dışarıya aktarılabiliyor. Bu özelliği kullanmayın ve geri silecek olsanız bile, parolalarınızı içeren, şifreli (encrypted) bir dosyayı cihazınıza indirmeyin. Yedek dosyasını şifrelenmemiş veya güvenli olmayan bir biçimde indirmişseniz, mutlaka "file shredder" yazılımları kullanın.
 
 ## Parola Yöneticisi Tarayıcı Eklentisini Kullanmayın
 
@@ -163,13 +166,13 @@ Parolanın başına veya sonuna, kafanızda belirlediğiniz bir karakteri ekleyi
 
 1. Bir web sitesine kayıt olacağız. Parola oluşturma aracı, bize bir parola oluşturdu. Örnek: "**13579qwerty**"
 
-3. Parola yöneticisinin oluşturduğu parolayı, bu haliyle kaydedin.
+2. Parola yöneticisinin oluşturduğu parolayı, bu haliyle kaydedin.
 
-5. Daha sonra, bu parolanın sonuna veya başına istediğiniz karakterleri ekleyin. Örnek: "**xc1**"
+3. Daha sonra, bu parolanın sonuna veya başına istediğiniz karakterleri ekleyin. Örnek: "**xc1**"
 
-7. Parola yöneticisinin oluşturduğu parolaya, kendi karakterlerinizi ekleyin ve bu haliyle web sitesine kayıt olun. Örnek: "**xc1**13579qwerty"
+4. Parola yöneticisinin oluşturduğu parolaya, kendi karakterlerinizi ekleyin ve bu haliyle web sitesine kayıt olun. Örnek: "**xc1**13579qwerty"
 
-9. Parola ele geçirilse bile, "13579qwerty" parolası açığa çıkacaktır. Sadece sizin bildiğiniz "**xc1**" karakteri bulunmadığı sürece, ele geçirilen parola yanlış olacaktır.
+5. Parola ele geçirilse bile, "13579qwerty" parolası açığa çıkacaktır. Sadece sizin bildiğiniz "**xc1**" karakteri bulunmadığı sürece, ele geçirilen parola yanlış olacaktır.
 
 ## Parola Şifreleme Algoritması (Password Iterations)
 
@@ -177,12 +180,12 @@ Yazılarımda birkaç kez, insanların "parola" yerine "şifre" demelerinin yanl
 Güvenli bir parola yöneticisi, parolalarınızın olduğu veri tabanını şifreli olarak saklar ve bu şifreyi çözmek için de belirlediğiniz parolayı kullanmanız gerekir. Bu sayede sistem yöneticisi de dahil olmak üzere, parolanızı bilmeyen hiç kimse okuyamaz. Şifreleme (encryption) bu yüzden çok önemlidir. Parolalarınızın bulunduğu şifreli veri tabanı çalınsa bile, bu şifrenin kırılması gerekir. Burada bir önemli konu daha ortaya çıkıyor; Şeffaflık. Firmalar, hacklenme veya türevi gibi güvenlik ihlali durumlarında mutlaka kullanıcılarını bilgilendirmeliler. Bu sayede veri tabanı dosyası saldırganlar tarafından çalınsa bile, tüm parolalarınızı değiştirmeniz için zamanınız olacaktır. Bu başlıkta, bu zamanı nasıl artırabileceğinizi, veri tabanının şifresinin kırılmasını nasıl daha zor yapacağınızı öğreneceksiniz.
 
 Parola yöneticisindeki verilerinize erişebilmeniz için kullandığınız parolanın da güvenli olması gerekir. Bunun ilk adımı, güvenli bir parola belirlemektir. Bu parola, hatırlamanız gereken ve hiçbir yerde fiziksel veya dijital olarak saklanmayan tek parolanız olmalıdır. Parolanızı bulmak isteyen kişiler, brute-force gibi saldırılar deneyeceklerdir. Bu saldırıları engellemenin en iyi yöntemlerinden birisi de, brute-force saldırılarına karşı geliştirilmiş güvenli bir parola şifreleme algoritması kullanmak. Bu sayede brute-force saldırılarının hızı kesilip, saldırının çalışma mantığını neredeyse anlamsız kılacaktır. Burada PBKDF2 öne çıksa da, OWASP, Argon2id kullanmanızı öneriyor. Bu işlemden önce yedek almayı unutmayın.  
-İlgili yazı: [https://cheatsheetseries.owasp.org/cheatsheets/Password\_Storage\_Cheat\_Sheet.html](https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html)  
-Online test arası: [https://antelle.net/argon2-browser/](https://antelle.net/argon2-browser/)
+İlgili yazı: https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html
+Online test aracı: https://antelle.net/argon2-browser/
 
 ## Biyometrik Doğrulama
 
-Hesabınızın parolasını korumanın en iyi yolu, onu olabildiğince az kullanmaktır. Bu sayede potansiyel birçok tehditten kurtulmuş olacaksınız. Burada yardımınıza biyometrik kilit açma (Unlock with Biometrics) özeliği yetişiyor. Kullandığınız cihazdaki parmak izi veya yüz tanıma gibi biyometrik doğrulama yöntemlerini kullanmanız öneriliyor.
+Hesabınızın parolasını korumanın en iyi yolu, onu olabildiğince az kullanmaktır. Bu sayede potansiyel birçok tehditten kurtulmuş olacaksınız. Burada yardımınıza biyometrik kilit açma (Unlock with Biometrics) özelliği yetişiyor. Kullandığınız cihazdaki parmak izi veya yüz tanıma gibi biyometrik doğrulama yöntemlerini kullanmanız öneriliyor.
 
 ## Riskler
 

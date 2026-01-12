@@ -14,11 +14,11 @@ date: "2021-07-26"
 
 categories: 
   - "Android"
-  - "Güvenlik & Mahremiyet"
-tags: 
+tags:
   - "Custom ROM"
   - "GrapheneOS"
-  - "XDA"
+  - "LineageOS"
+  - "Özgür Yazılım"
 
 # cover:
 #   image: "/assets/img/filename.webp"
@@ -26,9 +26,6 @@ tags:
 aliases:
   - /custom-rom-kullanmak-guvenli-mi/
 ---
-
-
-> Bu yazı uzun zamandır güncellenmemektedir!
 
 Custom ROM'lar, birçok olumlu getirileri ile Android kullanıcıları tarafından tercih edilebiliyorlar. Bu getirilerden bazıları şunlar:
 
@@ -40,9 +37,9 @@ Custom ROM'lar, birçok olumlu getirileri ile Android kullanıcıları tarafınd
 
 - Daha hafif olurlar. Bu nedenle de, pil ve RAM kullanımı daha az olur.
 
-Kısacası insanlar, haklı olarak, satın aldıkları ürünlerden tam verimi alabilmek için Custom ROM kullanıyorlar. Peki ya bu Custom ROM'lar ne kadar güvenli? Bu yazıda, bir Custom ROM kullanmadan önce dikkat etmeniz gereken [güvenlik](https://furuy.com/categories/Güvenlik & Mahremiyet/) kriterlerinden bahsedeceğim.
+Kısacası insanlar, haklı olarak, satın aldıkları ürünlerden tam verimi alabilmek için Custom ROM kullanıyorlar. Peki ya bu Custom ROM'lar ne kadar güvenli? Bu yazıda, bir Custom ROM kullanmadan önce dikkat etmeniz gereken güvenlik kriterlerinden bahsedeceğim.
 
-**NOT:** Android, iOS'un aksine açık kaynak kodlu olduğu ve kullanıcılarına daha fazla özgürlük verdiği için güvenlik konusunda eksik görülebiliyor. Aslında bu durumun asıl nedeni, Android cihaz üreticilerinin hataları idi ama Google, yeni Android sürümleri ile güvenlik alanında çok fazla gelişme kat ederek, bir standart yaratmaya devam ediyor ve bunu, Apple'ın aksine hâlâ açık kaynak kodlu kalarak ve özellikleri kısıtlamadan yapıyor. Güvenlik, önemli özellikleri kısıtlayarak sağlanmaz. İnternete bağlanabilen her cihaz tehdit altındadır ama bu cihazın güvenliğini, onun internete erişimini engelleyerek yapamazsınız çünkü buna güvenli cihaz değil, kısıtlı cihaz denir. _Özet: Android'in güvenli olduğunu bilmek ile iOS'a güvenmek arasında çok fark var._
+**NOT:** Android, iOS'un aksine açık kaynak kodlu olduğu ve kullanıcılarına daha fazla özgürlük verdiği için güvenlik konusunda eksik görülebiliyor. Aslında bu durumun asıl nedeni, Android cihaz üreticilerinin hatalarıydı ama Google, yeni Android sürümleri ile güvenlik alanında çok fazla gelişme kat ederek, bir standart yaratmaya devam ediyor ve bunu, Apple'ın aksine hâlâ açık kaynak kodlu kalarak ve özellikleri kısıtlamadan yapıyor. Güvenlik, önemli özellikleri kısıtlayarak sağlanmaz. İnternete bağlanabilen her cihaz tehdit altındadır ama bu cihazın güvenliğini, onun internete erişimini engelleyerek yapamazsınız çünkü buna güvenli cihaz değil, kısıtlı cihaz denir. _Özet: Android'in güvenli olduğunu bilmek ile iOS'a güvenmek arasında çok fark var._
 
 ## Geliştiricisi Kim?
 
@@ -50,9 +47,9 @@ Nasıl ki bilgisayarınıza, herhangi bir web sitesinden indirdiğiniz ISO dosya
 
 - Kullanacağınız ROM'un geliştiricilerinin kim olduğunu araştırın.
 
-- Yalnızca official ve stable ROM'ların, en güncel sürümlerini kullanın.
+- Yalnızca resmi (official) ve kararlı (stable) ROM'ların, en güncel sürümlerini kullanın.
 
-- ROM'u yalnızca resmi kaynağından indirin ve indirdikten sonra hash kontrolü yapın.
+- ROM'u yalnızca resmi kaynağından indirin ve indirdikten sonra hash doğrulaması yapın.
 
 - ROM hakkında, resmi kaynağın dışındaki web sitelerinden ve Reddit topluluklarından araştırma yapın.
 
@@ -60,31 +57,31 @@ Nasıl ki bilgisayarınıza, herhangi bir web sitesinden indirdiğiniz ISO dosya
 
 ## Android Sürümü Ve Güncellemeler
 
-Her yazılım, güncel olmalıdır çünkü güncel olmayan sürümler güvenlik açıkları barındırır. Bu açıklar ve potansiyel riskler de, güncellemeler ile kapatılır. Kullandığınız Android sürümünün güncel olması, güvenliğinizi sağlayacak en temel kriterlerden bir tanesidir. Bu nedenle, satın alacağınız cihazın kaç sürüm Android güncellemesi ve kaç yıl güvenlik güncellemesi alacağını araştırın. Güncelleme desteği konusundaki en iyi cihaz, Android'in de yaratıcısı ve geliştirici olan Google'a ait cihazlar. Google, Pixel 6 cihazların en az 5 yıl boyunca Android ve güvenlik güncellemeleri alacağının garantisini veriyor. \[1\] Google'dan sonra bu konuda en iyi firma, şu an için Samsung.
+Her yazılım, güncel olmalıdır çünkü güncel olmayan sürümler güvenlik açıkları barındırır. Bu açıklar ve potansiyel riskler de, güncellemeler ile kapatılır. Kullandığınız Android sürümünün güncel olması, güvenliğinizi sağlayacak en temel kriterlerden bir tanesidir. Bu nedenle, satın alacağınız cihazın kaç sürüm Android güncellemesi ve kaç yıl güvenlik güncellemesi alacağını araştırın. Güncelleme desteği konusundaki en iyi cihazlar, Android'in de yaratıcısı ve geliştirici olan Google'a ait cihazlar. Google, Pixel 6 cihazlarının en az 5 yıl boyunca Android ve güvenlik güncellemeleri alacağının garantisini veriyor. [1] Google'dan sonra bu konuda en iyi firma, şu an için Samsung.
 
-Evet, yalnızca [Android](https://furuy.com/categories/android/) sürümünün güncel olması da yeterli değil. Google, her ay Android için güvenlik güncellemeleri yayınlıyor. Kullanacağınız ROM'un bu güncellemeleri düzenli olarak aldığından emin olun. (Detaylı bilgi için: [Bağlantı 1](https://support.google.com/android/answer/7680439?hl=tr) - [Bağlantı 2](https://source.android.com/security/bulletin))
+Evet, yalnızca [Android](/categories/android/) sürümünün güncel olması da yeterli değil. Google, her ay Android için güvenlik güncellemeleri yayınlıyor. Kullanacağınız ROM'un bu güncellemeleri düzenli olarak aldığından emin olun. (Detaylı bilgi için: [Bağlantı 1](https://support.google.com/android/answer/7680439?hl=tr) - [Bağlantı 2](https://source.android.com/security/bulletin))
 
 ## Verified Boot
 
 TWRP'de, değiştirilmiş bir stock ROM kurarken veya Magisk yüklerken işaretleyerek kaldırdığınız **dm-verity** ile tanışın. Bu özelliği kapatmayı unutursanız, cihazınız açılış ekranında kalır (bootloop). Peki ama neden?
 
-Türkçe'ye "Doğrulanmış Önyükleme" olarak çevrilen bu özelliğin ne işe yaradığını adından da anlayabiliriz. Cihazın başlatılırken yapılan bu doğrulama ile "system, vendor, oem" alanlarına müdahale edilmesi engellenir. Ayrıca, "Rollback protection" adında "downgrade" yapılmasını engelleyen bir koruma da vardır. Bu sayede, güvenlik açıkları içerebilecek önceki sürümün yüklenmesi engellenmiş olur. Verified Boot'u, BIOS'taki Secure Boot özelliği gibi düşünebilirsiniz.
+Türkçeye "Doğrulanmış Önyükleme" olarak çevrilen bu özelliğin ne işe yaradığını adından da anlayabiliriz. Cihazın başlatılırken yapılan bu doğrulama ile "system, vendor, oem" alanlarına müdahale edilmesi engellenir. Ayrıca, "Rollback protection" adında "downgrade" yapılmasını engelleyen bir koruma da vardır. Bu sayede, güvenlik açıkları içerebilecek önceki sürümün yüklenmesi engellenmiş olur. Verified Boot'u, BIOS'taki Secure Boot özelliği gibi düşünebilirsiniz.
 
 **UYARI:** Cihazın bootloader kilidini açmak bile Verified Boot özelliğini kapatır!
 
 Kullanacağınız ROM'un verified boot desteklediğinden, bootloader kilidinin kapatılabilir olduğundan emin olun ve cihazınızı rootlamayın.
 
-İleri okuma: [https://source.android.com/security/verifiedboot](https://source.android.com/security/verifiedboot)
+İleri okuma: https://source.android.com/security/verifiedboot
 
 ## SELinux Policy
 
 SELinux, kilit güvenlik adımlarındandır. Hakkında birçok makale olduğu ve bilinen bir güvenlik protokolü olduğu için detaylandırmayacağım. Google'ın resmi geliştirici web sitesinden Türkçe olarak bilgi alabilirsiniz:  
-[https://source.android.com/docs/security/features/selinux](https://source.android.com/docs/security/features/selinux)
+https://source.android.com/docs/security/features/selinux
 
 **Özet:** Kullanacağınız ROM'un SELinux durumunun **enforcing** olmasına kesinlikle dikkat edin!
 
 Magisk'in geliştiricisinin, konu hakkındaki Tweet'i:  
-[https://twitter.com/topjohnwu/status/1359054106019565571](https://twitter.com/topjohnwu/status/1359054106019565571)
+https://twitter.com/topjohnwu/status/1359054106019565571
 
 ## Signature Spoofing
 
@@ -96,9 +93,9 @@ Veri şifreleme, artık bir standart haline geldi. Bu sayede, dosyalarınızı y
 
 ## Sonuç Ve Tavsiye
 
-Edward Snowden'ın tavsiyesi: [https://twitter.com/Snowden/status/1175430722733129729](https://twitter.com/Snowden/status/1175430722733129729)
+Edward Snowden'ın tavsiyesi: https://twitter.com/Snowden/status/1175430722733129729
 
-Mahremiyet odaklı düşünürseniz, kesinlikle bir Custom ROM kullanmanız gerektiği kanaatine varacaksınız. Peki ya hangi Custom ROM kullanılmalı? Benim ilk tavsiyem **GrapheneOS**. ([https://grapheneos.org)](https://grapheneos.org)
+Mahremiyet odaklı düşünürseniz, kesinlikle bir Custom ROM kullanmanız gerektiği kanaatine varacaksınız. Peki ya hangi Custom ROM kullanılmalı? Benim ilk tavsiyem **GrapheneOS**. https://grapheneos.org
 
 Eğer GrapheneOS destekleyen bir cihazınız yoksa, LineageOS veya crDroid gibi bilinen, aktif olarak geliştirilen, official bir ROM kullanmanızı öneririm. Official (resmi) olmayan, Telegram'daki herhangi bir kişinin yaptığı, varsayılan olarak Dolby Atmos, Google Camera gibi açık kaynak kodlu olmayan uygulamalar içeren ROM'ları kesinlikle kullanmayın. 
 
@@ -106,4 +103,4 @@ Eğer GrapheneOS destekleyen bir cihazınız yoksa, LineageOS veya crDroid gibi 
 
 **KAYNAKLAR**
 
-1. [https://support.google.com/pixelphone/answer/4457705?hl=en#zippy=%2Cpixel-phones](https://support.google.com/pixelphone/answer/4457705?hl=en#zippy=%2Cpixel-phones)
+1. https://support.google.com/pixelphone/answer/4457705?hl=en#zippy=%2Cpixel-phones

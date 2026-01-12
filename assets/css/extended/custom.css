@@ -40,3 +40,24 @@
     transform-origin: left center;
     opacity: 0.9;
 }
+
+/* Mark old posts by spinning the hourglass icon once. */
+.post-meta .stale-icon::before {
+    content: "⌛︎";
+    margin-right: 0.35em;
+    opacity: 0.8;
+    display: inline-block;
+    animation: stale-attn 900ms linear 1;
+}
+
+@keyframes stale-attn {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .post-meta .stale-icon::before {
+        animation: none;
+    }
+}

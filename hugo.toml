@@ -36,6 +36,7 @@ enableGitInfo = true
 [params]
   env = "production"
   author = "Furkan Uysal"
+  hideAuthor = true
   #description = ""
   comments = true
 

@@ -2,199 +2,409 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Etiketler on Furkan Uysal</title>
-    <link>https://furuy.com/tr/etiketler/</link>
+    <link>http://localhost:1313/tr/etiketler/</link>
     <description>Recent content in Etiketler on Furkan Uysal</description>
     <generator>Hugo -- 0.154.4</generator>
     <language>tr-TR</language>
     <copyright>Furkan Uysal — CC0 1.0 Evrensel · Yasal · Arşiv</copyright>
-    <atom:link href="https://furuy.com/tr/etiketler/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tr/etiketler/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Custom ROM</title>
-      <link>https://furuy.com/tr/etiketler/custom-rom/</link>
+      <title>IMEI</title>
+      <link>http://localhost:1313/tr/etiketler/imei/</link>
       <pubDate>Tue, 18 Mar 2025 00:00:00 +0300</pubDate>
-      <guid>https://furuy.com/tr/etiketler/custom-rom/</guid>
+      <guid>http://localhost:1313/tr/etiketler/imei/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kaçak Telefon</title>
+      <link>http://localhost:1313/tr/etiketler/ka%C3%A7ak-telefon/</link>
+      <pubDate>Tue, 18 Mar 2025 00:00:00 +0300</pubDate>
+      <guid>http://localhost:1313/tr/etiketler/ka%C3%A7ak-telefon/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Root</title>
+      <link>http://localhost:1313/tr/etiketler/root/</link>
+      <pubDate>Tue, 18 Mar 2025 00:00:00 +0300</pubDate>
+      <guid>http://localhost:1313/tr/etiketler/root/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Siber Güvenlik</title>
+      <link>http://localhost:1313/tr/etiketler/siber-g%C3%BCvenlik/</link>
+      <pubDate>Tue, 18 Mar 2025 00:00:00 +0300</pubDate>
+      <guid>http://localhost:1313/tr/etiketler/siber-g%C3%BCvenlik/</guid>
       <description></description>
     </item>
     <item>
       <title>DNSSEC</title>
-      <link>https://furuy.com/tr/etiketler/dnssec/</link>
+      <link>http://localhost:1313/tr/etiketler/dnssec/</link>
       <pubDate>Mon, 10 Mar 2025 00:00:00 +0300</pubDate>
-      <guid>https://furuy.com/tr/etiketler/dnssec/</guid>
+      <guid>http://localhost:1313/tr/etiketler/dnssec/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Domain</title>
+      <link>http://localhost:1313/tr/etiketler/domain/</link>
+      <pubDate>Mon, 10 Mar 2025 00:00:00 +0300</pubDate>
+      <guid>http://localhost:1313/tr/etiketler/domain/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Web Güvenliği</title>
+      <link>http://localhost:1313/tr/etiketler/web-g%C3%BCvenli%C4%9Fi/</link>
+      <pubDate>Mon, 10 Mar 2025 00:00:00 +0300</pubDate>
+      <guid>http://localhost:1313/tr/etiketler/web-g%C3%BCvenli%C4%9Fi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>WHOIS</title>
+      <link>http://localhost:1313/tr/etiketler/whois/</link>
+      <pubDate>Mon, 10 Mar 2025 00:00:00 +0300</pubDate>
+      <guid>http://localhost:1313/tr/etiketler/whois/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DNS</title>
+      <link>http://localhost:1313/tr/etiketler/dns/</link>
+      <pubDate>Fri, 21 Feb 2025 00:00:00 +0300</pubDate>
+      <guid>http://localhost:1313/tr/etiketler/dns/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Erişim Engeli</title>
+      <link>http://localhost:1313/tr/etiketler/eri%C5%9Fim-engeli/</link>
+      <pubDate>Fri, 21 Feb 2025 00:00:00 +0300</pubDate>
+      <guid>http://localhost:1313/tr/etiketler/eri%C5%9Fim-engeli/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sansür</title>
+      <link>http://localhost:1313/tr/etiketler/sans%C3%BCr/</link>
+      <pubDate>Fri, 21 Feb 2025 00:00:00 +0300</pubDate>
+      <guid>http://localhost:1313/tr/etiketler/sans%C3%BCr/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>VPN</title>
+      <link>http://localhost:1313/tr/etiketler/vpn/</link>
+      <pubDate>Fri, 21 Feb 2025 00:00:00 +0300</pubDate>
+      <guid>http://localhost:1313/tr/etiketler/vpn/</guid>
       <description></description>
     </item>
     <item>
       <title>Atatürk</title>
-      <link>https://furuy.com/tr/etiketler/atat%C3%BCrk/</link>
+      <link>http://localhost:1313/tr/etiketler/atat%C3%BCrk/</link>
       <pubDate>Thu, 17 Aug 2023 00:00:00 +0300</pubDate>
-      <guid>https://furuy.com/tr/etiketler/atat%C3%BCrk/</guid>
+      <guid>http://localhost:1313/tr/etiketler/atat%C3%BCrk/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Geometri</title>
+      <link>http://localhost:1313/tr/etiketler/geometri/</link>
+      <pubDate>Thu, 17 Aug 2023 00:00:00 +0300</pubDate>
+      <guid>http://localhost:1313/tr/etiketler/geometri/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Android</title>
+      <link>http://localhost:1313/tr/etiketler/android/</link>
+      <pubDate>Thu, 13 Jul 2023 00:00:00 +0300</pubDate>
+      <guid>http://localhost:1313/tr/etiketler/android/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Biyometrik</title>
+      <link>http://localhost:1313/tr/etiketler/biyometrik/</link>
+      <pubDate>Thu, 13 Jul 2023 00:00:00 +0300</pubDate>
+      <guid>http://localhost:1313/tr/etiketler/biyometrik/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kimlik Doğrulama</title>
+      <link>http://localhost:1313/tr/etiketler/kimlik-do%C4%9Frulama/</link>
+      <pubDate>Thu, 13 Jul 2023 00:00:00 +0300</pubDate>
+      <guid>http://localhost:1313/tr/etiketler/kimlik-do%C4%9Frulama/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Parola Güvenliği</title>
+      <link>http://localhost:1313/tr/etiketler/parola-g%C3%BCvenli%C4%9Fi/</link>
+      <pubDate>Thu, 13 Jul 2023 00:00:00 +0300</pubDate>
+      <guid>http://localhost:1313/tr/etiketler/parola-g%C3%BCvenli%C4%9Fi/</guid>
       <description></description>
     </item>
     <item>
       <title>Dnf</title>
-      <link>https://furuy.com/tr/etiketler/dnf/</link>
+      <link>http://localhost:1313/tr/etiketler/dnf/</link>
       <pubDate>Thu, 26 May 2022 00:00:00 +0300</pubDate>
-      <guid>https://furuy.com/tr/etiketler/dnf/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Dnf-Automatic</title>
-      <link>https://furuy.com/tr/etiketler/dnf-automatic/</link>
-      <pubDate>Thu, 26 May 2022 00:00:00 +0300</pubDate>
-      <guid>https://furuy.com/tr/etiketler/dnf-automatic/</guid>
+      <guid>http://localhost:1313/tr/etiketler/dnf/</guid>
       <description></description>
     </item>
     <item>
       <title>Fedora</title>
-      <link>https://furuy.com/tr/etiketler/fedora/</link>
+      <link>http://localhost:1313/tr/etiketler/fedora/</link>
       <pubDate>Thu, 26 May 2022 00:00:00 +0300</pubDate>
-      <guid>https://furuy.com/tr/etiketler/fedora/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>RHEL</title>
-      <link>https://furuy.com/tr/etiketler/rhel/</link>
-      <pubDate>Thu, 26 May 2022 00:00:00 +0300</pubDate>
-      <guid>https://furuy.com/tr/etiketler/rhel/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Rpm</title>
-      <link>https://furuy.com/tr/etiketler/rpm/</link>
-      <pubDate>Thu, 26 May 2022 00:00:00 +0300</pubDate>
-      <guid>https://furuy.com/tr/etiketler/rpm/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Systemd</title>
-      <link>https://furuy.com/tr/etiketler/systemd/</link>
-      <pubDate>Thu, 26 May 2022 00:00:00 +0300</pubDate>
-      <guid>https://furuy.com/tr/etiketler/systemd/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>DeArrow</title>
-      <link>https://furuy.com/tr/etiketler/dearrow/</link>
-      <pubDate>Sat, 16 Apr 2022 00:00:00 +0300</pubDate>
-      <guid>https://furuy.com/tr/etiketler/dearrow/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>FreeTube</title>
-      <link>https://furuy.com/tr/etiketler/freetube/</link>
-      <pubDate>Sat, 16 Apr 2022 00:00:00 +0300</pubDate>
-      <guid>https://furuy.com/tr/etiketler/freetube/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Mozilla Firefox</title>
-      <link>https://furuy.com/tr/etiketler/mozilla-firefox/</link>
-      <pubDate>Sat, 16 Apr 2022 00:00:00 +0300</pubDate>
-      <guid>https://furuy.com/tr/etiketler/mozilla-firefox/</guid>
+      <guid>http://localhost:1313/tr/etiketler/fedora/</guid>
       <description></description>
     </item>
     <item>
       <title>NewPipe</title>
-      <link>https://furuy.com/tr/etiketler/newpipe/</link>
+      <link>http://localhost:1313/tr/etiketler/newpipe/</link>
       <pubDate>Sat, 16 Apr 2022 00:00:00 +0300</pubDate>
-      <guid>https://furuy.com/tr/etiketler/newpipe/</guid>
+      <guid>http://localhost:1313/tr/etiketler/newpipe/</guid>
       <description></description>
     </item>
     <item>
-      <title>SponsorBlock</title>
-      <link>https://furuy.com/tr/etiketler/sponsorblock/</link>
+      <title>Özgür Yazılım</title>
+      <link>http://localhost:1313/tr/etiketler/%C3%B6zg%C3%BCr-yaz%C4%B1l%C4%B1m/</link>
       <pubDate>Sat, 16 Apr 2022 00:00:00 +0300</pubDate>
-      <guid>https://furuy.com/tr/etiketler/sponsorblock/</guid>
+      <guid>http://localhost:1313/tr/etiketler/%C3%B6zg%C3%BCr-yaz%C4%B1l%C4%B1m/</guid>
       <description></description>
     </item>
     <item>
-      <title>UBlock Origin</title>
-      <link>https://furuy.com/tr/etiketler/ublock-origin/</link>
+      <title>Reklam Engelleme</title>
+      <link>http://localhost:1313/tr/etiketler/reklam-engelleme/</link>
       <pubDate>Sat, 16 Apr 2022 00:00:00 +0300</pubDate>
-      <guid>https://furuy.com/tr/etiketler/ublock-origin/</guid>
+      <guid>http://localhost:1313/tr/etiketler/reklam-engelleme/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ReVanced</title>
+      <link>http://localhost:1313/tr/etiketler/revanced/</link>
+      <pubDate>Sat, 16 Apr 2022 00:00:00 +0300</pubDate>
+      <guid>http://localhost:1313/tr/etiketler/revanced/</guid>
       <description></description>
     </item>
     <item>
       <title>YouTube</title>
-      <link>https://furuy.com/tr/etiketler/youtube/</link>
+      <link>http://localhost:1313/tr/etiketler/youtube/</link>
       <pubDate>Sat, 16 Apr 2022 00:00:00 +0300</pubDate>
-      <guid>https://furuy.com/tr/etiketler/youtube/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Parola Eskitme</title>
-      <link>https://furuy.com/tr/etiketler/parola-eskitme/</link>
-      <pubDate>Thu, 23 Dec 2021 00:00:00 +0300</pubDate>
-      <guid>https://furuy.com/tr/etiketler/parola-eskitme/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Password Aging</title>
-      <link>https://furuy.com/tr/etiketler/password-aging/</link>
-      <pubDate>Thu, 23 Dec 2021 00:00:00 +0300</pubDate>
-      <guid>https://furuy.com/tr/etiketler/password-aging/</guid>
+      <guid>http://localhost:1313/tr/etiketler/youtube/</guid>
       <description></description>
     </item>
     <item>
       <title>Cloudflare</title>
-      <link>https://furuy.com/tr/etiketler/cloudflare/</link>
+      <link>http://localhost:1313/tr/etiketler/cloudflare/</link>
       <pubDate>Fri, 17 Sep 2021 00:00:00 +0300</pubDate>
-      <guid>https://furuy.com/tr/etiketler/cloudflare/</guid>
+      <guid>http://localhost:1313/tr/etiketler/cloudflare/</guid>
       <description></description>
     </item>
     <item>
       <title>GoDaddy</title>
-      <link>https://furuy.com/tr/etiketler/godaddy/</link>
+      <link>http://localhost:1313/tr/etiketler/godaddy/</link>
       <pubDate>Fri, 17 Sep 2021 00:00:00 +0300</pubDate>
-      <guid>https://furuy.com/tr/etiketler/godaddy/</guid>
+      <guid>http://localhost:1313/tr/etiketler/godaddy/</guid>
       <description></description>
     </item>
     <item>
       <title>Security Headers</title>
-      <link>https://furuy.com/tr/etiketler/security-headers/</link>
+      <link>http://localhost:1313/tr/etiketler/security-headers/</link>
       <pubDate>Fri, 17 Sep 2021 00:00:00 +0300</pubDate>
-      <guid>https://furuy.com/tr/etiketler/security-headers/</guid>
+      <guid>http://localhost:1313/tr/etiketler/security-headers/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Performans</title>
+      <link>http://localhost:1313/tr/etiketler/performans/</link>
+      <pubDate>Wed, 08 Sep 2021 00:00:00 +0300</pubDate>
+      <guid>http://localhost:1313/tr/etiketler/performans/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tipografi</title>
+      <link>http://localhost:1313/tr/etiketler/tipografi/</link>
+      <pubDate>Wed, 08 Sep 2021 00:00:00 +0300</pubDate>
+      <guid>http://localhost:1313/tr/etiketler/tipografi/</guid>
       <description></description>
     </item>
     <item>
       <title>Web Safe Fonts</title>
-      <link>https://furuy.com/tr/etiketler/web-safe-fonts/</link>
+      <link>http://localhost:1313/tr/etiketler/web-safe-fonts/</link>
       <pubDate>Wed, 08 Sep 2021 00:00:00 +0300</pubDate>
-      <guid>https://furuy.com/tr/etiketler/web-safe-fonts/</guid>
+      <guid>http://localhost:1313/tr/etiketler/web-safe-fonts/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mahremiyet</title>
+      <link>http://localhost:1313/tr/etiketler/mahremiyet/</link>
+      <pubDate>Sun, 29 Aug 2021 00:00:00 +0300</pubDate>
+      <guid>http://localhost:1313/tr/etiketler/mahremiyet/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SponsorBlock</title>
+      <link>http://localhost:1313/tr/etiketler/sponsorblock/</link>
+      <pubDate>Sun, 29 Aug 2021 00:00:00 +0300</pubDate>
+      <guid>http://localhost:1313/tr/etiketler/sponsorblock/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tarayıcı Eklentileri</title>
+      <link>http://localhost:1313/tr/etiketler/taray%C4%B1c%C4%B1-eklentileri/</link>
+      <pubDate>Sun, 29 Aug 2021 00:00:00 +0300</pubDate>
+      <guid>http://localhost:1313/tr/etiketler/taray%C4%B1c%C4%B1-eklentileri/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>.Htaccess</title>
+      <link>http://localhost:1313/tr/etiketler/.htaccess/</link>
+      <pubDate>Mon, 02 Aug 2021 00:00:00 +0300</pubDate>
+      <guid>http://localhost:1313/tr/etiketler/.htaccess/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Brute Force</title>
+      <link>http://localhost:1313/tr/etiketler/brute-force/</link>
+      <pubDate>Mon, 02 Aug 2021 00:00:00 +0300</pubDate>
+      <guid>http://localhost:1313/tr/etiketler/brute-force/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Firefox</title>
+      <link>http://localhost:1313/tr/etiketler/firefox/</link>
+      <pubDate>Mon, 02 Aug 2021 00:00:00 +0300</pubDate>
+      <guid>http://localhost:1313/tr/etiketler/firefox/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>WordPress</title>
+      <link>http://localhost:1313/tr/etiketler/wordpress/</link>
+      <pubDate>Mon, 02 Aug 2021 00:00:00 +0300</pubDate>
+      <guid>http://localhost:1313/tr/etiketler/wordpress/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Custom ROM</title>
+      <link>http://localhost:1313/tr/etiketler/custom-rom/</link>
+      <pubDate>Mon, 26 Jul 2021 00:00:00 +0300</pubDate>
+      <guid>http://localhost:1313/tr/etiketler/custom-rom/</guid>
       <description></description>
     </item>
     <item>
       <title>GrapheneOS</title>
-      <link>https://furuy.com/tr/etiketler/grapheneos/</link>
+      <link>http://localhost:1313/tr/etiketler/grapheneos/</link>
       <pubDate>Mon, 26 Jul 2021 00:00:00 +0300</pubDate>
-      <guid>https://furuy.com/tr/etiketler/grapheneos/</guid>
+      <guid>http://localhost:1313/tr/etiketler/grapheneos/</guid>
       <description></description>
     </item>
     <item>
-      <title>XDA</title>
-      <link>https://furuy.com/tr/etiketler/xda/</link>
+      <title>LineageOS</title>
+      <link>http://localhost:1313/tr/etiketler/lineageos/</link>
       <pubDate>Mon, 26 Jul 2021 00:00:00 +0300</pubDate>
-      <guid>https://furuy.com/tr/etiketler/xda/</guid>
+      <guid>http://localhost:1313/tr/etiketler/lineageos/</guid>
       <description></description>
     </item>
     <item>
-      <title>Accelerated Mobile Pages</title>
-      <link>https://furuy.com/tr/etiketler/accelerated-mobile-pages/</link>
+      <title>AMP</title>
+      <link>http://localhost:1313/tr/etiketler/amp/</link>
       <pubDate>Thu, 22 Jul 2021 00:00:00 +0300</pubDate>
-      <guid>https://furuy.com/tr/etiketler/accelerated-mobile-pages/</guid>
+      <guid>http://localhost:1313/tr/etiketler/amp/</guid>
       <description></description>
     </item>
     <item>
-      <title>Brave Browser</title>
-      <link>https://furuy.com/tr/etiketler/brave-browser/</link>
+      <title>Google</title>
+      <link>http://localhost:1313/tr/etiketler/google/</link>
+      <pubDate>Thu, 22 Jul 2021 00:00:00 +0300</pubDate>
+      <guid>http://localhost:1313/tr/etiketler/google/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SEO</title>
+      <link>http://localhost:1313/tr/etiketler/seo/</link>
+      <pubDate>Thu, 22 Jul 2021 00:00:00 +0300</pubDate>
+      <guid>http://localhost:1313/tr/etiketler/seo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Web Standartları</title>
+      <link>http://localhost:1313/tr/etiketler/web-standartlar%C4%B1/</link>
+      <pubDate>Thu, 22 Jul 2021 00:00:00 +0300</pubDate>
+      <guid>http://localhost:1313/tr/etiketler/web-standartlar%C4%B1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AdAway</title>
+      <link>http://localhost:1313/tr/etiketler/adaway/</link>
+      <pubDate>Sun, 16 May 2021 00:00:00 +0300</pubDate>
+      <guid>http://localhost:1313/tr/etiketler/adaway/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Çerez Politikası</title>
+      <link>http://localhost:1313/tr/etiketler/%C3%A7erez-politikas%C4%B1/</link>
+      <pubDate>Sun, 09 May 2021 00:00:00 +0300</pubDate>
+      <guid>http://localhost:1313/tr/etiketler/%C3%A7erez-politikas%C4%B1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>GDPR</title>
+      <link>http://localhost:1313/tr/etiketler/gdpr/</link>
+      <pubDate>Sun, 09 May 2021 00:00:00 +0300</pubDate>
+      <guid>http://localhost:1313/tr/etiketler/gdpr/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>KVKK</title>
+      <link>http://localhost:1313/tr/etiketler/kvkk/</link>
+      <pubDate>Sun, 09 May 2021 00:00:00 +0300</pubDate>
+      <guid>http://localhost:1313/tr/etiketler/kvkk/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Filtre Listeleri</title>
+      <link>http://localhost:1313/tr/etiketler/filtre-listeleri/</link>
+      <pubDate>Mon, 03 May 2021 00:00:00 +0300</pubDate>
+      <guid>http://localhost:1313/tr/etiketler/filtre-listeleri/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>UBlock Origin</title>
+      <link>http://localhost:1313/tr/etiketler/ublock-origin/</link>
+      <pubDate>Mon, 03 May 2021 00:00:00 +0300</pubDate>
+      <guid>http://localhost:1313/tr/etiketler/ublock-origin/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Uygulama İzinleri</title>
+      <link>http://localhost:1313/tr/etiketler/uygulama-izinleri/</link>
+      <pubDate>Fri, 30 Apr 2021 00:00:00 +0300</pubDate>
+      <guid>http://localhost:1313/tr/etiketler/uygulama-izinleri/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Brave</title>
+      <link>http://localhost:1313/tr/etiketler/brave/</link>
       <pubDate>Fri, 16 Apr 2021 00:00:00 +0300</pubDate>
-      <guid>https://furuy.com/tr/etiketler/brave-browser/</guid>
+      <guid>http://localhost:1313/tr/etiketler/brave/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>2FA</title>
+      <link>http://localhost:1313/tr/etiketler/2fa/</link>
+      <pubDate>Tue, 30 Mar 2021 00:00:00 +0300</pubDate>
+      <guid>http://localhost:1313/tr/etiketler/2fa/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bitwarden</title>
+      <link>http://localhost:1313/tr/etiketler/bitwarden/</link>
+      <pubDate>Tue, 30 Mar 2021 00:00:00 +0300</pubDate>
+      <guid>http://localhost:1313/tr/etiketler/bitwarden/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>KeePass</title>
+      <link>http://localhost:1313/tr/etiketler/keepass/</link>
+      <pubDate>Tue, 30 Mar 2021 00:00:00 +0300</pubDate>
+      <guid>http://localhost:1313/tr/etiketler/keepass/</guid>
       <description></description>
     </item>
     <item>
       <title>Parola Yöneticisi</title>
-      <link>https://furuy.com/tr/etiketler/parola-y%C3%B6neticisi/</link>
+      <link>http://localhost:1313/tr/etiketler/parola-y%C3%B6neticisi/</link>
       <pubDate>Tue, 30 Mar 2021 00:00:00 +0300</pubDate>
-      <guid>https://furuy.com/tr/etiketler/parola-y%C3%B6neticisi/</guid>
+      <guid>http://localhost:1313/tr/etiketler/parola-y%C3%B6neticisi/</guid>
       <description></description>
     </item>
   </channel>
