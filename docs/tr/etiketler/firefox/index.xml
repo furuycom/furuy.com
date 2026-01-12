@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Firefox on Furkan Uysal</title>
+    <link>https://furuy.com/tr/etiketler/firefox/</link>
+    <description>Recent content in Firefox on Furkan Uysal</description>
+    <generator>Hugo -- 0.154.4</generator>
+    <language>tr-TR</language>
+    <copyright>Furkan Uysal — CC0 1.0 Evrensel · Yasal · Arşiv</copyright>
+    <lastBuildDate>Mon, 12 Jan 2026 15:43:42 +0300</lastBuildDate>
+    <atom:link href="https://furuy.com/tr/etiketler/firefox/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Firefox Neden En İyi Android Web Tarayıcısı?</title>
+      <link>https://furuy.com/tr/yazilar/firefox-neden-en-iyi-android-web-tarayicisi/</link>
+      <pubDate>Mon, 02 Aug 2021 00:00:00 +0300</pubDate>
+      <guid>https://furuy.com/tr/yazilar/firefox-neden-en-iyi-android-web-tarayicisi/</guid>
+      <description>&lt;p&gt;Firefox, kullanmayanların ön yargıyla yaklaştığı, kullananların ise asla vazgeçemediği bir web tarayıcısı. Bu yazıda, Firefox&amp;rsquo;un neden en iyi Android web tarayıcısı olduğundan ve neden fazla &amp;ldquo;kullanılmadığından&amp;rdquo; bahsedeceğim.&lt;/p&gt;
+&lt;h2 id=&#34;google-firefoxtan-nefret-ediyor&#34;&gt;Google, Firefox&amp;rsquo;tan Nefret Ediyor&lt;/h2&gt;
+&lt;p&gt;Web&amp;rsquo;in bizzat kendisi olmak isteyen Google; kendi kullanıcılarını gizli sekmede bile takip eden, özgür bir yazılım olmayan Chrome tarayıcısının tek rakibine karşı, uzun zamandır adil olmayan bir savaş veriyor. Neredeyse tüm &lt;a href=&#34;https://furuy.com/tr/kategoriler/android/&#34;&gt;Android&lt;/a&gt; cihazlar, Google Chrome yüklü olarak geliyor ve ADB aracı kullanmak haricinde, kaldırmanıza da izin verilmiyor.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

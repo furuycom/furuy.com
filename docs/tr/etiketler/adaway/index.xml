@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>AdAway on Furkan Uysal</title>
+    <link>https://furuy.com/tr/etiketler/adaway/</link>
+    <description>Recent content in AdAway on Furkan Uysal</description>
+    <generator>Hugo -- 0.154.4</generator>
+    <language>tr-TR</language>
+    <copyright>Furkan Uysal — CC0 1.0 Evrensel · Yasal · Arşiv</copyright>
+    <lastBuildDate>Mon, 12 Jan 2026 15:43:42 +0300</lastBuildDate>
+    <atom:link href="https://furuy.com/tr/etiketler/adaway/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AdAway Nedir? AdAway Nasıl Kullanılır?</title>
+      <link>https://furuy.com/tr/yazilar/adaway-nedir-nasil-kullanilir/</link>
+      <pubDate>Sun, 16 May 2021 00:00:00 +0300</pubDate>
+      <guid>https://furuy.com/tr/yazilar/adaway-nedir-nasil-kullanilir/</guid>
+      <description>&lt;h2 id=&#34;adaway-nedir&#34;&gt;AdAway Nedir?&lt;/h2&gt;
+&lt;p&gt;AdAway, &lt;a href=&#34;https://furuy.com/tr/kategoriler/android/&#34;&gt;Android&lt;/a&gt; için en etkili reklam engelleme uygulamalarındandır. AdAway&amp;rsquo;i diğer reklam engelleyicilerden ayıran ana özelliği, root modudur. Root modu, sistemin hosts dosyasına eklemeler yaparak, reklam türevi istenmeyen web sitelerine bağlanılmasını engeller. &lt;strong&gt;AdAway rootsuz&lt;/strong&gt; da çalışmaktadır ancak aynı işlevi gören NetGuard, AdGuard ve Blokada gibi birçok alternatifi de olduğu için bu yazıda root modu üzerine bilgi vereceğim. Root modu sayesinde, uygulamanın sürekli arka planda çalışarak pil tüketmesinin önüne geçebilir ve VPN kullanırken de reklamları engellemeye devam edebilirsiniz.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

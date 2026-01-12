@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Furkan Uysal</title>
-    <link>http://localhost:1313/</link>
+    <link>https://furuy.com/</link>
     <description>Recent content on Furkan Uysal</description>
     <generator>Hugo -- 0.154.4</generator>
     <language>en-US</language>
     <copyright>Furkan Uysal — CC0 1.0 Universal · Legal · Arcive</copyright>
     <lastBuildDate>Sun, 11 Jan 2026 16:50:26 +0300</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://furuy.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Legal</title>
-      <link>http://localhost:1313/legal/</link>
+      <link>https://furuy.com/legal/</link>
       <pubDate>Sun, 11 Jan 2026 00:00:00 +0300</pubDate>
-      <guid>http://localhost:1313/legal/</guid>
+      <guid>https://furuy.com/legal/</guid>
       <description>Privacy policy, cookie usage, and license information.</description>
     </item>
     <item>
       <title>About Me</title>
-      <link>http://localhost:1313/about/</link>
+      <link>https://furuy.com/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/</guid>
+      <guid>https://furuy.com/about/</guid>
       <description>&lt;h1 id=&#34;hi-i-am-furkan&#34;&gt;Hi, I am Furkan.&lt;/h1&gt;
-&lt;p&gt;I&amp;rsquo;m trying to create useful content related to &lt;a href=&#34;http://localhost:1313/categories/&#34;&gt;my interests&lt;/a&gt; on my blog.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m trying to create useful content related to &lt;a href=&#34;https://furuy.com/categories/&#34;&gt;my interests&lt;/a&gt; on my blog.&lt;/p&gt;
 &lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/furuycom&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
@@ -33,9 +33,9 @@
     </item>
     <item>
       <title>Resume</title>
-      <link>http://localhost:1313/cv/</link>
+      <link>https://furuy.com/cv/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/cv/</guid>
+      <guid>https://furuy.com/cv/</guid>
       <description></description>
     </item>
   </channel>

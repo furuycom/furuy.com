@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Mahremiyet on Furkan Uysal</title>
+    <link>https://furuy.com/tr/etiketler/mahremiyet/</link>
+    <description>Recent content in Mahremiyet on Furkan Uysal</description>
+    <generator>Hugo -- 0.154.4</generator>
+    <language>tr-TR</language>
+    <copyright>Furkan Uysal — CC0 1.0 Evrensel · Yasal · Arşiv</copyright>
+    <lastBuildDate>Mon, 12 Jan 2026 15:43:42 +0300</lastBuildDate>
+    <atom:link href="https://furuy.com/tr/etiketler/mahremiyet/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SponsorBlock Güvenli Mi?</title>
+      <link>https://furuy.com/tr/yazilar/sponsorblock-guvenli-mi/</link>
+      <pubDate>Sun, 29 Aug 2021 00:00:00 +0300</pubDate>
+      <guid>https://furuy.com/tr/yazilar/sponsorblock-guvenli-mi/</guid>
+      <description>&lt;p&gt;SponsorBlock, YouTube&amp;rsquo;daki bir videoda bulunan sponsorlu ve diğer istenmeyen kısımları atlayabilmenizi sağlayan bir yazılımdır. Genellikle tarayıcı uzantısı olarak kullanılan bu yazılım, size bir hayli zaman kazandırabilir ve videoya daha iyi odaklanabilmenizi sağlar. Bu yazıda, SponsorBlock&amp;rsquo;un ne kadar güvenli olduğundan ve mahremiyetinize ne kadar saygı duyduğundan bahsedeceğim.&lt;/p&gt;
+&lt;h2 id=&#34;açık-kaynak&#34;&gt;Açık Kaynak&lt;/h2&gt;
+&lt;p&gt;SponsorBlock, hem uygulama hem de sunucu taraflı olarak tamamen açık kaynak kodludur. Tarayıcı uzantısı olan uzantının kaynak kodlarına &lt;a href=&#34;https://github.com/ajayyy/SponsorBlock&#34;&gt;bu&lt;/a&gt; bağlantıdan, sunucu kaynak kodlarına ise &lt;a href=&#34;https://github.com/ajayyy/SponsorBlockServer&#34;&gt;bu&lt;/a&gt; bağlantıdan erişebilirsiniz.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Firefox Neden En İyi Android Web Tarayıcısı?</title>
+      <link>https://furuy.com/tr/yazilar/firefox-neden-en-iyi-android-web-tarayicisi/</link>
+      <pubDate>Mon, 02 Aug 2021 00:00:00 +0300</pubDate>
+      <guid>https://furuy.com/tr/yazilar/firefox-neden-en-iyi-android-web-tarayicisi/</guid>
+      <description>&lt;p&gt;Firefox, kullanmayanların ön yargıyla yaklaştığı, kullananların ise asla vazgeçemediği bir web tarayıcısı. Bu yazıda, Firefox&amp;rsquo;un neden en iyi Android web tarayıcısı olduğundan ve neden fazla &amp;ldquo;kullanılmadığından&amp;rdquo; bahsedeceğim.&lt;/p&gt;
+&lt;h2 id=&#34;google-firefoxtan-nefret-ediyor&#34;&gt;Google, Firefox&amp;rsquo;tan Nefret Ediyor&lt;/h2&gt;
+&lt;p&gt;Web&amp;rsquo;in bizzat kendisi olmak isteyen Google; kendi kullanıcılarını gizli sekmede bile takip eden, özgür bir yazılım olmayan Chrome tarayıcısının tek rakibine karşı, uzun zamandır adil olmayan bir savaş veriyor. Neredeyse tüm &lt;a href=&#34;https://furuy.com/tr/kategoriler/android/&#34;&gt;Android&lt;/a&gt; cihazlar, Google Chrome yüklü olarak geliyor ve ADB aracı kullanmak haricinde, kaldırmanıza da izin verilmiyor.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Google AMP Neden Çok Tehlikeli?</title>
+      <link>https://furuy.com/tr/yazilar/google-amp-neden-cok-tehlikeli/</link>
+      <pubDate>Thu, 22 Jul 2021 00:00:00 +0300</pubDate>
+      <guid>https://furuy.com/tr/yazilar/google-amp-neden-cok-tehlikeli/</guid>
+      <description>&lt;p&gt;Google, mobil web deneyimini geliştirmek ve sayfaların mobilde daha hızlı yüklenmelerini sağlamak amacıyla, 2015 yılında AMP&amp;rsquo;i duyurmuştu. Şubat 2016 tarihinden itibaren de, mobil arama sonuçlarında AMP sayfaları görünmeye başlamıştı. Kısa bir zaman içerisinde AMP, standart haline gelmeye başladı bile. Bunun en temel nedenleri; mobil internet kullanıcı sayısının fazla olması, birçok kişinin Google arama motorunu kullanması ve web site yöneticilerinin, &amp;ldquo;SEO kuralları&amp;rdquo; adı altındaki Google&amp;rsquo;ın her dayatmasını kabul etmeleri&amp;hellip;&lt;/p&gt;
+&lt;h2 id=&#34;bir-google-rüyası-amp&#34;&gt;Bir Google Rüyası: AMP&lt;/h2&gt;
+&lt;p&gt;AMP, çok faydalı bir yenilik olarak görülebilir. Peki ya bundan Google&amp;rsquo;ın kazancı ne?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Brave Reklam Engelleyici Rehberi</title>
+      <link>https://furuy.com/tr/yazilar/brave-browser-ozel-filtreler/</link>
+      <pubDate>Fri, 16 Apr 2021 00:00:00 +0300</pubDate>
+      <guid>https://furuy.com/tr/yazilar/brave-browser-ozel-filtreler/</guid>
+      <description>&lt;p&gt;Brave, varsayılan olarak reklam engelleme özelliğine sahip bir internet tarayıcısıdır. Bu yazıda, Brave&amp;rsquo;in reklam engelleme özelliğini daha etkili bir şekilde kullanmayı öğreneceksiniz.&lt;/p&gt;
+&lt;h2 id=&#34;brave-shields&#34;&gt;Brave Shields&lt;/h2&gt;
+&lt;p&gt;Brave, varsayılan olarak yalnızca üçüncü taraf reklamları engeller. Örneğin bir web sitedeki sponsorlu içerikleri engellemez. Birinci parti de dahil tüm reklamları engellemek için &amp;ldquo;&lt;strong&gt;Block trackers &amp;amp; ads (Aggressive)&lt;/strong&gt;&amp;rdquo; seçeneğini seçmeniz gerekiyor.&lt;/p&gt;
+&lt;h2 id=&#34;content-filtering&#34;&gt;Content Filtering&lt;/h2&gt;
+&lt;p&gt;Burada farklı filtre listeleri kullanarak daha fazla reklam ve istenmeyen öge engellemeniz mümkün.
+Bu sayfaya Brave Shields ayarlarından ulaşabilirsiniz. Ayrıca &lt;strong&gt;brave://adblock&lt;/strong&gt; ve masaüstünde &lt;strong&gt;brave://settings/shields/filters&lt;/strong&gt; sayfasından da ulaşabilirsiniz.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

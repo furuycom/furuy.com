@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Web Güvenliği on Furkan Uysal</title>
+    <link>https://furuy.com/tr/etiketler/web-g%C3%BCvenli%C4%9Fi/</link>
+    <description>Recent content in Web Güvenliği on Furkan Uysal</description>
+    <generator>Hugo -- 0.154.4</generator>
+    <language>tr-TR</language>
+    <copyright>Furkan Uysal — CC0 1.0 Evrensel · Yasal · Arşiv</copyright>
+    <lastBuildDate>Mon, 12 Jan 2026 15:43:42 +0300</lastBuildDate>
+    <atom:link href="https://furuy.com/tr/etiketler/web-g%C3%BCvenli%C4%9Fi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Domain Firması Seçerken Dikkat Edilmesi Gerekenler</title>
+      <link>https://furuy.com/tr/yazilar/domain-firmasi-secimi-rehberi/</link>
+      <pubDate>Mon, 10 Mar 2025 00:00:00 +0300</pubDate>
+      <guid>https://furuy.com/tr/yazilar/domain-firmasi-secimi-rehberi/</guid>
+      <description>&lt;p&gt;Yanlış bir domain firması seçimi, güvenlik açıkları, maliyet artışları ve yönetim zorluklarına yol açabilir. Bu makalede, güvenilir bir domain sağlayıcısında olması gereken kritik özellikleri paylaşacağım.&lt;/p&gt;
+&lt;h2 id=&#34;whois-gizliliği-whois-privacy&#34;&gt;WHOIS Gizliliği (WHOIS Privacy)&lt;/h2&gt;
+&lt;p&gt;WHOIS veri tabanı, domain sahibinin iletişim bilgilerini (ad, e-posta, telefon, adres vb.) herkese açık şekilde gösterir. Bu bilgiler, domain kayıt esnasında sağlanan kişisel bilgilerden oluşur. WHOIS gizliliği özelliği, bu kişisel verilerin ifşa edilmesini önler.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;İstenen Özellikler:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Otomatik WHOIS Gizliliği:&lt;/strong&gt; Domain kayıt esnasında otomatik olarak WHOIS bilgileri gizlenmelidir.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ücretsiz WHOIS Gizliliği:&lt;/strong&gt; Bazı domain kayıt firmaları, WHOIS gizleme özelliğini ücretsiz olarak sunar. Ek maliyet olmaksızın sunulması tercih edilir. (İsteğe bağlı)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;dnssec-desteği&#34;&gt;DNSSEC Desteği&lt;/h2&gt;
+&lt;p&gt;DNSSEC, DNS cache poisoning ve DNS spoofing gibi saldırıları önleyerek, DNS sorgularının güvenliğini sağlar ve kullanıcının doğru IP adresine yönlendirilmesini garanti eder.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cloudflare Workers İle Security Headers Ekleme</title>
+      <link>https://furuy.com/tr/yazilar/cloudflare-workers-security-headers/</link>
+      <pubDate>Fri, 17 Sep 2021 00:00:00 +0300</pubDate>
+      <guid>https://furuy.com/tr/yazilar/cloudflare-workers-security-headers/</guid>
+      <description>&lt;p&gt;HTTP Security Headers&amp;rsquo;ı, Cloudflare ile kullanmanız mümkün. Cloudflare&amp;rsquo;ın ücretsiz &lt;a href=&#34;https://workers.cloudflare.com/&#34;&gt;Workers&lt;/a&gt; planı, şu an için günde 100.000 isteğe ve 30 Worker script&amp;rsquo;ine izin vermekte. Şayet bunlar, ihtiyaçlarınızı karşılamaya yetiyor ve Cloudflare kullandığınız bir web sitesine Security Headers eklemek istiyorsanız, bu küçük rehber tam da size göre.&lt;/p&gt;
+&lt;h2 id=&#34;bir-worker-oluşturun&#34;&gt;Bir Worker Oluşturun&lt;/h2&gt;
+&lt;p&gt;Cloudflare hesabınıza giriş yapın ve işlem yapmak istediğiniz alan adını seçin ve menüden de &amp;ldquo;Workers&amp;rdquo; bölümünü seçin. Yeni bir Worker oluşturmak için &amp;ldquo;Manage Workers&amp;rdquo; butonuna tıklayın.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>WordPress Yönetici ve Giriş Güvenliği</title>
+      <link>https://furuy.com/tr/yazilar/wordpress-yonetici-ve-giris-guvenligi/</link>
+      <pubDate>Mon, 02 Aug 2021 00:00:00 +0300</pubDate>
+      <guid>https://furuy.com/tr/yazilar/wordpress-yonetici-ve-giris-guvenligi/</guid>
+      <description>&lt;p&gt;WordPress web sitenizdeki yönetici hesapları, varsayılan olarak birçok kritik yetkiye sahip olurlar. Bu hesapların güvenliği sağlanmazsa, web siteniz de tehdit altında olur. Bu yazıda, manuel olarak uygulayabileceğiniz bazı güvenlik adımlarını anlatacağım.&lt;/p&gt;
+&lt;h2 id=&#34;admin-kullanıcı-adını-kullanmayın&#34;&gt;&amp;ldquo;admin&amp;rdquo; Kullanıcı Adını Kullanmayın&lt;/h2&gt;
+&lt;p&gt;Tüm brute-force kullanıcı adı listelerinin ilk sırasında yer alan, &amp;ldquo;admin&amp;rdquo; gibi yaygın ve tahmin edilebilir kullanıcı adlarını, hiçbir sisteminizde kullanmayın. Yalnızca web sitenizde kullanacağınız, tahmin edilemez ve özgün bir kullanıcı adı belirleyin.&lt;/p&gt;
+&lt;h2 id=&#34;kayıtları-kapatın&#34;&gt;Kayıtları Kapatın&lt;/h2&gt;
+&lt;p&gt;WordPress, varsayılan olarak web sitenize herkesin kayıt olabilmesini sağlayan özelliği kapatır. Bilinmedik kullanıcılar, çeşitli açıkları kullanarak web sitenize zarar verebilirler. İhtiyacınız yoksa, herkese açık üyelik kayıtlarını mutlaka devre dışı tutun. Kontrol edin: &lt;strong&gt;Ayarlar &amp;gt; Genel Ayarlar &amp;gt; İsteyen herkes kayıt olabilsin&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

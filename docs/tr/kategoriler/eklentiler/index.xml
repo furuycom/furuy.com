@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Eklentiler on Furkan Uysal</title>
+    <link>https://furuy.com/tr/kategoriler/eklentiler/</link>
+    <description>Recent content in Eklentiler on Furkan Uysal</description>
+    <generator>Hugo -- 0.154.4</generator>
+    <language>tr-TR</language>
+    <copyright>Furkan Uysal — CC0 1.0 Evrensel · Yasal · Arşiv</copyright>
+    <lastBuildDate>Mon, 12 Jan 2026 15:43:42 +0300</lastBuildDate>
+    <atom:link href="https://furuy.com/tr/kategoriler/eklentiler/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SponsorBlock Güvenli Mi?</title>
+      <link>https://furuy.com/tr/yazilar/sponsorblock-guvenli-mi/</link>
+      <pubDate>Sun, 29 Aug 2021 00:00:00 +0300</pubDate>
+      <guid>https://furuy.com/tr/yazilar/sponsorblock-guvenli-mi/</guid>
+      <description>&lt;p&gt;SponsorBlock, YouTube&amp;rsquo;daki bir videoda bulunan sponsorlu ve diğer istenmeyen kısımları atlayabilmenizi sağlayan bir yazılımdır. Genellikle tarayıcı uzantısı olarak kullanılan bu yazılım, size bir hayli zaman kazandırabilir ve videoya daha iyi odaklanabilmenizi sağlar. Bu yazıda, SponsorBlock&amp;rsquo;un ne kadar güvenli olduğundan ve mahremiyetinize ne kadar saygı duyduğundan bahsedeceğim.&lt;/p&gt;
+&lt;h2 id=&#34;açık-kaynak&#34;&gt;Açık Kaynak&lt;/h2&gt;
+&lt;p&gt;SponsorBlock, hem uygulama hem de sunucu taraflı olarak tamamen açık kaynak kodludur. Tarayıcı uzantısı olan uzantının kaynak kodlarına &lt;a href=&#34;https://github.com/ajayyy/SponsorBlock&#34;&gt;bu&lt;/a&gt; bağlantıdan, sunucu kaynak kodlarına ise &lt;a href=&#34;https://github.com/ajayyy/SponsorBlockServer&#34;&gt;bu&lt;/a&gt; bağlantıdan erişebilirsiniz.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>FilterLists İle Yeni Reklam Engelleyici Filtreleri Bulun</title>
+      <link>https://furuy.com/tr/yazilar/filterlists-com/</link>
+      <pubDate>Mon, 03 May 2021 00:00:00 +0300</pubDate>
+      <guid>https://furuy.com/tr/yazilar/filterlists-com/</guid>
+      <description>&lt;p&gt;FilterLists; AdAway, uBlock Origin, Adguard ve Adblock Plus gibi araçlarda kullanabileceğiniz, reklam/zararlı yazılım/paywall/anti-adblock gibi birçok filtreyi bulabilmenizi sağlayan bir web sitesidir. Filtrelenebilen arşiv sayesinde, ihtiyacınıza yönelik filtreleri kolayca bulmanız mümkün.&lt;/p&gt;
+&lt;h2 id=&#34;filtreleme-yöntemleri&#34;&gt;Filtreleme Yöntemleri&lt;/h2&gt;
+&lt;h3 id=&#34;name&#34;&gt;Name&lt;/h3&gt;
+&lt;p&gt;Özel filtrenin adında geçen bir kelimeyi veya tam filtre adını arayabilirsiniz. Ok tuşları ile alfabetik sıralama da yapabilirsiniz.&lt;/p&gt;
+&lt;h3 id=&#34;description&#34;&gt;Description&lt;/h3&gt;
+&lt;p&gt;Filtrelerin açıklamalarında, filtre ile ilgili çok daha detaylı bilgiler verilir. Açıklamalarda arama yaparak da filtreleme yapmanız mümkün.&lt;/p&gt;
+&lt;h3 id=&#34;software&#34;&gt;Software&lt;/h3&gt;
+&lt;p&gt;Mevcut filtrenin desteklendiği yazılıma göre filtreleme yapabilirsiniz. Örnek: AdAway, Adblock Plus, Adguard&amp;hellip;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

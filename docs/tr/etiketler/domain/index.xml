@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Domain on Furkan Uysal</title>
+    <link>https://furuy.com/tr/etiketler/domain/</link>
+    <description>Recent content in Domain on Furkan Uysal</description>
+    <generator>Hugo -- 0.154.4</generator>
+    <language>tr-TR</language>
+    <copyright>Furkan Uysal — CC0 1.0 Evrensel · Yasal · Arşiv</copyright>
+    <lastBuildDate>Mon, 12 Jan 2026 15:43:42 +0300</lastBuildDate>
+    <atom:link href="https://furuy.com/tr/etiketler/domain/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Domain Firması Seçerken Dikkat Edilmesi Gerekenler</title>
+      <link>https://furuy.com/tr/yazilar/domain-firmasi-secimi-rehberi/</link>
+      <pubDate>Mon, 10 Mar 2025 00:00:00 +0300</pubDate>
+      <guid>https://furuy.com/tr/yazilar/domain-firmasi-secimi-rehberi/</guid>
+      <description>&lt;p&gt;Yanlış bir domain firması seçimi, güvenlik açıkları, maliyet artışları ve yönetim zorluklarına yol açabilir. Bu makalede, güvenilir bir domain sağlayıcısında olması gereken kritik özellikleri paylaşacağım.&lt;/p&gt;
+&lt;h2 id=&#34;whois-gizliliği-whois-privacy&#34;&gt;WHOIS Gizliliği (WHOIS Privacy)&lt;/h2&gt;
+&lt;p&gt;WHOIS veri tabanı, domain sahibinin iletişim bilgilerini (ad, e-posta, telefon, adres vb.) herkese açık şekilde gösterir. Bu bilgiler, domain kayıt esnasında sağlanan kişisel bilgilerden oluşur. WHOIS gizliliği özelliği, bu kişisel verilerin ifşa edilmesini önler.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;İstenen Özellikler:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Otomatik WHOIS Gizliliği:&lt;/strong&gt; Domain kayıt esnasında otomatik olarak WHOIS bilgileri gizlenmelidir.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ücretsiz WHOIS Gizliliği:&lt;/strong&gt; Bazı domain kayıt firmaları, WHOIS gizleme özelliğini ücretsiz olarak sunar. Ek maliyet olmaksızın sunulması tercih edilir. (İsteğe bağlı)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;dnssec-desteği&#34;&gt;DNSSEC Desteği&lt;/h2&gt;
+&lt;p&gt;DNSSEC, DNS cache poisoning ve DNS spoofing gibi saldırıları önleyerek, DNS sorgularının güvenliğini sağlar ve kullanıcının doğru IP adresine yönlendirilmesini garanti eder.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

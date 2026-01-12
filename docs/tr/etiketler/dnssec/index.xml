@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>DNSSEC on Furkan Uysal</title>
-    <link>http://localhost:1313/tr/etiketler/dnssec/</link>
+    <link>https://furuy.com/tr/etiketler/dnssec/</link>
     <description>Recent content in DNSSEC on Furkan Uysal</description>
     <generator>Hugo -- 0.154.4</generator>
     <language>tr-TR</language>
     <copyright>Furkan Uysal — CC0 1.0 Evrensel · Yasal · Arşiv</copyright>
-    <lastBuildDate>Sun, 11 Jan 2026 16:50:26 +0300</lastBuildDate>
-    <atom:link href="http://localhost:1313/tr/etiketler/dnssec/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 12 Jan 2026 15:43:42 +0300</lastBuildDate>
+    <atom:link href="https://furuy.com/tr/etiketler/dnssec/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Domain Firması Seçerken Dikkat Edilmesi Gerekenler</title>
-      <link>http://localhost:1313/tr/yazilar/domain-firmasi-secimi-rehberi/</link>
+      <link>https://furuy.com/tr/yazilar/domain-firmasi-secimi-rehberi/</link>
       <pubDate>Mon, 10 Mar 2025 00:00:00 +0300</pubDate>
-      <guid>http://localhost:1313/tr/yazilar/domain-firmasi-secimi-rehberi/</guid>
+      <guid>https://furuy.com/tr/yazilar/domain-firmasi-secimi-rehberi/</guid>
       <description>&lt;p&gt;Yanlış bir domain firması seçimi, güvenlik açıkları, maliyet artışları ve yönetim zorluklarına yol açabilir. Bu makalede, güvenilir bir domain sağlayıcısında olması gereken kritik özellikleri paylaşacağım.&lt;/p&gt;
 &lt;h2 id=&#34;whois-gizliliği-whois-privacy&#34;&gt;WHOIS Gizliliği (WHOIS Privacy)&lt;/h2&gt;
 &lt;p&gt;WHOIS veri tabanı, domain sahibinin iletişim bilgilerini (ad, e-posta, telefon, adres vb.) herkese açık şekilde gösterir. Bu bilgiler, domain kayıt esnasında sağlanan kişisel bilgilerden oluşur. WHOIS gizliliği özelliği, bu kişisel verilerin ifşa edilmesini önler.&lt;/p&gt;
@@ -27,9 +27,9 @@
     </item>
     <item>
       <title>GoDaddy &amp; Cloudflare DNSSEC Kurulumu</title>
-      <link>http://localhost:1313/tr/yazilar/godaddy-cloudflare-dnssec/</link>
+      <link>https://furuy.com/tr/yazilar/godaddy-cloudflare-dnssec/</link>
       <pubDate>Fri, 17 Sep 2021 00:00:00 +0300</pubDate>
-      <guid>http://localhost:1313/tr/yazilar/godaddy-cloudflare-dnssec/</guid>
+      <guid>https://furuy.com/tr/yazilar/godaddy-cloudflare-dnssec/</guid>
       <description>&lt;p&gt;GoDaddy&amp;rsquo;de barınan ve Cloudflare&amp;rsquo;a bağlı bir alan adı için DNSSEC&amp;rsquo;i aktifleştirmek çok kolay. DNSSEC özelliğini, aktifleştirebildiğiniz her alan adınız için aktifleştirmenizi tavsiye ederim. Şimdi gelin, bunu nasıl yapabileceğimize bakalım.&lt;/p&gt;
 &lt;h2 id=&#34;cloudflare&#34;&gt;Cloudflare&lt;/h2&gt;
 &lt;p&gt;Öncelikle, Cloudflare hesabınıza giriş yapın ve istediğiniz alan adınızı seçin. Ardından, menüde bulunan DNS&amp;rsquo;e tıklayın. Sayfanın biraz aşağısında, DNSSEC bölümünü bulacaksınız. &lt;code&gt;Enable DNSSEC&lt;/code&gt; butonuna basın ve burada görünen &lt;code&gt;Key Tag, Algorithm, Digest Type-2, Digest&lt;/code&gt; bilgilerini not edin ve &lt;code&gt;Confirm&lt;/code&gt; butonuna tıklayarak onaylayın.&lt;/p&gt;</description>

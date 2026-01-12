@@ -2,73 +2,73 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Kategoriler on Furkan Uysal</title>
-    <link>http://localhost:1313/tr/kategoriler/</link>
+    <link>https://furuy.com/tr/kategoriler/</link>
     <description>Recent content in Kategoriler on Furkan Uysal</description>
     <generator>Hugo -- 0.154.4</generator>
     <language>tr-TR</language>
     <copyright>Furkan Uysal — CC0 1.0 Evrensel · Yasal · Arşiv</copyright>
-    <atom:link href="http://localhost:1313/tr/kategoriler/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://furuy.com/tr/kategoriler/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Güvenlik</title>
-      <link>http://localhost:1313/tr/kategoriler/g%C3%BCvenlik/</link>
+      <link>https://furuy.com/tr/kategoriler/g%C3%BCvenlik/</link>
       <pubDate>Tue, 18 Mar 2025 00:00:00 +0300</pubDate>
-      <guid>http://localhost:1313/tr/kategoriler/g%C3%BCvenlik/</guid>
+      <guid>https://furuy.com/tr/kategoriler/g%C3%BCvenlik/</guid>
       <description></description>
     </item>
     <item>
       <title>Web Yönetimi</title>
-      <link>http://localhost:1313/tr/kategoriler/web-y%C3%B6netimi/</link>
+      <link>https://furuy.com/tr/kategoriler/web-y%C3%B6netimi/</link>
       <pubDate>Mon, 10 Mar 2025 00:00:00 +0300</pubDate>
-      <guid>http://localhost:1313/tr/kategoriler/web-y%C3%B6netimi/</guid>
+      <guid>https://furuy.com/tr/kategoriler/web-y%C3%B6netimi/</guid>
       <description></description>
     </item>
     <item>
       <title>İnternet &amp; Özgürlük</title>
-      <link>http://localhost:1313/tr/kategoriler/internet-%C3%B6zg%C3%BCrl%C3%BCk/</link>
+      <link>https://furuy.com/tr/kategoriler/internet-%C3%B6zg%C3%BCrl%C3%BCk/</link>
       <pubDate>Fri, 21 Feb 2025 00:00:00 +0300</pubDate>
-      <guid>http://localhost:1313/tr/kategoriler/internet-%C3%B6zg%C3%BCrl%C3%BCk/</guid>
+      <guid>https://furuy.com/tr/kategoriler/internet-%C3%B6zg%C3%BCrl%C3%BCk/</guid>
       <description></description>
     </item>
     <item>
       <title>Kitap</title>
-      <link>http://localhost:1313/tr/kategoriler/kitap/</link>
+      <link>https://furuy.com/tr/kategoriler/kitap/</link>
       <pubDate>Thu, 17 Aug 2023 00:00:00 +0300</pubDate>
-      <guid>http://localhost:1313/tr/kategoriler/kitap/</guid>
+      <guid>https://furuy.com/tr/kategoriler/kitap/</guid>
       <description></description>
     </item>
     <item>
       <title>GNU/Linux</title>
-      <link>http://localhost:1313/tr/kategoriler/gnu/linux/</link>
+      <link>https://furuy.com/tr/kategoriler/gnu/linux/</link>
       <pubDate>Thu, 26 May 2022 00:00:00 +0300</pubDate>
-      <guid>http://localhost:1313/tr/kategoriler/gnu/linux/</guid>
+      <guid>https://furuy.com/tr/kategoriler/gnu/linux/</guid>
       <description></description>
     </item>
     <item>
       <title>Uygulamalar</title>
-      <link>http://localhost:1313/tr/kategoriler/uygulamalar/</link>
+      <link>https://furuy.com/tr/kategoriler/uygulamalar/</link>
       <pubDate>Sat, 16 Apr 2022 00:00:00 +0300</pubDate>
-      <guid>http://localhost:1313/tr/kategoriler/uygulamalar/</guid>
+      <guid>https://furuy.com/tr/kategoriler/uygulamalar/</guid>
       <description></description>
     </item>
     <item>
       <title>Eklentiler</title>
-      <link>http://localhost:1313/tr/kategoriler/eklentiler/</link>
+      <link>https://furuy.com/tr/kategoriler/eklentiler/</link>
       <pubDate>Sun, 29 Aug 2021 00:00:00 +0300</pubDate>
-      <guid>http://localhost:1313/tr/kategoriler/eklentiler/</guid>
+      <guid>https://furuy.com/tr/kategoriler/eklentiler/</guid>
       <description></description>
     </item>
     <item>
       <title>Android</title>
-      <link>http://localhost:1313/tr/kategoriler/android/</link>
+      <link>https://furuy.com/tr/kategoriler/android/</link>
       <pubDate>Mon, 26 Jul 2021 00:00:00 +0300</pubDate>
-      <guid>http://localhost:1313/tr/kategoriler/android/</guid>
+      <guid>https://furuy.com/tr/kategoriler/android/</guid>
       <description></description>
     </item>
     <item>
       <title>Mahremiyet</title>
-      <link>http://localhost:1313/tr/kategoriler/mahremiyet/</link>
+      <link>https://furuy.com/tr/kategoriler/mahremiyet/</link>
       <pubDate>Fri, 30 Apr 2021 00:00:00 +0300</pubDate>
-      <guid>http://localhost:1313/tr/kategoriler/mahremiyet/</guid>
+      <guid>https://furuy.com/tr/kategoriler/mahremiyet/</guid>
       <description></description>
     </item>
   </channel>

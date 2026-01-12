@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Security Headers on Furkan Uysal</title>
-    <link>http://localhost:1313/tr/etiketler/security-headers/</link>
+    <link>https://furuy.com/tr/etiketler/security-headers/</link>
     <description>Recent content in Security Headers on Furkan Uysal</description>
     <generator>Hugo -- 0.154.4</generator>
     <language>tr-TR</language>
     <copyright>Furkan Uysal — CC0 1.0 Evrensel · Yasal · Arşiv</copyright>
-    <lastBuildDate>Sun, 11 Jan 2026 16:50:26 +0300</lastBuildDate>
-    <atom:link href="http://localhost:1313/tr/etiketler/security-headers/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 12 Jan 2026 15:43:42 +0300</lastBuildDate>
+    <atom:link href="https://furuy.com/tr/etiketler/security-headers/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cloudflare Workers İle Security Headers Ekleme</title>
-      <link>http://localhost:1313/tr/yazilar/cloudflare-workers-security-headers/</link>
+      <link>https://furuy.com/tr/yazilar/cloudflare-workers-security-headers/</link>
       <pubDate>Fri, 17 Sep 2021 00:00:00 +0300</pubDate>
-      <guid>http://localhost:1313/tr/yazilar/cloudflare-workers-security-headers/</guid>
+      <guid>https://furuy.com/tr/yazilar/cloudflare-workers-security-headers/</guid>
       <description>&lt;p&gt;HTTP Security Headers&amp;rsquo;ı, Cloudflare ile kullanmanız mümkün. Cloudflare&amp;rsquo;ın ücretsiz &lt;a href=&#34;https://workers.cloudflare.com/&#34;&gt;Workers&lt;/a&gt; planı, şu an için günde 100.000 isteğe ve 30 Worker script&amp;rsquo;ine izin vermekte. Şayet bunlar, ihtiyaçlarınızı karşılamaya yetiyor ve Cloudflare kullandığınız bir web sitesine Security Headers eklemek istiyorsanız, bu küçük rehber tam da size göre.&lt;/p&gt;
 &lt;h2 id=&#34;bir-worker-oluşturun&#34;&gt;Bir Worker Oluşturun&lt;/h2&gt;
 &lt;p&gt;Cloudflare hesabınıza giriş yapın ve işlem yapmak istediğiniz alan adını seçin ve menüden de &amp;ldquo;Workers&amp;rdquo; bölümünü seçin. Yeni bir Worker oluşturmak için &amp;ldquo;Manage Workers&amp;rdquo; butonuna tıklayın.&lt;/p&gt;</description>

@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>GNU/Linux on Furkan Uysal</title>
-    <link>http://localhost:1313/tr/kategoriler/gnu/linux/</link>
+    <link>https://furuy.com/tr/kategoriler/gnu/linux/</link>
     <description>Recent content in GNU/Linux on Furkan Uysal</description>
     <generator>Hugo -- 0.154.4</generator>
     <language>tr-TR</language>
     <copyright>Furkan Uysal — CC0 1.0 Evrensel · Yasal · Arşiv</copyright>
-    <lastBuildDate>Sun, 11 Jan 2026 16:50:26 +0300</lastBuildDate>
-    <atom:link href="http://localhost:1313/tr/kategoriler/gnu/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 12 Jan 2026 15:43:42 +0300</lastBuildDate>
+    <atom:link href="https://furuy.com/tr/kategoriler/gnu/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>DNF Automatic İle Paketleri Otomatik Güncelleyin</title>
-      <link>http://localhost:1313/tr/yazilar/dnf-automatic/</link>
+      <link>https://furuy.com/tr/yazilar/dnf-automatic/</link>
       <pubDate>Thu, 26 May 2022 00:00:00 +0300</pubDate>
-      <guid>http://localhost:1313/tr/yazilar/dnf-automatic/</guid>
+      <guid>https://furuy.com/tr/yazilar/dnf-automatic/</guid>
       <description>&lt;p&gt;&lt;strong&gt;DNF Automatic&lt;/strong&gt; ile Fedora ve RHEL gibi DNF paket yöneticisine sahip GNU/Linux dağıtımlarındaki güncelleme işlemlerini otomatikleştirmeniz mümkün.&lt;/p&gt;
 &lt;h2 id=&#34;dnf-automatici-yükleyin&#34;&gt;DNF Automatic&amp;rsquo;i Yükleyin&lt;/h2&gt;
 &lt;p&gt;Bunun için kullandığınız terminale aşağıdaki kodu yazın ve yüklemeyi onaylayarak, kurulumu tamamlayın:&lt;/p&gt;

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Mahremiyet on Furkan Uysal</title>
+    <link>https://furuy.com/tr/kategoriler/mahremiyet/</link>
+    <description>Recent content in Mahremiyet on Furkan Uysal</description>
+    <generator>Hugo -- 0.154.4</generator>
+    <language>tr-TR</language>
+    <copyright>Furkan Uysal — CC0 1.0 Evrensel · Yasal · Arşiv</copyright>
+    <lastBuildDate>Mon, 12 Jan 2026 15:43:42 +0300</lastBuildDate>
+    <atom:link href="https://furuy.com/tr/kategoriler/mahremiyet/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Access Dots Özelliğini Android&#39;de Kullanma</title>
+      <link>https://furuy.com/tr/yazilar/access-dots-android/</link>
+      <pubDate>Fri, 30 Apr 2021 00:00:00 +0300</pubDate>
+      <guid>https://furuy.com/tr/yazilar/access-dots-android/</guid>
+      <description>&lt;p&gt;Access Dots, iOS 14 ile tanıtılan, kullanıcının gizliliğini geliştirmeyi amaçlayan yeni bir özellik. Bu özellik sayesinde, arka planda mikrofona veya kameraya erişilirse, ekranda renkli noktalar beliriyor. Her bir izin için farklı bir renk kullanıldığından, hangi iznin kullanıldığını kolayca anlayabiliyorsunuz.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;EKLEME (26.05.2022):&lt;/strong&gt; Android 12 ile birlikte, bu özelliği üçüncü taraf uygulamaya gerek olmadan kullanabilirsiniz. Detaylar için, Android&amp;rsquo;in resmi web sitesindeki bu bağlantıyı ziyaret edin: &lt;a href=&#34;https://source.android.com/devices/tech/config/privacy-indicators&#34;&gt;https://source.android.com/devices/tech/config/privacy-indicators&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;android-için-access-dots&#34;&gt;Android için Access Dots&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Vigilante&lt;/strong&gt; isimli açık kaynak kodlu uygulama, &lt;strong&gt;Access Dots&lt;/strong&gt; özelliğini &lt;a href=&#34;https://furuy.com/tr/kategoriler/android/&#34;&gt;Android&lt;/a&gt;&amp;lsquo;de kullanabilmenizi sağlıyor. Uygulamayı, tamamen ücretsiz olarak F-Droid üzerinden yükleyebilirsiniz:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

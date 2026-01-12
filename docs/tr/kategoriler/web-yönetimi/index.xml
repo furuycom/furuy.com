@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Web Yönetimi on Furkan Uysal</title>
+    <link>https://furuy.com/tr/kategoriler/web-y%C3%B6netimi/</link>
+    <description>Recent content in Web Yönetimi on Furkan Uysal</description>
+    <generator>Hugo -- 0.154.4</generator>
+    <language>tr-TR</language>
+    <copyright>Furkan Uysal — CC0 1.0 Evrensel · Yasal · Arşiv</copyright>
+    <lastBuildDate>Mon, 12 Jan 2026 15:43:42 +0300</lastBuildDate>
+    <atom:link href="https://furuy.com/tr/kategoriler/web-y%C3%B6netimi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Domain Firması Seçerken Dikkat Edilmesi Gerekenler</title>
+      <link>https://furuy.com/tr/yazilar/domain-firmasi-secimi-rehberi/</link>
+      <pubDate>Mon, 10 Mar 2025 00:00:00 +0300</pubDate>
+      <guid>https://furuy.com/tr/yazilar/domain-firmasi-secimi-rehberi/</guid>
+      <description>&lt;p&gt;Yanlış bir domain firması seçimi, güvenlik açıkları, maliyet artışları ve yönetim zorluklarına yol açabilir. Bu makalede, güvenilir bir domain sağlayıcısında olması gereken kritik özellikleri paylaşacağım.&lt;/p&gt;
+&lt;h2 id=&#34;whois-gizliliği-whois-privacy&#34;&gt;WHOIS Gizliliği (WHOIS Privacy)&lt;/h2&gt;
+&lt;p&gt;WHOIS veri tabanı, domain sahibinin iletişim bilgilerini (ad, e-posta, telefon, adres vb.) herkese açık şekilde gösterir. Bu bilgiler, domain kayıt esnasında sağlanan kişisel bilgilerden oluşur. WHOIS gizliliği özelliği, bu kişisel verilerin ifşa edilmesini önler.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;İstenen Özellikler:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Otomatik WHOIS Gizliliği:&lt;/strong&gt; Domain kayıt esnasında otomatik olarak WHOIS bilgileri gizlenmelidir.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ücretsiz WHOIS Gizliliği:&lt;/strong&gt; Bazı domain kayıt firmaları, WHOIS gizleme özelliğini ücretsiz olarak sunar. Ek maliyet olmaksızın sunulması tercih edilir. (İsteğe bağlı)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;dnssec-desteği&#34;&gt;DNSSEC Desteği&lt;/h2&gt;
+&lt;p&gt;DNSSEC, DNS cache poisoning ve DNS spoofing gibi saldırıları önleyerek, DNS sorgularının güvenliğini sağlar ve kullanıcının doğru IP adresine yönlendirilmesini garanti eder.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cloudflare Workers İle Security Headers Ekleme</title>
+      <link>https://furuy.com/tr/yazilar/cloudflare-workers-security-headers/</link>
+      <pubDate>Fri, 17 Sep 2021 00:00:00 +0300</pubDate>
+      <guid>https://furuy.com/tr/yazilar/cloudflare-workers-security-headers/</guid>
+      <description>&lt;p&gt;HTTP Security Headers&amp;rsquo;ı, Cloudflare ile kullanmanız mümkün. Cloudflare&amp;rsquo;ın ücretsiz &lt;a href=&#34;https://workers.cloudflare.com/&#34;&gt;Workers&lt;/a&gt; planı, şu an için günde 100.000 isteğe ve 30 Worker script&amp;rsquo;ine izin vermekte. Şayet bunlar, ihtiyaçlarınızı karşılamaya yetiyor ve Cloudflare kullandığınız bir web sitesine Security Headers eklemek istiyorsanız, bu küçük rehber tam da size göre.&lt;/p&gt;
+&lt;h2 id=&#34;bir-worker-oluşturun&#34;&gt;Bir Worker Oluşturun&lt;/h2&gt;
+&lt;p&gt;Cloudflare hesabınıza giriş yapın ve işlem yapmak istediğiniz alan adını seçin ve menüden de &amp;ldquo;Workers&amp;rdquo; bölümünü seçin. Yeni bir Worker oluşturmak için &amp;ldquo;Manage Workers&amp;rdquo; butonuna tıklayın.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>GoDaddy &amp; Cloudflare DNSSEC Kurulumu</title>
+      <link>https://furuy.com/tr/yazilar/godaddy-cloudflare-dnssec/</link>
+      <pubDate>Fri, 17 Sep 2021 00:00:00 +0300</pubDate>
+      <guid>https://furuy.com/tr/yazilar/godaddy-cloudflare-dnssec/</guid>
+      <description>&lt;p&gt;GoDaddy&amp;rsquo;de barınan ve Cloudflare&amp;rsquo;a bağlı bir alan adı için DNSSEC&amp;rsquo;i aktifleştirmek çok kolay. DNSSEC özelliğini, aktifleştirebildiğiniz her alan adınız için aktifleştirmenizi tavsiye ederim. Şimdi gelin, bunu nasıl yapabileceğimize bakalım.&lt;/p&gt;
+&lt;h2 id=&#34;cloudflare&#34;&gt;Cloudflare&lt;/h2&gt;
+&lt;p&gt;Öncelikle, Cloudflare hesabınıza giriş yapın ve istediğiniz alan adınızı seçin. Ardından, menüde bulunan DNS&amp;rsquo;e tıklayın. Sayfanın biraz aşağısında, DNSSEC bölümünü bulacaksınız. &lt;code&gt;Enable DNSSEC&lt;/code&gt; butonuna basın ve burada görünen &lt;code&gt;Key Tag, Algorithm, Digest Type-2, Digest&lt;/code&gt; bilgilerini not edin ve &lt;code&gt;Confirm&lt;/code&gt; butonuna tıklayarak onaylayın.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Web Safe Fonts Nedir &amp; Nasıl Kullanılır?</title>
+      <link>https://furuy.com/tr/yazilar/web-safe-fonts/</link>
+      <pubDate>Wed, 08 Sep 2021 00:00:00 +0300</pubDate>
+      <guid>https://furuy.com/tr/yazilar/web-safe-fonts/</guid>
+      <description>&lt;p&gt;Birçok web sitesi, kullanıcı arayüzünü (User Interface) geliştirmek için yazı tipleri (font) kullanır. Bu yazı tipleri de genellikle, WOFF/WOFF2 dosyaları çağrılarak veya Google Fonts kullanılarak yapılır. Her iki yöntem de harici bir istek yaratır ve bu isteklerin boyutu da, web sitenizdeki diğer isteklere oranla bir hayli fazladır.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Reuters Google PageSpeed Insights&#34; loading=&#34;lazy&#34; src=&#34;https://furuy.com/assets/img/reuters-google-pagespeed-insights.webp&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Örnek olarak, Reuters&amp;rsquo;ın bir haber sayfasındaki toplam kaynağın yaklaşık %11&amp;rsquo;i yazı tipleri için kullanılıyor.&lt;/p&gt;
+&lt;h2 id=&#34;web-safe-fonts-nedir&#34;&gt;Web Safe Fonts Nedir?&lt;/h2&gt;
+&lt;p&gt;Her işletim sistemi ve bazı tarayıcılar, varsayılan olarak belirli yazı tipleri barındırır; Web Safe Fonts, işte bu yazı tipleridir. Bu sayede kullanacağınız yazı tipini web sitenize yüklemenize veya harici bir kaynağa istekte bulunmanıza gerek yoktur. Ziyaretçinin kullandığı tarayıcı ve internet hızı gibi değişkenlerin sorun çıkarmasını engelleyerek, herkes için bir standart yaratmanızı sağlar.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>WordPress Yönetici ve Giriş Güvenliği</title>
+      <link>https://furuy.com/tr/yazilar/wordpress-yonetici-ve-giris-guvenligi/</link>
+      <pubDate>Mon, 02 Aug 2021 00:00:00 +0300</pubDate>
+      <guid>https://furuy.com/tr/yazilar/wordpress-yonetici-ve-giris-guvenligi/</guid>
+      <description>&lt;p&gt;WordPress web sitenizdeki yönetici hesapları, varsayılan olarak birçok kritik yetkiye sahip olurlar. Bu hesapların güvenliği sağlanmazsa, web siteniz de tehdit altında olur. Bu yazıda, manuel olarak uygulayabileceğiniz bazı güvenlik adımlarını anlatacağım.&lt;/p&gt;
+&lt;h2 id=&#34;admin-kullanıcı-adını-kullanmayın&#34;&gt;&amp;ldquo;admin&amp;rdquo; Kullanıcı Adını Kullanmayın&lt;/h2&gt;
+&lt;p&gt;Tüm brute-force kullanıcı adı listelerinin ilk sırasında yer alan, &amp;ldquo;admin&amp;rdquo; gibi yaygın ve tahmin edilebilir kullanıcı adlarını, hiçbir sisteminizde kullanmayın. Yalnızca web sitenizde kullanacağınız, tahmin edilemez ve özgün bir kullanıcı adı belirleyin.&lt;/p&gt;
+&lt;h2 id=&#34;kayıtları-kapatın&#34;&gt;Kayıtları Kapatın&lt;/h2&gt;
+&lt;p&gt;WordPress, varsayılan olarak web sitenize herkesin kayıt olabilmesini sağlayan özelliği kapatır. Bilinmedik kullanıcılar, çeşitli açıkları kullanarak web sitenize zarar verebilirler. İhtiyacınız yoksa, herkese açık üyelik kayıtlarını mutlaka devre dışı tutun. Kontrol edin: &lt;strong&gt;Ayarlar &amp;gt; Genel Ayarlar &amp;gt; İsteyen herkes kayıt olabilsin&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Web Sitenize Çerezler Uyarısı Ekleyin (1 KB)</title>
+      <link>https://furuy.com/tr/yazilar/cerezler-uyarisi-ekleme/</link>
+      <pubDate>Sun, 09 May 2021 00:00:00 +0300</pubDate>
+      <guid>https://furuy.com/tr/yazilar/cerezler-uyarisi-ekleme/</guid>
+      <description>&lt;h2 id=&#34;çerezler-uyarısı-nedir&#34;&gt;Çerezler Uyarısı Nedir?&lt;/h2&gt;
+&lt;p&gt;Çerezler uyarısı, &lt;a href=&#34;https://tr.m.wikipedia.org/wiki/Genel_Veri_Koruma_Y%C3%B6netmeli%C4%9Fi&#34;&gt;GDPR&lt;/a&gt; standartları kapsamında, bir yasal zorunluluk haline geldi; Web siteniz AB&amp;rsquo;de barınmasa bile, AB konumlu ziyaretçiler için bu bildirimi eklemek zorundasınız. Bu uygulama ile kişisel verilerin korunmasının geliştirilmesi amaçlanıyor. Bu uygulama ile birlikte de, kişisel veri toplayan taraflara bazı sorumluluklar düşüyor.&lt;/p&gt;
+&lt;p&gt;Web sitenizde birçok birinci parti veya üçüncü parti çerezler kullanılıyor olabilir. Örnekler:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Web sitenizde Cloudflare kullanıyorsanız, Cloudflare&amp;rsquo;nin çerezleri kullandığını bilmeniz gerekiyor. Örneğin &amp;ldquo;Always online&amp;rdquo; ve ziyaretçilerin güvenilir olup olmadığını öğrenmek için türlü çerezler kullanılır. Detayları öğrenin: &lt;a href=&#34;https://support.cloudflare.com/hc/en-us/articles/200170156-Understanding-the-Cloudflare-Cookies&#34;&gt;https://support.cloudflare.com/hc/en-us/articles/200170156-Understanding-the-Cloudflare-Cookies&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;WordPress web sitenizde, varsayılan olarak ziyaretçilerin yorum yaptığı isimleri hatırlamak için çerezler kullanılır.&lt;/li&gt;
+&lt;li&gt;Web sitenizde Google Analytics kullanıyorsanız, çerezlerin yine çok kapsamlı bir şekilde kullanıldığını hatırlatmak gerek.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Bu gibi çerez kullanım durumlarında, ziyaretçilerin kişisel verilerini toplamış oluyorsunuz ve GDPR kapsamında, bunu ziyaretçilerinize bildirmeniz gerekiyor.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

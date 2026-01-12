@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Brute Force on Furkan Uysal</title>
+    <link>https://furuy.com/tr/etiketler/brute-force/</link>
+    <description>Recent content in Brute Force on Furkan Uysal</description>
+    <generator>Hugo -- 0.154.4</generator>
+    <language>tr-TR</language>
+    <copyright>Furkan Uysal — CC0 1.0 Evrensel · Yasal · Arşiv</copyright>
+    <lastBuildDate>Mon, 12 Jan 2026 15:43:42 +0300</lastBuildDate>
+    <atom:link href="https://furuy.com/tr/etiketler/brute-force/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>WordPress Yönetici ve Giriş Güvenliği</title>
+      <link>https://furuy.com/tr/yazilar/wordpress-yonetici-ve-giris-guvenligi/</link>
+      <pubDate>Mon, 02 Aug 2021 00:00:00 +0300</pubDate>
+      <guid>https://furuy.com/tr/yazilar/wordpress-yonetici-ve-giris-guvenligi/</guid>
+      <description>&lt;p&gt;WordPress web sitenizdeki yönetici hesapları, varsayılan olarak birçok kritik yetkiye sahip olurlar. Bu hesapların güvenliği sağlanmazsa, web siteniz de tehdit altında olur. Bu yazıda, manuel olarak uygulayabileceğiniz bazı güvenlik adımlarını anlatacağım.&lt;/p&gt;
+&lt;h2 id=&#34;admin-kullanıcı-adını-kullanmayın&#34;&gt;&amp;ldquo;admin&amp;rdquo; Kullanıcı Adını Kullanmayın&lt;/h2&gt;
+&lt;p&gt;Tüm brute-force kullanıcı adı listelerinin ilk sırasında yer alan, &amp;ldquo;admin&amp;rdquo; gibi yaygın ve tahmin edilebilir kullanıcı adlarını, hiçbir sisteminizde kullanmayın. Yalnızca web sitenizde kullanacağınız, tahmin edilemez ve özgün bir kullanıcı adı belirleyin.&lt;/p&gt;
+&lt;h2 id=&#34;kayıtları-kapatın&#34;&gt;Kayıtları Kapatın&lt;/h2&gt;
+&lt;p&gt;WordPress, varsayılan olarak web sitenize herkesin kayıt olabilmesini sağlayan özelliği kapatır. Bilinmedik kullanıcılar, çeşitli açıkları kullanarak web sitenize zarar verebilirler. İhtiyacınız yoksa, herkese açık üyelik kayıtlarını mutlaka devre dışı tutun. Kontrol edin: &lt;strong&gt;Ayarlar &amp;gt; Genel Ayarlar &amp;gt; İsteyen herkes kayıt olabilsin&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

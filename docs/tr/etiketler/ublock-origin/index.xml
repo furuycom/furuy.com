@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>UBlock Origin on Furkan Uysal</title>
-    <link>http://localhost:1313/tr/etiketler/ublock-origin/</link>
+    <link>https://furuy.com/tr/etiketler/ublock-origin/</link>
     <description>Recent content in UBlock Origin on Furkan Uysal</description>
     <generator>Hugo -- 0.154.4</generator>
     <language>tr-TR</language>
     <copyright>Furkan Uysal — CC0 1.0 Evrensel · Yasal · Arşiv</copyright>
-    <lastBuildDate>Sun, 11 Jan 2026 16:50:26 +0300</lastBuildDate>
-    <atom:link href="http://localhost:1313/tr/etiketler/ublock-origin/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 12 Jan 2026 15:43:42 +0300</lastBuildDate>
+    <atom:link href="https://furuy.com/tr/etiketler/ublock-origin/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>FilterLists İle Yeni Reklam Engelleyici Filtreleri Bulun</title>
-      <link>http://localhost:1313/tr/yazilar/filterlists-com/</link>
+      <link>https://furuy.com/tr/yazilar/filterlists-com/</link>
       <pubDate>Mon, 03 May 2021 00:00:00 +0300</pubDate>
-      <guid>http://localhost:1313/tr/yazilar/filterlists-com/</guid>
+      <guid>https://furuy.com/tr/yazilar/filterlists-com/</guid>
       <description>&lt;p&gt;FilterLists; AdAway, uBlock Origin, Adguard ve Adblock Plus gibi araçlarda kullanabileceğiniz, reklam/zararlı yazılım/paywall/anti-adblock gibi birçok filtreyi bulabilmenizi sağlayan bir web sitesidir. Filtrelenebilen arşiv sayesinde, ihtiyacınıza yönelik filtreleri kolayca bulmanız mümkün.&lt;/p&gt;
 &lt;h2 id=&#34;filtreleme-yöntemleri&#34;&gt;Filtreleme Yöntemleri&lt;/h2&gt;
 &lt;h3 id=&#34;name&#34;&gt;Name&lt;/h3&gt;

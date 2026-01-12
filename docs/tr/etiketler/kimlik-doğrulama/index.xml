@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Kimlik Doğrulama on Furkan Uysal</title>
+    <link>https://furuy.com/tr/etiketler/kimlik-do%C4%9Frulama/</link>
+    <description>Recent content in Kimlik Doğrulama on Furkan Uysal</description>
+    <generator>Hugo -- 0.154.4</generator>
+    <language>tr-TR</language>
+    <copyright>Furkan Uysal — CC0 1.0 Evrensel · Yasal · Arşiv</copyright>
+    <lastBuildDate>Mon, 12 Jan 2026 15:43:42 +0300</lastBuildDate>
+    <atom:link href="https://furuy.com/tr/etiketler/kimlik-do%C4%9Frulama/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Güvenli Android Doğrulama Yöntemleri (Parola, Biyometrik vs.)</title>
+      <link>https://furuy.com/tr/yazilar/guvenli-android-dogrulama-yontemleri/</link>
+      <pubDate>Thu, 13 Jul 2023 00:00:00 +0300</pubDate>
+      <guid>https://furuy.com/tr/yazilar/guvenli-android-dogrulama-yontemleri/</guid>
+      <description>&lt;p&gt;Bu yazıda, Android cihazlardaki giriş/doğrulama yöntemlerinin ne kadar güvenli olduğundan ve güncel bilgiler ışığında nasıl bir tercih yapmanız gerektiğinden bahsedeceğim.&lt;/p&gt;
+&lt;h2 id=&#34;ekran-kilidi-belirleyin&#34;&gt;Ekran Kilidi Belirleyin&lt;/h2&gt;
+&lt;p&gt;Öncelikle, mutlaka bir ekran kilidi belirlemeniz ve bunlardan da en güvenlisini seçmeniz gerekiyor.&lt;/p&gt;
+&lt;h3 id=&#34;pin-ve-desen-kilidi-kullanmayın&#34;&gt;PIN ve Desen Kilidi Kullanmayın&lt;/h3&gt;
+&lt;p&gt;PIN ve desen (pattern) kilidi yöntemlerini güvenli olmadıkları için eliyoruz. Bunları kullanmanız kesinlikle önerilmiyor.&lt;/p&gt;
+&lt;h3 id=&#34;biyometrik-ekran-kilidi-yöntemleri-neden-kullanılmamalı&#34;&gt;Biyometrik Ekran Kilidi Yöntemleri Neden Kullanılmamalı?&lt;/h3&gt;
+&lt;p&gt;Yüz tanıma kilidi, hâlâ en güvensiz yöntemlerden birisi. Bugün bile birçok akıllı telefon markası, müşterilerine genellikle de kurulum sırasında yüz tanıma kilidinin diğer yöntemlerden daha güvensiz olduğunu vurguluyor.[1] Dolayısıyla yüz tanıma kilidi kullanmanız da önerilmiyor.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Password Aging (Parola Eskitme) Riskleri</title>
+      <link>https://furuy.com/tr/yazilar/password-aging/</link>
+      <pubDate>Thu, 23 Dec 2021 00:00:00 +0300</pubDate>
+      <guid>https://furuy.com/tr/yazilar/password-aging/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Password aging&lt;/strong&gt; veya Türkçeye &amp;ldquo;&lt;strong&gt;parola eskitme&lt;/strong&gt;&amp;rdquo; olarak çevrilebilecek güvenlik mekanizması, kullanıcıların uzun zaman boyunca aynı parolayı kullanmalarını engeller. Sistem yöneticileri tarafından belirlenen zaman aralığında (password expiration policy), kullanıcılardan yeni bir parola oluşturmaları istenir. Bu yöntem her ne kadar güvenliği artırabiliyor olsa da, durumu tam tersine de çevirebilir. Bu yazıda, okuduğunuz özette kısaca bahsettiğim konuları biraz daha detaylandırmaya çalışacağım.&lt;/p&gt;
+&lt;h2 id=&#34;password-aging-neden-bir-standart-oldu&#34;&gt;Password Aging Neden Bir Standart Oldu?&lt;/h2&gt;
+&lt;p&gt;Tahminime göre bunun en büyük nedeni, zamanında parolaların hashlenmiş olarak değil de, düz metin (plain text) olarak veri tabanlarında saklanmasıydı. Dolayısıyla herhangi bir veri tabanı sızıntısı olduğunda, herkesin parolası apaçık ortaya çıkıyordu. O zamanın teknolojisine göre de bu parolaların hackerlar tarafından kötü amaçlarla kullanılma süresi 90 gün olarak belirlenmiş ve standartlaşarak, üç ayda bir parolanın değiştirilmesinin uygun olacağı düşünülmüş.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
