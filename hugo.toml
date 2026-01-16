@@ -88,11 +88,6 @@ enableGitInfo = true
     url = "https://mastodon.social/@furuycom"
 
   [[params.socialIcons]]
-    name = "x"
-    title = "X"
-    url = "https://x.com/furuycom"
-
-  [[params.socialIcons]]
     name = "linkedin"
     title = "LinkedIn"
     url = "https://www.linkedin.com/in/furkanuysal"
@@ -172,7 +167,7 @@ enableGitInfo = true
         publisherType = "Person"
         sameAs = [
           "https://github.com/furuycom",
-          "https://x.com/furuycom",
+          "https://mastodon.social/@furuycom",
           "https://www.linkedin.com/in/furkanuysal",
         ]
 
@@ -241,7 +236,7 @@ enableGitInfo = true
         publisherType = "Person"
         sameAs = [
           "https://github.com/furuycom",
-          "https://x.com/furuycom",
+          "https://mastodon.social/@furuycom",
           "https://www.linkedin.com/in/furkanuysal",
         ]
 

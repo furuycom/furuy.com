@@ -29,5 +29,4 @@ Blogumda [ilgi alanlarımla](/tr/kategoriler/) ilgili faydalı içerikler üretm
 
 - [GitHub](https://github.com/furuycom)
 - [Mastodon](https://mastodon.social/@furuycom)
-- [𝕏](https://x.com/furuycom)
 - [LinkedIn](https://www.linkedin.com/in/furkanuysal)

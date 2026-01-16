@@ -29,5 +29,4 @@ I'm trying to create useful content related to [my interests](/categories/) on m
 
 - [GitHub](https://github.com/furuycom)
 - [Mastodon](https://mastodon.social/@furuycom)
-- [𝕏](https://x.com/furuycom)
 - [LinkedIn](https://www.linkedin.com/in/furkanuysal)
