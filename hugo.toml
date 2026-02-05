@@ -149,7 +149,7 @@ enableGitInfo = true
         weight = 20
 
     [languages.en.params]
-        #description = "Tech-focused personal site."
+        description = "Furkan Uysal's personal website. CV, projects, and writing."
         DateFormat = "Jan 2, 2006"
 
         [languages.en.params.profileMode]
@@ -157,6 +157,7 @@ enableGitInfo = true
             title = "Hi, I'm Furkan."
             #subtitle = ""
             imageUrl = "/assets/img/favicon.svg"
+            imageTitle = "Furkan Uysal"
             imageWidth = 120
             imageHeight = 120
 
@@ -218,7 +219,7 @@ enableGitInfo = true
             weight = 20
 
     [languages.tr.params]
-        #description = "Teknoloji odaklı kişisel site."
+        description = "Furkan Uysal'ın kişisel sitesi. CV, projeler ve yazılar."
         DateFormat = "2 January 2006"
 
         [languages.tr.params.profileMode]
@@ -226,6 +227,7 @@ enableGitInfo = true
             title = "Selam, Ben Furkan."
             #subtitle = ""
             imageUrl = "/assets/img/favicon.svg"
+            imageTitle = "Furkan Uysal"
             imageWidth = 120
             imageHeight = 120
 
