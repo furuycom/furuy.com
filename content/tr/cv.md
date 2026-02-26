@@ -1,21 +1,8 @@
 ---
-title: "Özgeçmiş"
-translationKey:  "cv"
-# date: "{{ .Date }}"
-# lastmod: "{{ .Date }}"
-# draft: true
-
-# searchHidden: true
+title: "CV / Özgeçmiş"
+translationKey: "cv"
+date: 2026-02-16
 ShowToc: false
 hideMeta: true
-# robotsNoIndex: true
-# sitemap:
-#   disable: true
 comments: false
-
-# categories: ["..."]
-# tags: ["..."]
-
-# cover:
-#   image: "/assets/img/filename.webp"
 ---

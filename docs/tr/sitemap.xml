@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://furuy.com/tr/</loc>
-    <lastmod>2026-01-16T08:22:56+03:00</lastmod>
+    <lastmod>2026-02-26T00:00:00+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
@@ -13,6 +13,32 @@
                 rel="alternate"
                 hreflang="tr-TR"
                 href="https://furuy.com/tr/"
+                />
+  </url><url>
+    <loc>https://furuy.com/tr/yazilar/linux-chromium-tarayici-dilini-degistirme/</loc>
+    <lastmod>2026-02-26T00:00:00+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="https://furuy.com/change-chromium-browser-language-linux/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr-TR"
+                href="https://furuy.com/tr/yazilar/linux-chromium-tarayici-dilini-degistirme/"
+                />
+  </url><url>
+    <loc>https://furuy.com/tr/cv/</loc>
+    <lastmod>2026-01-11T16:50:26+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="https://furuy.com/cv/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr-TR"
+                href="https://furuy.com/tr/cv/"
                 />
   </url><url>
     <loc>https://furuy.com/tr/yazilar/kacak-telefon-imei-atma-zararlari/</loc>
@@ -105,19 +131,6 @@
                 rel="alternate"
                 hreflang="tr-TR"
                 href="https://furuy.com/tr/hakkimda/"
-                />
-  </url><url>
-    <loc>https://furuy.com/tr/cv/</loc>
-    <lastmod>2026-01-11T16:50:26+03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="https://furuy.com/cv/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr-TR"
-                href="https://furuy.com/tr/cv/"
                 />
   </url>
 </urlset>

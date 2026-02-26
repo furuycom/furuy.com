@@ -137,16 +137,22 @@ enableGitInfo = true
         weight = 10
 
     [[languages.en.menus.main]]
+        identifier = "cv"
+        name = "CV"
+        pageRef = "/cv/"
+        weight = 20
+
+    [[languages.en.menus.main]]
         identifier = "posts"
         name = "Blog"
         pageRef = "/posts/"
-        weight = 15
+        weight = 30
 
     [[languages.en.menus.main]]
         identifier = "search"
         name = "Search"
         pageRef = "/search/"
-        weight = 20
+        weight = 40
 
     [languages.en.params]
         description = "Furkan Uysal's personal website. CV, projects, and writing."
@@ -207,16 +213,22 @@ enableGitInfo = true
             weight = 10
 
         [[languages.tr.menus.main]]
+            identifier = "cv"
+            name = "CV"
+            url = "/tr/cv/"
+            weight = 20
+
+        [[languages.tr.menus.main]]
             identifier = "yazilar"
             name = "Blog"
             pageRef = "/yazilar/"
-            weight = 15
+            weight = 30
 
         [[languages.tr.menus.main]]
             identifier = "ara"
             name = "Ara"
             pageRef = "/ara/"
-            weight = 20
+            weight = 40
 
     [languages.tr.params]
         description = "Furkan Uysal'ın kişisel sitesi. CV, projeler ve yazılar."

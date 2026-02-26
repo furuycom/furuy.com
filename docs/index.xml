@@ -4,11 +4,46 @@
     <title>Furkan Uysal</title>
     <link>https://furuy.com/</link>
     <description>Recent content on Furkan Uysal</description>
-    <generator>Hugo -- 0.155.2</generator>
+    <generator>Hugo -- 0.156.0</generator>
     <language>en-US</language>
     <copyright>Furkan Uysal — CC0 1.0 Universal · Legal · Arcive</copyright>
-    <lastBuildDate>Fri, 16 Jan 2026 08:22:56 +0300</lastBuildDate>
+    <lastBuildDate>Thu, 26 Feb 2026 00:00:00 +0300</lastBuildDate>
     <atom:link href="https://furuy.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Change Chromium-Based Browser Language on Linux</title>
+      <link>https://furuy.com/change-chromium-browser-language-linux/</link>
+      <pubDate>Thu, 26 Feb 2026 00:00:00 +0300</pubDate>
+      <guid>https://furuy.com/change-chromium-browser-language-linux/</guid>
+      <description>&lt;p&gt;Chromium-based browsers on Linux (Chrome, Brave, etc.) don&amp;rsquo;t have a built-in UI language setting, but you can still change it manually.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;1-one-time-cli&#34;&gt;1) One-time: CLI&lt;/h2&gt;
+&lt;p&gt;The simplest way is to pass the &lt;code&gt;LANGUAGE&lt;/code&gt; environment variable when launching the browser.&lt;/p&gt;
+&lt;p&gt;🇺🇸 &lt;strong&gt;English (EN)&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;LANGUAGE&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt;en_US:en chromium-browser
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;🇹🇷 &lt;strong&gt;Turkish (TR)&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;LANGUAGE&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt;tr_TR:tr chromium-browser
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;The command name may differ depending on your distro. Examples:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;chromium-browser&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;chromium&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;or full path: &lt;code&gt;/usr/bin/chromium-browser&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Generic format:&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Legal</title>
       <link>https://furuy.com/legal/</link>
