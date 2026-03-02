@@ -128,18 +128,18 @@ enableGitInfo = true
         weight = 1
         contentDir = "content/en"
         title = "Furkan Uysal"
-        copyright = "Furkan Uysal — [CC0 1.0 Universal](/legal/#license-cc0-10) · [Legal](/legal/) · [Arcive](/archives/)"
-
-    [[languages.en.menus.main]]
-        identifier = "about"
-        name = "About"
-        pageRef = "/about/"
-        weight = 10
+        copyright = "Furkan Uysal — [CC0 1.0 Universal](/legal/#license-cc0-10) · [Legal](/legal/) · [Archive](/archives/)"
 
     [[languages.en.menus.main]]
         identifier = "cv"
         name = "CV"
         pageRef = "/cv/"
+        weight = 10
+
+    [[languages.en.menus.main]]
+        identifier = "about"
+        name = "About"
+        pageRef = "/about/"
         weight = 20
 
     [[languages.en.menus.main]]
@@ -194,7 +194,7 @@ enableGitInfo = true
         weight = 2
         contentDir = "content/tr"
         title = "Furkan Uysal"
-        copyright = "Furkan Uysal — [CC0 1.0 Evrensel](/tr/yasal/#lisans-cc0-10) · [Yasal](/yasal/) · [Arşiv](/arsiv/)"
+        copyright = "Furkan Uysal — [CC0 1.0 Evrensel](/tr/yasal/#lisans-cc0-10) · [Yasal](/yasal/) · [Arşiv](/tr/arsiv/)"
 
     [languages.tr.permalinks]
 
@@ -207,20 +207,20 @@ enableGitInfo = true
             tags       = "/etiketler/:slug/"
 
         [[languages.tr.menus.main]]
-            identifier = "hakkimda"
-            name = "Hakkımda"
-            pageRef = "/hakkimda/"
+            identifier = "cv"
+            name = "CV"
+            pageRef = "/cv/"
             weight = 10
 
         [[languages.tr.menus.main]]
-            identifier = "cv"
-            name = "CV"
-            url = "/tr/cv/"
+            identifier = "hakkimda"
+            name = "Hakkımda"
+            pageRef = "/hakkimda/"
             weight = 20
 
         [[languages.tr.menus.main]]
             identifier = "yazilar"
-            name = "Blog"
+            name = "Yazılar"
             pageRef = "/yazilar/"
             weight = 30
 
