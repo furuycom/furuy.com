@@ -12,14 +12,10 @@ date: "2021-08-29"
 #   disable: true
 # comments: false
 
-categories: 
-  - "Eklentiler"
 tags:
-  - "SponsorBlock"
-  - "YouTube"
-  - "Özgür Yazılım"
-  - "Mahremiyet"
   - "Tarayıcı Eklentileri"
+  - "YouTube"
+  - "Mahremiyet"
 
 # cover:
 #   image: "/assets/img/filename.webp"

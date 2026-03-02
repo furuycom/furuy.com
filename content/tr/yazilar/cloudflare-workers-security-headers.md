@@ -12,12 +12,9 @@ date: "2021-09-17"
 #   disable: true
 # comments: false
 
-categories: 
-  - "Web Yönetimi"
 tags:
   - "Cloudflare"
   - "Web Güvenliği"
-  - "Security Headers"
 
 # cover:
 #   image: "/assets/img/filename.webp"

@@ -12,13 +12,10 @@ lastmod: "2023-12-18"
 #   disable: true
 # comments: false
 
-categories: 
-  - "Uygulamalar"
 tags:
   - "YouTube"
   - "ReVanced"
   - "NewPipe"
-  - "Özgür Yazılım"
   - "Reklam Engelleme"
 
 # cover:

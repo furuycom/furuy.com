@@ -199,11 +199,11 @@ enableGitInfo = true
     [languages.tr.permalinks]
 
         [languages.tr.permalinks.taxonomy]
-            categories = "/kategoriler/"
+            #categories = "/kategoriler/"
             tags       = "/etiketler/"
 
         [languages.tr.permalinks.term]
-            categories = "/kategoriler/:slug/"
+            #categories = "/kategoriler/:slug/"
             tags       = "/etiketler/:slug/"
 
         [[languages.tr.menus.main]]

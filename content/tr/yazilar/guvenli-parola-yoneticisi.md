@@ -12,13 +12,10 @@ lastmod: "2023-07-06"
 #   disable: true
 # comments: false
 
-categories: 
-  - "Güvenlik"
 tags:
-  - "Parola Yöneticisi"
+  - "Siber Güvenlik"
   - "Bitwarden"
   - "KeePass"
-  - "Özgür Yazılım"
   - "2FA"
 
 # cover:

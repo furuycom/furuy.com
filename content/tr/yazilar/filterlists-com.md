@@ -12,12 +12,12 @@ lastmod: "2023-12-18"
 #   disable: true
 # comments: false
 
-categories: 
-  - "Eklentiler"
 tags:
+  - "Tarayıcı Eklentileri"
   - "Filtre Listeleri"
-  - "uBlock Origin"
   - "Reklam Engelleme"
+  - "Brave"
+  - "Firefox"
 
 # cover:
 #   image: "/assets/img/filename.webp"

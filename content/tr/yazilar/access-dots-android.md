@@ -12,11 +12,9 @@ lastmod: "2022-05-26"
 #   disable: true
 # comments: false
 
-categories: 
-  - "Mahremiyet"
-tags: 
-- Android
-- Uygulama İzinleri
+tags:
+  - Android
+  - Mahremiyet
 
 # cover:
 #   image: "/assets/img/filename.webp"
@@ -31,7 +29,7 @@ Access Dots, iOS 14 ile tanıtılan, kullanıcının gizliliğini geliştirmeyi 
 
 ## Android için Access Dots
 
-**Vigilante** isimli açık kaynak kodlu uygulama, **Access Dots** özelliğini [Android](/categories/android/)'de kullanabilmenizi sağlıyor. Uygulamayı, tamamen ücretsiz olarak F-Droid üzerinden yükleyebilirsiniz:
+**Vigilante** isimli açık kaynak kodlu uygulama, **Access Dots** özelliğini Android'de kullanabilmenizi sağlıyor. Uygulamayı, tamamen ücretsiz olarak F-Droid üzerinden yükleyebilirsiniz:
 
 https://f-droid.org/en/packages/com.crazylegend.vigilante/
 

@@ -12,12 +12,9 @@ lastmod: "2023-12-19"
 #   disable: true
 # comments: false
 
-categories: "Web Yönetimi"
 tags:
-  - "Çerez Politikası"
-  - "KVKK"
   - "GDPR"
-  - "WordPress"
+  - "KVKK"
   
 # cover:
 #   image: "/assets/img/filename.webp"

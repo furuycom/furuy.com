@@ -19,9 +19,7 @@ translationKey: "chromium-browser-language-linux"
 
 # comments: false
 
-# categories: ["..."]
-
-# tags: ["..."]
+tags: ["Linux", "Chromium", "Brave", "Flatpak"]
 
 # cover:
 

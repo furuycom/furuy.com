@@ -12,10 +12,7 @@ lastmod: "2025-02-21"
 #   disable: true
 # comments: false
 
-categories: 
-  - "İnternet & Özgürlük"
 tags:
-  - "Sansür"
   - "Erişim Engeli"
   - "Siber Güvenlik"
   - "VPN"

@@ -12,12 +12,9 @@ date: "2021-09-17"
 #   disable: true
 # comments: false
 
-categories: 
-  - "Web Yönetimi"
 tags:
   - "DNSSEC"
   - "Cloudflare"
-  - "GoDaddy"
   - "DNS"
 
 # cover:

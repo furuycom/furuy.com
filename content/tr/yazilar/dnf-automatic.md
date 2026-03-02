@@ -12,11 +12,10 @@ date: "2022-05-26"
 #   disable: true
 # comments: false
 
-categories: 
-  - "GNU/Linux"
 tags:
+  - "Linux"
   - "Fedora"
-  - "dnf"
+  - "DNF"
 
 # cover:
 #   image: "/assets/img/filename.webp"

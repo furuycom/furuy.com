@@ -12,8 +12,6 @@ date: "2025-03-10"
 #   disable: true
 # comments: false
 
-categories: 
-  - "Web Yönetimi"
 tags:
   - "Domain"
   - "DNSSEC"

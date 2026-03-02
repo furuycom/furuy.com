@@ -12,13 +12,12 @@ lastmod: "2025-03-18"
 #   disable: true
 # comments: false
 
-categories: 
-- "Güvenlik"
 tags:
+- "Siber Güvenlik"
 - "IMEI"
 - "Kaçak Telefon"
-- "Siber Güvenlik"
 - "Root"
+- "Android"
 
 # cover:
 #   image: "/assets/img/filename.webp"

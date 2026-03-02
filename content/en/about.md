@@ -13,7 +13,6 @@ hideMeta: true
 #   disable: true
 comments: false
 
-# categories: ["..."]
 # tags: ["..."]
 
 # cover:
@@ -23,7 +22,7 @@ comments: false
 
 # Hi, I am Furkan.
 
-I'm trying to create useful content related to [my interests](/categories/) on my blog.
+I'm trying to create useful content related to my interests on my blog.
 
 ## Links
 

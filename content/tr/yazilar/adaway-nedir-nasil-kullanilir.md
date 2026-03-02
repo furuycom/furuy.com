@@ -11,12 +11,9 @@ date: "2021-05-16"
 #   disable: true
 # comments: false
 
-categories: 
-  - "Android"
 tags:
-  - "AdAway"
+  - "Android"
   - "Reklam Engelleme"
-  - "Özgür Yazılım"
   - "Root"
 
 # cover:
@@ -29,7 +26,7 @@ aliases:
 
 ## AdAway Nedir?
 
-AdAway, [Android](/categories/android/) için en etkili reklam engelleme uygulamalarındandır. AdAway'i diğer reklam engelleyicilerden ayıran ana özelliği, root modudur. Root modu, sistemin hosts dosyasına eklemeler yaparak, reklam türevi istenmeyen web sitelerine bağlanılmasını engeller. **AdAway rootsuz** da çalışmaktadır ancak aynı işlevi gören NetGuard, AdGuard ve Blokada gibi birçok alternatifi de olduğu için bu yazıda root modu üzerine bilgi vereceğim. Root modu sayesinde, uygulamanın sürekli arka planda çalışarak pil tüketmesinin önüne geçebilir ve VPN kullanırken de reklamları engellemeye devam edebilirsiniz.
+AdAway, Android için en etkili reklam engelleme uygulamalarındandır. AdAway'i diğer reklam engelleyicilerden ayıran ana özelliği, root modudur. Root modu, sistemin hosts dosyasına eklemeler yaparak, reklam türevi istenmeyen web sitelerine bağlanılmasını engeller. **AdAway rootsuz** da çalışmaktadır ancak aynı işlevi gören NetGuard, AdGuard ve Blokada gibi birçok alternatifi de olduğu için bu yazıda root modu üzerine bilgi vereceğim. Root modu sayesinde, uygulamanın sürekli arka planda çalışarak pil tüketmesinin önüne geçebilir ve VPN kullanırken de reklamları engellemeye devam edebilirsiniz.
 
 ### AdAway'in Temel Özellikleri
 

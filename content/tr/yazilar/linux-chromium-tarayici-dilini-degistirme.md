@@ -13,8 +13,7 @@ translationKey: "chromium-browser-language-linux"
 #   disable: true
 # comments: false
 
-# categories: ["..."]
-# tags: ["..."]
+tags: ["Linux", "Chromium", "Brave", "Flatpak"]
 
 # cover:
 #   image: "/assets/img/filename.webp"

@@ -4,11 +4,70 @@
     <title>Brave on Furkan Uysal</title>
     <link>https://furuy.com/tr/etiketler/brave/</link>
     <description>Recent content in Brave on Furkan Uysal</description>
-    <generator>Hugo -- 0.156.0</generator>
+    <generator>Hugo -- 0.157.0</generator>
     <language>tr-TR</language>
     <copyright>Furkan Uysal — CC0 1.0 Evrensel · Yasal · Arşiv</copyright>
-    <lastBuildDate>Mon, 12 Jan 2026 15:43:42 +0300</lastBuildDate>
+    <lastBuildDate>Thu, 26 Feb 2026 13:41:09 +0300</lastBuildDate>
     <atom:link href="https://furuy.com/tr/etiketler/brave/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linux&#39;ta Chromium Tabanlı Tarayıcı Dilini Değiştirme</title>
+      <link>https://furuy.com/tr/yazilar/linux-chromium-tarayici-dilini-degistirme/</link>
+      <pubDate>Thu, 26 Feb 2026 00:00:00 +0300</pubDate>
+      <guid>https://furuy.com/tr/yazilar/linux-chromium-tarayici-dilini-degistirme/</guid>
+      <description>&lt;p&gt;Linux&amp;rsquo;ta Chromium tabanlı tarayıcılarda (Chrome, Brave vb.) tarayıcının arayüz dilini değiştirme seçeneği olmasa da bunu yapmak mümkün.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;1-tek-seferlik-cli&#34;&gt;1) Tek seferlik: CLI&lt;/h2&gt;
+&lt;p&gt;En pratik yöntem, tarayıcıyı çalıştırırken &lt;code&gt;LANGUAGE&lt;/code&gt; değişkenini vermek.&lt;/p&gt;
+&lt;p&gt;🇹🇷 &lt;strong&gt;Türkçe (TR)&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;LANGUAGE&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt;tr_TR:tr chromium-browser
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;🇺🇸 &lt;strong&gt;English (EN)&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;LANGUAGE&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt;en_US:en chromium-browser
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Sisteme göre komut adı farklı olabilir. Örnekler:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;chromium-browser&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;chromium&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;veya tam yol ile: &lt;code&gt;/usr/bin/chromium-browser&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Genel format:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;LANGUAGE&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt;hedef_dil /path/to/browser
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;lc_all-gerekli-mi&#34;&gt;&lt;code&gt;LC_ALL&lt;/code&gt; gerekli mi?&lt;/h3&gt;
+&lt;p&gt;Çoğu durumda gerekli değil. Eğer arayüzün bir kısmı eski dilde veya formatta kalıyorsa deneyebilirsiniz:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>FilterLists İle Yeni Reklam Engelleyici Filtreleri Bulun</title>
+      <link>https://furuy.com/tr/yazilar/filterlists-com/</link>
+      <pubDate>Mon, 03 May 2021 00:00:00 +0300</pubDate>
+      <guid>https://furuy.com/tr/yazilar/filterlists-com/</guid>
+      <description>&lt;p&gt;FilterLists; AdAway, uBlock Origin, Adguard ve Adblock Plus gibi araçlarda kullanabileceğiniz, reklam/zararlı yazılım/paywall/anti-adblock gibi birçok filtreyi bulabilmenizi sağlayan bir web sitesidir. Filtrelenebilen arşiv sayesinde, ihtiyacınıza yönelik filtreleri kolayca bulmanız mümkün.&lt;/p&gt;
+&lt;h2 id=&#34;filtreleme-yöntemleri&#34;&gt;Filtreleme Yöntemleri&lt;/h2&gt;
+&lt;h3 id=&#34;name&#34;&gt;Name&lt;/h3&gt;
+&lt;p&gt;Özel filtrenin adında geçen bir kelimeyi veya tam filtre adını arayabilirsiniz. Ok tuşları ile alfabetik sıralama da yapabilirsiniz.&lt;/p&gt;
+&lt;h3 id=&#34;description&#34;&gt;Description&lt;/h3&gt;
+&lt;p&gt;Filtrelerin açıklamalarında, filtre ile ilgili çok daha detaylı bilgiler verilir. Açıklamalarda arama yaparak da filtreleme yapmanız mümkün.&lt;/p&gt;
+&lt;h3 id=&#34;software&#34;&gt;Software&lt;/h3&gt;
+&lt;p&gt;Mevcut filtrenin desteklendiği yazılıma göre filtreleme yapabilirsiniz. Örnek: AdAway, Adblock Plus, Adguard&amp;hellip;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Brave Reklam Engelleyici Rehberi</title>
       <link>https://furuy.com/tr/yazilar/brave-browser-ozel-filtreler/</link>

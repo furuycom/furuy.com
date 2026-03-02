@@ -12,12 +12,8 @@ date: "2023-07-13"
 #   disable: true
 # comments: false
 
-categories: 
-  - "Güvenlik"
 tags:
-  - "Kimlik Doğrulama"
-  - "Biyometrik"
-  - "Parola Güvenliği"
+  - "Siber Güvenlik"
   - "Android"
 
 # cover:

@@ -4,11 +4,18 @@
     <title>Furkan Uysal</title>
     <link>https://furuy.com/tr/</link>
     <description>Recent content on Furkan Uysal</description>
-    <generator>Hugo -- 0.156.0</generator>
+    <generator>Hugo -- 0.157.0</generator>
     <language>tr-TR</language>
     <copyright>Furkan Uysal — CC0 1.0 Evrensel · Yasal · Arşiv</copyright>
-    <lastBuildDate>Thu, 26 Feb 2026 00:00:00 +0300</lastBuildDate>
+    <lastBuildDate>Mon, 02 Mar 2026 00:00:00 +0300</lastBuildDate>
     <atom:link href="https://furuy.com/tr/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Neden Brave Kullaniyorum</title>
+      <link>https://furuy.com/tr/yazilar/neden-brave-kullaniyorum/</link>
+      <pubDate>Mon, 02 Mar 2026 00:00:00 +0300</pubDate>
+      <guid>https://furuy.com/tr/yazilar/neden-brave-kullaniyorum/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Linux&#39;ta Chromium Tabanlı Tarayıcı Dilini Değiştirme</title>
       <link>https://furuy.com/tr/yazilar/linux-chromium-tarayici-dilini-degistirme/</link>
@@ -216,7 +223,7 @@
       <guid>https://furuy.com/tr/yazilar/firefox-neden-en-iyi-android-web-tarayicisi/</guid>
       <description>&lt;p&gt;Firefox, kullanmayanların ön yargıyla yaklaştığı, kullananların ise asla vazgeçemediği bir web tarayıcısı. Bu yazıda, Firefox&amp;rsquo;un neden en iyi Android web tarayıcısı olduğundan ve neden fazla &amp;ldquo;kullanılmadığından&amp;rdquo; bahsedeceğim.&lt;/p&gt;
 &lt;h2 id=&#34;google-firefoxtan-nefret-ediyor&#34;&gt;Google, Firefox&amp;rsquo;tan Nefret Ediyor&lt;/h2&gt;
-&lt;p&gt;Web&amp;rsquo;in bizzat kendisi olmak isteyen Google; kendi kullanıcılarını gizli sekmede bile takip eden, özgür bir yazılım olmayan Chrome tarayıcısının tek rakibine karşı, uzun zamandır adil olmayan bir savaş veriyor. Neredeyse tüm &lt;a href=&#34;https://furuy.com/tr/kategoriler/android/&#34;&gt;Android&lt;/a&gt; cihazlar, Google Chrome yüklü olarak geliyor ve ADB aracı kullanmak haricinde, kaldırmanıza da izin verilmiyor.&lt;/p&gt;</description>
+&lt;p&gt;Web&amp;rsquo;in bizzat kendisi olmak isteyen Google; kendi kullanıcılarını gizli sekmede bile takip eden, özgür bir yazılım olmayan Chrome tarayıcısının tek rakibine karşı, uzun zamandır adil olmayan bir savaş veriyor. Neredeyse tüm Android cihazlar, Google Chrome yüklü olarak geliyor ve ADB aracı kullanmak haricinde, kaldırmanıza da izin verilmiyor.&lt;/p&gt;</description>
     </item>
     <item>
       <title>WordPress Yönetici ve Giriş Güvenliği</title>
@@ -266,7 +273,7 @@
       <pubDate>Sun, 16 May 2021 00:00:00 +0300</pubDate>
       <guid>https://furuy.com/tr/yazilar/adaway-nedir-nasil-kullanilir/</guid>
       <description>&lt;h2 id=&#34;adaway-nedir&#34;&gt;AdAway Nedir?&lt;/h2&gt;
-&lt;p&gt;AdAway, &lt;a href=&#34;https://furuy.com/tr/kategoriler/android/&#34;&gt;Android&lt;/a&gt; için en etkili reklam engelleme uygulamalarındandır. AdAway&amp;rsquo;i diğer reklam engelleyicilerden ayıran ana özelliği, root modudur. Root modu, sistemin hosts dosyasına eklemeler yaparak, reklam türevi istenmeyen web sitelerine bağlanılmasını engeller. &lt;strong&gt;AdAway rootsuz&lt;/strong&gt; da çalışmaktadır ancak aynı işlevi gören NetGuard, AdGuard ve Blokada gibi birçok alternatifi de olduğu için bu yazıda root modu üzerine bilgi vereceğim. Root modu sayesinde, uygulamanın sürekli arka planda çalışarak pil tüketmesinin önüne geçebilir ve VPN kullanırken de reklamları engellemeye devam edebilirsiniz.&lt;/p&gt;</description>
+&lt;p&gt;AdAway, Android için en etkili reklam engelleme uygulamalarındandır. AdAway&amp;rsquo;i diğer reklam engelleyicilerden ayıran ana özelliği, root modudur. Root modu, sistemin hosts dosyasına eklemeler yaparak, reklam türevi istenmeyen web sitelerine bağlanılmasını engeller. &lt;strong&gt;AdAway rootsuz&lt;/strong&gt; da çalışmaktadır ancak aynı işlevi gören NetGuard, AdGuard ve Blokada gibi birçok alternatifi de olduğu için bu yazıda root modu üzerine bilgi vereceğim. Root modu sayesinde, uygulamanın sürekli arka planda çalışarak pil tüketmesinin önüne geçebilir ve VPN kullanırken de reklamları engellemeye devam edebilirsiniz.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Web Sitenize Çerezler Uyarısı Ekleyin (1 KB)</title>
@@ -305,7 +312,7 @@
       <description>&lt;p&gt;Access Dots, iOS 14 ile tanıtılan, kullanıcının gizliliğini geliştirmeyi amaçlayan yeni bir özellik. Bu özellik sayesinde, arka planda mikrofona veya kameraya erişilirse, ekranda renkli noktalar beliriyor. Her bir izin için farklı bir renk kullanıldığından, hangi iznin kullanıldığını kolayca anlayabiliyorsunuz.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;EKLEME (26.05.2022):&lt;/strong&gt; Android 12 ile birlikte, bu özelliği üçüncü taraf uygulamaya gerek olmadan kullanabilirsiniz. Detaylar için, Android&amp;rsquo;in resmi web sitesindeki bu bağlantıyı ziyaret edin: &lt;a href=&#34;https://source.android.com/devices/tech/config/privacy-indicators&#34;&gt;https://source.android.com/devices/tech/config/privacy-indicators&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;android-için-access-dots&#34;&gt;Android için Access Dots&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Vigilante&lt;/strong&gt; isimli açık kaynak kodlu uygulama, &lt;strong&gt;Access Dots&lt;/strong&gt; özelliğini &lt;a href=&#34;https://furuy.com/tr/kategoriler/android/&#34;&gt;Android&lt;/a&gt;&amp;lsquo;de kullanabilmenizi sağlıyor. Uygulamayı, tamamen ücretsiz olarak F-Droid üzerinden yükleyebilirsiniz:&lt;/p&gt;</description>
+&lt;p&gt;&lt;strong&gt;Vigilante&lt;/strong&gt; isimli açık kaynak kodlu uygulama, &lt;strong&gt;Access Dots&lt;/strong&gt; özelliğini Android&amp;rsquo;de kullanabilmenizi sağlıyor. Uygulamayı, tamamen ücretsiz olarak F-Droid üzerinden yükleyebilirsiniz:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Brave Reklam Engelleyici Rehberi</title>

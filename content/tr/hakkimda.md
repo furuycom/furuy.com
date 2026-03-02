@@ -13,7 +13,6 @@ hideMeta: true
 #   disable: true
 comments: false
 
-# categories: ["..."]
 # tags: ["..."]
 
 # cover:

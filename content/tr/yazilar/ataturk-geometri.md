@@ -12,9 +12,8 @@ lastmod: "2023-08-17"
 #   disable: true
 # comments: false
 
-categories: 
-  - "Kitap"
 tags:
+  - "Kitap"
   - "Atatürk"
   - "Geometri"
 

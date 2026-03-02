@@ -12,12 +12,9 @@ date: "2021-08-02"
 #   disable: true
 # comments: false
 
-categories: 
-  - "Uygulamalar"
 tags:
   - "Firefox"
   - "Android"
-  - "Özgür Yazılım"
   - "Tarayıcı Eklentileri"
   - "Mahremiyet"
 
@@ -32,7 +29,7 @@ Firefox, kullanmayanların ön yargıyla yaklaştığı, kullananların ise asla
 
 ## Google, Firefox'tan Nefret Ediyor
 
-Web'in bizzat kendisi olmak isteyen Google; kendi kullanıcılarını gizli sekmede bile takip eden, özgür bir yazılım olmayan Chrome tarayıcısının tek rakibine karşı, uzun zamandır adil olmayan bir savaş veriyor. Neredeyse tüm [Android](/categories/android/) cihazlar, Google Chrome yüklü olarak geliyor ve ADB aracı kullanmak haricinde, kaldırmanıza da izin verilmiyor.
+Web'in bizzat kendisi olmak isteyen Google; kendi kullanıcılarını gizli sekmede bile takip eden, özgür bir yazılım olmayan Chrome tarayıcısının tek rakibine karşı, uzun zamandır adil olmayan bir savaş veriyor. Neredeyse tüm Android cihazlar, Google Chrome yüklü olarak geliyor ve ADB aracı kullanmak haricinde, kaldırmanıza da izin verilmiyor.
 
 Bir başka örnek ise, Google'ın kendi hizmetlerini, kasıtlı olarak Firefox kullanıcılarının kullanım deneyimi düşürecek şekilde sunması. Aşağıdaki görselin sağında görebileceğiniz gibi Google, Firefox Android tarayıcısında çok farklı ve eski görünüyor.
 

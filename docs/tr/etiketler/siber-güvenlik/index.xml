@@ -4,7 +4,7 @@
     <title>Siber Güvenlik on Furkan Uysal</title>
     <link>https://furuy.com/tr/etiketler/siber-g%C3%BCvenlik/</link>
     <description>Recent content in Siber Güvenlik on Furkan Uysal</description>
-    <generator>Hugo -- 0.156.0</generator>
+    <generator>Hugo -- 0.157.0</generator>
     <language>tr-TR</language>
     <copyright>Furkan Uysal — CC0 1.0 Evrensel · Yasal · Arşiv</copyright>
     <lastBuildDate>Mon, 12 Jan 2026 15:43:42 +0300</lastBuildDate>
@@ -24,6 +24,58 @@
       <pubDate>Fri, 21 Feb 2025 00:00:00 +0300</pubDate>
       <guid>https://furuy.com/tr/yazilar/erisim-engellerinin-zararlari/</guid>
       <description>&lt;p&gt;Günümüzde internet, bilgiye erişim, iletişim ve ifade özgürlüğü gibi temel hakların vazgeçilmez bir parçası haline gelmiştir. Ancak, son zamanlarda Instagram ve Discord gibi popüler platformlara uygulanan erişim engelleri, dijital özgürlükleri kısıtlamanın yanı sıra ulusal siber güvenliği de ciddi şekilde tehdit etmektedir. Bu tür engeller, kullanıcıları alternatif ve genellikle daha az güvenli yöntemlere yönelterek siber güvenlik risklerini artırmaktadır. Bu makalede, erişim engellerinin yarattığı siber güvenlik açıklarını ve çözüm önerilerini detaylı bir şekilde ele alacağım.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Güvenli Android Doğrulama Yöntemleri (Parola, Biyometrik vs.)</title>
+      <link>https://furuy.com/tr/yazilar/guvenli-android-dogrulama-yontemleri/</link>
+      <pubDate>Thu, 13 Jul 2023 00:00:00 +0300</pubDate>
+      <guid>https://furuy.com/tr/yazilar/guvenli-android-dogrulama-yontemleri/</guid>
+      <description>&lt;p&gt;Bu yazıda, Android cihazlardaki giriş/doğrulama yöntemlerinin ne kadar güvenli olduğundan ve güncel bilgiler ışığında nasıl bir tercih yapmanız gerektiğinden bahsedeceğim.&lt;/p&gt;
+&lt;h2 id=&#34;ekran-kilidi-belirleyin&#34;&gt;Ekran Kilidi Belirleyin&lt;/h2&gt;
+&lt;p&gt;Öncelikle, mutlaka bir ekran kilidi belirlemeniz ve bunlardan da en güvenlisini seçmeniz gerekiyor.&lt;/p&gt;
+&lt;h3 id=&#34;pin-ve-desen-kilidi-kullanmayın&#34;&gt;PIN ve Desen Kilidi Kullanmayın&lt;/h3&gt;
+&lt;p&gt;PIN ve desen (pattern) kilidi yöntemlerini güvenli olmadıkları için eliyoruz. Bunları kullanmanız kesinlikle önerilmiyor.&lt;/p&gt;
+&lt;h3 id=&#34;biyometrik-ekran-kilidi-yöntemleri-neden-kullanılmamalı&#34;&gt;Biyometrik Ekran Kilidi Yöntemleri Neden Kullanılmamalı?&lt;/h3&gt;
+&lt;p&gt;Yüz tanıma kilidi, hâlâ en güvensiz yöntemlerden birisi. Bugün bile birçok akıllı telefon markası, müşterilerine genellikle de kurulum sırasında yüz tanıma kilidinin diğer yöntemlerden daha güvensiz olduğunu vurguluyor.[1] Dolayısıyla yüz tanıma kilidi kullanmanız da önerilmiyor.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Password Aging (Parola Eskitme) Riskleri</title>
+      <link>https://furuy.com/tr/yazilar/password-aging/</link>
+      <pubDate>Thu, 23 Dec 2021 00:00:00 +0300</pubDate>
+      <guid>https://furuy.com/tr/yazilar/password-aging/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Password aging&lt;/strong&gt; veya Türkçeye &amp;ldquo;&lt;strong&gt;parola eskitme&lt;/strong&gt;&amp;rdquo; olarak çevrilebilecek güvenlik mekanizması, kullanıcıların uzun zaman boyunca aynı parolayı kullanmalarını engeller. Sistem yöneticileri tarafından belirlenen zaman aralığında (password expiration policy), kullanıcılardan yeni bir parola oluşturmaları istenir. Bu yöntem her ne kadar güvenliği artırabiliyor olsa da, durumu tam tersine de çevirebilir. Bu yazıda, okuduğunuz özette kısaca bahsettiğim konuları biraz daha detaylandırmaya çalışacağım.&lt;/p&gt;
+&lt;h2 id=&#34;password-aging-neden-bir-standart-oldu&#34;&gt;Password Aging Neden Bir Standart Oldu?&lt;/h2&gt;
+&lt;p&gt;Tahminime göre bunun en büyük nedeni, zamanında parolaların hashlenmiş olarak değil de, düz metin (plain text) olarak veri tabanlarında saklanmasıydı. Dolayısıyla herhangi bir veri tabanı sızıntısı olduğunda, herkesin parolası apaçık ortaya çıkıyordu. O zamanın teknolojisine göre de bu parolaların hackerlar tarafından kötü amaçlarla kullanılma süresi 90 gün olarak belirlenmiş ve standartlaşarak, üç ayda bir parolanın değiştirilmesinin uygun olacağı düşünülmüş.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Custom ROM Kullanmak Güvenli Mi?</title>
+      <link>https://furuy.com/tr/yazilar/custom-rom-kullanmak-guvenli-mi/</link>
+      <pubDate>Mon, 26 Jul 2021 00:00:00 +0300</pubDate>
+      <guid>https://furuy.com/tr/yazilar/custom-rom-kullanmak-guvenli-mi/</guid>
+      <description>&lt;p&gt;Custom ROM&amp;rsquo;lar, birçok olumlu getirileri ile Android kullanıcıları tarafından tercih edilebiliyorlar. Bu getirilerden bazıları şunlar:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Mahremiyetinizi (yanlış bilinen tabiriyle gizliliğinizi) korumak için daha iyi bir tercihtir.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Gereksiz sistem uygulamaları olmaz veya daha az olur.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Daha fazla özelleştirme ve kişiselleştirme imkanı sunar.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Daha hafif olurlar. Bu nedenle de, pil ve RAM kullanımı daha az olur.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Kısacası insanlar, haklı olarak, satın aldıkları ürünlerden tam verimi alabilmek için Custom ROM kullanıyorlar. Peki ya bu Custom ROM&amp;rsquo;lar ne kadar güvenli? Bu yazıda, bir Custom ROM kullanmadan önce dikkat etmeniz gereken güvenlik kriterlerinden bahsedeceğim.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Parola Yöneticileri İçin Güvenlik Tavsiyeleri</title>
+      <link>https://furuy.com/tr/yazilar/guvenli-parola-yoneticisi/</link>
+      <pubDate>Tue, 30 Mar 2021 00:00:00 +0300</pubDate>
+      <guid>https://furuy.com/tr/yazilar/guvenli-parola-yoneticisi/</guid>
+      <description>&lt;p&gt;Parola yöneticilerinin önemi günden güne daha iyi anlaşılmaktadır. Güvenlik amacıyla kullanılan bu araçlar, tehlikeli de olabilirler. Bu araçlar bilinçsiz veya tedbirsiz kullanılırsa, kullanıcının internetteki tüm varlığı, kötü niyetli kişilere altın tepside sunulmuş olur. Bu tür istenmeyen durumlardan kaçınmak için bu rehberi dikkatli bir şekilde okuyup, tavsiyeleri uygulamanızı ve konu hakkındaki bilgilerinizin güncel kalması için de siber güvenlik alanında yetkin kaynaklarını takip etmenizi öneririm.&lt;/p&gt;
+&lt;p&gt;Yazıya geçmeden, konu hakkında deneyimli kişilerin bile sıklıkla yaptığı bir yanlış kullanımı da düzelteyim: İnternette, giriş yaparken veya kayıt olurken yazdığınız şeye &amp;ldquo;şifre&amp;rdquo; değil, &amp;ldquo;parola&amp;rdquo; denir. Bu yüzden de &amp;ldquo;şifre yöneticisi&amp;rdquo; yerine, doğru kullanım olan &amp;ldquo;&lt;strong&gt;parola yöneticisi&lt;/strong&gt;&amp;rdquo; sözcüğünü kullanacağım.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

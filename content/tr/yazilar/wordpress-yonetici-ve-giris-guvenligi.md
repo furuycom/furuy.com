@@ -12,13 +12,9 @@ date: "2021-08-02"
 #   disable: true
 # comments: false
 
-categories: 
-  - "Web Yönetimi"
 tags:
   - "WordPress"
   - "Web Güvenliği"
-  - ".htaccess"
-  - "Brute Force"
 
 # cover:
 #   image: "/assets/img/filename.webp"

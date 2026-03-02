@@ -12,13 +12,12 @@ date: "2021-07-26"
 #   disable: true
 # comments: false
 
-categories: 
-  - "Android"
 tags:
+  - "Android"
+  - "Siber Güvenlik"
   - "Custom ROM"
   - "GrapheneOS"
   - "LineageOS"
-  - "Özgür Yazılım"
 
 # cover:
 #   image: "/assets/img/filename.webp"
@@ -59,7 +58,7 @@ Nasıl ki bilgisayarınıza, herhangi bir web sitesinden indirdiğiniz ISO dosya
 
 Her yazılım, güncel olmalıdır çünkü güncel olmayan sürümler güvenlik açıkları barındırır. Bu açıklar ve potansiyel riskler de, güncellemeler ile kapatılır. Kullandığınız Android sürümünün güncel olması, güvenliğinizi sağlayacak en temel kriterlerden bir tanesidir. Bu nedenle, satın alacağınız cihazın kaç sürüm Android güncellemesi ve kaç yıl güvenlik güncellemesi alacağını araştırın. Güncelleme desteği konusundaki en iyi cihazlar, Android'in de yaratıcısı ve geliştirici olan Google'a ait cihazlar. Google, Pixel 6 cihazlarının en az 5 yıl boyunca Android ve güvenlik güncellemeleri alacağının garantisini veriyor. [1] Google'dan sonra bu konuda en iyi firma, şu an için Samsung.
 
-Evet, yalnızca [Android](/categories/android/) sürümünün güncel olması da yeterli değil. Google, her ay Android için güvenlik güncellemeleri yayınlıyor. Kullanacağınız ROM'un bu güncellemeleri düzenli olarak aldığından emin olun. (Detaylı bilgi için: [Bağlantı 1](https://support.google.com/android/answer/7680439?hl=tr) - [Bağlantı 2](https://source.android.com/security/bulletin))
+Evet, yalnızca Android sürümünün güncel olması da yeterli değil. Google, her ay Android için güvenlik güncellemeleri yayınlıyor. Kullanacağınız ROM'un bu güncellemeleri düzenli olarak aldığından emin olun. (Detaylı bilgi için: [Bağlantı 1](https://support.google.com/android/answer/7680439?hl=tr) - [Bağlantı 2](https://source.android.com/security/bulletin))
 
 ## Verified Boot
 

@@ -12,8 +12,6 @@ lastmod: "2023-12-19"
 #   disable: true
 # comments: false
 
-categories: 
-  - "Uygulamalar"
 tags:
   - "Brave"
   - "Reklam Engelleme"

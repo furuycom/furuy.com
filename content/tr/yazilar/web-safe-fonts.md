@@ -12,10 +12,7 @@ lastmod: "2023-12-18"
 #   disable: true
 # comments: false
 
-categories: 
-  - "Web Yönetimi"
 tags:
-  - "Web Safe Fonts"
   - "Performans"
   - "Tipografi"
 

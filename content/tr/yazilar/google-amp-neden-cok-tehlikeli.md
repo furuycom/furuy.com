@@ -12,12 +12,9 @@ date: "2021-07-22"
 #   disable: true
 # comments: false
 
-categories: 
-  - "İnternet & Özgürlük"
 tags:
   - "AMP"
   - "Google"
-  - "Web Standartları"
   - "SEO"
   - "Mahremiyet"
 

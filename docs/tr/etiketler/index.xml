@@ -4,10 +4,45 @@
     <title>Etiketler on Furkan Uysal</title>
     <link>https://furuy.com/tr/etiketler/</link>
     <description>Recent content in Etiketler on Furkan Uysal</description>
-    <generator>Hugo -- 0.156.0</generator>
+    <generator>Hugo -- 0.157.0</generator>
     <language>tr-TR</language>
     <copyright>Furkan Uysal — CC0 1.0 Evrensel · Yasal · Arşiv</copyright>
     <atom:link href="https://furuy.com/tr/etiketler/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Brave</title>
+      <link>https://furuy.com/tr/etiketler/brave/</link>
+      <pubDate>Thu, 26 Feb 2026 00:00:00 +0300</pubDate>
+      <guid>https://furuy.com/tr/etiketler/brave/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Chromium</title>
+      <link>https://furuy.com/tr/etiketler/chromium/</link>
+      <pubDate>Thu, 26 Feb 2026 00:00:00 +0300</pubDate>
+      <guid>https://furuy.com/tr/etiketler/chromium/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Flatpak</title>
+      <link>https://furuy.com/tr/etiketler/flatpak/</link>
+      <pubDate>Thu, 26 Feb 2026 00:00:00 +0300</pubDate>
+      <guid>https://furuy.com/tr/etiketler/flatpak/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Linux</title>
+      <link>https://furuy.com/tr/etiketler/linux/</link>
+      <pubDate>Thu, 26 Feb 2026 00:00:00 +0300</pubDate>
+      <guid>https://furuy.com/tr/etiketler/linux/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Android</title>
+      <link>https://furuy.com/tr/etiketler/android/</link>
+      <pubDate>Tue, 18 Mar 2025 00:00:00 +0300</pubDate>
+      <guid>https://furuy.com/tr/etiketler/android/</guid>
+      <description></description>
+    </item>
     <item>
       <title>IMEI</title>
       <link>https://furuy.com/tr/etiketler/imei/</link>
@@ -79,13 +114,6 @@
       <description></description>
     </item>
     <item>
-      <title>Sansür</title>
-      <link>https://furuy.com/tr/etiketler/sans%C3%BCr/</link>
-      <pubDate>Fri, 21 Feb 2025 00:00:00 +0300</pubDate>
-      <guid>https://furuy.com/tr/etiketler/sans%C3%BCr/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>VPN</title>
       <link>https://furuy.com/tr/etiketler/vpn/</link>
       <pubDate>Fri, 21 Feb 2025 00:00:00 +0300</pubDate>
@@ -107,35 +135,14 @@
       <description></description>
     </item>
     <item>
-      <title>Android</title>
-      <link>https://furuy.com/tr/etiketler/android/</link>
-      <pubDate>Thu, 13 Jul 2023 00:00:00 +0300</pubDate>
-      <guid>https://furuy.com/tr/etiketler/android/</guid>
+      <title>Kitap</title>
+      <link>https://furuy.com/tr/etiketler/kitap/</link>
+      <pubDate>Thu, 17 Aug 2023 00:00:00 +0300</pubDate>
+      <guid>https://furuy.com/tr/etiketler/kitap/</guid>
       <description></description>
     </item>
     <item>
-      <title>Biyometrik</title>
-      <link>https://furuy.com/tr/etiketler/biyometrik/</link>
-      <pubDate>Thu, 13 Jul 2023 00:00:00 +0300</pubDate>
-      <guid>https://furuy.com/tr/etiketler/biyometrik/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Kimlik Doğrulama</title>
-      <link>https://furuy.com/tr/etiketler/kimlik-do%C4%9Frulama/</link>
-      <pubDate>Thu, 13 Jul 2023 00:00:00 +0300</pubDate>
-      <guid>https://furuy.com/tr/etiketler/kimlik-do%C4%9Frulama/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Parola Güvenliği</title>
-      <link>https://furuy.com/tr/etiketler/parola-g%C3%BCvenli%C4%9Fi/</link>
-      <pubDate>Thu, 13 Jul 2023 00:00:00 +0300</pubDate>
-      <guid>https://furuy.com/tr/etiketler/parola-g%C3%BCvenli%C4%9Fi/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Dnf</title>
+      <title>DNF</title>
       <link>https://furuy.com/tr/etiketler/dnf/</link>
       <pubDate>Thu, 26 May 2022 00:00:00 +0300</pubDate>
       <guid>https://furuy.com/tr/etiketler/dnf/</guid>
@@ -153,13 +160,6 @@
       <link>https://furuy.com/tr/etiketler/newpipe/</link>
       <pubDate>Sat, 16 Apr 2022 00:00:00 +0300</pubDate>
       <guid>https://furuy.com/tr/etiketler/newpipe/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Özgür Yazılım</title>
-      <link>https://furuy.com/tr/etiketler/%C3%B6zg%C3%BCr-yaz%C4%B1l%C4%B1m/</link>
-      <pubDate>Sat, 16 Apr 2022 00:00:00 +0300</pubDate>
-      <guid>https://furuy.com/tr/etiketler/%C3%B6zg%C3%BCr-yaz%C4%B1l%C4%B1m/</guid>
       <description></description>
     </item>
     <item>
@@ -191,20 +191,6 @@
       <description></description>
     </item>
     <item>
-      <title>GoDaddy</title>
-      <link>https://furuy.com/tr/etiketler/godaddy/</link>
-      <pubDate>Fri, 17 Sep 2021 00:00:00 +0300</pubDate>
-      <guid>https://furuy.com/tr/etiketler/godaddy/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Security Headers</title>
-      <link>https://furuy.com/tr/etiketler/security-headers/</link>
-      <pubDate>Fri, 17 Sep 2021 00:00:00 +0300</pubDate>
-      <guid>https://furuy.com/tr/etiketler/security-headers/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Performans</title>
       <link>https://furuy.com/tr/etiketler/performans/</link>
       <pubDate>Wed, 08 Sep 2021 00:00:00 +0300</pubDate>
@@ -219,13 +205,6 @@
       <description></description>
     </item>
     <item>
-      <title>Web Safe Fonts</title>
-      <link>https://furuy.com/tr/etiketler/web-safe-fonts/</link>
-      <pubDate>Wed, 08 Sep 2021 00:00:00 +0300</pubDate>
-      <guid>https://furuy.com/tr/etiketler/web-safe-fonts/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Mahremiyet</title>
       <link>https://furuy.com/tr/etiketler/mahremiyet/</link>
       <pubDate>Sun, 29 Aug 2021 00:00:00 +0300</pubDate>
@@ -233,31 +212,10 @@
       <description></description>
     </item>
     <item>
-      <title>SponsorBlock</title>
-      <link>https://furuy.com/tr/etiketler/sponsorblock/</link>
-      <pubDate>Sun, 29 Aug 2021 00:00:00 +0300</pubDate>
-      <guid>https://furuy.com/tr/etiketler/sponsorblock/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Tarayıcı Eklentileri</title>
       <link>https://furuy.com/tr/etiketler/taray%C4%B1c%C4%B1-eklentileri/</link>
       <pubDate>Sun, 29 Aug 2021 00:00:00 +0300</pubDate>
       <guid>https://furuy.com/tr/etiketler/taray%C4%B1c%C4%B1-eklentileri/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>.Htaccess</title>
-      <link>https://furuy.com/tr/etiketler/.htaccess/</link>
-      <pubDate>Mon, 02 Aug 2021 00:00:00 +0300</pubDate>
-      <guid>https://furuy.com/tr/etiketler/.htaccess/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Brute Force</title>
-      <link>https://furuy.com/tr/etiketler/brute-force/</link>
-      <pubDate>Mon, 02 Aug 2021 00:00:00 +0300</pubDate>
-      <guid>https://furuy.com/tr/etiketler/brute-force/</guid>
       <description></description>
     </item>
     <item>
@@ -317,27 +275,6 @@
       <description></description>
     </item>
     <item>
-      <title>Web Standartları</title>
-      <link>https://furuy.com/tr/etiketler/web-standartlar%C4%B1/</link>
-      <pubDate>Thu, 22 Jul 2021 00:00:00 +0300</pubDate>
-      <guid>https://furuy.com/tr/etiketler/web-standartlar%C4%B1/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>AdAway</title>
-      <link>https://furuy.com/tr/etiketler/adaway/</link>
-      <pubDate>Sun, 16 May 2021 00:00:00 +0300</pubDate>
-      <guid>https://furuy.com/tr/etiketler/adaway/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Çerez Politikası</title>
-      <link>https://furuy.com/tr/etiketler/%C3%A7erez-politikas%C4%B1/</link>
-      <pubDate>Sun, 09 May 2021 00:00:00 +0300</pubDate>
-      <guid>https://furuy.com/tr/etiketler/%C3%A7erez-politikas%C4%B1/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>GDPR</title>
       <link>https://furuy.com/tr/etiketler/gdpr/</link>
       <pubDate>Sun, 09 May 2021 00:00:00 +0300</pubDate>
@@ -359,27 +296,6 @@
       <description></description>
     </item>
     <item>
-      <title>UBlock Origin</title>
-      <link>https://furuy.com/tr/etiketler/ublock-origin/</link>
-      <pubDate>Mon, 03 May 2021 00:00:00 +0300</pubDate>
-      <guid>https://furuy.com/tr/etiketler/ublock-origin/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Uygulama İzinleri</title>
-      <link>https://furuy.com/tr/etiketler/uygulama-izinleri/</link>
-      <pubDate>Fri, 30 Apr 2021 00:00:00 +0300</pubDate>
-      <guid>https://furuy.com/tr/etiketler/uygulama-izinleri/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Brave</title>
-      <link>https://furuy.com/tr/etiketler/brave/</link>
-      <pubDate>Fri, 16 Apr 2021 00:00:00 +0300</pubDate>
-      <guid>https://furuy.com/tr/etiketler/brave/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>2FA</title>
       <link>https://furuy.com/tr/etiketler/2fa/</link>
       <pubDate>Tue, 30 Mar 2021 00:00:00 +0300</pubDate>
@@ -398,13 +314,6 @@
       <link>https://furuy.com/tr/etiketler/keepass/</link>
       <pubDate>Tue, 30 Mar 2021 00:00:00 +0300</pubDate>
       <guid>https://furuy.com/tr/etiketler/keepass/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Parola Yöneticisi</title>
-      <link>https://furuy.com/tr/etiketler/parola-y%C3%B6neticisi/</link>
-      <pubDate>Tue, 30 Mar 2021 00:00:00 +0300</pubDate>
-      <guid>https://furuy.com/tr/etiketler/parola-y%C3%B6neticisi/</guid>
       <description></description>
     </item>
   </channel>

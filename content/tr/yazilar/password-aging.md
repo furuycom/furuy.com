@@ -12,11 +12,8 @@ lastmod: "2023-12-18"
 #   disable: true
 # comments: false
 
-categories: 
-  - "Güvenlik"
 tags:
-  - "Parola Güvenliği"
-  - "Kimlik Doğrulama"
+  - "Siber Güvenlik"
 
 # cover:
 #   image: "/assets/img/filename.webp"
