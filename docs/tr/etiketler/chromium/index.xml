@@ -10,6 +10,17 @@
     <lastBuildDate>Mon, 02 Mar 2026 23:39:50 +0300</lastBuildDate>
     <atom:link href="https://furuy.com/tr/etiketler/chromium/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Neden Brave Kullanıyorum?</title>
+      <link>https://furuy.com/tr/yazilar/neden-brave-kullaniyorum/</link>
+      <pubDate>Mon, 02 Mar 2026 00:00:00 +0300</pubDate>
+      <guid>https://furuy.com/tr/yazilar/neden-brave-kullaniyorum/</guid>
+      <description>&lt;p&gt;2021 yılında &lt;a href=&#34;https://furuy.com/tr/yazilar/firefox-neden-en-iyi-android-web-tarayicisi/&#34;&gt;&amp;ldquo;Firefox Neden En İyi Android Web Tarayıcısı?&amp;rdquo;&lt;/a&gt; adında bir yazı yazmış olsam da, tahminen 2022 yılından beri Brave kullanıyorum. Firefox&amp;rsquo;tan soğumam için pek çok sebebim var ama şu haber, kullanıcılarına ve geliştiricilerine ne kadar değer verdiklerini tek başına özetliyor:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.reddit.com/r/firefox/comments/1fsyprb/mozilla_removes_ublock_origin_lite_from_addon/&#34;&gt;Mozilla removes uBlock Origin Lite from Addon store. Developer stops developing Lite for Firefox; &amp;ldquo;it&amp;rsquo;s worrisome what could happen to uBO in the future.&amp;rdquo;&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Bu yazıda Chromium tabanlı diğer tarayıcılar yerine neden Brave&amp;rsquo;i tercih ettiğimi anlatacağım.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Linux&#39;ta Chromium Tabanlı Tarayıcı Dilini Değiştirme</title>
       <link>https://furuy.com/tr/yazilar/linux-chromium-tarayici-dilini-degistirme/</link>
       <pubDate>Thu, 26 Feb 2026 00:00:00 +0300</pubDate>
