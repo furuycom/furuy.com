@@ -20,7 +20,6 @@ tags:
 #   image: "/assets/img/filename.webp"
 
 aliases:
-  - /guvenli-android-dogrulama-yontemleri/
   - /yazilar/guvenli-android-dogrulama-yontemleri/
 ---
 

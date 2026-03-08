@@ -20,7 +20,6 @@ tags:
 #   image: "/assets/img/filename.webp"
 
 aliases:
-  - /web-safe-fonts/
   - /yazilar/web-safe-fonts/
 ---
 

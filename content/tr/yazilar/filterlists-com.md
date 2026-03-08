@@ -23,7 +23,6 @@ tags:
 #   image: "/assets/img/filename.webp"
 
 aliases:
-  - /filterlists-com/
   - /yazilar/filterlists-com/
 ---
 

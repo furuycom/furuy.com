@@ -20,7 +20,6 @@ tags:
 #   image: "/assets/img/filename.webp"
 
 aliases:
-  - /adaway-nedir-nasil-kullanilir/
   - /yazilar/adaway-nedir-nasil-kullanilir/
 ---
 

@@ -20,7 +20,6 @@ tags:
 #   image: "/assets/img/filename.webp"
 
 aliases:
-  - /wordpress-yonetici-ve-giris-guvenligi/
   - /yazilar/wordpress-yonetici-ve-giris-guvenligi/
 ---
 

@@ -23,7 +23,6 @@ tags:
 #   image: "/assets/img/filename.webp"
 
 aliases:
-  - /custom-rom-kullanmak-guvenli-mi/
   - /yazilar/custom-rom-kullanmak-guvenli-mi/
 ---
 

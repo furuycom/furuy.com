@@ -22,7 +22,6 @@ tags:
 #   image: "/assets/img/filename.webp"
 
 aliases:
-  - /guvenli-parola-yoneticisi/
   - /yazilar/guvenli-parola-yoneticisi/
 ---
 

@@ -22,7 +22,6 @@ tags:
 #   image: "/assets/img/filename.webp"
 
 aliases:
-  - /domain-firmasi-secimi-rehberi/
   - /yazilar/domain-firmasi-secimi-rehberi/
 ---
 

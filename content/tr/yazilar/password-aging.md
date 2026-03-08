@@ -19,7 +19,6 @@ tags:
 #   image: "/assets/img/filename.webp"
 
 aliases:
-  - /password-aging/
   - /yazilar/password-aging/
 ---
 

@@ -22,7 +22,6 @@ tags:
 #   image: "/assets/img/filename.webp"
 
 aliases:
-  - /erisim-engellerinin-zararlari/
   - /yazilar/erisim-engellerinin-zararlari/
 ---
 

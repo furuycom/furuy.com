@@ -22,7 +22,6 @@ tags:
 #   image: "/assets/img/filename.webp"
 
 aliases:
-  - /youtube-vanced-alternatifleri/
   - /yazilar/youtube-vanced-alternatifleri/
 ---
 

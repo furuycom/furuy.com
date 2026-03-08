@@ -21,7 +21,6 @@ tags:
 #   image: "/assets/img/filename.webp"
 
 aliases:
-  - /sponsorblock-guvenli-mi/
   - /yazilar/sponsorblock-guvenli-mi/
 ---
 

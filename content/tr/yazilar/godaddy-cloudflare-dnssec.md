@@ -21,7 +21,6 @@ tags:
 #   image: "/assets/img/filename.webp"
 
 aliases:
-  - /godaddy-cloudflare-dnssec/
   - /yazilar/godaddy-cloudflare-dnssec/
 ---
 

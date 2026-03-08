@@ -20,7 +20,6 @@ tags:
 #   image: "/assets/img/filename.webp"
 
 aliases:
-  - /cerezler-uyarisi-ekleme/
   - /yazilar/cerezler-uyarisi-ekleme/
 ---
 

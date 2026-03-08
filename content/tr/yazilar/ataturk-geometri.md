@@ -21,7 +21,6 @@ tags:
 #   image: "/assets/img/filename.webp"
 
 aliases:
-  - /ataturk-geometri/
   - /yazilar/ataturk-geometri/
 ---
 

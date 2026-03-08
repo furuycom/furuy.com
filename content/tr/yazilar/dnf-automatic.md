@@ -21,7 +21,6 @@ tags:
 #   image: "/assets/img/filename.webp"
 
 aliases:
-  - /dnf-automatic/
   - /yazilar/dnf-automatic/
 ---
 

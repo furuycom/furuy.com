@@ -20,7 +20,6 @@ tags:
 #   image: "/assets/img/filename.webp"
 
 aliases:
-  - /access-dots-android/
   - /yazilar/access-dots-android/
 ---
 

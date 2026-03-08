@@ -22,7 +22,6 @@ tags:
 #   image: "/assets/img/filename.webp"
 
 aliases:
-  - /brave-browser-ozel-filtreler/
   - /yazilar/brave-browser-ozel-filtreler/
 ---
 

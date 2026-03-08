@@ -22,7 +22,6 @@ tags:
 #   image: "/assets/img/filename.webp"
 
 aliases:
-  - /google-amp-neden-cok-tehlikeli/
   - /yazilar/google-amp-neden-cok-tehlikeli/
 ---
 

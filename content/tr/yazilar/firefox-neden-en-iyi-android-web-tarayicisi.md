@@ -22,7 +22,6 @@ tags:
 #   image: "/assets/img/filename.webp"
 
 aliases:
-  - /firefox-neden-en-iyi-android-web-tarayicisi/
   - /yazilar/firefox-neden-en-iyi-android-web-tarayicisi/
 ---
 

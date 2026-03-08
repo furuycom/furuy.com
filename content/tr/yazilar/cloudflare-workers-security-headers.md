@@ -20,7 +20,6 @@ tags:
 #   image: "/assets/img/filename.webp"
 
 aliases:
-  - /cloudflare-workers-security-headers/
   - /yazilar/cloudflare-workers-security-headers/
 ---
 
