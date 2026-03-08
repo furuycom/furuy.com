@@ -9,6 +9,17 @@
     <copyright>Furkan Uysal — CC0 1.0 Universal · Legal · Archive</copyright>
     <atom:link href="https://furuy.com/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Why I Use Brave</title>
+      <link>https://furuy.com/why-i-use-brave/</link>
+      <pubDate>Sun, 08 Mar 2026 00:00:00 +0300</pubDate>
+      <guid>https://furuy.com/why-i-use-brave/</guid>
+      <description>&lt;p&gt;Back in 2021, I wrote an article titled &lt;a href=&#34;https://furuy.com/tr/firefox-neden-en-iyi-android-web-tarayicisi/&#34;&gt;Why Firefox Is the Best Android Web Browser&lt;/a&gt; (in Turkish). But I&amp;rsquo;ve been using Brave since around 2022. There are many reasons why I moved away from Firefox, but this story alone says enough:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.reddit.com/r/firefox/comments/1fsyprb/mozilla_removes_ublock_origin_lite_from_addon/&#34;&gt;Mozilla removes uBlock Origin Lite from Addon store. Developer stops developing Lite for Firefox; &amp;ldquo;it&amp;rsquo;s worrisome what could happen to uBO in the future.&amp;rdquo;&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;In this post, I&amp;rsquo;ll explain why I use Brave instead of other Chromium-based browsers.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Change Chromium-Based Browser Language on Linux</title>
       <link>https://furuy.com/change-chromium-browser-language-linux/</link>
       <pubDate>Thu, 26 Feb 2026 00:00:00 +0300</pubDate>

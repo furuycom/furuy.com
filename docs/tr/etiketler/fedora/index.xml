@@ -11,9 +11,9 @@
     <atom:link href="https://furuy.com/tr/etiketler/fedora/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>DNF Automatic İle Paketleri Otomatik Güncelleyin</title>
-      <link>https://furuy.com/tr/yazilar/dnf-automatic/</link>
+      <link>https://furuy.com/tr/dnf-automatic/</link>
       <pubDate>Thu, 26 May 2022 00:00:00 +0300</pubDate>
-      <guid>https://furuy.com/tr/yazilar/dnf-automatic/</guid>
+      <guid>https://furuy.com/tr/dnf-automatic/</guid>
       <description>&lt;p&gt;&lt;strong&gt;DNF Automatic&lt;/strong&gt; ile Fedora ve RHEL gibi DNF paket yöneticisine sahip GNU/Linux dağıtımlarındaki güncelleme işlemlerini otomatikleştirmeniz mümkün.&lt;/p&gt;
 &lt;h2 id=&#34;dnf-automatici-yükleyin&#34;&gt;DNF Automatic&amp;rsquo;i Yükleyin&lt;/h2&gt;
 &lt;p&gt;Bunun için kullandığınız terminale aşağıdaki kodu yazın ve yüklemeyi onaylayarak, kurulumu tamamlayın:&lt;/p&gt;

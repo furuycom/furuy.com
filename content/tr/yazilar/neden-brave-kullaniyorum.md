@@ -2,7 +2,7 @@
 title: "Neden Brave Kullanıyorum?"
 date: '2026-03-02'
 lastmod: '2026-03-07'
-# translationKey: ""
+translationKey: "why-i-use-brave"
 
 # searchHidden: true
 # ShowToc: false
@@ -18,7 +18,7 @@ tags: ["Android", "Brave", "Chromium", "Linux"]
 #   image: "/assets/img/filename.webp"
 ---
 
-2021 yılında ["Firefox Neden En İyi Android Web Tarayıcısı?"](/tr/yazilar/firefox-neden-en-iyi-android-web-tarayicisi/) adında bir yazı yazmış olsam da, tahminen 2022 yılından beri Brave kullanıyorum. Firefox'tan soğumam için pek çok sebebim var ama şu haber, kullanıcılarına ve geliştiricilerine ne kadar değer verdiklerini tek başına özetliyor:
+2021 yılında ["Firefox Neden En İyi Android Web Tarayıcısı?"](/tr/firefox-neden-en-iyi-android-web-tarayicisi/) adında bir yazı yazmış olsam da, tahminen 2022 yılından beri Brave kullanıyorum. Firefox'tan soğumam için pek çok sebebim var ama şu haber, kullanıcılarına ve geliştiricilerine ne kadar değer verdiklerini tek başına özetliyor:
 > [Mozilla removes uBlock Origin Lite from Addon store. Developer stops developing Lite for Firefox; "it's worrisome what could happen to uBO in the future."](https://www.reddit.com/r/firefox/comments/1fsyprb/mozilla_removes_ublock_origin_lite_from_addon/)  
 
 Bu yazıda Chromium tabanlı diğer tarayıcılar yerine neden Brave'i tercih ettiğimi anlatacağım.

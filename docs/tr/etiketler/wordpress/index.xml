@@ -11,9 +11,9 @@
     <atom:link href="https://furuy.com/tr/etiketler/wordpress/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>WordPress Yönetici ve Giriş Güvenliği</title>
-      <link>https://furuy.com/tr/yazilar/wordpress-yonetici-ve-giris-guvenligi/</link>
+      <link>https://furuy.com/tr/wordpress-yonetici-ve-giris-guvenligi/</link>
       <pubDate>Mon, 02 Aug 2021 00:00:00 +0300</pubDate>
-      <guid>https://furuy.com/tr/yazilar/wordpress-yonetici-ve-giris-guvenligi/</guid>
+      <guid>https://furuy.com/tr/wordpress-yonetici-ve-giris-guvenligi/</guid>
       <description>&lt;p&gt;WordPress web sitenizdeki yönetici hesapları, varsayılan olarak birçok kritik yetkiye sahip olurlar. Bu hesapların güvenliği sağlanmazsa, web siteniz de tehdit altında olur. Bu yazıda, manuel olarak uygulayabileceğiniz bazı güvenlik adımlarını anlatacağım.&lt;/p&gt;
 &lt;h2 id=&#34;admin-kullanıcı-adını-kullanmayın&#34;&gt;&amp;ldquo;admin&amp;rdquo; Kullanıcı Adını Kullanmayın&lt;/h2&gt;
 &lt;p&gt;Tüm brute-force kullanıcı adı listelerinin ilk sırasında yer alan, &amp;ldquo;admin&amp;rdquo; gibi yaygın ve tahmin edilebilir kullanıcı adlarını, hiçbir sisteminizde kullanmayın. Yalnızca web sitenizde kullanacağınız, tahmin edilemez ve özgün bir kullanıcı adı belirleyin.&lt;/p&gt;

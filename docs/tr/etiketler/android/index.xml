@@ -7,14 +7,14 @@
     <generator>Hugo -- 0.157.0</generator>
     <language>tr-TR</language>
     <copyright>Furkan Uysal — CC0 1.0 Evrensel · Yasal · Arşiv</copyright>
-    <lastBuildDate>Mon, 02 Mar 2026 23:39:50 +0300</lastBuildDate>
+    <lastBuildDate>Sat, 07 Mar 2026 18:30:39 +0300</lastBuildDate>
     <atom:link href="https://furuy.com/tr/etiketler/android/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Neden Brave Kullanıyorum?</title>
-      <link>https://furuy.com/tr/yazilar/neden-brave-kullaniyorum/</link>
+      <link>https://furuy.com/tr/neden-brave-kullaniyorum/</link>
       <pubDate>Mon, 02 Mar 2026 00:00:00 +0300</pubDate>
-      <guid>https://furuy.com/tr/yazilar/neden-brave-kullaniyorum/</guid>
-      <description>&lt;p&gt;2021 yılında &lt;a href=&#34;https://furuy.com/tr/yazilar/firefox-neden-en-iyi-android-web-tarayicisi/&#34;&gt;&amp;ldquo;Firefox Neden En İyi Android Web Tarayıcısı?&amp;rdquo;&lt;/a&gt; adında bir yazı yazmış olsam da, tahminen 2022 yılından beri Brave kullanıyorum. Firefox&amp;rsquo;tan soğumam için pek çok sebebim var ama şu haber, kullanıcılarına ve geliştiricilerine ne kadar değer verdiklerini tek başına özetliyor:&lt;/p&gt;
+      <guid>https://furuy.com/tr/neden-brave-kullaniyorum/</guid>
+      <description>&lt;p&gt;2021 yılında &lt;a href=&#34;https://furuy.com/tr/firefox-neden-en-iyi-android-web-tarayicisi/&#34;&gt;&amp;ldquo;Firefox Neden En İyi Android Web Tarayıcısı?&amp;rdquo;&lt;/a&gt; adında bir yazı yazmış olsam da, tahminen 2022 yılından beri Brave kullanıyorum. Firefox&amp;rsquo;tan soğumam için pek çok sebebim var ama şu haber, kullanıcılarına ve geliştiricilerine ne kadar değer verdiklerini tek başına özetliyor:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.reddit.com/r/firefox/comments/1fsyprb/mozilla_removes_ublock_origin_lite_from_addon/&#34;&gt;Mozilla removes uBlock Origin Lite from Addon store. Developer stops developing Lite for Firefox; &amp;ldquo;it&amp;rsquo;s worrisome what could happen to uBO in the future.&amp;rdquo;&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -22,18 +22,18 @@
     </item>
     <item>
       <title>Kaçak Telefonların Ulusal Siber Güvenliğe Zararları</title>
-      <link>https://furuy.com/tr/yazilar/kacak-telefon-imei-atma-zararlari/</link>
+      <link>https://furuy.com/tr/kacak-telefon-imei-atma-zararlari/</link>
       <pubDate>Tue, 18 Mar 2025 00:00:00 +0300</pubDate>
-      <guid>https://furuy.com/tr/yazilar/kacak-telefon-imei-atma-zararlari/</guid>
+      <guid>https://furuy.com/tr/kacak-telefon-imei-atma-zararlari/</guid>
       <description>&lt;p&gt;&lt;img alt=&#34;Kaçak Telefonların Ulusal Siber Güvenliğe Zararları&#34; loading=&#34;lazy&#34; src=&#34;https://furuy.com/assets/img/kacak-telefon.webp&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;giriş&#34;&gt;Giriş&lt;/h2&gt;
 &lt;p&gt;Türkiye&amp;rsquo;de yüksek vergiler, pahalı IMEI kayıt ücretleri ve sınırlı taksit seçenekleri nedeniyle akıllı telefon fiyatları dünya ortalamasının oldukça üzerinde seyretmektedir. Bu durum, tüketicileri resmi garantisi olmayan, yasa dışı yöntemlerle IMEI manipülasyonu (&amp;ldquo;IMEI atma&amp;rdquo;) yapılan &amp;ldquo;kaçak&amp;rdquo; telefonlara yönlendirmektedir. Kaçak telefon kullanımı, yalnızca bireysel kullanıcıları değil, ulusal siber güvenlik yapısını da ciddi şekilde tehdit etmektedir. Bu makalede, kaçak telefon ekosisteminin teknik dinamikleri, siber güvenlik riskleri ve ulusal güvenliğe olası etkileri ele alınmaktadır.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Güvenli Android Doğrulama Yöntemleri (Parola, Biyometrik vs.)</title>
-      <link>https://furuy.com/tr/yazilar/guvenli-android-dogrulama-yontemleri/</link>
+      <link>https://furuy.com/tr/guvenli-android-dogrulama-yontemleri/</link>
       <pubDate>Thu, 13 Jul 2023 00:00:00 +0300</pubDate>
-      <guid>https://furuy.com/tr/yazilar/guvenli-android-dogrulama-yontemleri/</guid>
+      <guid>https://furuy.com/tr/guvenli-android-dogrulama-yontemleri/</guid>
       <description>&lt;p&gt;Bu yazıda, Android cihazlardaki giriş/doğrulama yöntemlerinin ne kadar güvenli olduğundan ve güncel bilgiler ışığında nasıl bir tercih yapmanız gerektiğinden bahsedeceğim.&lt;/p&gt;
 &lt;h2 id=&#34;ekran-kilidi-belirleyin&#34;&gt;Ekran Kilidi Belirleyin&lt;/h2&gt;
 &lt;p&gt;Öncelikle, mutlaka bir ekran kilidi belirlemeniz ve bunlardan da en güvenlisini seçmeniz gerekiyor.&lt;/p&gt;
@@ -44,18 +44,18 @@
     </item>
     <item>
       <title>Firefox Neden En İyi Android Web Tarayıcısı?</title>
-      <link>https://furuy.com/tr/yazilar/firefox-neden-en-iyi-android-web-tarayicisi/</link>
+      <link>https://furuy.com/tr/firefox-neden-en-iyi-android-web-tarayicisi/</link>
       <pubDate>Mon, 02 Aug 2021 00:00:00 +0300</pubDate>
-      <guid>https://furuy.com/tr/yazilar/firefox-neden-en-iyi-android-web-tarayicisi/</guid>
+      <guid>https://furuy.com/tr/firefox-neden-en-iyi-android-web-tarayicisi/</guid>
       <description>&lt;p&gt;Firefox, kullanmayanların ön yargıyla yaklaştığı, kullananların ise asla vazgeçemediği bir web tarayıcısı. Bu yazıda, Firefox&amp;rsquo;un neden en iyi Android web tarayıcısı olduğundan ve neden fazla &amp;ldquo;kullanılmadığından&amp;rdquo; bahsedeceğim.&lt;/p&gt;
 &lt;h2 id=&#34;google-firefoxtan-nefret-ediyor&#34;&gt;Google, Firefox&amp;rsquo;tan Nefret Ediyor&lt;/h2&gt;
 &lt;p&gt;Web&amp;rsquo;in bizzat kendisi olmak isteyen Google; kendi kullanıcılarını gizli sekmede bile takip eden, özgür bir yazılım olmayan Chrome tarayıcısının tek rakibine karşı, uzun zamandır adil olmayan bir savaş veriyor. Neredeyse tüm Android cihazlar, Google Chrome yüklü olarak geliyor ve ADB aracı kullanmak haricinde, kaldırmanıza da izin verilmiyor.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Custom ROM Kullanmak Güvenli Mi?</title>
-      <link>https://furuy.com/tr/yazilar/custom-rom-kullanmak-guvenli-mi/</link>
+      <link>https://furuy.com/tr/custom-rom-kullanmak-guvenli-mi/</link>
       <pubDate>Mon, 26 Jul 2021 00:00:00 +0300</pubDate>
-      <guid>https://furuy.com/tr/yazilar/custom-rom-kullanmak-guvenli-mi/</guid>
+      <guid>https://furuy.com/tr/custom-rom-kullanmak-guvenli-mi/</guid>
       <description>&lt;p&gt;Custom ROM&amp;rsquo;lar, birçok olumlu getirileri ile Android kullanıcıları tarafından tercih edilebiliyorlar. Bu getirilerden bazıları şunlar:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -75,17 +75,17 @@
     </item>
     <item>
       <title>AdAway Nedir? AdAway Nasıl Kullanılır?</title>
-      <link>https://furuy.com/tr/yazilar/adaway-nedir-nasil-kullanilir/</link>
+      <link>https://furuy.com/tr/adaway-nedir-nasil-kullanilir/</link>
       <pubDate>Sun, 16 May 2021 00:00:00 +0300</pubDate>
-      <guid>https://furuy.com/tr/yazilar/adaway-nedir-nasil-kullanilir/</guid>
+      <guid>https://furuy.com/tr/adaway-nedir-nasil-kullanilir/</guid>
       <description>&lt;h2 id=&#34;adaway-nedir&#34;&gt;AdAway Nedir?&lt;/h2&gt;
 &lt;p&gt;AdAway, Android için en etkili reklam engelleme uygulamalarındandır. AdAway&amp;rsquo;i diğer reklam engelleyicilerden ayıran ana özelliği, root modudur. Root modu, sistemin hosts dosyasına eklemeler yaparak, reklam türevi istenmeyen web sitelerine bağlanılmasını engeller. &lt;strong&gt;AdAway rootsuz&lt;/strong&gt; da çalışmaktadır ancak aynı işlevi gören NetGuard, AdGuard ve Blokada gibi birçok alternatifi de olduğu için bu yazıda root modu üzerine bilgi vereceğim. Root modu sayesinde, uygulamanın sürekli arka planda çalışarak pil tüketmesinin önüne geçebilir ve VPN kullanırken de reklamları engellemeye devam edebilirsiniz.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Access Dots Özelliğini Android&#39;de Kullanma</title>
-      <link>https://furuy.com/tr/yazilar/access-dots-android/</link>
+      <link>https://furuy.com/tr/access-dots-android/</link>
       <pubDate>Fri, 30 Apr 2021 00:00:00 +0300</pubDate>
-      <guid>https://furuy.com/tr/yazilar/access-dots-android/</guid>
+      <guid>https://furuy.com/tr/access-dots-android/</guid>
       <description>&lt;p&gt;Access Dots, iOS 14 ile tanıtılan, kullanıcının gizliliğini geliştirmeyi amaçlayan yeni bir özellik. Bu özellik sayesinde, arka planda mikrofona veya kameraya erişilirse, ekranda renkli noktalar beliriyor. Her bir izin için farklı bir renk kullanıldığından, hangi iznin kullanıldığını kolayca anlayabiliyorsunuz.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;EKLEME (26.05.2022):&lt;/strong&gt; Android 12 ile birlikte, bu özelliği üçüncü taraf uygulamaya gerek olmadan kullanabilirsiniz. Detaylar için, Android&amp;rsquo;in resmi web sitesindeki bu bağlantıyı ziyaret edin: &lt;a href=&#34;https://source.android.com/devices/tech/config/privacy-indicators&#34;&gt;https://source.android.com/devices/tech/config/privacy-indicators&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;android-için-access-dots&#34;&gt;Android için Access Dots&lt;/h2&gt;

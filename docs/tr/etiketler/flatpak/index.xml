@@ -11,9 +11,9 @@
     <atom:link href="https://furuy.com/tr/etiketler/flatpak/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Linux&#39;ta Chromium Tabanlı Tarayıcı Dilini Değiştirme</title>
-      <link>https://furuy.com/tr/yazilar/linux-chromium-tarayici-dilini-degistirme/</link>
+      <link>https://furuy.com/tr/linux-chromium-tarayici-dilini-degistirme/</link>
       <pubDate>Thu, 26 Feb 2026 00:00:00 +0300</pubDate>
-      <guid>https://furuy.com/tr/yazilar/linux-chromium-tarayici-dilini-degistirme/</guid>
+      <guid>https://furuy.com/tr/linux-chromium-tarayici-dilini-degistirme/</guid>
       <description>&lt;p&gt;Linux&amp;rsquo;ta Chromium tabanlı tarayıcılarda (Chrome, Brave vb.) tarayıcının arayüz dilini değiştirme seçeneği olmasa da bunu yapmak mümkün.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;1-tek-seferlik-cli&#34;&gt;1) Tek seferlik: CLI&lt;/h2&gt;

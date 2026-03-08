@@ -144,7 +144,7 @@ enableGitInfo = true
 
     [[languages.en.menus.main]]
         identifier = "posts"
-        name = "Blog"
+        name = "Posts"
         pageRef = "/posts/"
         weight = 30
 
@@ -197,6 +197,8 @@ enableGitInfo = true
         copyright = "Furkan Uysal — [CC0 1.0 Evrensel](/tr/yasal/#lisans-cc0-10) · [Yasal](/yasal/) · [Arşiv](/tr/arsiv/)"
 
     [languages.tr.permalinks]
+        [languages.tr.permalinks.page]
+            yazilar = "/:slugorcontentbasename/"
 
         [languages.tr.permalinks.taxonomy]
             #categories = "/kategoriler/"

@@ -2,21 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://furuy.com/change-chromium-browser-language-linux/</loc>
-    <lastmod>2026-03-02T23:39:50+03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr-TR"
-                href="https://furuy.com/tr/yazilar/linux-chromium-tarayici-dilini-degistirme/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="https://furuy.com/change-chromium-browser-language-linux/"
-                />
-  </url><url>
     <loc>https://furuy.com/</loc>
-    <lastmod>2026-03-02T23:39:50+03:00</lastmod>
+    <lastmod>2026-03-08T00:00:00+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="tr-TR"
@@ -26,6 +13,32 @@
                 rel="alternate"
                 hreflang="en-US"
                 href="https://furuy.com/"
+                />
+  </url><url>
+    <loc>https://furuy.com/why-i-use-brave/</loc>
+    <lastmod>2026-03-08T00:00:00+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr-TR"
+                href="https://furuy.com/tr/neden-brave-kullaniyorum/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="https://furuy.com/why-i-use-brave/"
+                />
+  </url><url>
+    <loc>https://furuy.com/change-chromium-browser-language-linux/</loc>
+    <lastmod>2026-03-02T23:39:50+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr-TR"
+                href="https://furuy.com/tr/linux-chromium-tarayici-dilini-degistirme/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="https://furuy.com/change-chromium-browser-language-linux/"
                 />
   </url><url>
     <loc>https://furuy.com/about/</loc>

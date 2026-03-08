@@ -7,20 +7,34 @@
     <generator>Hugo -- 0.157.0</generator>
     <language>en-US</language>
     <copyright>Furkan Uysal — CC0 1.0 Universal · Legal · Archive</copyright>
-    <lastBuildDate>Mon, 02 Mar 2026 23:39:50 +0300</lastBuildDate>
+    <lastBuildDate>Sun, 08 Mar 2026 00:00:00 +0300</lastBuildDate>
     <atom:link href="https://furuy.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Android</title>
+      <link>https://furuy.com/tags/android/</link>
+      <pubDate>Sun, 08 Mar 2026 00:00:00 +0300</pubDate>
+      <guid>https://furuy.com/tags/android/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Brave</title>
       <link>https://furuy.com/tags/brave/</link>
-      <pubDate>Thu, 26 Feb 2026 00:00:00 +0300</pubDate>
+      <pubDate>Sun, 08 Mar 2026 00:00:00 +0300</pubDate>
       <guid>https://furuy.com/tags/brave/</guid>
       <description></description>
     </item>
     <item>
       <title>Chromium</title>
       <link>https://furuy.com/tags/chromium/</link>
-      <pubDate>Thu, 26 Feb 2026 00:00:00 +0300</pubDate>
+      <pubDate>Sun, 08 Mar 2026 00:00:00 +0300</pubDate>
       <guid>https://furuy.com/tags/chromium/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Linux</title>
+      <link>https://furuy.com/tags/linux/</link>
+      <pubDate>Sun, 08 Mar 2026 00:00:00 +0300</pubDate>
+      <guid>https://furuy.com/tags/linux/</guid>
       <description></description>
     </item>
     <item>
@@ -28,13 +42,6 @@
       <link>https://furuy.com/tags/flatpak/</link>
       <pubDate>Thu, 26 Feb 2026 00:00:00 +0300</pubDate>
       <guid>https://furuy.com/tags/flatpak/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Linux</title>
-      <link>https://furuy.com/tags/linux/</link>
-      <pubDate>Thu, 26 Feb 2026 00:00:00 +0300</pubDate>
-      <guid>https://furuy.com/tags/linux/</guid>
       <description></description>
     </item>
   </channel>
