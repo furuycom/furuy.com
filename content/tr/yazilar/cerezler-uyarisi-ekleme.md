@@ -21,6 +21,7 @@ tags:
 
 aliases:
   - /cerezler-uyarisi-ekleme/
+  - /yazilar/cerezler-uyarisi-ekleme/
 ---
 
 

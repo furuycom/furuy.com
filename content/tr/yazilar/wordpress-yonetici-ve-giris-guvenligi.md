@@ -21,6 +21,7 @@ tags:
 
 aliases:
   - /wordpress-yonetici-ve-giris-guvenligi/
+  - /yazilar/wordpress-yonetici-ve-giris-guvenligi/
 ---
 
 WordPress web sitenizdeki yönetici hesapları, varsayılan olarak birçok kritik yetkiye sahip olurlar. Bu hesapların güvenliği sağlanmazsa, web siteniz de tehdit altında olur. Bu yazıda, manuel olarak uygulayabileceğiniz bazı güvenlik adımlarını anlatacağım.

@@ -23,6 +23,7 @@ tags:
 
 aliases:
   - /domain-firmasi-secimi-rehberi/
+  - /yazilar/domain-firmasi-secimi-rehberi/
 ---
 
 Yanlış bir domain firması seçimi, güvenlik açıkları, maliyet artışları ve yönetim zorluklarına yol açabilir. Bu makalede, güvenilir bir domain sağlayıcısında olması gereken kritik özellikleri paylaşacağım.

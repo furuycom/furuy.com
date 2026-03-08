@@ -23,6 +23,7 @@ tags:
 
 aliases:
   - /erisim-engellerinin-zararlari/
+  - /yazilar/erisim-engellerinin-zararlari/
 ---
 
 Günümüzde internet, bilgiye erişim, iletişim ve ifade özgürlüğü gibi temel hakların vazgeçilmez bir parçası haline gelmiştir. Ancak, son zamanlarda Instagram ve Discord gibi popüler platformlara uygulanan erişim engelleri, dijital özgürlükleri kısıtlamanın yanı sıra ulusal siber güvenliği de ciddi şekilde tehdit etmektedir. Bu tür engeller, kullanıcıları alternatif ve genellikle daha az güvenli yöntemlere yönelterek siber güvenlik risklerini artırmaktadır. Bu makalede, erişim engellerinin yarattığı siber güvenlik açıklarını ve çözüm önerilerini detaylı bir şekilde ele alacağım.

@@ -24,6 +24,7 @@ tags:
 
 aliases:
   - /custom-rom-kullanmak-guvenli-mi/
+  - /yazilar/custom-rom-kullanmak-guvenli-mi/
 ---
 
 Custom ROM'lar, birçok olumlu getirileri ile Android kullanıcıları tarafından tercih edilebiliyorlar. Bu getirilerden bazıları şunlar:

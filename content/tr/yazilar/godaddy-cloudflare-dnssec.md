@@ -22,6 +22,7 @@ tags:
 
 aliases:
   - /godaddy-cloudflare-dnssec/
+  - /yazilar/godaddy-cloudflare-dnssec/
 ---
 
 GoDaddy'de barınan ve Cloudflare'a bağlı bir alan adı için DNSSEC'i aktifleştirmek çok kolay. DNSSEC özelliğini, aktifleştirebildiğiniz her alan adınız için aktifleştirmenizi tavsiye ederim. Şimdi gelin, bunu nasıl yapabileceğimize bakalım.

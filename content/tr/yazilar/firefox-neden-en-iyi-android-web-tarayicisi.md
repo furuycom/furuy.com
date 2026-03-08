@@ -23,6 +23,7 @@ tags:
 
 aliases:
   - /firefox-neden-en-iyi-android-web-tarayicisi/
+  - /yazilar/firefox-neden-en-iyi-android-web-tarayicisi/
 ---
 
 Firefox, kullanmayanların ön yargıyla yaklaştığı, kullananların ise asla vazgeçemediği bir web tarayıcısı. Bu yazıda, Firefox'un neden en iyi Android web tarayıcısı olduğundan ve neden fazla "kullanılmadığından" bahsedeceğim.

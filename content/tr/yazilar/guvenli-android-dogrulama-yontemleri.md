@@ -21,6 +21,7 @@ tags:
 
 aliases:
   - /guvenli-android-dogrulama-yontemleri/
+  - /yazilar/guvenli-android-dogrulama-yontemleri/
 ---
 
 

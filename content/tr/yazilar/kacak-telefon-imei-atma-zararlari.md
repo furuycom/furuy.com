@@ -23,7 +23,8 @@ tags:
 #   image: "/assets/img/filename.webp"
 
 aliases:
-- /kacak-telefon-imei-atma-zararlari/
+  - /kacak-telefon-imei-atma-zararlari/
+  - /yazilar/kacak-telefon-imei-atma-zararlari/
 ---
 
 

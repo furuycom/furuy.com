@@ -22,6 +22,7 @@ tags:
 
 aliases:
   - /ataturk-geometri/
+  - /yazilar/ataturk-geometri/
 ---
 
 

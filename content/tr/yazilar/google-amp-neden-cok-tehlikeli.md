@@ -23,6 +23,7 @@ tags:
 
 aliases:
   - /google-amp-neden-cok-tehlikeli/
+  - /yazilar/google-amp-neden-cok-tehlikeli/
 ---
 
 Google, mobil web deneyimini geliştirmek ve sayfaların mobilde daha hızlı yüklenmelerini sağlamak amacıyla, 2015 yılında AMP'i duyurmuştu. Şubat 2016 tarihinden itibaren de, mobil arama sonuçlarında AMP sayfaları görünmeye başlamıştı. Kısa bir zaman içerisinde AMP, standart haline gelmeye başladı bile. Bunun en temel nedenleri; mobil internet kullanıcı sayısının fazla olması, birçok kişinin Google arama motorunu kullanması ve web site yöneticilerinin, "SEO kuralları" adı altındaki Google'ın her dayatmasını kabul etmeleri...

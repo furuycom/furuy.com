@@ -21,6 +21,7 @@ tags:
 
 aliases:
   - /adaway-nedir-nasil-kullanilir/
+  - /yazilar/adaway-nedir-nasil-kullanilir/
 ---
 
 

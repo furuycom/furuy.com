@@ -21,6 +21,7 @@ tags:
 
 aliases:
   - /web-safe-fonts/
+  - /yazilar/web-safe-fonts/
 ---
 
 

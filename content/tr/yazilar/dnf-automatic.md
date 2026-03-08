@@ -22,6 +22,7 @@ tags:
 
 aliases:
   - /dnf-automatic/
+  - /yazilar/dnf-automatic/
 ---
 
 **DNF Automatic** ile Fedora ve RHEL gibi DNF paket yöneticisine sahip GNU/Linux dağıtımlarındaki güncelleme işlemlerini otomatikleştirmeniz mümkün.

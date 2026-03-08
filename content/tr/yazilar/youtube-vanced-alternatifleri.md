@@ -23,6 +23,7 @@ tags:
 
 aliases:
   - /youtube-vanced-alternatifleri/
+  - /yazilar/youtube-vanced-alternatifleri/
 ---
 
 Reklamsız YouTube uygulaması veya ücretsiz YouTube Premium olarak bilinen YouTube Vanced'in Twitter hesabında, uygulamanın kapanacağını [açıkladı](https://twitter.com/YTVanced/status/1503052250268286980). Birçok kullanıcısı olduğu için büyük yankı uyandıran bu haber ile birlikte, Vanced kullanıcıları yeni alternatif arayışına girdiler. Ben de bu vesileyle YouTube Vanced uygulaması hakkında birkaç önemli bilgi verip, YouTube deneyiminizi artırmanıza yarayacak özgür yazılımlar ve yardımcı araçlar önereceğim.

@@ -16,6 +16,9 @@ tags: ["Android", "Brave", "Chromium", "Linux"]
 
 # cover:
 #   image: "/assets/img/filename.webp"
+
+aliases:
+  - /yazilar/neden-brave-kullaniyorum/
 ---
 
 2021 yılında ["Firefox Neden En İyi Android Web Tarayıcısı?"](/tr/firefox-neden-en-iyi-android-web-tarayicisi/) adında bir yazı yazmış olsam da, tahminen 2022 yılından beri Brave kullanıyorum. Firefox'tan soğumam için pek çok sebebim var ama şu haber, kullanıcılarına ve geliştiricilerine ne kadar değer verdiklerini tek başına özetliyor:

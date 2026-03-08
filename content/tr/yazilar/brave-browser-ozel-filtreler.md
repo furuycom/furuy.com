@@ -23,6 +23,7 @@ tags:
 
 aliases:
   - /brave-browser-ozel-filtreler/
+  - /yazilar/brave-browser-ozel-filtreler/
 ---
 
 

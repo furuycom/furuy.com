@@ -17,6 +17,9 @@ tags: ["Linux", "Chromium", "Brave", "Flatpak"]
 
 # cover:
 #   image: "/assets/img/filename.webp"
+
+aliases:
+  - /yazilar/linux-chromium-tarayici-dilini-degistirme/
 ---
 
 Linux'ta Chromium tabanlı tarayıcılarda (Chrome, Brave vb.) tarayıcının arayüz dilini değiştirme seçeneği olmasa da bunu yapmak mümkün. 
