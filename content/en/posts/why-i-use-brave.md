@@ -82,28 +82,22 @@ I use Brave's built-in Tor to bypass access restrictions.
 It may sound minor, but I open a lot of new tabs throughout the day. Seeing icons, news, weather, and other clutter every time gets distracting.
 
 **Brave:**
-
 ![Brave blank new tab](/assets/img/newtab-01-brave-empty.webp)
 
 **Chromium:**
-
 ![Chromium new tab page](/assets/img/newtab-02-chrome-doodle.webp)
 
 ## Bottom Navigation Bar (Android)
 
 The bottom bar lets me quickly switch tabs, open a new tab, add a bookmark, and access the menu. Reaching all the way to the top of the screen every time gets tiring.
 
+![Brave Android bottom navigation bar](/assets/img/bottom-navigation-bar-android.webp)
+
 ## Menu Customization (Android)
 
 Menu customization is one of my favorite recent additions. Chrome's menu takes up the whole screen. In Brave, I can hide the things I don't use. I hope this comes to the desktop version as well.
 
-**Brave:**
-
-![Brave menu](/assets/img/android-menu-01-brave-customize.webp)
-
-**Chrome:**
-
-![Chrome menu](/assets/img/android-menu-02-chrome-menu.webp)
+![Brave and Chrome Android menu comparison](/assets/img/android-menu-brave-vs-chrome.webp)
 
 ## Background Playback (Android)
 
@@ -111,7 +105,7 @@ I try other browsers once in a while, and recently I gave Chrome another shot. E
 
 The video stopped right away. It also stopped when I switched tabs. That's when I realized background playback isn't actually a standard feature everywhere. Brave includes it by default. On Firefox, I had to install an extension for it.
 
-## Problems I've Had
+## A Few Problems
 
 - On Linux, Brave signs me out of everything a few times a year for no clear reason. The cookies still seem to be there, but the sessions are gone. Sometimes it happens when I first open the browser, and sometimes after an update. I still haven't found a pattern.
 - On Android, it signs me out of Google and Crypt.ee every few days. That seems to happen at random too.

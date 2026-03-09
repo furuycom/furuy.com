@@ -70,23 +70,21 @@ Tarayıcının içindeki bu özelliği erişim engellerini aşmak için VPN yeri
 ## Boş Yeni Sekme
 Gereksiz gibi görünebilir ama gün içinde belki yüzlerce kez yeni sekme açıyorum. Her seferinde ikonlar, haberler, hava durumu vs. görmek dikkat dağıtıcı oluyor.
 
-Brave:  
-![Brave Boş Yeni Sekme](/assets/img/newtab-01-brave-empty.webp)
+**Brave:**
+![Brave boş yeni sekme](/assets/img/newtab-01-brave-empty.webp)
 
-Chromium:  
-![Chromium Yeni Sekme](/assets/img/newtab-02-chrome-doodle.webp)
+**Chromium:**
+![Chromium yeni sekme](/assets/img/newtab-02-chrome-doodle.webp)
 
 ## Alt Gezinme Araç Çubuğu (Android)
 Buradan hızlıca sekmeler arasında kaydırabiliyor, yeni sekme açabiliyor, yer imi ekleyebiliyor ve menüye erişebiliyorum. Her seferinde parmağımı ekranın tepesine uzatmak zor oluyor.
 
+![Brave Android alt gezinme araç çubuğu](/assets/img/bottom-navigation-bar-android.webp)
+
 ## Menü Özelleştirme (Android)
 Menü özelleştirme son zamanlarda en çok beğendiğim özelliklerden biri. Chrome'un araç çubuğu menüsü tüm ekranı kaplamasına rağmen bazı öğeler ekrana sığmıyor. Brave'de ise kullanmadığınız öğeleri gizleyerek sade bir menü yaratmak mümkün. Umarım bu özellik masaüstü sürümüne de gelir.
 
-**Brave:**
-![Brave Menü](/assets/img/android-menu-01-brave-customize.webp)
-
-**Chrome:**
-![Chrome Menü](/assets/img/android-menu-02-chrome-menu.webp)
+![Brave ve Chrome Android menü karşılaştırması](/assets/img/android-menu-brave-vs-chrome.webp)
 
 ## Arka Planda Oynatma (Android)
 Bazen farklı tarayıcıları deniyorum ve geçen günlerde Chrome'a bir şans vermek istedim. NextDNS ile reklamları engellememe rağmen, bir reklam engelleyici olmadığında sayfaların ne kadar rahatsız edici hale geldiğini tekrar görmüş oldum. En rahatsız edici eksiğin bu olduğunu düşünüyordum ki Kick'ten bir canlı yayın açıp, ekranı kilitleyene kadar...
