@@ -128,7 +128,7 @@ enableGitInfo = true
         weight = 1
         contentDir = "content/en"
         title = "Furkan Uysal"
-        copyright = "Furkan Uysal — [CC0 1.0 Universal](/legal/#license-cc0-10) · [Legal](/legal/) · [Archive](/archives/)"
+        copyright = "Furkan Uysal — [Support](https://github.com/sponsors/furuycom) · [Archive](/archives/) · [Legal](/legal/) · [CC0 1.0 Universal](/legal/#license-cc0-10)"
 
     [[languages.en.menus.main]]
         identifier = "cv"
@@ -194,7 +194,7 @@ enableGitInfo = true
         weight = 2
         contentDir = "content/tr"
         title = "Furkan Uysal"
-        copyright = "Furkan Uysal — [CC0 1.0 Evrensel](/tr/yasal/#lisans-cc0-10) · [Yasal](/yasal/) · [Arşiv](/tr/arsiv/)"
+        copyright = "Furkan Uysal — [Destek](https://github.com/sponsors/furuycom) · [Arşiv](/tr/arsiv/) · [Yasal](/tr/yasal/) · [CC0 1.0 Evrensel](/tr/yasal/#lisans-cc0-10)"
 
     [languages.tr.permalinks]
         [languages.tr.permalinks.page]
