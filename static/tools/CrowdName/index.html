@@ -1,0 +1,2614 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>CrowdName - Common Name & Username Generator</title>
+        <meta
+            name="description"
+            content="Generate common-looking names and usernames with demographic analysis."
+        />
+        <meta
+            name="keywords"
+            content="CrowdName, common name generator, username generator, privacy username generator, osint"
+        />
+        <meta name="robots" content="index,follow" />
+        <meta name="theme-color" content="#e6e9ed" />
+        <link
+            rel="icon"
+            href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎲</text></svg>"
+        />
+        <style>
+            :root {
+                color-scheme: dark;
+                --bg-page: #0b0c0f;
+                --bg-card: #111319;
+                --bg-card-2: #0f1116;
+                --bg-strong: #171a22;
+                --border: #232833;
+                --text: #eef2f7;
+                --soft: #9aa4b2;
+                --heading: #e6e9ed;
+                --accent: #e6e9ed;
+                --code-bg: #1e232d;
+                /* Tooltip color highlights */
+                --t-num: #ff9d00;
+                --t-op: #00d47e;
+                --t-str: #9cc8ff;
+            }
+
+            * {
+                box-sizing: border-box;
+            }
+
+            html,
+            body {
+                background: var(--bg-page);
+                color: var(--text);
+            }
+
+            ::selection {
+                background: color-mix(in srgb, var(--accent) 30%, transparent);
+                color: var(--text);
+            }
+
+            ::-moz-selection {
+                background: color-mix(in srgb, var(--accent) 30%, transparent);
+                color: var(--text);
+            }
+
+            body {
+                margin: 0;
+                padding: 16px 20px;
+                font-family:
+                    system-ui,
+                    -apple-system,
+                    Segoe UI,
+                    Roboto,
+                    Arial,
+                    sans-serif;
+                line-height: 1.35;
+            }
+
+            .layout {
+                width: min(1280px, 100%);
+                display: grid;
+                grid-template-columns: minmax(0, 1fr) 340px;
+                gap: 14px;
+                align-items: start;
+            }
+
+            .main,
+            .side {
+                display: flex;
+                flex-direction: column;
+                gap: 12px;
+            }
+
+            .side {
+                opacity: 0.95;
+            }
+
+            .card,
+            .panel {
+                border: 1px solid var(--border);
+                border-radius: 16px;
+                background: var(--bg-card);
+                padding: 16px;
+            }
+
+            .section-head {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 16px;
+            }
+
+            summary.section-head {
+                margin-bottom: 0;
+                list-style: none;
+                cursor: pointer;
+                outline: none;
+            }
+
+            summary.section-head::-webkit-details-marker {
+                display: none;
+            }
+
+            summary.section-head::after {
+                content: "↓";
+                font-size: 12px;
+                color: var(--soft);
+                transition: transform 0.2s;
+            }
+
+            details[open] summary.section-head {
+                margin-bottom: 16px;
+            }
+
+            details[open] summary.section-head::after {
+                transform: rotate(180deg);
+            }
+
+            .hero {
+                min-height: 220px;
+                display: grid;
+                gap: 14px;
+                justify-items: center;
+                text-align: center;
+                align-content: center;
+            }
+
+            h1,
+            h2,
+            p,
+            pre,
+            ul,
+            li {
+                margin: 0;
+            }
+
+            h1 {
+                font-size: clamp(24px, 4vw, 38px);
+                font-weight: 900;
+                letter-spacing: -0.02em;
+                color: var(--heading);
+            }
+
+            .subtitle {
+                font-size: 15px;
+                color: var(--soft);
+                margin-top: -6px;
+                max-width: 90%;
+            }
+
+            h2 {
+                font-size: 14px;
+                font-weight: 700;
+                color: var(--heading);
+            }
+
+            /* Fixed 3-column layout to prevent layout jumping */
+            .result-layout {
+                display: grid;
+                grid-template-columns: 1fr auto 1fr;
+                gap: 32px;
+                width: 100%;
+                min-height: 110px;
+                margin-top: 8px;
+                align-items: center;
+            }
+
+            .result-emoji-col {
+                display: flex;
+                justify-content: flex-end;
+            }
+
+            .result-names-col {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 6px;
+                min-width: 360px;
+                width: 100%;
+            }
+
+            .result-stats-col {
+                display: flex;
+                justify-content: flex-start;
+            }
+
+            .emoji-avatar {
+                font-size: clamp(48px, 6vw, 72px);
+                line-height: 1;
+                user-select: none;
+                filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.4));
+            }
+
+            /* Grid 1fr auto 1fr guarantees absolute mathematical centering for text */
+            .copy-line {
+                display: grid;
+                grid-template-columns: 1fr auto 1fr;
+                align-items: center;
+                width: 100%;
+            }
+
+            .name,
+            .username {
+                cursor: pointer;
+                word-break: break-word;
+                min-height: 1.3em;
+                text-align: center;
+            }
+
+            /* Container for checkmark and refresh button */
+            .actions {
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                gap: 6px;
+                padding-left: 10px;
+            }
+
+            .copy-check {
+                min-width: 16px;
+                width: 16px;
+                color: var(--accent);
+                font-size: 14px;
+                font-weight: 700;
+                opacity: 0;
+                visibility: hidden;
+            }
+
+            .copy-check.visible {
+                opacity: 1;
+                visibility: visible;
+            }
+
+            .name {
+                font-size: clamp(30px, 4.5vw, 46px);
+                font-weight: 800;
+                letter-spacing: -0.02em;
+            }
+
+            .username {
+                font-size: clamp(18px, 2.5vw, 22px);
+                opacity: 0.96;
+            }
+
+            .refresh-icon-btn {
+                background: transparent;
+                border: none;
+                color: var(--soft);
+                font-size: 18px;
+                cursor: pointer;
+                padding: 0;
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                transition:
+                    color 0.2s,
+                    transform 0.2s;
+                outline: none;
+                flex-shrink: 0;
+            }
+
+            .refresh-icon-btn:hover {
+                color: var(--accent);
+                transform: rotate(90deg);
+            }
+
+            .demographics-box {
+                display: flex;
+                flex-direction: column;
+                gap: 4px;
+                font-size: 13px;
+                color: var(--soft);
+                text-align: left;
+                min-width: 140px;
+            }
+
+            .demographics-box:empty {
+                display: none;
+            }
+
+            .demo-item {
+                display: flex;
+                align-items: center;
+                gap: 6px;
+                white-space: nowrap;
+            }
+
+            .demo-item strong {
+                color: var(--text);
+                font-weight: 700;
+            }
+
+            .segment {
+                display: inline;
+            }
+            .joiner {
+                opacity: 0.55;
+            }
+
+            .toolbar,
+            .field-grid {
+                display: flex;
+                gap: 8px;
+                flex-wrap: wrap;
+                align-items: center;
+            }
+
+            .toolbar {
+                justify-content: center;
+            }
+            .slots {
+                display: grid;
+                gap: 8px;
+            }
+
+            .slot-container {
+                display: flex;
+                flex-direction: column;
+                gap: 8px;
+                background: var(--bg-card-2);
+                border: 1px solid var(--border);
+                border-radius: 12px;
+                padding: 10px;
+            }
+
+            .slot-main {
+                display: grid;
+                grid-template-columns: 40px minmax(0, 1fr) auto;
+                gap: 8px;
+                align-items: center;
+            }
+
+            .slot-actions {
+                display: flex;
+                gap: 8px;
+            }
+
+            .slot-settings {
+                display: flex;
+                padding-left: 48px;
+                padding-right: 184px;
+            }
+
+            .slot-settings[hidden] {
+                display: none;
+            }
+
+            .setting-row {
+                display: flex;
+                align-items: center;
+                flex-wrap: wrap;
+                gap: 10px;
+                font-size: 13px;
+                color: var(--soft);
+                width: 100%;
+            }
+
+            .setting-row input[type="number"] {
+                width: 64px;
+                background: var(--bg-strong);
+                border: 1px solid var(--border);
+                color: var(--text);
+                border-radius: 6px;
+                padding: 4px 8px;
+                font: inherit;
+                transition:
+                    border-color 0.2s,
+                    box-shadow 0.2s;
+            }
+
+            .inline-toggles {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 10px;
+                margin-left: 6px;
+                border-left: 1px solid var(--border);
+                padding-left: 12px;
+            }
+
+            .inline-toggles label {
+                display: flex;
+                align-items: center;
+                gap: 4px;
+                cursor: pointer;
+                color: var(--text);
+                font-weight: 600;
+            }
+
+            .inline-toggles input[type="checkbox"] {
+                accent-color: var(--accent);
+                cursor: pointer;
+                width: 14px;
+                height: 14px;
+                margin: 0;
+            }
+
+            .slot-index,
+            .slot-btn,
+            .slot-select,
+            .field input,
+            .field select,
+            button,
+            .dataset-item {
+                font: inherit;
+                color: var(--text);
+                border: 1px solid var(--border);
+                border-radius: 12px;
+                background: var(--bg-strong);
+            }
+
+            .slot-index,
+            .slot-btn,
+            .slot-select,
+            .field input,
+            .field select,
+            button {
+                height: 40px;
+            }
+
+            .slot-index {
+                display: grid;
+                place-items: center;
+                font-size: 15px;
+                font-weight: 900;
+                transition:
+                    background 0.2s,
+                    color 0.2s;
+            }
+
+            .slot-select {
+                width: 100%;
+                min-width: 0;
+                padding: 0 34px 0 12px;
+                appearance: none;
+                -webkit-appearance: none;
+                -moz-appearance: none;
+                background-image:
+                    linear-gradient(45deg, transparent 50%, var(--soft) 50%),
+                    linear-gradient(135deg, var(--soft) 50%, transparent 50%);
+                background-position:
+                    calc(100% - 18px) calc(50% - 3px),
+                    calc(100% - 12px) calc(50% - 3px);
+                background-size:
+                    6px 6px,
+                    6px 6px;
+                background-repeat: no-repeat;
+                cursor: pointer;
+            }
+
+            .slot-btn,
+            button {
+                cursor: pointer;
+                display: grid;
+                place-items: center;
+                padding: 0 10px;
+                transition:
+                    color 0.2s,
+                    background-color 0.2s,
+                    border-color 0.2s,
+                    box-shadow 0.2s,
+                    transform 0.2s;
+            }
+
+            .slot-btn {
+                width: 40px;
+            }
+
+            .slot-btn:disabled {
+                opacity: 0.45;
+                cursor: default;
+            }
+
+            .slot-btn:hover:not(:disabled),
+            button:hover:not(.formula-add),
+            .field input:hover,
+            .field select:hover,
+            .slot-select:hover {
+                border-color: #3a4455;
+            }
+
+            /* Red hover effect for remove button */
+            .slot-btn[data-action="remove"]:hover:not(:disabled) {
+                background-color: #ef4444;
+                color: #ffffff;
+                border-color: #ef4444;
+            }
+
+            /* Subtle green hover effect for import button */
+            .slot-btn[data-action="import"]:hover:not(:disabled) {
+                background-color: rgba(0, 212, 126, 0.15);
+                color: #00d47e;
+                border-color: #00d47e;
+            }
+
+            .primary {
+                font-weight: 700;
+            }
+            .field {
+                display: grid;
+                gap: 4px;
+                flex: 1 1 100%;
+            }
+            .field label,
+            .dataset-links,
+            .dataset-meta {
+                font-size: 12px;
+                color: var(--soft);
+            }
+            .formula-label-row {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                gap: 8px;
+            }
+            .label-with-tooltip {
+                display: flex;
+                align-items: center;
+            }
+
+            .tooltip-trigger {
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                width: 14px;
+                height: 14px;
+                border-radius: 50%;
+                background: var(--soft);
+                color: var(--bg-card);
+                font-size: 10px;
+                font-weight: 800;
+                margin-left: 6px;
+                cursor: help;
+                position: relative;
+                transition: background 0.2s;
+            }
+
+            .tooltip-trigger:hover {
+                background: var(--text);
+            }
+
+            .tooltip-content {
+                opacity: 0;
+                visibility: hidden;
+                position: absolute;
+                top: calc(100% + 8px);
+                left: 50%;
+                transform: translateX(-50%) translateY(-4px);
+                width: max-content;
+                max-width: 280px;
+                background: var(--bg-card-2);
+                border: 1px solid var(--border);
+                padding: 12px;
+                border-radius: 8px;
+                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+                z-index: 100;
+                color: var(--soft);
+                font-size: 12px;
+                font-weight: 400;
+                line-height: 1.5;
+                white-space: normal;
+                transition: all 0.2s;
+                text-transform: none;
+                cursor: default;
+            }
+
+            .tooltip-trigger:hover .tooltip-content {
+                opacity: 1;
+                visibility: visible;
+                transform: translateX(-50%) translateY(0);
+            }
+
+            .tooltip-content strong {
+                color: var(--text);
+            }
+            .tooltip-content ul {
+                margin: 6px 0 10px 0;
+                padding-left: 14px;
+                display: flex;
+                flex-direction: column;
+                gap: 6px;
+                list-style-type: none;
+            }
+            .tooltip-content code {
+                background: var(--code-bg);
+                padding: 2px 4px;
+                border-radius: 4px;
+                font-family: monospace;
+                font-size: 11px;
+                font-weight: 600;
+            }
+
+            .t-num {
+                color: var(--t-num);
+            }
+            .t-op {
+                color: var(--t-op);
+            }
+            .t-str {
+                color: var(--t-str);
+            }
+            .t-res {
+                color: var(--soft);
+                font-style: italic;
+                margin-left: 4px;
+            }
+
+            .formula-add {
+                appearance: none;
+                border: 0;
+                background: transparent;
+                color: var(--accent);
+                padding: 0;
+                height: auto;
+                font-size: 12px;
+                font-weight: 700;
+                cursor: pointer;
+                transition: all 0.2s;
+            }
+            .formula-add[hidden] {
+                display: none;
+            }
+            .formula-add:hover {
+                color: #fff;
+            }
+
+            /* Glowing button animation for Add / Import buttons */
+            .btn-glow-anim {
+                animation: btnPulse 2.5s ease-in-out;
+            }
+
+            @keyframes btnPulse {
+                0%,
+                100% {
+                    color: var(--text);
+                    border-color: var(--border);
+                    box-shadow: none;
+                    text-shadow: none;
+                }
+                15%,
+                50%,
+                85% {
+                    color: #00d47e;
+                    border-color: #00d47e;
+                    box-shadow: 0 0 8px rgba(0, 212, 126, 0.4);
+                    text-shadow: 0 0 10px rgba(0, 212, 126, 0.7);
+                }
+            }
+
+            /* Glowing border animation for formula textboxes */
+            .input-glow-anim {
+                animation: borderPulse 2.5s ease-in-out;
+            }
+
+            @keyframes borderPulse {
+                0%,
+                100% {
+                    border-color: var(--border);
+                    box-shadow: none;
+                }
+                15%,
+                50%,
+                85% {
+                    border-color: #00d47e;
+                    box-shadow: 0 0 8px rgba(0, 212, 126, 0.4);
+                }
+            }
+
+            .field input,
+            .field select {
+                width: 100%;
+                padding: 0 34px 0 12px;
+                transition:
+                    border-color 0.2s,
+                    box-shadow 0.2s;
+            }
+            .field select {
+                appearance: none;
+                -webkit-appearance: none;
+                -moz-appearance: none;
+                background-image:
+                    linear-gradient(45deg, transparent 50%, var(--soft) 50%),
+                    linear-gradient(135deg, var(--soft) 50%, transparent 50%);
+                background-position:
+                    calc(100% - 18px) calc(50% - 3px),
+                    calc(100% - 12px) calc(50% - 3px);
+                background-size:
+                    6px 6px,
+                    6px 6px;
+                background-repeat: no-repeat;
+                cursor: pointer;
+            }
+
+            .dataset-links {
+                display: grid;
+                gap: 8px;
+                list-style: none;
+                padding: 0;
+                margin: 0;
+            }
+            .dataset-item {
+                padding: 10px;
+                display: grid;
+                gap: 4px;
+            }
+            .dataset-name {
+                font-size: 13px;
+                font-weight: 700;
+            }
+            .dataset-links a,
+            .dataset-links a:visited,
+            .dataset-links a:active {
+                color: #9cc8ff;
+                text-decoration: none;
+            }
+            .dataset-links a:hover {
+                text-decoration: underline;
+            }
+
+            .custom-dataset-note {
+                margin-top: 12px;
+                padding-top: 12px;
+                border-top: 1px dashed var(--border);
+                font-size: 12px;
+                color: var(--soft);
+                line-height: 1.5;
+            }
+
+            .custom-dataset-note code {
+                background: var(--code-bg);
+                color: var(--accent);
+                padding: 2px 4px;
+                border-radius: 4px;
+                font-family: monospace;
+            }
+
+            .add-row {
+                margin-top: 8px;
+            }
+            .generate-label {
+                display: inline-flex;
+                align-items: center;
+                gap: 8px;
+            }
+
+            .app-footer {
+                margin-top: 4px;
+                padding: 20px;
+                border: 1px solid var(--border);
+                border-radius: 16px;
+                background: var(--bg-card);
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 12px;
+                font-size: 13px;
+                color: var(--soft);
+                text-align: center;
+            }
+
+            .app-footer a {
+                color: var(--heading);
+                text-decoration: none;
+            }
+            .app-footer a:hover {
+                text-decoration: underline;
+            }
+
+            .sponsor-link {
+                display: inline-flex;
+                align-items: center;
+                gap: 6px;
+                padding: 6px 14px;
+                background: var(--bg-card-2);
+                border: 1px solid var(--border);
+                border-radius: 999px;
+                font-weight: 600;
+                transition: border-color 0.2s;
+            }
+            .sponsor-link:hover {
+                border-color: var(--heading);
+                text-decoration: none !important;
+            }
+
+            @media (max-width: 980px) {
+                .layout {
+                    grid-template-columns: 1fr;
+                }
+                .side {
+                    order: 2;
+                }
+            }
+
+            @media (max-width: 760px) {
+                .slot-settings {
+                    padding-left: 0;
+                    padding-right: 0;
+                }
+                .result-layout {
+                    grid-template-columns: 1fr;
+                    gap: 16px;
+                    justify-items: center;
+                }
+                .result-emoji-col {
+                    justify-content: center;
+                }
+                .result-names-col {
+                    min-width: auto;
+                }
+                .result-stats-col {
+                    justify-content: center;
+                }
+                .demographics-box {
+                    text-align: center;
+                    align-items: center;
+                }
+            }
+
+            @media (max-width: 640px) {
+                body {
+                    padding: 12px;
+                }
+                .card,
+                .panel,
+                .slot-container,
+                .app-footer {
+                    border-radius: 14px;
+                }
+                .toolbar,
+                .field-grid {
+                    display: grid;
+                    grid-template-columns: 1fr;
+                }
+
+                .slot-main {
+                    grid-template-columns: 40px minmax(0, 1fr);
+                }
+                .slot-actions {
+                    grid-column: 1 / -1;
+                    display: grid;
+                    grid-template-columns: repeat(4, 1fr);
+                    gap: 8px;
+                }
+                .slot-btn {
+                    width: 100%;
+                }
+
+                .field input,
+                .field select {
+                    width: 100%;
+                    min-width: 0;
+                }
+
+                .inline-toggles {
+                    flex-basis: 100%;
+                    border-left: none;
+                    padding-left: 0;
+                    margin-left: 0;
+                    margin-top: 4px;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <main class="layout">
+            <section class="main">
+                <section class="card hero">
+                    <h1>🎲 CrowdName</h1>
+                    <p class="subtitle">
+                        Generate common-looking names and usernames.
+                    </p>
+
+                    <div class="result-layout">
+                        <div class="result-emoji-col">
+                            <div
+                                id="resultEmoji"
+                                class="emoji-avatar"
+                                title="Avatar built from demographics"
+                            ></div>
+                        </div>
+
+                        <div class="result-names-col">
+                            <div class="copy-line">
+                                <div></div>
+                                <div
+                                    id="resultName"
+                                    class="name"
+                                    title="Click to copy"
+                                ></div>
+                                <div class="actions">
+                                    <span
+                                        id="nameCheck"
+                                        class="copy-check"
+                                        aria-hidden="true"
+                                        >✓</span
+                                    >
+                                </div>
+                            </div>
+                            <div class="copy-line">
+                                <div></div>
+                                <div
+                                    id="resultUsername"
+                                    class="username"
+                                    title="Click to copy"
+                                ></div>
+                                <div class="actions">
+                                    <button
+                                        id="refreshUsernameBtn"
+                                        class="refresh-icon-btn"
+                                        title="Regenerate username only"
+                                    >
+                                        ↻
+                                    </button>
+                                    <span
+                                        id="usernameCheck"
+                                        class="copy-check"
+                                        aria-hidden="true"
+                                        >✓</span
+                                    >
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="result-stats-col">
+                            <div
+                                id="demographicsBox"
+                                class="demographics-box"
+                            ></div>
+                        </div>
+                    </div>
+
+                    <div class="toolbar">
+                        <button
+                            id="generateBtn"
+                            class="primary"
+                            type="button"
+                            title="Generate new"
+                        >
+                            <span class="generate-label"
+                                ><span aria-hidden="true">↻</span
+                                ><span>Generate new</span></span
+                            >
+                        </button>
+                    </div>
+                </section>
+
+                <section class="card">
+                    <div class="section-head">
+                        <h2>Slots</h2>
+                    </div>
+                    <div id="slots" class="slots"></div>
+                    <div class="add-row">
+                        <button id="addSlotBtn" type="button" title="Add slot">
+                            + Add slot
+                        </button>
+                    </div>
+                </section>
+            </section>
+
+            <aside class="side">
+                <details class="panel" open>
+                    <summary class="section-head">
+                        <h2>Advanced</h2>
+                    </summary>
+
+                    <div class="field-grid">
+                        <div class="field">
+                            <div class="formula-label-row">
+                                <label
+                                    for="nameFormulaInput"
+                                    class="label-with-tooltip"
+                                >
+                                    Name formula
+                                    <span class="tooltip-trigger"
+                                        >?
+                                        <span class="tooltip-content">
+                                            <strong>💡 Logic:</strong> Connect
+                                            slot words using
+                                            <code
+                                                ><span class="t-op"
+                                                    >+</span
+                                                ></code
+                                            >.
+                                            <ul>
+                                                <li>
+                                                    <code
+                                                        ><span class="t-num"
+                                                            >1</span
+                                                        ><span class="t-op"
+                                                            >+</span
+                                                        ><span class="t-num"
+                                                            >2</span
+                                                        ></code
+                                                    >
+                                                    <span class="t-res"
+                                                        >→ JohnSmith</span
+                                                    >
+                                                </li>
+                                                <li>
+                                                    <code
+                                                        ><span class="t-num"
+                                                            >1</span
+                                                        ><span class="t-op"
+                                                            >+</span
+                                                        ><span class="t-str"
+                                                            >_</span
+                                                        ><span class="t-op"
+                                                            >+</span
+                                                        ><span class="t-num"
+                                                            >2</span
+                                                        ></code
+                                                    >
+                                                    <span class="t-res"
+                                                        >→ John_Smith</span
+                                                    >
+                                                </li>
+                                            </ul>
+                                        </span>
+                                    </span>
+                                </label>
+                                <button
+                                    id="nameFormulaAdd"
+                                    class="formula-add"
+                                    type="button"
+                                    hidden
+                                >
+                                    + add
+                                </button>
+                            </div>
+                            <input
+                                id="nameFormulaInput"
+                                type="text"
+                                value="1+2"
+                                spellcheck="false"
+                            />
+                        </div>
+
+                        <div class="field">
+                            <div class="formula-label-row">
+                                <label
+                                    for="usernameFormulaInput"
+                                    class="label-with-tooltip"
+                                >
+                                    Username formula
+                                    <span class="tooltip-trigger"
+                                        >?
+                                        <span class="tooltip-content">
+                                            <strong>💡 Logic:</strong> Connect
+                                            slot words using
+                                            <code
+                                                ><span class="t-op"
+                                                    >+</span
+                                                ></code
+                                            >.
+                                            <ul>
+                                                <li>
+                                                    <code
+                                                        ><span class="t-num"
+                                                            >1</span
+                                                        ><span class="t-op"
+                                                            >+</span
+                                                        ><span class="t-num"
+                                                            >2</span
+                                                        ><span class="t-op"
+                                                            >+</span
+                                                        ><span class="t-num"
+                                                            >3</span
+                                                        ></code
+                                                    >
+                                                    <span class="t-res"
+                                                        >→ JohnSmith5</span
+                                                    >
+                                                </li>
+                                                <li>
+                                                    <code
+                                                        ><span class="t-str"
+                                                            >User</span
+                                                        ><span class="t-op"
+                                                            >+</span
+                                                        ><span class="t-num"
+                                                            >1</span
+                                                        ></code
+                                                    >
+                                                    <span class="t-res"
+                                                        >→ UserJohn</span
+                                                    >
+                                                </li>
+                                            </ul>
+                                        </span>
+                                    </span>
+                                </label>
+                                <button
+                                    id="usernameFormulaAdd"
+                                    class="formula-add"
+                                    type="button"
+                                    hidden
+                                >
+                                    + add
+                                </button>
+                            </div>
+                            <input
+                                id="usernameFormulaInput"
+                                type="text"
+                                value="1+2+3"
+                                spellcheck="false"
+                            />
+                        </div>
+
+                        <div class="field">
+                            <label
+                                for="separatorInput"
+                                class="label-with-tooltip"
+                            >
+                                Username separator
+                                <span class="tooltip-trigger"
+                                    >?
+                                    <span class="tooltip-content">
+                                        Optional char used to join segments.<br />
+                                        Examples:
+                                        <code><span class="t-op">_</span></code
+                                        >,
+                                        <code><span class="t-op">.</span></code
+                                        >,
+                                        <code><span class="t-op">-</span></code
+                                        ><br /><br />
+                                        <em
+                                            >Recommended: Keep empty to stay
+                                            common.</em
+                                        >
+                                    </span>
+                                </span>
+                            </label>
+                            <input
+                                id="separatorInput"
+                                type="text"
+                                value=""
+                                spellcheck="false"
+                                placeholder="Optional"
+                            />
+                        </div>
+
+                        <div class="field">
+                            <label for="caseSelect" class="label-with-tooltip">
+                                Username letter case
+                                <span class="tooltip-trigger"
+                                    >?
+                                    <span class="tooltip-content">
+                                        Casing used for the generated string:<br />
+                                        &bull;
+                                        <strong>Capitalize:</strong> Visual
+                                        clarity.<br />
+                                        &bull; <strong>Lower:</strong> Most
+                                        common on platforms.<br />
+                                        &bull; <strong>Keep:</strong> Uses
+                                        source as is.
+                                    </span>
+                                </span>
+                            </label>
+                            <select id="caseSelect">
+                                <option value="camel">Capitalize</option>
+                                <option value="lower">Lower</option>
+                                <option value="keep">Keep</option>
+                            </select>
+                        </div>
+                    </div>
+                </details>
+
+                <details class="panel">
+                    <summary class="section-head">
+                        <h2>Built-in datasets & generators</h2>
+                    </summary>
+                    <ul id="datasetInfo" class="dataset-links"></ul>
+                    <div class="custom-dataset-note">
+                        <strong>💡 Custom Datasets:</strong> Import files using
+                        the <strong>⤴</strong> button. Format:
+                        <strong>One item per line</strong>.
+                    </div>
+                </details>
+
+                <footer class="app-footer">
+                    <div class="footer-text">
+                        Built with AI &middot; Last updated: 11 March 2026
+                    </div>
+                    <div
+                        style="
+                            display: flex;
+                            gap: 12px;
+                            flex-wrap: wrap;
+                            justify-content: center;
+                        "
+                    >
+                        <a
+                            href="https://furuy.com/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="sponsor-link"
+                        >
+                            <span aria-hidden="true">🌐</span> Visit my site
+                        </a>
+                        <a
+                            href="https://github.com/furuycom/furuy.com/tree/main/static/tools/CrowdName/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="sponsor-link"
+                        >
+                            <span aria-hidden="true">👨🏻‍💻</span> GitHub
+                        </a>
+                        <a
+                            href="https://github.com/sponsors/furuycom"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="sponsor-link"
+                        >
+                            <span aria-hidden="true">💖</span> Sponsor
+                        </a>
+                    </div>
+                </footer>
+            </aside>
+        </main>
+
+        <template id="slotTemplate">
+            <article class="slot-container">
+                <div class="slot-main">
+                    <div class="slot-index" data-part="index"></div>
+                    <select
+                        class="slot-select"
+                        data-part="dataset"
+                        aria-label="Dataset"
+                    ></select>
+                    <div class="slot-actions">
+                        <button
+                            type="button"
+                            class="slot-btn"
+                            data-action="up"
+                            aria-label="Move up"
+                            title="Move up"
+                        >
+                            ↑
+                        </button>
+                        <button
+                            type="button"
+                            class="slot-btn"
+                            data-action="down"
+                            aria-label="Move down"
+                            title="Move down"
+                        >
+                            ↓
+                        </button>
+                        <button
+                            type="button"
+                            class="slot-btn"
+                            data-action="import"
+                            aria-label="Import dataset"
+                            title="Import dataset"
+                        >
+                            ⤴
+                        </button>
+                        <button
+                            type="button"
+                            class="slot-btn"
+                            data-action="remove"
+                            aria-label="Remove slot"
+                            title="Remove slot"
+                        >
+                            ×
+                        </button>
+                    </div>
+                    <input hidden type="file" data-part="file" />
+                </div>
+                <div class="slot-settings" data-part="settings" hidden></div>
+            </article>
+        </template>
+
+        <script>
+            const NL = "\n";
+            const BASE_HUE = Math.floor(Math.random() * 360);
+
+            // Helper to format file sizes
+            function formatBytes(bytes) {
+                if (bytes === 0) return "0 B";
+                const k = 1024;
+                const sizes = ["B", "KB", "MB"];
+                const i = Math.floor(Math.log(bytes) / Math.log(k));
+                return (
+                    parseFloat((bytes / Math.pow(k, i)).toFixed(1)) +
+                    " " +
+                    sizes[i]
+                );
+            }
+
+            const RAW_MALES = [
+                "James",
+                "Michael",
+                "John",
+                "Robert",
+                "David",
+                "William",
+                "Richard",
+                "Joseph",
+                "Thomas",
+                "Christopher",
+                "Charles",
+                "Daniel",
+                "Matthew",
+                "Anthony",
+                "Mark",
+                "Steven",
+                "Donald",
+                "Andrew",
+                "Joshua",
+                "Paul",
+                "Kenneth",
+                "Kevin",
+                "Brian",
+                "Timothy",
+                "Ronald",
+                "Jason",
+                "George",
+                "Edward",
+                "Jeffrey",
+                "Ryan",
+                "Jacob",
+                "Nicholas",
+                "Gary",
+                "Eric",
+                "Jonathan",
+                "Stephen",
+                "Larry",
+                "Justin",
+                "Benjamin",
+                "Scott",
+                "Brandon",
+                "Samuel",
+                "Gregory",
+                "Alexander",
+                "Patrick",
+                "Frank",
+                "Jack",
+                "Raymond",
+                "Dennis",
+                "Tyler",
+                "Aaron",
+                "Jerry",
+                "Jose",
+                "Nathan",
+                "Adam",
+                "Henry",
+                "Zachary",
+                "Douglas",
+                "Peter",
+                "Noah",
+                "Kyle",
+                "Ethan",
+                "Christian",
+                "Jeremy",
+                "Keith",
+                "Austin",
+                "Sean",
+                "Roger",
+                "Terry",
+                "Walter",
+                "Dylan",
+                "Gerald",
+                "Carl",
+                "Jordan",
+                "Bryan",
+                "Gabriel",
+                "Jesse",
+                "Harold",
+                "Lawrence",
+                "Logan",
+                "Arthur",
+                "Bruce",
+                "Billy",
+                "Elijah",
+                "Joe",
+                "Alan",
+                "Juan",
+                "Liam",
+                "Willie",
+                "Mason",
+                "Albert",
+                "Randy",
+                "Wayne",
+                "Vincent",
+                "Lucas",
+                "Caleb",
+                "Luke",
+                "Bobby",
+                "Isaac",
+                "Bradley",
+            ];
+            const RAW_FEMALES = [
+                "Mary",
+                "Patricia",
+                "Jennifer",
+                "Linda",
+                "Elizabeth",
+                "Barbara",
+                "Susan",
+                "Jessica",
+                "Karen",
+                "Sarah",
+                "Lisa",
+                "Nancy",
+                "Sandra",
+                "Ashley",
+                "Emily",
+                "Kimberly",
+                "Betty",
+                "Margaret",
+                "Donna",
+                "Michelle",
+                "Carol",
+                "Amanda",
+                "Melissa",
+                "Deborah",
+                "Stephanie",
+                "Rebecca",
+                "Sharon",
+                "Laura",
+                "Cynthia",
+                "Amy",
+                "Kathleen",
+                "Angela",
+                "Dorothy",
+                "Shirley",
+                "Emma",
+                "Brenda",
+                "Nicole",
+                "Pamela",
+                "Samantha",
+                "Anna",
+                "Katherine",
+                "Christine",
+                "Debra",
+                "Rachel",
+                "Olivia",
+                "Carolyn",
+                "Maria",
+                "Janet",
+                "Heather",
+                "Diane",
+                "Catherine",
+                "Julie",
+                "Victoria",
+                "Helen",
+                "Joyce",
+                "Lauren",
+                "Kelly",
+                "Christina",
+                "Joan",
+                "Judith",
+                "Ruth",
+                "Hannah",
+                "Evelyn",
+                "Andrea",
+                "Virginia",
+                "Megan",
+                "Cheryl",
+                "Jacqueline",
+                "Madison",
+                "Sophia",
+                "Abigail",
+                "Teresa",
+                "Isabella",
+                "Sara",
+                "Janice",
+                "Martha",
+                "Gloria",
+                "Kathryn",
+                "Ann",
+                "Charlotte",
+                "Judy",
+                "Amber",
+                "Julia",
+                "Grace",
+                "Denise",
+                "Danielle",
+                "Natalie",
+                "Alice",
+                "Marilyn",
+                "Diana",
+                "Beverly",
+                "Jean",
+                "Brittany",
+                "Theresa",
+                "Frances",
+                "Kayla",
+                "Alexis",
+                "Tiffany",
+                "Lori",
+                "Kathy",
+            ];
+
+            // Format given names to carry gender data for emoji logic
+            const GIVEN_NAMES_100 = [
+                ...RAW_MALES.map((name, i) => ({ name, g: "M", rank: i + 1 })),
+                ...RAW_FEMALES.map((name, i) => ({
+                    name,
+                    g: "F",
+                    rank: i + 1,
+                })),
+            ];
+
+            // High precision demographic stats from US 2010 Census Top 100 Surnames
+            const CENSUS_100_SURNAMES = [
+                { name: "Smith", w: 70.9, b: 23.1, h: 2.4, a: 0.5 },
+                { name: "Johnson", w: 59.0, b: 34.6, h: 2.4, a: 0.5 },
+                { name: "Williams", w: 45.7, b: 47.7, h: 2.5, a: 0.5 },
+                { name: "Brown", w: 58.0, b: 35.6, h: 3.1, a: 0.5 },
+                { name: "Jones", w: 55.2, b: 38.5, h: 2.3, a: 0.4 },
+                { name: "Garcia", w: 5.4, b: 0.5, h: 92.0, a: 1.4 },
+                { name: "Miller", w: 82.4, b: 10.4, h: 2.4, a: 0.4 },
+                { name: "Davis", w: 62.2, b: 31.7, h: 2.3, a: 0.5 },
+                { name: "Rodriguez", w: 4.8, b: 0.5, h: 93.8, a: 0.4 },
+                { name: "Martinez", w: 5.3, b: 0.5, h: 92.9, a: 0.6 },
+                { name: "Hernandez", w: 4.5, b: 0.4, h: 94.3, a: 0.4 },
+                { name: "Lopez", w: 5.0, b: 0.6, h: 93.3, a: 0.5 },
+                { name: "Gonzales", w: 7.7, b: 0.6, h: 89.6, a: 0.7 },
+                { name: "Wilson", w: 66.5, b: 27.9, h: 2.2, a: 0.5 },
+                { name: "Anderson", w: 75.3, b: 18.6, h: 2.5, a: 0.6 },
+                { name: "Thomas", w: 52.3, b: 40.5, h: 2.3, a: 0.6 },
+                { name: "Taylor", w: 65.5, b: 28.3, h: 2.3, a: 0.5 },
+                { name: "Moore", w: 61.6, b: 33.1, h: 2.1, a: 0.4 },
+                { name: "Jackson", w: 41.0, b: 53.0, h: 2.2, a: 0.4 },
+                { name: "Martin", w: 73.0, b: 16.2, h: 7.2, a: 0.6 },
+                { name: "Lee", w: 37.6, b: 16.5, h: 2.4, a: 40.1 },
+                { name: "Perez", w: 4.8, b: 0.5, h: 93.7, a: 0.4 },
+                { name: "Thompson", w: 68.6, b: 25.7, h: 2.2, a: 0.5 },
+                { name: "White", w: 66.2, b: 28.2, h: 2.2, a: 0.4 },
+                { name: "Harris", w: 51.5, b: 42.4, h: 2.2, a: 0.4 },
+                { name: "Sanchez", w: 4.8, b: 0.5, h: 93.3, a: 0.6 },
+                { name: "Clark", w: 75.2, b: 19.3, h: 2.1, a: 0.5 },
+                { name: "Ramirez", w: 4.2, b: 0.4, h: 94.5, a: 0.5 },
+                { name: "Lewis", w: 59.1, b: 34.6, h: 2.2, a: 0.5 },
+                { name: "Robinson", w: 43.1, b: 51.1, h: 2.1, a: 0.4 },
+                { name: "Walker", w: 58.7, b: 35.5, h: 2.2, a: 0.4 },
+                { name: "Young", w: 68.2, b: 25.2, h: 2.3, a: 1.1 },
+                { name: "Allen", w: 68.1, b: 26.2, h: 2.1, a: 0.5 },
+                { name: "King", w: 68.6, b: 25.3, h: 2.3, a: 0.7 },
+                { name: "Wright", w: 66.8, b: 28.1, h: 1.9, a: 0.4 },
+                { name: "Scott", w: 64.9, b: 29.5, h: 2.1, a: 0.5 },
+                { name: "Torres", w: 4.9, b: 0.5, h: 93.2, a: 0.7 },
+                { name: "Nguyen", w: 1.2, b: 0.2, h: 0.8, a: 96.5 },
+                { name: "Hill", w: 65.5, b: 29.1, h: 2.1, a: 0.4 },
+                { name: "Flores", w: 4.6, b: 0.5, h: 92.5, a: 1.6 },
+                { name: "Green", w: 58.2, b: 36.3, h: 2.2, a: 0.4 },
+                { name: "Adams", w: 72.8, b: 21.6, h: 2.2, a: 0.5 },
+                { name: "Nelson", w: 79.5, b: 14.3, h: 2.5, a: 0.7 },
+                { name: "Baker", w: 78.4, b: 16.3, h: 2.3, a: 0.5 },
+                { name: "Hall", w: 71.9, b: 22.5, h: 2.2, a: 0.5 },
+                { name: "Rivera", w: 6.4, b: 1.2, h: 90.7, a: 1.0 },
+                { name: "Campbell", w: 74.0, b: 20.6, h: 2.2, a: 0.5 },
+                { name: "Mitchell", w: 63.8, b: 30.6, h: 2.2, a: 0.5 },
+                { name: "Carter", w: 61.4, b: 33.3, h: 2.1, a: 0.5 },
+                { name: "Roberts", w: 75.3, b: 19.3, h: 2.2, a: 0.5 },
+                { name: "Gomez", w: 4.9, b: 0.4, h: 93.6, a: 0.5 },
+                { name: "Phillips", w: 74.8, b: 19.9, h: 2.1, a: 0.5 },
+                { name: "Evans", w: 71.6, b: 23.0, h: 2.2, a: 0.5 },
+                { name: "Turner", w: 65.1, b: 29.8, h: 2.0, a: 0.4 },
+                { name: "Diaz", w: 5.6, b: 0.5, h: 92.4, a: 0.8 },
+                { name: "Parker", w: 71.5, b: 23.4, h: 2.1, a: 0.5 },
+                { name: "Cruz", w: 6.5, b: 0.7, h: 88.0, a: 3.9 },
+                { name: "Edwards", w: 68.6, b: 26.1, h: 2.2, a: 0.5 },
+                { name: "Collins", w: 76.5, b: 18.5, h: 2.1, a: 0.5 },
+                { name: "Reyes", w: 4.8, b: 0.6, h: 91.8, a: 2.1 },
+                { name: "Stewart", w: 72.3, b: 22.5, h: 2.1, a: 0.5 },
+                { name: "Morris", w: 74.2, b: 20.4, h: 2.2, a: 0.5 },
+                { name: "Morales", w: 4.6, b: 0.5, h: 93.5, a: 0.6 },
+                { name: "Murphy", w: 83.1, b: 11.9, h: 2.4, a: 0.5 },
+                { name: "Cook", w: 79.5, b: 15.3, h: 2.2, a: 0.5 },
+                { name: "Rogers", w: 75.3, b: 19.3, h: 2.2, a: 0.5 },
+                { name: "Gutierrez", w: 4.2, b: 0.3, h: 94.6, a: 0.5 },
+                { name: "Ortiz", w: 4.8, b: 0.5, h: 93.8, a: 0.4 },
+                { name: "Morgan", w: 76.2, b: 18.5, h: 2.2, a: 0.5 },
+                { name: "Cooper", w: 70.1, b: 24.5, h: 2.2, a: 0.5 },
+                { name: "Peterson", w: 84.7, b: 10.0, h: 2.4, a: 0.6 },
+                { name: "Bailey", w: 75.0, b: 20.0, h: 2.1, a: 0.5 },
+                { name: "Reed", w: 75.8, b: 19.1, h: 2.1, a: 0.5 },
+                { name: "Kelly", w: 79.9, b: 14.5, h: 2.6, a: 0.6 },
+                { name: "Howard", w: 66.8, b: 28.1, h: 2.1, a: 0.5 },
+                { name: "Ramos", w: 5.1, b: 0.6, h: 91.5, a: 2.1 },
+                { name: "Kim", w: 1.5, b: 0.3, h: 0.9, a: 95.5 },
+                { name: "Cox", w: 82.8, b: 12.7, h: 2.0, a: 0.4 },
+                { name: "Ward", w: 75.7, b: 19.2, h: 2.1, a: 0.5 },
+                { name: "Richardson", w: 59.8, b: 35.3, h: 2.1, a: 0.4 },
+                { name: "Watson", w: 68.6, b: 26.2, h: 2.1, a: 0.5 },
+                { name: "Brooks", w: 64.9, b: 29.8, h: 2.3, a: 0.5 },
+                { name: "Chavez", w: 4.4, b: 0.4, h: 93.8, a: 0.6 },
+                { name: "Wood", w: 84.3, b: 10.9, h: 2.1, a: 0.5 },
+                { name: "James", w: 52.8, b: 39.5, h: 2.6, a: 0.9 },
+                { name: "Bennet", w: 69.8, b: 24.3, h: 2.6, a: 0.6 },
+                { name: "Gray", w: 70.3, b: 24.4, h: 2.3, a: 0.5 },
+                { name: "Mendoza", w: 4.0, b: 0.4, h: 94.1, a: 0.9 },
+                { name: "Ruiz", w: 5.0, b: 0.5, h: 93.3, a: 0.5 },
+                { name: "Hughes", w: 77.5, b: 17.5, h: 2.2, a: 0.5 },
+                { name: "Price", w: 74.4, b: 20.6, h: 2.2, a: 0.5 },
+                { name: "Alvarez", w: 5.1, b: 0.5, h: 93.2, a: 0.6 },
+                { name: "Castillo", w: 5.0, b: 0.5, h: 93.1, a: 0.8 },
+                { name: "Sanders", w: 64.3, b: 30.6, h: 2.2, a: 0.4 },
+                { name: "Patel", w: 1.8, b: 0.5, h: 0.7, a: 95.1 },
+                { name: "Myers", w: 84.3, b: 11.2, h: 2.0, a: 0.5 },
+                { name: "Long", w: 76.5, b: 16.9, h: 2.2, a: 1.6 },
+                { name: "Ross", w: 71.4, b: 23.3, h: 2.4, a: 0.6 },
+                { name: "Foster", w: 68.6, b: 26.2, h: 2.2, a: 0.5 },
+                { name: "Jimenez", w: 4.0, b: 0.4, h: 94.6, a: 0.5 },
+            ];
+
+            const DEFAULT_DATASETS = [
+                {
+                    id: "ssa-common-given",
+                    label: "🇺🇸 SSA Common Given Names",
+                    type: "Official",
+                    source: "Social Security Administration",
+                    years: "1925-2024 · Top 100 M/F",
+                    range: "",
+                    items: GIVEN_NAMES_100,
+                    href: "https://www.ssa.gov/oact/babynames/decades/century.html",
+                },
+                {
+                    id: "census-common-surnames",
+                    label: "🇺🇸 Census Common Surnames",
+                    type: "Official",
+                    source: "U.S. Census Bureau",
+                    years: "2010 · Top 100 Surnames w/ Demographics",
+                    range: "",
+                    items: CENSUS_100_SURNAMES,
+                    href: "https://www.census.gov/topics/population/genealogy/data/2010_surnames.html",
+                },
+                {
+                    id: "generated-number-slot",
+                    label: "🔢 Random Number Generator",
+                    type: "",
+                    source: "Local Generator",
+                    years: "",
+                    range: "",
+                    items: [],
+                    href: "",
+                },
+            ];
+
+            const state = {
+                datasets: DEFAULT_DATASETS.map((dataset) => ({
+                    ...dataset,
+                    items: [...dataset.items],
+                })),
+                slots: [],
+                tokens: [],
+                nameFormula: "1+2",
+                usernameFormula: "1+2+3",
+                separator: "",
+                casing: "camel",
+                pendingFormulaSlotNumber: null,
+            };
+
+            const byId = (id) => document.getElementById(id);
+
+            const randomId = (prefix) =>
+                `${prefix}-${Math.random().toString(36).slice(2, 10)}`;
+
+            const makeColor = (index) => {
+                const hue = (BASE_HUE + index * 137.508) % 360;
+                const sat = 70 + ((index * 7) % 20); // 70-89% Saturation (Vibrant)
+                const light = 65 + ((index * 5) % 10); // 65-74% Lightness (Bright)
+                return `hsl(${hue.toFixed(1)} ${sat}% ${light}%)`;
+            };
+
+            const makeSlot = (datasetId = "", index = 0) => ({
+                id: randomId("slot"),
+                datasetId,
+                color: makeColor(index),
+                range: 20,
+                numberLength: 1,
+                genderFilter: ["M", "F"],
+                raceFilter: ["w", "b", "h", "a"],
+            });
+
+            const getDatasetById = (id) =>
+                state.datasets.find((dataset) => dataset.id === id) || null;
+
+            const normalizeLineBreaks = (text) =>
+                String(text || "").replace(/\r\n?/g, NL);
+
+            function parseDatasetText(text, fallbackName, sizeBytes) {
+                const items = normalizeLineBreaks(text)
+                    .split(NL)
+                    .map((line) => line.trim())
+                    .filter(Boolean);
+
+                const sizeStr = sizeBytes ? ` · ${formatBytes(sizeBytes)}` : "";
+
+                return {
+                    id: randomId("dataset"),
+                    label: `📄 ${fallbackName || "Dataset"}`,
+                    type: "Imported",
+                    source: "Local file",
+                    years: "",
+                    range: `${items.length} items${sizeStr}`,
+                    items,
+                    href: "",
+                };
+            }
+
+            const readFileAsText = (file) =>
+                new Promise((resolve, reject) => {
+                    const reader = new FileReader();
+                    reader.onload = () => resolve(String(reader.result || ""));
+                    reader.onerror = () =>
+                        reject(new Error("Failed to read file"));
+                    reader.readAsText(file);
+                });
+
+            const createOption = (value, text) => {
+                const option = document.createElement("option");
+                option.value = value;
+                option.textContent = text;
+                return option;
+            };
+
+            function fillDatasetOptions(select, selectedId) {
+                select.innerHTML = "";
+                const placeholder = createOption("", "Select or import...");
+                placeholder.disabled = true;
+                placeholder.selected = true;
+                placeholder.hidden = true;
+                select.appendChild(placeholder);
+
+                state.datasets.forEach((dataset) =>
+                    select.appendChild(createOption(dataset.id, dataset.label)),
+                );
+                if (selectedId) select.value = selectedId;
+            }
+
+            const pickRandom = (items) => {
+                if (!items || !items.length) return "";
+                return items[Math.floor(Math.random() * items.length)];
+            };
+
+            const onlyAsciiAlphaNum = (value) =>
+                String(value || "").replace(/[^a-zA-Z0-9]/g, "");
+            const capitalize = (value) =>
+                value
+                    ? value.charAt(0).toUpperCase() +
+                      value.slice(1).toLowerCase()
+                    : "";
+
+            const generateNumberString = (len) =>
+                len < 1
+                    ? ""
+                    : String(Math.floor(Math.random() * 9) + 1) +
+                      Array.from({ length: len - 1 }, () =>
+                          Math.floor(Math.random() * 10),
+                      ).join("");
+
+            function computeSingleToken(slot) {
+                const dataset = getDatasetById(slot.datasetId);
+                if (!dataset) return null;
+
+                let text = "";
+                let demographics = null;
+                let gender = null;
+
+                if (dataset.id === "generated-number-slot") {
+                    text = generateNumberString(slot.numberLength || 1);
+                } else if (dataset.id === "census-common-surnames") {
+                    const filter = slot.raceFilter || ["w", "b", "h", "a"];
+
+                    const filteredItems = dataset.items.filter((i) => {
+                        const max = Math.max(i.w, i.b, i.h, i.a);
+                        if (max === i.w && filter.includes("w")) return true;
+                        if (max === i.b && filter.includes("b")) return true;
+                        if (max === i.h && filter.includes("h")) return true;
+                        if (max === i.a && filter.includes("a")) return true;
+                        return false;
+                    });
+
+                    const pool = filteredItems.slice(0, slot.range || 20);
+                    const picked = pickRandom(pool);
+                    if (picked) {
+                        text = picked.name;
+                        demographics = picked;
+                    }
+                } else if (dataset.id === "ssa-common-given") {
+                    const range = slot.range || 20;
+                    const filter = slot.genderFilter || ["M", "F"];
+                    const pool = dataset.items.filter(
+                        (i) => i.rank <= range && filter.includes(i.g),
+                    );
+                    const picked = pickRandom(pool);
+                    if (picked) {
+                        text = picked.name;
+                        gender = picked.g;
+                    }
+                } else {
+                    text = pickRandom(dataset.items);
+                }
+
+                return text
+                    ? {
+                          slotId: slot.id,
+                          text,
+                          color: slot.color,
+                          demographics,
+                          gender,
+                      }
+                    : null;
+            }
+
+            function computeTokens() {
+                return state.slots.map((slot) => computeSingleToken(slot));
+            }
+
+            function recomputeSlot(slotId) {
+                const index = state.slots.findIndex((s) => s.id === slotId);
+                if (index > -1) {
+                    const prevText = state.tokens[index]
+                        ? state.tokens[index].text
+                        : null;
+                    let newToken;
+                    let attempts = 0;
+
+                    // Force a new result if possible, max 10 attempts
+                    do {
+                        newToken = computeSingleToken(state.slots[index]);
+                        attempts++;
+                    } while (
+                        newToken &&
+                        prevText &&
+                        newToken.text === prevText &&
+                        attempts < 10
+                    );
+
+                    state.tokens[index] = newToken;
+                    renderPreview();
+                }
+            }
+
+            const getFormulaSegments = (formulaText, slotCount) => {
+                const segments = String(formulaText || "")
+                    .split("+")
+                    .map((p) => p.trim())
+                    .filter(Boolean);
+                return segments.length
+                    ? segments
+                    : Array.from({ length: slotCount }, (_, i) =>
+                          String(i + 1),
+                      );
+            };
+
+            const isStandaloneSlotReference = (segment, slotCount) => {
+                if (!/^\d+$/.test(segment)) return false;
+                const num = Number(segment);
+                return num >= 1 && num <= slotCount;
+            };
+
+            const applyCase = (text) =>
+                state.casing === "lower"
+                    ? text.toLowerCase()
+                    : state.casing === "keep"
+                      ? text
+                      : capitalize(text);
+
+            function buildFormulaParts(
+                tokens,
+                formulaText,
+                joiner,
+                applyLetterCase,
+            ) {
+                const segments = getFormulaSegments(
+                    formulaText,
+                    state.slots.length,
+                );
+                const parts = [];
+
+                segments.forEach((segment, index) => {
+                    let value = segment,
+                        color = "";
+
+                    if (
+                        isStandaloneSlotReference(segment, state.slots.length)
+                    ) {
+                        const token = tokens[Number(segment) - 1];
+                        if (token?.text) {
+                            value = applyLetterCase
+                                ? applyCase(onlyAsciiAlphaNum(token.text)) ||
+                                  segment
+                                : token.text;
+                            color =
+                                applyLetterCase &&
+                                !onlyAsciiAlphaNum(token.text)
+                                    ? ""
+                                    : token.color;
+                        }
+                    }
+
+                    if (index > 0 && joiner)
+                        parts.push({ text: joiner, color: "", joiner: true });
+                    parts.push({ text: value, color, joiner: false });
+                });
+
+                return parts;
+            }
+
+            const partsToText = (parts, limit = 9999) =>
+                parts
+                    .map((p) => p.text)
+                    .join("")
+                    .slice(0, limit);
+
+            function renderColoredText(node, parts, className) {
+                node.innerHTML = "";
+                parts.forEach((part) => {
+                    const span = document.createElement("span");
+                    span.className = `${className} ${part.joiner ? "joiner" : "segment"}`;
+                    span.textContent = part.text;
+                    if (part.color) span.style.color = part.color;
+                    node.appendChild(span);
+                });
+            }
+
+            function generateSmartEmoji(tokens) {
+                let gender = null;
+                let demographics = null;
+
+                tokens.forEach((t) => {
+                    if (t && t.gender) gender = t.gender;
+                    if (t && t.demographics) demographics = t.demographics;
+                });
+
+                let base = "\u{1F9D1}"; // Person
+                if (gender === "M")
+                    base = "\u{1F468}"; // Man
+                else if (gender === "F") base = "\u{1F469}"; // Woman
+
+                if (demographics) {
+                    const { w, b, h, a } = demographics;
+                    const max = Math.max(w, b, h, a);
+
+                    if (max === w) {
+                        return base + "\u{1F3FC}"; // White (Medium-Light Skin Tone) -> 👨🏼 / 👩🏼
+                    } else if (max === a) {
+                        return base + "\u{1F3FB}"; // Asian (Light Skin Tone) -> 👨🏻 / 👩🏻
+                    } else if (max === h) {
+                        return base + "\u{1F3FD}"; // Hispanic (Medium Skin Tone) -> 👨🏽 / 👩🏽
+                    } else if (max === b) {
+                        return base + "\u{1F3FF}"; // Black (Dark Skin Tone) -> 👨🏿 / 👩🏿
+                    }
+                }
+
+                return base;
+            }
+
+            function renderDemographics(tokens) {
+                const demoBox = byId("demographicsBox");
+                demoBox.innerHTML = "";
+
+                const tokensWithDemo = tokens.filter(
+                    (t) => t && t.demographics,
+                );
+                if (!tokensWithDemo.length) return;
+
+                tokensWithDemo.forEach((t) => {
+                    const d = t.demographics;
+                    const stats = [];
+                    if (d.w > 0) stats.push({ label: "White", val: d.w });
+                    if (d.b > 0) stats.push({ label: "Black", val: d.b });
+                    if (d.h > 0) stats.push({ label: "Hispanic", val: d.h });
+                    if (d.a > 0) stats.push({ label: "Asian", val: d.a });
+
+                    stats.sort((a, b) => b.val - a.val);
+
+                    const container = document.createElement("div");
+                    container.style.display = "flex";
+                    container.style.flexDirection = "column";
+                    container.style.gap = "4px";
+
+                    const title = document.createElement("div");
+                    title.style.fontSize = "11px";
+                    title.style.fontWeight = "700";
+                    title.style.color = t.color;
+                    title.style.marginBottom = "2px";
+                    title.style.textTransform = "uppercase";
+                    title.style.letterSpacing = "0.05em";
+                    title.textContent = "SURNAME STATS";
+                    container.appendChild(title);
+
+                    stats.forEach((s, idx) => {
+                        const div = document.createElement("div");
+                        div.className = "demo-item";
+                        div.style.opacity = String(1 - idx * 0.25);
+                        div.innerHTML = `<strong>${s.val}%</strong> ${s.label}`;
+                        container.appendChild(div);
+                    });
+
+                    demoBox.appendChild(container);
+                });
+            }
+
+            function renderPreview() {
+                const nameNode = byId("resultName");
+                const usernameNode = byId("resultUsername");
+                const nameParts = buildFormulaParts(
+                    state.tokens,
+                    state.nameFormula,
+                    " ",
+                    false,
+                );
+                const usernameParts = buildFormulaParts(
+                    state.tokens,
+                    state.usernameFormula,
+                    state.separator,
+                    true,
+                );
+
+                renderColoredText(nameNode, nameParts, "name-piece");
+                renderColoredText(
+                    usernameNode,
+                    usernameParts,
+                    "username-piece",
+                );
+
+                byId("resultEmoji").textContent = generateSmartEmoji(
+                    state.tokens,
+                );
+                renderDemographics(state.tokens);
+
+                nameNode.dataset.copy = partsToText(nameParts, 120);
+                usernameNode.dataset.copy = partsToText(usernameParts, 4000);
+            }
+
+            function generate() {
+                state.tokens = computeTokens();
+                renderPreview();
+            }
+
+            function addSlot(datasetId) {
+                state.slots.push(makeSlot(datasetId, state.slots.length));
+                renderSlots();
+                generate();
+
+                // Animate the import button of the newly added slot
+                setTimeout(() => {
+                    const slotContainers =
+                        document.querySelectorAll(".slot-container");
+                    if (slotContainers.length > 0) {
+                        const newSlotContainer =
+                            slotContainers[slotContainers.length - 1];
+                        const importBtn = newSlotContainer.querySelector(
+                            '[data-action="import"]',
+                        );
+                        if (importBtn) {
+                            importBtn.classList.remove("btn-glow-anim");
+                            void importBtn.offsetWidth;
+                            importBtn.classList.add("btn-glow-anim");
+                        }
+                    }
+                }, 10);
+            }
+
+            const adjustFormulaAfterRemoval = (formula, removedIdx) =>
+                String(formula || "")
+                    .split("+")
+                    .map((s) => s.trim())
+                    .filter(Boolean)
+                    .reduce((acc, seg) => {
+                        if (!/^\d+$/.test(seg)) {
+                            acc.push(seg);
+                            return acc;
+                        }
+                        const num = parseInt(seg, 10);
+                        if (num === removedIdx + 1) return acc;
+                        acc.push(String(num > removedIdx + 1 ? num - 1 : num));
+                        return acc;
+                    }, [])
+                    .join("+");
+
+            function removeSlot(slotId) {
+                if (state.slots.length <= 1) return;
+
+                const removedIndex = state.slots.findIndex(
+                    (s) => s.id === slotId,
+                );
+                if (removedIndex < 0) return;
+
+                state.slots.splice(removedIndex, 1);
+
+                state.nameFormula = adjustFormulaAfterRemoval(
+                    state.nameFormula,
+                    removedIndex,
+                );
+                state.usernameFormula = adjustFormulaAfterRemoval(
+                    state.usernameFormula,
+                    removedIndex,
+                );
+
+                byId("nameFormulaInput").value = state.nameFormula;
+                byId("usernameFormulaInput").value = state.usernameFormula;
+
+                renderSlots();
+                generate();
+            }
+
+            function moveSlot(slotId, step) {
+                const index = state.slots.findIndex((s) => s.id === slotId);
+                const nextIndex = index + step;
+                if (
+                    index < 0 ||
+                    nextIndex < 0 ||
+                    nextIndex >= state.slots.length
+                )
+                    return;
+
+                [state.slots[index], state.slots[nextIndex]] = [
+                    state.slots[nextIndex],
+                    state.slots[index],
+                ];
+                renderSlots();
+                generate();
+            }
+
+            function showInlineCheck(kind) {
+                const isName = kind === "name";
+                const node = byId(isName ? "nameCheck" : "usernameCheck");
+                const timerKey = isName
+                    ? "nameCheckTimer"
+                    : "usernameCheckTimer";
+
+                node.classList.add("visible");
+                clearTimeout(state[timerKey]);
+                state[timerKey] = setTimeout(
+                    () => node.classList.remove("visible"),
+                    700,
+                );
+            }
+
+            async function copyText(text, kind) {
+                if (!text) return;
+                try {
+                    if (navigator.clipboard && window.isSecureContext) {
+                        await navigator.clipboard.writeText(text);
+                        showInlineCheck(kind);
+                        return;
+                    }
+                    throw new Error("Clipboard API strictly unavailable.");
+                } catch (err) {
+                    const area = document.createElement("textarea");
+                    area.value = text;
+                    area.style.cssText = "position:fixed;left:-9999px;top:0;";
+                    document.body.appendChild(area);
+                    area.select();
+                    try {
+                        document.execCommand("copy");
+                        showInlineCheck(kind);
+                    } catch (e) {
+                        window.prompt("Copy to clipboard:", text);
+                    }
+                    document.body.removeChild(area);
+                }
+            }
+
+            function showFormulaAddOptions(slotNumber) {
+                state.pendingFormulaSlotNumber = slotNumber;
+                ["nameFormulaAdd", "usernameFormulaAdd"].forEach((id) => {
+                    const btn = byId(id);
+                    btn.hidden = false;
+                    btn.title = `Add +${slotNumber} to formula`;
+                });
+            }
+
+            function clearFormulaAddOptions() {
+                state.pendingFormulaSlotNumber = null;
+                byId("nameFormulaAdd").hidden = true;
+                byId("usernameFormulaAdd").hidden = true;
+            }
+
+            function appendPendingSlotToFormula(kind) {
+                if (!state.pendingFormulaSlotNumber) return;
+
+                const input = byId(
+                    kind === "name"
+                        ? "nameFormulaInput"
+                        : "usernameFormulaInput",
+                );
+                const current = input.value.trim();
+                input.value = current
+                    ? `${current}+${state.pendingFormulaSlotNumber}`
+                    : String(state.pendingFormulaSlotNumber);
+
+                if (kind === "name") state.nameFormula = input.value;
+                else state.usernameFormula = input.value;
+
+                clearFormulaAddOptions();
+                renderPreview();
+            }
+
+            function renderDatasetInfo() {
+                const root = byId("datasetInfo");
+                root.innerHTML = "";
+
+                state.datasets.forEach((dataset) => {
+                    const li = document.createElement("li");
+                    li.className = "dataset-item";
+
+                    const nameDiv = document.createElement("div");
+                    nameDiv.className = "dataset-name";
+                    if (dataset.href) {
+                        const link = document.createElement("a");
+                        link.href = dataset.href;
+                        link.target = "_blank";
+                        link.rel = "noreferrer noopener";
+                        link.textContent = dataset.label;
+                        nameDiv.appendChild(link);
+                    } else {
+                        nameDiv.textContent = dataset.label;
+                    }
+                    li.appendChild(nameDiv);
+
+                    if (dataset.type || dataset.source) {
+                        const meta1 = document.createElement("div");
+                        meta1.className = "dataset-meta";
+                        meta1.textContent = [dataset.type, dataset.source]
+                            .filter(Boolean)
+                            .join(" · ");
+                        li.appendChild(meta1);
+                    }
+
+                    if (dataset.years || dataset.range) {
+                        const meta2 = document.createElement("div");
+                        meta2.className = "dataset-meta";
+                        meta2.textContent = [dataset.years, dataset.range]
+                            .filter(Boolean)
+                            .join(" · ");
+                        li.appendChild(meta2);
+                    }
+
+                    root.appendChild(li);
+                });
+            }
+
+            function bindSlotEvents(slot, row, index) {
+                const datasetSelect = row.querySelector(
+                    '[data-part="dataset"]',
+                );
+                const upBtn = row.querySelector('[data-action="up"]');
+                const downBtn = row.querySelector('[data-action="down"]');
+                const importBtn = row.querySelector('[data-action="import"]');
+                const removeBtn = row.querySelector('[data-action="remove"]');
+                const fileInput = row.querySelector('[data-part="file"]');
+                const settingsDiv = row.querySelector('[data-part="settings"]');
+
+                datasetSelect.addEventListener("change", () => {
+                    slot.datasetId = datasetSelect.value;
+                    renderSlots();
+                    generate();
+                    if (slot.datasetId) {
+                        showFormulaAddOptions(
+                            state.slots.findIndex((s) => s.id === slot.id) + 1,
+                        );
+                    }
+                });
+
+                upBtn.disabled = index === 0;
+                downBtn.disabled = index === state.slots.length - 1;
+                removeBtn.disabled = state.slots.length <= 1;
+
+                upBtn.addEventListener("click", () => moveSlot(slot.id, -1));
+                downBtn.addEventListener("click", () => moveSlot(slot.id, 1));
+                importBtn.addEventListener("click", () => fileInput.click());
+                removeBtn.addEventListener("click", () => removeSlot(slot.id));
+
+                fileInput.addEventListener("change", async () => {
+                    const file = fileInput.files?.[0];
+                    if (!file) return;
+                    try {
+                        const text = await readFileAsText(file);
+                        const dataset = parseDatasetText(
+                            text,
+                            file.name,
+                            file.size,
+                        );
+                        if (!dataset.items.length) return;
+
+                        state.datasets.push(dataset);
+                        slot.datasetId = dataset.id;
+                        renderDatasetInfo();
+                        renderSlots();
+                        generate();
+
+                        const newSlotIndex =
+                            state.slots.findIndex((s) => s.id === slot.id) + 1;
+                        showFormulaAddOptions(newSlotIndex);
+
+                        const advancedPanel =
+                            document.querySelector("aside.side");
+                        if (advancedPanel) {
+                            advancedPanel.scrollIntoView({
+                                behavior: "smooth",
+                                block: "start",
+                            });
+                        }
+
+                        ["nameFormulaAdd", "usernameFormulaAdd"].forEach(
+                            (id) => {
+                                const btn = byId(id);
+                                if (!btn.hidden) {
+                                    btn.classList.remove("btn-text-glow");
+                                    void btn.offsetWidth; // Trigger DOM reflow
+                                    btn.classList.add("btn-text-glow");
+                                }
+                            },
+                        );
+
+                        ["nameFormulaInput", "usernameFormulaInput"].forEach(
+                            (id) => {
+                                const input = byId(id);
+                                input.classList.remove("input-glow-anim");
+                                void input.offsetWidth; // Trigger DOM reflow
+                                input.classList.add("input-glow-anim");
+                            },
+                        );
+                    } catch (error) {
+                        console.error("File import failed:", error);
+                    }
+                });
+
+                if (
+                    slot.datasetId === "census-common-surnames" ||
+                    slot.datasetId === "ssa-common-given"
+                ) {
+                    const rangeInput = settingsDiv.querySelector(
+                        '[data-action="range"]',
+                    );
+                    const updateRange = (e) => {
+                        let val = parseInt(e.target.value, 10);
+                        if (!isNaN(val)) {
+                            slot.range = Math.max(1, Math.min(100, val));
+                            recomputeSlot(slot.id);
+                        }
+                    };
+                    rangeInput.addEventListener("input", updateRange);
+                    rangeInput.addEventListener("blur", (e) => {
+                        e.target.value = slot.range || 20;
+                    });
+
+                    if (slot.datasetId === "ssa-common-given") {
+                        const genderBoxes = settingsDiv.querySelectorAll(
+                            '[data-action="gender"]',
+                        );
+                        genderBoxes.forEach((cb) => {
+                            cb.addEventListener("change", (e) => {
+                                const val = e.target.value;
+                                const otherVal = val === "M" ? "F" : "M";
+                                const otherCb = settingsDiv.querySelector(
+                                    `[value="${otherVal}"]`,
+                                );
+
+                                if (!e.target.checked && !otherCb.checked) {
+                                    e.target.checked = true;
+                                    return; // Return early, prevent state change
+                                }
+
+                                slot.genderFilter = [];
+                                if (
+                                    settingsDiv.querySelector('[value="M"]')
+                                        .checked
+                                )
+                                    slot.genderFilter.push("M");
+                                if (
+                                    settingsDiv.querySelector('[value="F"]')
+                                        .checked
+                                )
+                                    slot.genderFilter.push("F");
+                                recomputeSlot(slot.id);
+                            });
+                        });
+                    }
+
+                    if (slot.datasetId === "census-common-surnames") {
+                        const raceBoxes = settingsDiv.querySelectorAll(
+                            '[data-action="race"]',
+                        );
+                        raceBoxes.forEach((cb) => {
+                            cb.addEventListener("change", (e) => {
+                                const checkedBoxes =
+                                    settingsDiv.querySelectorAll(
+                                        '[data-action="race"]:checked',
+                                    );
+
+                                if (checkedBoxes.length === 0) {
+                                    e.target.checked = true;
+                                    return; // Return early, prevent state change
+                                }
+
+                                slot.raceFilter = Array.from(
+                                    settingsDiv.querySelectorAll(
+                                        '[data-action="race"]:checked',
+                                    ),
+                                ).map((b) => b.value);
+                                recomputeSlot(slot.id);
+                            });
+                        });
+                    }
+                } else if (slot.datasetId === "generated-number-slot") {
+                    const lenInput = settingsDiv.querySelector(
+                        '[data-action="num-len"]',
+                    );
+                    const updateLen = (e) => {
+                        let val = parseInt(e.target.value, 10);
+                        if (!isNaN(val)) {
+                            slot.numberLength = Math.max(1, val);
+                            recomputeSlot(slot.id);
+                        }
+                    };
+                    lenInput.addEventListener("input", updateLen);
+                    lenInput.addEventListener("blur", (e) => {
+                        e.target.value = slot.numberLength || 1;
+                    });
+                }
+            }
+
+            function renderSlots() {
+                const root = byId("slots");
+                root.innerHTML = "";
+
+                state.slots.forEach((slot, index) => {
+                    const fragment =
+                        byId("slotTemplate").content.cloneNode(true);
+                    const row = fragment.querySelector(".slot-container");
+
+                    const indexBox = row.querySelector('[data-part="index"]');
+                    indexBox.textContent = String(index + 1);
+                    indexBox.style.backgroundColor = slot.color;
+                    indexBox.style.color = "#090a0c";
+                    indexBox.style.borderColor = slot.color;
+
+                    fillDatasetOptions(
+                        row.querySelector('[data-part="dataset"]'),
+                        slot.datasetId,
+                    );
+
+                    const settingsDiv = row.querySelector(
+                        '[data-part="settings"]',
+                    );
+
+                    if (slot.datasetId === "ssa-common-given") {
+                        settingsDiv.hidden = false;
+                        const filter = slot.genderFilter || ["M", "F"];
+                        settingsDiv.innerHTML = `
+                            <div class="setting-row">
+                                <label>Top</label>
+                                <input type="number" min="1" max="100" value="${slot.range || 20}" data-action="range" title="Limit between 1 and 100">
+                                <div class="inline-toggles">
+                                    <label><input type="checkbox" value="M" data-action="gender" ${filter.includes("M") ? "checked" : ""}> Male</label>
+                                    <label><input type="checkbox" value="F" data-action="gender" ${filter.includes("F") ? "checked" : ""}> Female</label>
+                                </div>
+                            </div>
+                        `;
+                    } else if (slot.datasetId === "census-common-surnames") {
+                        settingsDiv.hidden = false;
+                        const filter = slot.raceFilter || ["w", "b", "h", "a"];
+                        settingsDiv.innerHTML = `
+                            <div class="setting-row">
+                                <label>Top</label>
+                                <input type="number" min="1" max="100" value="${slot.range || 20}" data-action="range" title="Limit between 1 and 100">
+                                <div class="inline-toggles">
+                                    <label title="White"><input type="checkbox" value="w" data-action="race" ${filter.includes("w") ? "checked" : ""}> White</label>
+                                    <label title="Black"><input type="checkbox" value="b" data-action="race" ${filter.includes("b") ? "checked" : ""}> Black</label>
+                                    <label title="Hispanic"><input type="checkbox" value="h" data-action="race" ${filter.includes("h") ? "checked" : ""}> Hispanic</label>
+                                    <label title="Asian"><input type="checkbox" value="a" data-action="race" ${filter.includes("a") ? "checked" : ""}> Asian</label>
+                                </div>
+                            </div>
+                        `;
+                    } else if (slot.datasetId === "generated-number-slot") {
+                        settingsDiv.hidden = false;
+                        settingsDiv.innerHTML = `
+                            <div class="setting-row">
+                                <label>Number length:</label>
+                                <input type="number" min="1" max="15" value="${slot.numberLength || 1}" data-action="num-len" title="Set the digits count">
+                            </div>
+                        `;
+                    } else {
+                        settingsDiv.hidden = true;
+                    }
+
+                    bindSlotEvents(slot, row, index);
+                    root.appendChild(fragment);
+                });
+            }
+
+            function bindAdvanced() {
+                const bindInput = (id, stateKey, callback) => {
+                    byId(id).addEventListener("input", (e) => {
+                        state[stateKey] = e.target.value;
+                        callback();
+                    });
+                };
+
+                bindInput("nameFormulaInput", "nameFormula", renderPreview);
+                bindInput(
+                    "usernameFormulaInput",
+                    "usernameFormula",
+                    renderPreview,
+                );
+                bindInput("separatorInput", "separator", renderPreview);
+
+                byId("caseSelect").addEventListener("change", (e) => {
+                    state.casing = e.target.value;
+                    renderPreview();
+                });
+
+                byId("nameFormulaAdd").addEventListener("click", () =>
+                    appendPendingSlotToFormula("name"),
+                );
+                byId("usernameFormulaAdd").addEventListener("click", () =>
+                    appendPendingSlotToFormula("username"),
+                );
+            }
+
+            function init() {
+                state.slots = [
+                    makeSlot("ssa-common-given", 0),
+                    makeSlot("census-common-surnames", 1),
+                    makeSlot("generated-number-slot", 2),
+                ];
+
+                byId("nameFormulaInput").value = state.nameFormula;
+                byId("usernameFormulaInput").value = state.usernameFormula;
+                byId("separatorInput").value = state.separator;
+                byId("caseSelect").value = state.casing;
+
+                byId("generateBtn").addEventListener("click", generate);
+
+                // specific username regen logic with force-new generation
+                const reRollSlot = (index) => {
+                    if (state.slots[index]) {
+                        const prevText = state.tokens[index]
+                            ? state.tokens[index].text
+                            : null;
+                        let newToken;
+                        let attempts = 0;
+                        do {
+                            newToken = computeSingleToken(state.slots[index]);
+                            attempts++;
+                        } while (
+                            newToken &&
+                            prevText &&
+                            newToken.text === prevText &&
+                            attempts < 10
+                        );
+                        state.tokens[index] = newToken;
+                    }
+                };
+
+                byId("refreshUsernameBtn").addEventListener("click", () => {
+                    const nameSegs = getFormulaSegments(
+                        state.nameFormula,
+                        state.slots.length,
+                    ).filter((s) =>
+                        isStandaloneSlotReference(s, state.slots.length),
+                    );
+                    const userSegs = getFormulaSegments(
+                        state.usernameFormula,
+                        state.slots.length,
+                    ).filter((s) =>
+                        isStandaloneSlotReference(s, state.slots.length),
+                    );
+
+                    const exclusiveSegs = userSegs.filter(
+                        (s) => !nameSegs.includes(s),
+                    );
+
+                    if (exclusiveSegs.length > 0) {
+                        exclusiveSegs.forEach((seg) =>
+                            reRollSlot(Number(seg) - 1),
+                        );
+                    } else {
+                        userSegs.forEach((seg) => reRollSlot(Number(seg) - 1));
+                    }
+                    renderPreview();
+                });
+
+                byId("addSlotBtn").addEventListener("click", () => addSlot(""));
+                byId("resultName").addEventListener("click", () =>
+                    copyText(byId("resultName").dataset.copy, "name"),
+                );
+                byId("resultUsername").addEventListener("click", () =>
+                    copyText(byId("resultUsername").dataset.copy, "username"),
+                );
+
+                bindAdvanced();
+                clearFormulaAddOptions();
+                renderDatasetInfo();
+                renderSlots();
+                generate();
+            }
+
+            init();
+        </script>
+    </body>
+</html>

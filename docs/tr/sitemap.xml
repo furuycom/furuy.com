@@ -120,6 +120,18 @@
     <loc>https://furuy.com/tr/guvenli-parola-yoneticisi/</loc>
     <lastmod>2026-03-08T22:37:13+03:00</lastmod>
   </url><url>
+    <loc>https://furuy.com/tr/araclar/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="https://furuy.com/tools/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr-TR"
+                href="https://furuy.com/tr/araclar/"
+                />
+  </url><url>
     <loc>https://furuy.com/tr/arsiv/</loc>
     <lastmod>2026-03-02T23:39:50+03:00</lastmod>
     <xhtml:link
