@@ -31,7 +31,6 @@
                 --heading: #e6e9ed;
                 --accent: #e6e9ed;
                 --code-bg: #1e232d;
-                /* Tooltip color highlights */
                 --t-num: #ff9d00;
                 --t-op: #00d47e;
                 --t-str: #9cc8ff;
@@ -46,12 +45,10 @@
                 background: var(--bg-page);
                 color: var(--text);
             }
-
             ::selection {
                 background: color-mix(in srgb, var(--accent) 30%, transparent);
                 color: var(--text);
             }
-
             ::-moz-selection {
                 background: color-mix(in srgb, var(--accent) 30%, transparent);
                 color: var(--text);
@@ -73,9 +70,9 @@
             .layout {
                 width: min(1280px, 100%);
                 display: grid;
-                grid-template-columns: minmax(0, 1fr) 340px;
                 gap: 14px;
                 align-items: start;
+                grid-template-columns: minmax(0, 1fr) 340px;
             }
 
             .main,
@@ -84,7 +81,6 @@
                 flex-direction: column;
                 gap: 12px;
             }
-
             .side {
                 opacity: 0.95;
             }
@@ -103,29 +99,24 @@
                 align-items: center;
                 margin-bottom: 16px;
             }
-
             summary.section-head {
                 margin-bottom: 0;
                 list-style: none;
                 cursor: pointer;
                 outline: none;
             }
-
             summary.section-head::-webkit-details-marker {
                 display: none;
             }
-
             summary.section-head::after {
                 content: "↓";
                 font-size: 12px;
                 color: var(--soft);
                 transition: transform 0.2s;
             }
-
             details[open] summary.section-head {
                 margin-bottom: 16px;
             }
-
             details[open] summary.section-head::after {
                 transform: rotate(180deg);
             }
@@ -138,7 +129,6 @@
                 text-align: center;
                 align-content: center;
             }
-
             h1,
             h2,
             p,
@@ -147,28 +137,24 @@
             li {
                 margin: 0;
             }
-
             h1 {
                 font-size: clamp(24px, 4vw, 38px);
                 font-weight: 900;
                 letter-spacing: -0.02em;
                 color: var(--heading);
             }
-
             .subtitle {
                 font-size: 15px;
                 color: var(--soft);
                 margin-top: -6px;
                 max-width: 90%;
             }
-
             h2 {
                 font-size: 14px;
                 font-weight: 700;
                 color: var(--heading);
             }
 
-            /* Fixed 3-column layout to prevent layout jumping */
             .result-layout {
                 display: grid;
                 grid-template-columns: 1fr auto 1fr;
@@ -178,12 +164,10 @@
                 margin-top: 8px;
                 align-items: center;
             }
-
             .result-emoji-col {
                 display: flex;
                 justify-content: flex-end;
             }
-
             .result-names-col {
                 display: flex;
                 flex-direction: column;
@@ -192,7 +176,6 @@
                 min-width: 360px;
                 width: 100%;
             }
-
             .result-stats-col {
                 display: flex;
                 justify-content: flex-start;
@@ -204,15 +187,12 @@
                 user-select: none;
                 filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.4));
             }
-
-            /* Grid 1fr auto 1fr guarantees absolute mathematical centering for text */
             .copy-line {
                 display: grid;
                 grid-template-columns: 1fr auto 1fr;
                 align-items: center;
                 width: 100%;
             }
-
             .name,
             .username {
                 cursor: pointer;
@@ -220,8 +200,6 @@
                 min-height: 1.3em;
                 text-align: center;
             }
-
-            /* Container for checkmark and refresh button */
             .actions {
                 display: flex;
                 align-items: center;
@@ -239,7 +217,6 @@
                 opacity: 0;
                 visibility: hidden;
             }
-
             .copy-check.visible {
                 opacity: 1;
                 visibility: visible;
@@ -250,7 +227,6 @@
                 font-weight: 800;
                 letter-spacing: -0.02em;
             }
-
             .username {
                 font-size: clamp(18px, 2.5vw, 22px);
                 opacity: 0.96;
@@ -272,7 +248,6 @@
                 outline: none;
                 flex-shrink: 0;
             }
-
             .refresh-icon-btn:hover {
                 color: var(--accent);
                 transform: rotate(90deg);
@@ -287,23 +262,19 @@
                 text-align: left;
                 min-width: 140px;
             }
-
             .demographics-box:empty {
                 display: none;
             }
-
             .demo-item {
                 display: flex;
                 align-items: center;
                 gap: 6px;
                 white-space: nowrap;
             }
-
             .demo-item strong {
                 color: var(--text);
                 font-weight: 700;
             }
-
             .segment {
                 display: inline;
             }
@@ -318,7 +289,6 @@
                 flex-wrap: wrap;
                 align-items: center;
             }
-
             .toolbar {
                 justify-content: center;
             }
@@ -326,7 +296,6 @@
                 display: grid;
                 gap: 8px;
             }
-
             .slot-container {
                 display: flex;
                 flex-direction: column;
@@ -336,25 +305,21 @@
                 border-radius: 12px;
                 padding: 10px;
             }
-
             .slot-main {
                 display: grid;
                 grid-template-columns: 40px minmax(0, 1fr) auto;
                 gap: 8px;
                 align-items: center;
             }
-
             .slot-actions {
                 display: flex;
                 gap: 8px;
             }
-
             .slot-settings {
                 display: flex;
                 padding-left: 48px;
                 padding-right: 184px;
             }
-
             .slot-settings[hidden] {
                 display: none;
             }
@@ -368,7 +333,6 @@
                 color: var(--soft);
                 width: 100%;
             }
-
             .setting-row input[type="number"] {
                 width: 64px;
                 background: var(--bg-strong);
@@ -391,15 +355,27 @@
                 padding-left: 12px;
             }
 
-            .inline-toggles label {
+            /* Enhanced Toggle Label Styling */
+            .toggle-label {
                 display: flex;
                 align-items: center;
                 gap: 4px;
                 cursor: pointer;
                 color: var(--text);
                 font-weight: 600;
+                transition:
+                    opacity 0.2s,
+                    color 0.2s;
             }
-
+            .toggle-label.is-unchecked {
+                opacity: 0.45;
+                font-weight: 400;
+            }
+            .toggle-label.is-empty {
+                opacity: 0.2;
+                pointer-events: none;
+                text-decoration: line-through;
+            }
             .inline-toggles input[type="checkbox"] {
                 accent-color: var(--accent);
                 cursor: pointer;
@@ -421,7 +397,6 @@
                 border-radius: 12px;
                 background: var(--bg-strong);
             }
-
             .slot-index,
             .slot-btn,
             .slot-select,
@@ -430,7 +405,6 @@
             button {
                 height: 40px;
             }
-
             .slot-index {
                 display: grid;
                 place-items: center;
@@ -440,14 +414,11 @@
                     background 0.2s,
                     color 0.2s;
             }
-
             .slot-select {
                 width: 100%;
                 min-width: 0;
                 padding: 0 34px 0 12px;
                 appearance: none;
-                -webkit-appearance: none;
-                -moz-appearance: none;
                 background-image:
                     linear-gradient(45deg, transparent 50%, var(--soft) 50%),
                     linear-gradient(135deg, var(--soft) 50%, transparent 50%);
@@ -474,32 +445,27 @@
                     box-shadow 0.2s,
                     transform 0.2s;
             }
-
             .slot-btn {
                 width: 40px;
             }
-
-            .slot-btn:disabled {
-                opacity: 0.45;
-                cursor: default;
+            .slot-btn:disabled,
+            button:disabled {
+                opacity: 0.3;
+                cursor: not-allowed;
+                border-color: var(--border) !important;
             }
-
             .slot-btn:hover:not(:disabled),
-            button:hover:not(.formula-add),
+            button:hover:not(.formula-add):not(:disabled),
             .field input:hover,
             .field select:hover,
             .slot-select:hover {
                 border-color: #3a4455;
             }
-
-            /* Red hover effect for remove button */
             .slot-btn[data-action="remove"]:hover:not(:disabled) {
                 background-color: #ef4444;
                 color: #ffffff;
                 border-color: #ef4444;
             }
-
-            /* Subtle green hover effect for import button */
             .slot-btn[data-action="import"]:hover:not(:disabled) {
                 background-color: rgba(0, 212, 126, 0.15);
                 color: #00d47e;
@@ -515,7 +481,6 @@
                 flex: 1 1 100%;
             }
             .field label,
-            .dataset-links,
             .dataset-meta {
                 font-size: 12px;
                 color: var(--soft);
@@ -547,11 +512,9 @@
                 position: relative;
                 transition: background 0.2s;
             }
-
             .tooltip-trigger:hover {
                 background: var(--text);
             }
-
             .tooltip-content {
                 opacity: 0;
                 visibility: hidden;
@@ -576,13 +539,11 @@
                 text-transform: none;
                 cursor: default;
             }
-
             .tooltip-trigger:hover .tooltip-content {
                 opacity: 1;
                 visibility: visible;
                 transform: translateX(-50%) translateY(0);
             }
-
             .tooltip-content strong {
                 color: var(--text);
             }
@@ -637,11 +598,9 @@
                 color: #fff;
             }
 
-            /* Glowing button animation for Add / Import buttons */
             .btn-glow-anim {
                 animation: btnPulse 2.5s ease-in-out;
             }
-
             @keyframes btnPulse {
                 0%,
                 100% {
@@ -659,12 +618,9 @@
                     text-shadow: 0 0 10px rgba(0, 212, 126, 0.7);
                 }
             }
-
-            /* Glowing border animation for formula textboxes */
             .input-glow-anim {
                 animation: borderPulse 2.5s ease-in-out;
             }
-
             @keyframes borderPulse {
                 0%,
                 100% {
@@ -689,8 +645,6 @@
             }
             .field select {
                 appearance: none;
-                -webkit-appearance: none;
-                -moz-appearance: none;
                 background-image:
                     linear-gradient(45deg, transparent 50%, var(--soft) 50%),
                     linear-gradient(135deg, var(--soft) 50%, transparent 50%);
@@ -716,17 +670,25 @@
                 display: grid;
                 gap: 4px;
             }
-            .dataset-name {
+
+            /* Dataset Button links that trigger Modal */
+            .dataset-title-btn {
+                background: none;
+                border: none;
+                padding: 0;
+                margin: 0;
+                font-family: inherit;
                 font-size: 13px;
                 font-weight: 700;
-            }
-            .dataset-links a,
-            .dataset-links a:visited,
-            .dataset-links a:active {
                 color: #9cc8ff;
+                text-align: left;
+                cursor: pointer;
                 text-decoration: none;
+                display: inline;
+                height: auto;
+                width: auto;
             }
-            .dataset-links a:hover {
+            .dataset-title-btn:hover {
                 text-decoration: underline;
             }
 
@@ -738,7 +700,6 @@
                 color: var(--soft);
                 line-height: 1.5;
             }
-
             .custom-dataset-note code {
                 background: var(--code-bg);
                 color: var(--accent);
@@ -746,7 +707,6 @@
                 border-radius: 4px;
                 font-family: monospace;
             }
-
             .add-row {
                 margin-top: 8px;
             }
@@ -770,7 +730,6 @@
                 color: var(--soft);
                 text-align: center;
             }
-
             .app-footer a {
                 color: var(--heading);
                 text-decoration: none;
@@ -778,7 +737,6 @@
             .app-footer a:hover {
                 text-decoration: underline;
             }
-
             .sponsor-link {
                 display: inline-flex;
                 align-items: center;
@@ -795,6 +753,111 @@
                 text-decoration: none !important;
             }
 
+            /* Modal CSS */
+            .modal-overlay {
+                position: fixed;
+                inset: 0;
+                background: rgba(0, 0, 0, 0.7);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                z-index: 1000;
+                opacity: 0;
+                visibility: hidden;
+                transition: 0.2s;
+                backdrop-filter: blur(4px);
+                padding: 16px;
+            }
+            .modal-overlay.active {
+                opacity: 1;
+                visibility: visible;
+            }
+            .modal-box {
+                background: var(--bg-card);
+                border: 1px solid var(--border);
+                border-radius: 16px;
+                width: min(700px, 100%);
+                max-height: 85vh;
+                display: flex;
+                flex-direction: column;
+                overflow: hidden;
+                box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+                transform: translateY(20px);
+                transition: 0.2s;
+            }
+            .modal-overlay.active .modal-box {
+                transform: translateY(0);
+            }
+            .modal-head {
+                padding: 16px 20px;
+                border-bottom: 1px solid var(--border);
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            .modal-head h3 {
+                margin: 0;
+                font-size: 16px;
+                color: var(--heading);
+            }
+            .modal-close {
+                background: none;
+                border: none;
+                color: var(--soft);
+                font-size: 24px;
+                cursor: pointer;
+                padding: 0;
+                line-height: 1;
+                height: auto;
+            }
+            .modal-close:hover {
+                color: var(--accent);
+            }
+            .modal-body {
+                padding: 0;
+                overflow-y: auto;
+                flex: 1;
+                background: var(--bg-page);
+            }
+            .data-table {
+                width: 100%;
+                border-collapse: collapse;
+                text-align: left;
+                font-size: 13px;
+            }
+            .data-table th {
+                position: sticky;
+                top: 0;
+                background: var(--bg-strong);
+                padding: 10px 16px;
+                font-weight: 700;
+                color: var(--soft);
+                border-bottom: 1px solid var(--border);
+            }
+            .data-table td {
+                padding: 10px 16px;
+                border-bottom: 1px solid var(--border);
+            }
+            .data-table tr:hover td {
+                background: var(--bg-card-2);
+            }
+            .modal-foot {
+                padding: 14px 20px;
+                border-top: 1px solid var(--border);
+                font-size: 12px;
+                color: var(--soft);
+                background: var(--bg-strong);
+                display: flex;
+                justify-content: space-between;
+            }
+            .modal-foot a {
+                color: #9cc8ff;
+                text-decoration: none;
+            }
+            .modal-foot a:hover {
+                text-decoration: underline;
+            }
+
             @media (max-width: 980px) {
                 .layout {
                     grid-template-columns: 1fr;
@@ -803,7 +866,6 @@
                     order: 2;
                 }
             }
-
             @media (max-width: 760px) {
                 .slot-settings {
                     padding-left: 0;
@@ -828,7 +890,6 @@
                     align-items: center;
                 }
             }
-
             @media (max-width: 640px) {
                 body {
                     padding: 12px;
@@ -844,7 +905,6 @@
                     display: grid;
                     grid-template-columns: 1fr;
                 }
-
                 .slot-main {
                     grid-template-columns: 40px minmax(0, 1fr);
                 }
@@ -857,13 +917,11 @@
                 .slot-btn {
                     width: 100%;
                 }
-
                 .field input,
                 .field select {
                     width: 100%;
                     min-width: 0;
                 }
-
                 .inline-toggles {
                     flex-basis: 100%;
                     border-left: none;
@@ -1211,7 +1269,7 @@
                             <span aria-hidden="true">🌐</span> Visit my site
                         </a>
                         <a
-                            href="https://github.com/furuycom/furuy.com/tree/main/static/tools/CrowdName/"
+                            href="https://github.com/furuycom/furuy.com/tree/main/static/tools/crowdname/"
                             target="_blank"
                             rel="noopener noreferrer"
                             class="sponsor-link"
@@ -1230,6 +1288,30 @@
                 </footer>
             </aside>
         </main>
+
+        <!-- Dataset Modal Window -->
+        <div id="datasetModal" class="modal-overlay">
+            <div class="modal-box">
+                <div class="modal-head">
+                    <h3 id="modalTitle">Dataset</h3>
+                    <button
+                        class="modal-close"
+                        id="modalClose"
+                        aria-label="Close"
+                        title="Close"
+                    >
+                        &times;
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <table class="data-table" id="modalTable">
+                        <thead id="modalTableHead"></thead>
+                        <tbody id="modalTableBody"></tbody>
+                    </table>
+                </div>
+                <div class="modal-foot" id="modalFooter"></div>
+            </div>
+        </div>
 
         <template id="slotTemplate">
             <article class="slot-container">
@@ -1288,7 +1370,7 @@
             const NL = "\n";
             const BASE_HUE = Math.floor(Math.random() * 360);
 
-            // Helper to format file sizes
+            // Utils
             function formatBytes(bytes) {
                 if (bytes === 0) return "0 B";
                 const k = 1024;
@@ -1506,7 +1588,6 @@
                 "Kathy",
             ];
 
-            // Format given names to carry gender data for emoji logic
             const GIVEN_NAMES_100 = [
                 ...RAW_MALES.map((name, i) => ({ name, g: "M", rank: i + 1 })),
                 ...RAW_FEMALES.map((name, i) => ({
@@ -1516,7 +1597,6 @@
                 })),
             ];
 
-            // High precision demographic stats from US 2010 Census Top 100 Surnames
             const CENSUS_100_SURNAMES = [
                 { name: "Smith", w: 70.9, b: 23.1, h: 2.4, a: 0.5 },
                 { name: "Johnson", w: 59.0, b: 34.6, h: 2.4, a: 0.5 },
@@ -1665,6 +1745,7 @@
                 separator: "",
                 casing: "camel",
                 pendingFormulaSlotNumber: null,
+                lastNameResult: "",
             };
 
             const byId = (id) => document.getElementById(id);
@@ -1674,8 +1755,8 @@
 
             const makeColor = (index) => {
                 const hue = (BASE_HUE + index * 137.508) % 360;
-                const sat = 70 + ((index * 7) % 20); // 70-89% Saturation (Vibrant)
-                const light = 65 + ((index * 5) % 10); // 65-74% Lightness (Bright)
+                const sat = 70 + ((index * 7) % 20);
+                const light = 65 + ((index * 5) % 10);
                 return `hsl(${hue.toFixed(1)} ${sat}% ${light}%)`;
             };
 
@@ -1691,7 +1772,6 @@
 
             const getDatasetById = (id) =>
                 state.datasets.find((dataset) => dataset.id === id) || null;
-
             const normalizeLineBreaks = (text) =>
                 String(text || "").replace(/\r\n?/g, NL);
 
@@ -1700,9 +1780,7 @@
                     .split(NL)
                     .map((line) => line.trim())
                     .filter(Boolean);
-
                 const sizeStr = sizeBytes ? ` · ${formatBytes(sizeBytes)}` : "";
-
                 return {
                     id: randomId("dataset"),
                     label: `📄 ${fallbackName || "Dataset"}`,
@@ -1757,7 +1835,6 @@
                     ? value.charAt(0).toUpperCase() +
                       value.slice(1).toLowerCase()
                     : "";
-
             const generateNumberString = (len) =>
                 len < 1
                     ? ""
@@ -1765,6 +1842,105 @@
                       Array.from({ length: len - 1 }, () =>
                           Math.floor(Math.random() * 10),
                       ).join("");
+
+            // Combinatorics Engine for enabling/disabling Generate buttons dynamically
+            function getSlotComboCount(slot) {
+                if (!slot) return 1;
+                const dataset = getDatasetById(slot.datasetId);
+                if (!dataset) return 1;
+
+                if (dataset.id === "generated-number-slot") {
+                    return slot.numberLength === 1
+                        ? 9
+                        : 9 * Math.pow(10, slot.numberLength - 1);
+                } else if (dataset.id === "census-common-surnames") {
+                    const filter = slot.raceFilter || ["w", "b", "h", "a"];
+                    return dataset.items
+                        .slice(0, slot.range || 20)
+                        .filter((i) => {
+                            const max = Math.max(i.w, i.b, i.h, i.a);
+                            if (max === i.w && filter.includes("w"))
+                                return true;
+                            if (max === i.b && filter.includes("b"))
+                                return true;
+                            if (max === i.h && filter.includes("h"))
+                                return true;
+                            if (max === i.a && filter.includes("a"))
+                                return true;
+                            return false;
+                        }).length;
+                } else if (dataset.id === "ssa-common-given") {
+                    const filter = slot.genderFilter || ["M", "F"];
+                    return dataset.items.filter(
+                        (i) =>
+                            i.rank <= (slot.range || 20) &&
+                            filter.includes(i.g),
+                    ).length;
+                } else {
+                    return dataset.items.length;
+                }
+            }
+
+            function getFormulaCombinations(formula) {
+                const segs = getFormulaSegments(
+                    formula,
+                    state.slots.length,
+                ).filter((s) =>
+                    isStandaloneSlotReference(s, state.slots.length),
+                );
+                if (segs.length === 0) return 1;
+                let total = 1;
+                // Count slots per usage. If formula is 1+1, it's evaluated independently, so multiply slot combos
+                segs.forEach((seg) => {
+                    total *= getSlotComboCount(state.slots[Number(seg) - 1]);
+                });
+                return total;
+            }
+
+            function checkButtonsState() {
+                const nameCombos = getFormulaCombinations(state.nameFormula);
+                byId("generateBtn").disabled = nameCombos <= 1;
+
+                const nameSegs = getFormulaSegments(
+                    state.nameFormula,
+                    state.slots.length,
+                ).filter((s) =>
+                    isStandaloneSlotReference(s, state.slots.length),
+                );
+                const userSegs = getFormulaSegments(
+                    state.usernameFormula,
+                    state.slots.length,
+                ).filter((s) =>
+                    isStandaloneSlotReference(s, state.slots.length),
+                );
+                const exclusiveSegs = userSegs.filter(
+                    (s) => !nameSegs.includes(s),
+                );
+
+                let userCombos = 1;
+                if (exclusiveSegs.length > 0) {
+                    exclusiveSegs.forEach((seg) => {
+                        userCombos *= getSlotComboCount(
+                            state.slots[Number(seg) - 1],
+                        );
+                    });
+                } else {
+                    userSegs.forEach((seg) => {
+                        userCombos *= getSlotComboCount(
+                            state.slots[Number(seg) - 1],
+                        );
+                    });
+                }
+
+                const btn = byId("refreshUsernameBtn");
+                if (userCombos <= 1) {
+                    btn.style.opacity = "0";
+                    btn.style.pointerEvents = "none";
+                } else {
+                    btn.style.opacity = "1";
+                    btn.style.pointerEvents = "auto";
+                }
+            }
 
             function computeSingleToken(slot) {
                 const dataset = getDatasetById(slot.datasetId);
@@ -1778,27 +1954,31 @@
                     text = generateNumberString(slot.numberLength || 1);
                 } else if (dataset.id === "census-common-surnames") {
                     const filter = slot.raceFilter || ["w", "b", "h", "a"];
-
-                    const filteredItems = dataset.items.filter((i) => {
-                        const max = Math.max(i.w, i.b, i.h, i.a);
-                        if (max === i.w && filter.includes("w")) return true;
-                        if (max === i.b && filter.includes("b")) return true;
-                        if (max === i.h && filter.includes("h")) return true;
-                        if (max === i.a && filter.includes("a")) return true;
-                        return false;
-                    });
-
-                    const pool = filteredItems.slice(0, slot.range || 20);
-                    const picked = pickRandom(pool);
+                    const filteredItems = dataset.items
+                        .slice(0, slot.range || 20)
+                        .filter((i) => {
+                            const max = Math.max(i.w, i.b, i.h, i.a);
+                            if (max === i.w && filter.includes("w"))
+                                return true;
+                            if (max === i.b && filter.includes("b"))
+                                return true;
+                            if (max === i.h && filter.includes("h"))
+                                return true;
+                            if (max === i.a && filter.includes("a"))
+                                return true;
+                            return false;
+                        });
+                    const picked = pickRandom(filteredItems);
                     if (picked) {
                         text = picked.name;
                         demographics = picked;
                     }
                 } else if (dataset.id === "ssa-common-given") {
-                    const range = slot.range || 20;
                     const filter = slot.genderFilter || ["M", "F"];
                     const pool = dataset.items.filter(
-                        (i) => i.rank <= range && filter.includes(i.g),
+                        (i) =>
+                            i.rank <= (slot.range || 20) &&
+                            filter.includes(i.g),
                     );
                     const picked = pickRandom(pool);
                     if (picked) {
@@ -1827,24 +2007,9 @@
             function recomputeSlot(slotId) {
                 const index = state.slots.findIndex((s) => s.id === slotId);
                 if (index > -1) {
-                    const prevText = state.tokens[index]
-                        ? state.tokens[index].text
-                        : null;
-                    let newToken;
-                    let attempts = 0;
-
-                    // Force a new result if possible, max 10 attempts
-                    do {
-                        newToken = computeSingleToken(state.slots[index]);
-                        attempts++;
-                    } while (
-                        newToken &&
-                        prevText &&
-                        newToken.text === prevText &&
-                        attempts < 10
+                    state.tokens[index] = computeSingleToken(
+                        state.slots[index],
                     );
-
-                    state.tokens[index] = newToken;
                     renderPreview();
                 }
             }
@@ -1889,7 +2054,6 @@
                 segments.forEach((segment, index) => {
                     let value = segment,
                         color = "";
-
                     if (
                         isStandaloneSlotReference(segment, state.slots.length)
                     ) {
@@ -1906,7 +2070,6 @@
                                     : token.color;
                         }
                     }
-
                     if (index > 0 && joiner)
                         parts.push({ text: joiner, color: "", joiner: true });
                     parts.push({ text: value, color, joiner: false });
@@ -1935,39 +2098,28 @@
             function generateSmartEmoji(tokens) {
                 let gender = null;
                 let demographics = null;
-
                 tokens.forEach((t) => {
                     if (t && t.gender) gender = t.gender;
                     if (t && t.demographics) demographics = t.demographics;
                 });
-
-                let base = "\u{1F9D1}"; // Person
-                if (gender === "M")
-                    base = "\u{1F468}"; // Man
-                else if (gender === "F") base = "\u{1F469}"; // Woman
+                let base = "\u{1F9D1}";
+                if (gender === "M") base = "\u{1F468}";
+                else if (gender === "F") base = "\u{1F469}";
 
                 if (demographics) {
                     const { w, b, h, a } = demographics;
                     const max = Math.max(w, b, h, a);
-
-                    if (max === w) {
-                        return base + "\u{1F3FC}"; // White (Medium-Light Skin Tone) -> 👨🏼 / 👩🏼
-                    } else if (max === a) {
-                        return base + "\u{1F3FB}"; // Asian (Light Skin Tone) -> 👨🏻 / 👩🏻
-                    } else if (max === h) {
-                        return base + "\u{1F3FD}"; // Hispanic (Medium Skin Tone) -> 👨🏽 / 👩🏽
-                    } else if (max === b) {
-                        return base + "\u{1F3FF}"; // Black (Dark Skin Tone) -> 👨🏿 / 👩🏿
-                    }
+                    if (max === w) return base + "\u{1F3FC}";
+                    else if (max === a) return base + "\u{1F3FB}";
+                    else if (max === h) return base + "\u{1F3FD}";
+                    else if (max === b) return base + "\u{1F3FF}";
                 }
-
                 return base;
             }
 
             function renderDemographics(tokens) {
                 const demoBox = byId("demographicsBox");
                 demoBox.innerHTML = "";
-
                 const tokensWithDemo = tokens.filter(
                     (t) => t && t.demographics,
                 );
@@ -1980,14 +2132,12 @@
                     if (d.b > 0) stats.push({ label: "Black", val: d.b });
                     if (d.h > 0) stats.push({ label: "Hispanic", val: d.h });
                     if (d.a > 0) stats.push({ label: "Asian", val: d.a });
-
                     stats.sort((a, b) => b.val - a.val);
 
                     const container = document.createElement("div");
                     container.style.display = "flex";
                     container.style.flexDirection = "column";
                     container.style.gap = "4px";
-
                     const title = document.createElement("div");
                     title.style.fontSize = "11px";
                     title.style.fontWeight = "700";
@@ -2005,7 +2155,6 @@
                         div.innerHTML = `<strong>${s.val}%</strong> ${s.label}`;
                         container.appendChild(div);
                     });
-
                     demoBox.appendChild(container);
                 });
             }
@@ -2040,10 +2189,43 @@
 
                 nameNode.dataset.copy = partsToText(nameParts, 120);
                 usernameNode.dataset.copy = partsToText(usernameParts, 4000);
+                checkButtonsState();
             }
 
             function generate() {
-                state.tokens = computeTokens();
+                const combos = getFormulaCombinations(state.nameFormula);
+                if (combos <= 1) {
+                    state.tokens = computeTokens();
+                    state.lastNameResult = partsToText(
+                        buildFormulaParts(
+                            state.tokens,
+                            state.nameFormula,
+                            " ",
+                            false,
+                        ),
+                    );
+                } else {
+                    let attempts = 0;
+                    let candidateTokens;
+                    let candidateName;
+                    do {
+                        candidateTokens = computeTokens();
+                        candidateName = partsToText(
+                            buildFormulaParts(
+                                candidateTokens,
+                                state.nameFormula,
+                                " ",
+                                false,
+                            ),
+                        );
+                        attempts++;
+                    } while (
+                        candidateName === state.lastNameResult &&
+                        attempts < 50
+                    );
+                    state.tokens = candidateTokens;
+                    state.lastNameResult = candidateName;
+                }
                 renderPreview();
             }
 
@@ -2051,8 +2233,6 @@
                 state.slots.push(makeSlot(datasetId, state.slots.length));
                 renderSlots();
                 generate();
-
-                // Animate the import button of the newly added slot
                 setTimeout(() => {
                     const slotContainers =
                         document.querySelectorAll(".slot-container");
@@ -2090,14 +2270,12 @@
 
             function removeSlot(slotId) {
                 if (state.slots.length <= 1) return;
-
                 const removedIndex = state.slots.findIndex(
                     (s) => s.id === slotId,
                 );
                 if (removedIndex < 0) return;
 
                 state.slots.splice(removedIndex, 1);
-
                 state.nameFormula = adjustFormulaAfterRemoval(
                     state.nameFormula,
                     removedIndex,
@@ -2123,7 +2301,6 @@
                     nextIndex >= state.slots.length
                 )
                     return;
-
                 [state.slots[index], state.slots[nextIndex]] = [
                     state.slots[nextIndex],
                     state.slots[index],
@@ -2138,7 +2315,6 @@
                 const timerKey = isName
                     ? "nameCheckTimer"
                     : "usernameCheckTimer";
-
                 node.classList.add("visible");
                 clearTimeout(state[timerKey]);
                 state[timerKey] = setTimeout(
@@ -2189,7 +2365,6 @@
 
             function appendPendingSlotToFormula(kind) {
                 if (!state.pendingFormulaSlotNumber) return;
-
                 const input = byId(
                     kind === "name"
                         ? "nameFormulaInput"
@@ -2199,31 +2374,81 @@
                 input.value = current
                     ? `${current}+${state.pendingFormulaSlotNumber}`
                     : String(state.pendingFormulaSlotNumber);
-
                 if (kind === "name") state.nameFormula = input.value;
                 else state.usernameFormula = input.value;
-
                 clearFormulaAddOptions();
                 renderPreview();
             }
 
+            function openDatasetModal(datasetId) {
+                const dataset = getDatasetById(datasetId);
+                if (!dataset) return;
+
+                byId("modalTitle").textContent = dataset.label.replace(
+                    /^.+?\s/,
+                    "",
+                ); // Remove emoji for title
+
+                const thead = byId("modalTableHead");
+                const tbody = byId("modalTableBody");
+                thead.innerHTML = "";
+                tbody.innerHTML = "";
+
+                if (dataset.id === "ssa-common-given") {
+                    thead.innerHTML = `<tr><th style="width:60px">#</th><th>Name</th><th style="width:80px">Gender</th></tr>`;
+                    dataset.items.forEach((item, i) => {
+                        tbody.innerHTML += `<tr><td>${item.rank}</td><td><strong>${item.name}</strong></td><td>${item.g}</td></tr>`;
+                    });
+                } else if (dataset.id === "census-common-surnames") {
+                    thead.innerHTML = `<tr><th style="width:60px">#</th><th>Surname</th><th>W %</th><th>B %</th><th>H %</th><th>A %</th></tr>`;
+                    dataset.items.forEach((item, i) => {
+                        tbody.innerHTML += `<tr><td>${i + 1}</td><td><strong>${item.name}</strong></td><td>${item.w}</td><td>${item.b}</td><td>${item.h}</td><td>${item.a}</td></tr>`;
+                    });
+                } else {
+                    thead.innerHTML = `<tr><th style="width:60px">#</th><th>Item</th></tr>`;
+                    dataset.items.forEach((item, i) => {
+                        tbody.innerHTML += `<tr><td>${i + 1}</td><td><strong>${item}</strong></td></tr>`;
+                    });
+                }
+
+                const footer = byId("modalFooter");
+                footer.innerHTML = "";
+                if (dataset.href) {
+                    footer.innerHTML = `<span>Source: ${dataset.source}</span> <a href="${dataset.href}" target="_blank" rel="noopener noreferrer">View Original Data &rarr;</a>`;
+                } else {
+                    footer.innerHTML = `<span>${dataset.source || "Custom Data"}</span>`;
+                }
+
+                byId("datasetModal").classList.add("active");
+            }
+
+            byId("modalClose").addEventListener("click", () =>
+                byId("datasetModal").classList.remove("active"),
+            );
+            byId("datasetModal").addEventListener("click", (e) => {
+                if (e.target === byId("datasetModal"))
+                    byId("datasetModal").classList.remove("active");
+            });
+
             function renderDatasetInfo() {
                 const root = byId("datasetInfo");
                 root.innerHTML = "";
-
                 state.datasets.forEach((dataset) => {
                     const li = document.createElement("li");
                     li.className = "dataset-item";
 
                     const nameDiv = document.createElement("div");
                     nameDiv.className = "dataset-name";
-                    if (dataset.href) {
-                        const link = document.createElement("a");
-                        link.href = dataset.href;
-                        link.target = "_blank";
-                        link.rel = "noreferrer noopener";
-                        link.textContent = dataset.label;
-                        nameDiv.appendChild(link);
+                    if (
+                        dataset.items &&
+                        dataset.items.length > 0 &&
+                        dataset.id !== "generated-number-slot"
+                    ) {
+                        const btn = document.createElement("button");
+                        btn.className = "dataset-title-btn";
+                        btn.textContent = dataset.label;
+                        btn.onclick = () => openDatasetModal(dataset.id);
+                        nameDiv.appendChild(btn);
                     } else {
                         nameDiv.textContent = dataset.label;
                     }
@@ -2237,7 +2462,6 @@
                             .join(" · ");
                         li.appendChild(meta1);
                     }
-
                     if (dataset.years || dataset.range) {
                         const meta2 = document.createElement("div");
                         meta2.className = "dataset-meta";
@@ -2246,7 +2470,6 @@
                             .join(" · ");
                         li.appendChild(meta2);
                     }
-
                     root.appendChild(li);
                 });
             }
@@ -2266,11 +2489,10 @@
                     slot.datasetId = datasetSelect.value;
                     renderSlots();
                     generate();
-                    if (slot.datasetId) {
+                    if (slot.datasetId)
                         showFormulaAddOptions(
                             state.slots.findIndex((s) => s.id === slot.id) + 1,
                         );
-                    }
                 });
 
                 upBtn.disabled = index === 0;
@@ -2300,35 +2522,33 @@
                         renderSlots();
                         generate();
 
-                        const newSlotIndex =
-                            state.slots.findIndex((s) => s.id === slot.id) + 1;
-                        showFormulaAddOptions(newSlotIndex);
+                        showFormulaAddOptions(
+                            state.slots.findIndex((s) => s.id === slot.id) + 1,
+                        );
 
                         const advancedPanel =
                             document.querySelector("aside.side");
-                        if (advancedPanel) {
+                        if (advancedPanel)
                             advancedPanel.scrollIntoView({
                                 behavior: "smooth",
                                 block: "start",
                             });
-                        }
 
                         ["nameFormulaAdd", "usernameFormulaAdd"].forEach(
                             (id) => {
                                 const btn = byId(id);
                                 if (!btn.hidden) {
-                                    btn.classList.remove("btn-text-glow");
-                                    void btn.offsetWidth; // Trigger DOM reflow
-                                    btn.classList.add("btn-text-glow");
+                                    btn.classList.remove("btn-glow-anim");
+                                    void btn.offsetWidth;
+                                    btn.classList.add("btn-glow-anim");
                                 }
                             },
                         );
-
                         ["nameFormulaInput", "usernameFormulaInput"].forEach(
                             (id) => {
                                 const input = byId(id);
                                 input.classList.remove("input-glow-anim");
-                                void input.offsetWidth; // Trigger DOM reflow
+                                void input.offsetWidth;
                                 input.classList.add("input-glow-anim");
                             },
                         );
@@ -2344,14 +2564,14 @@
                     const rangeInput = settingsDiv.querySelector(
                         '[data-action="range"]',
                     );
-                    const updateRange = (e) => {
+                    rangeInput.addEventListener("input", (e) => {
                         let val = parseInt(e.target.value, 10);
                         if (!isNaN(val)) {
                             slot.range = Math.max(1, Math.min(100, val));
+                            renderSlots(); // Re-render to update checkbox dimming instantly
                             recomputeSlot(slot.id);
                         }
-                    };
-                    rangeInput.addEventListener("input", updateRange);
+                    });
                     rangeInput.addEventListener("blur", (e) => {
                         e.target.value = slot.range || 20;
                     });
@@ -2369,8 +2589,8 @@
                                 );
 
                                 if (!e.target.checked && !otherCb.checked) {
-                                    e.target.checked = true;
-                                    return; // Return early, prevent state change
+                                    e.target.checked = true; // Prevent unchecking last option
+                                    return; // Early return to avoid recompute
                                 }
 
                                 slot.genderFilter = [];
@@ -2384,6 +2604,7 @@
                                         .checked
                                 )
                                     slot.genderFilter.push("F");
+                                renderSlots();
                                 recomputeSlot(slot.id);
                             });
                         });
@@ -2399,17 +2620,16 @@
                                     settingsDiv.querySelectorAll(
                                         '[data-action="race"]:checked',
                                     );
-
                                 if (checkedBoxes.length === 0) {
                                     e.target.checked = true;
-                                    return; // Return early, prevent state change
+                                    return; // Early return to avoid recompute
                                 }
-
                                 slot.raceFilter = Array.from(
                                     settingsDiv.querySelectorAll(
                                         '[data-action="race"]:checked',
                                     ),
                                 ).map((b) => b.value);
+                                renderSlots();
                                 recomputeSlot(slot.id);
                             });
                         });
@@ -2418,14 +2638,13 @@
                     const lenInput = settingsDiv.querySelector(
                         '[data-action="num-len"]',
                     );
-                    const updateLen = (e) => {
+                    lenInput.addEventListener("input", (e) => {
                         let val = parseInt(e.target.value, 10);
                         if (!isNaN(val)) {
                             slot.numberLength = Math.max(1, val);
                             recomputeSlot(slot.id);
                         }
-                    };
-                    lenInput.addEventListener("input", updateLen);
+                    });
                     lenInput.addEventListener("blur", (e) => {
                         e.target.value = slot.numberLength || 1;
                     });
@@ -2459,28 +2678,68 @@
                     if (slot.datasetId === "ssa-common-given") {
                         settingsDiv.hidden = false;
                         const filter = slot.genderFilter || ["M", "F"];
+                        const range = slot.range || 20;
+                        const dataset = getDatasetById("ssa-common-given");
+                        const pool = dataset.items.filter(
+                            (i) => i.rank <= range,
+                        );
+
+                        const hasM = pool.some((i) => i.g === "M");
+                        const hasF = pool.some((i) => i.g === "F");
+
                         settingsDiv.innerHTML = `
                             <div class="setting-row">
                                 <label>Top</label>
-                                <input type="number" min="1" max="100" value="${slot.range || 20}" data-action="range" title="Limit between 1 and 100">
+                                <input type="number" min="1" max="100" value="${range}" data-action="range" title="Limit between 1 and 100">
                                 <div class="inline-toggles">
-                                    <label><input type="checkbox" value="M" data-action="gender" ${filter.includes("M") ? "checked" : ""}> Male</label>
-                                    <label><input type="checkbox" value="F" data-action="gender" ${filter.includes("F") ? "checked" : ""}> Female</label>
+                                    <label class="toggle-label ${!hasM ? "is-empty" : !filter.includes("M") ? "is-unchecked" : ""}">
+                                        <input type="checkbox" value="M" data-action="gender" ${filter.includes("M") ? "checked" : ""}> Male
+                                    </label>
+                                    <label class="toggle-label ${!hasF ? "is-empty" : !filter.includes("F") ? "is-unchecked" : ""}">
+                                        <input type="checkbox" value="F" data-action="gender" ${filter.includes("F") ? "checked" : ""}> Female
+                                    </label>
                                 </div>
                             </div>
                         `;
                     } else if (slot.datasetId === "census-common-surnames") {
                         settingsDiv.hidden = false;
                         const filter = slot.raceFilter || ["w", "b", "h", "a"];
+                        const range = slot.range || 20;
+                        const dataset = getDatasetById(
+                            "census-common-surnames",
+                        );
+                        const pool = dataset.items.slice(0, range);
+
+                        const hasW = pool.some(
+                            (i) => Math.max(i.w, i.b, i.h, i.a) === i.w,
+                        );
+                        const hasB = pool.some(
+                            (i) => Math.max(i.w, i.b, i.h, i.a) === i.b,
+                        );
+                        const hasH = pool.some(
+                            (i) => Math.max(i.w, i.b, i.h, i.a) === i.h,
+                        );
+                        const hasA = pool.some(
+                            (i) => Math.max(i.w, i.b, i.h, i.a) === i.a,
+                        );
+
                         settingsDiv.innerHTML = `
                             <div class="setting-row">
                                 <label>Top</label>
-                                <input type="number" min="1" max="100" value="${slot.range || 20}" data-action="range" title="Limit between 1 and 100">
+                                <input type="number" min="1" max="100" value="${range}" data-action="range" title="Limit between 1 and 100">
                                 <div class="inline-toggles">
-                                    <label title="White"><input type="checkbox" value="w" data-action="race" ${filter.includes("w") ? "checked" : ""}> White</label>
-                                    <label title="Black"><input type="checkbox" value="b" data-action="race" ${filter.includes("b") ? "checked" : ""}> Black</label>
-                                    <label title="Hispanic"><input type="checkbox" value="h" data-action="race" ${filter.includes("h") ? "checked" : ""}> Hispanic</label>
-                                    <label title="Asian"><input type="checkbox" value="a" data-action="race" ${filter.includes("a") ? "checked" : ""}> Asian</label>
+                                    <label class="toggle-label ${!hasW ? "is-empty" : !filter.includes("w") ? "is-unchecked" : ""}" title="White">
+                                        <input type="checkbox" value="w" data-action="race" ${filter.includes("w") ? "checked" : ""}> White
+                                    </label>
+                                    <label class="toggle-label ${!hasB ? "is-empty" : !filter.includes("b") ? "is-unchecked" : ""}" title="Black">
+                                        <input type="checkbox" value="b" data-action="race" ${filter.includes("b") ? "checked" : ""}> Black
+                                    </label>
+                                    <label class="toggle-label ${!hasH ? "is-empty" : !filter.includes("h") ? "is-unchecked" : ""}" title="Hispanic">
+                                        <input type="checkbox" value="h" data-action="race" ${filter.includes("h") ? "checked" : ""}> Hispanic
+                                    </label>
+                                    <label class="toggle-label ${!hasA ? "is-empty" : !filter.includes("a") ? "is-unchecked" : ""}" title="Asian">
+                                        <input type="checkbox" value="a" data-action="race" ${filter.includes("a") ? "checked" : ""}> Asian
+                                    </label>
                                 </div>
                             </div>
                         `;
@@ -2544,27 +2803,6 @@
 
                 byId("generateBtn").addEventListener("click", generate);
 
-                // specific username regen logic with force-new generation
-                const reRollSlot = (index) => {
-                    if (state.slots[index]) {
-                        const prevText = state.tokens[index]
-                            ? state.tokens[index].text
-                            : null;
-                        let newToken;
-                        let attempts = 0;
-                        do {
-                            newToken = computeSingleToken(state.slots[index]);
-                            attempts++;
-                        } while (
-                            newToken &&
-                            prevText &&
-                            newToken.text === prevText &&
-                            attempts < 10
-                        );
-                        state.tokens[index] = newToken;
-                    }
-                };
-
                 byId("refreshUsernameBtn").addEventListener("click", () => {
                     const nameSegs = getFormulaSegments(
                         state.nameFormula,
@@ -2578,17 +2816,36 @@
                     ).filter((s) =>
                         isStandaloneSlotReference(s, state.slots.length),
                     );
-
                     const exclusiveSegs = userSegs.filter(
                         (s) => !nameSegs.includes(s),
                     );
 
-                    if (exclusiveSegs.length > 0) {
-                        exclusiveSegs.forEach((seg) =>
-                            reRollSlot(Number(seg) - 1),
+                    const reroll = (index) => {
+                        if (!state.slots[index]) return;
+                        const prevText = state.tokens[index]
+                            ? state.tokens[index].text
+                            : null;
+                        const combos = getSlotComboCount(state.slots[index]);
+                        if (combos <= 1) return; // Prevent endless loop if only 1 option available
+
+                        let newToken;
+                        let attempts = 0;
+                        do {
+                            newToken = computeSingleToken(state.slots[index]);
+                            attempts++;
+                        } while (
+                            newToken &&
+                            prevText &&
+                            newToken.text === prevText &&
+                            attempts < 10
                         );
+                        state.tokens[index] = newToken;
+                    };
+
+                    if (exclusiveSegs.length > 0) {
+                        exclusiveSegs.forEach((seg) => reroll(Number(seg) - 1));
                     } else {
-                        userSegs.forEach((seg) => reRollSlot(Number(seg) - 1));
+                        userSegs.forEach((seg) => reroll(Number(seg) - 1));
                     }
                     renderPreview();
                 });

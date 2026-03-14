@@ -7,8 +7,24 @@
     <generator>Hugo -- 0.157.0</generator>
     <language>en-US</language>
     <copyright>Furkan Uysal — Support · Archive · Legal · CC0 1.0 Universal</copyright>
-    <lastBuildDate>Mon, 09 Mar 2026 10:11:50 +0300</lastBuildDate>
+    <lastBuildDate>Sat, 14 Mar 2026 00:00:00 +0300</lastBuildDate>
     <atom:link href="https://furuy.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>New Tool: CrowdName</title>
+      <link>https://furuy.com/new-tool-crowdname/</link>
+      <pubDate>Sat, 14 Mar 2026 00:00:00 +0300</pubDate>
+      <guid>https://furuy.com/new-tool-crowdname/</guid>
+      <description>&lt;p&gt;The best way to hide online is to look completely average. If your alias sounds fake, it defeats the purpose. That&amp;rsquo;s why I built CrowdName.&lt;/p&gt;
+&lt;p&gt;Instead of mashing random words together, CrowdName uses official U.S. Census and SSA data to generate mathematically realistic profiles.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Features:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Real Demographics:&lt;/strong&gt; View the exact statistical breakdown for generated surnames.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Smart Avatars:&lt;/strong&gt; Auto-assigned emojis matching the name&amp;rsquo;s gender and most likely ethnicity.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Custom Formulas:&lt;/strong&gt; Build unique username patterns using simple logic (e.g., &lt;code&gt;1+_+2+3&lt;/code&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Bring Your Own Data:&lt;/strong&gt; Import any plain text word list to generate whatever you need.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Runs entirely in your browser. No tracking, no bloat.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Why I Use Brave</title>
       <link>https://furuy.com/why-i-use-brave/</link>

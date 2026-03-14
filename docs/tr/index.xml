@@ -7,8 +7,24 @@
     <generator>Hugo -- 0.157.0</generator>
     <language>tr-TR</language>
     <copyright>Furkan Uysal — Destek · Arşiv · Yasal · CC0 1.0 Evrensel</copyright>
-    <lastBuildDate>Mon, 09 Mar 2026 10:11:50 +0300</lastBuildDate>
+    <lastBuildDate>Sat, 14 Mar 2026 00:00:00 +0300</lastBuildDate>
     <atom:link href="https://furuy.com/tr/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Yeni Araç: CrowdName</title>
+      <link>https://furuy.com/tr/yeni-arac-crowdname/</link>
+      <pubDate>Sat, 14 Mar 2026 00:00:00 +0300</pubDate>
+      <guid>https://furuy.com/tr/yeni-arac-crowdname/</guid>
+      <description>&lt;p&gt;İnternette saklanmanın en iyi yolu tamamen sıradan görünmektir. Kullandığınız sahte isim sahte duruyorsa, bütün amacını yitirir. Bu yüzden CrowdName&amp;rsquo;i geliştirdim.&lt;/p&gt;
+&lt;p&gt;Rastgele kelimeleri yan yana getirmek yerine CrowdName, matematiksel olarak gerçekçi profiller oluşturmak için resmi ABD Nüfus Sayımı ve SSA verilerini kullanır.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Özellikler:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Gerçek Demografi:&lt;/strong&gt; Üretilen soyadlarının tam istatistiksel dağılımını görün.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Akıllı Avatarlar:&lt;/strong&gt; İsmin cinsiyetine ve muhtemel etnik kökenine otomatik uyum sağlayan emojiler.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Özel Formüller:&lt;/strong&gt; Basit bir mantık kullanarak özgün kullanıcı adı desenleri oluşturun (örn: &lt;code&gt;1+_+2+3&lt;/code&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Kendi Verinizi Ekleyin:&lt;/strong&gt; Dilediğiniz her şeyi üretmek için kendi kelime listelerinizi içe aktarın.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Tamamen tarayıcınızın içinde çalışır. İzleme (tracking) yok, gereksiz yük (bloat) yok.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Neden Brave Kullanıyorum?</title>
       <link>https://furuy.com/tr/neden-brave-kullaniyorum/</link>
