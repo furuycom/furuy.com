@@ -12,7 +12,7 @@ translationKey: "crowdname"
 #   disable: true
 # comments: false
 
-# tags: ["..."]
+tags: ["Tools"]
 
 # cover:
 #   image: "/assets/img/filename.webp"

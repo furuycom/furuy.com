@@ -12,7 +12,7 @@ translationKey: "crowdname"
 #   disable: true
 # comments: false
 
-# tags: ["..."]
+tags: ["Araçlar"]
 
 # cover:
 #   image: "/assets/img/filename.webp"

@@ -151,7 +151,7 @@ enableGitInfo = true
     [[languages.en.menus.main]]
         identifier = "tools"
         name = "Tools"
-        pageRef = "/tools/"
+        pageRef = "/tags/tools/"
         weight = 35
 
     [[languages.en.menus.main]]
@@ -235,7 +235,7 @@ enableGitInfo = true
         [[languages.tr.menus.main]]
             identifier = "araclar"
             name = "Araçlar"
-            pageRef = "/araclar/"
+            url = "/etiketler/araçlar/"
             weight = 35
 
         [[languages.tr.menus.main]]
