@@ -57,7 +57,7 @@ enableGitInfo = true
     ShowRssButtonInSectionTermList = true
     UseHugoToc = true
     ShowToc = true
-    TocOpen = true
+    TocOpen = false
 
   # Assets
     [params.assets]

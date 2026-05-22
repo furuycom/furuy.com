@@ -1,0 +1,488 @@
+:root {
+  color-scheme: light dark;
+  --bg: #eef4f2;
+  --panel: #fbfdfc;
+  --text: #142321;
+  --muted: #637370;
+  --line: #cfdcd8;
+  --soft: #edf6f3;
+  --accent: #1f6f62;
+  --accent-strong: #174f47;
+  --success: #0f7a55;
+  --medium: #b06b00;
+  --danger: #b23838;
+  --danger-soft: #fff1f1;
+  --focus: #b07a1a;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100%;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background:
+    radial-gradient(circle at top, rgba(31, 111, 98, 0.10), transparent 34rem),
+    var(--bg);
+  color: var(--text);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  line-height: 1.45;
+  letter-spacing: 0;
+}
+
+button,
+input,
+a {
+  font: inherit;
+}
+
+.page {
+  width: min(100% - 24px, 780px);
+  margin: 0 auto;
+  padding: 16px 0;
+}
+
+.tool-shell {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  box-shadow: 0 18px 45px rgba(20, 35, 33, 0.08);
+  padding: 18px;
+}
+
+.tool-header {
+  display: grid;
+  justify-items: center;
+  text-align: center;
+}
+
+.title-row {
+  display: inline-grid;
+  grid-template-columns: minmax(0, auto) 32px;
+  align-items: center;
+  gap: 8px;
+  max-width: 100%;
+}
+
+.title-row h1 {
+  min-width: 0;
+}
+
+.privacy-note,
+.status {
+  color: var(--muted);
+}
+
+h1,
+h2,
+p {
+  margin-top: 0;
+}
+
+h1 {
+  margin-bottom: 0;
+  font-size: clamp(1.55rem, 4vw, 2.1rem);
+  line-height: 1.12;
+}
+
+.help-button {
+  width: 30px;
+  height: 30px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--soft);
+  color: var(--accent-strong);
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+  font-size: 0.95rem;
+  font-weight: 850;
+  line-height: 1;
+  text-decoration: none;
+}
+
+.help-button:hover {
+  border-color: var(--accent);
+}
+
+.message {
+  margin: 12px 0 0;
+  border-radius: 8px;
+  padding: 9px 11px;
+  font-size: 0.92rem;
+  font-weight: 700;
+}
+
+.message-error {
+  border: 1px solid #e6b8b8;
+  background: var(--danger-soft);
+  color: var(--danger);
+}
+
+.output-section,
+.settings,
+.privacy-note {
+  margin-top: 14px;
+}
+
+.passphrase-output {
+  width: 100%;
+  min-height: 78px;
+  border: 0;
+  border-radius: 6px;
+  background:
+    linear-gradient(90deg, rgba(31, 111, 98, 0.12), rgba(31, 111, 98, 0) 42%),
+    var(--soft);
+  color: var(--text);
+  padding: 14px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+  font-size: clamp(1.04rem, 2.5vw, 1.28rem);
+  font-weight: 650;
+  line-height: 1.42;
+  overflow: hidden;
+  user-select: text;
+  white-space: normal;
+  cursor: pointer;
+}
+
+.passphrase-output:empty {
+  cursor: default;
+}
+
+.passphrase-token {
+  display: inline-flex;
+  flex: 0 0 auto;
+  white-space: nowrap;
+}
+
+.passphrase-output-long {
+  font-size: clamp(0.94rem, 2.15vw, 1.12rem);
+}
+
+.passphrase-output-very-long {
+  font-size: clamp(0.84rem, 1.9vw, 1rem);
+}
+
+.passphrase-output-extra-long {
+  font-size: clamp(0.76rem, 1.7vw, 0.9rem);
+}
+
+.passphrase-separator {
+  color: var(--medium);
+  font-weight: 850;
+}
+
+.passphrase-digit {
+  color: var(--danger);
+  font-weight: 850;
+}
+
+.button-row {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.button {
+  min-height: 38px;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  padding: 7px 14px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  font-weight: 750;
+}
+
+.button:disabled {
+  cursor: not-allowed;
+  opacity: 0.55;
+}
+
+.button-primary {
+  background: var(--accent);
+  color: #ffffff;
+}
+
+.button-primary:hover:not(:disabled) {
+  background: var(--accent-strong);
+}
+
+.button-secondary {
+  border-color: var(--line);
+  background: #ffffff;
+  color: var(--text);
+}
+
+.button-secondary:hover:not(:disabled) {
+  border-color: var(--accent);
+  color: var(--accent-strong);
+}
+
+.button-copied,
+.button-copied:hover:not(:disabled) {
+  border-color: var(--success);
+  color: var(--success);
+}
+
+.is-spinning span:first-child {
+  animation: refresh-spin 0.45s ease-in-out;
+}
+
+@keyframes refresh-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.status {
+  min-height: 22px;
+  margin: 6px 0 0;
+  font-size: 0.9rem;
+  font-weight: 700;
+  line-height: 22px;
+  text-align: center;
+}
+
+.status-success {
+  color: var(--accent-strong);
+}
+
+.status-error {
+  color: var(--danger);
+}
+
+.settings {
+  display: grid;
+  grid-template-columns: repeat(2, 120px) 190px;
+  align-items: end;
+  justify-content: center;
+  gap: 14px;
+  border-top: 1px solid var(--line);
+  padding-top: 14px;
+}
+
+.field {
+  display: grid;
+  gap: 5px;
+}
+
+.field label,
+.check-row label {
+  font-size: 0.9rem;
+  font-weight: 750;
+}
+
+.field label {
+  text-align: center;
+}
+
+.field input[type="number"],
+.field input[type="text"] {
+  width: 100%;
+  min-height: 38px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #ffffff;
+  color: var(--text);
+  padding: 7px 9px;
+}
+
+.field input[type="number"],
+.field input[type="text"] {
+  text-align: center;
+}
+
+.check-row {
+  display: grid;
+  grid-template-columns: 18px minmax(0, 1fr);
+  align-items: center;
+  gap: 8px;
+  min-height: 28px;
+}
+
+.check-row input {
+  width: 17px;
+  height: 17px;
+  accent-color: var(--accent);
+}
+
+.check-group {
+  display: grid;
+  gap: 8px;
+  justify-items: start;
+  align-content: center;
+  min-height: 64px;
+  width: 190px;
+}
+
+.entropy-very-weak,
+.entropy-weak,
+.entropy-low {
+  color: var(--danger);
+}
+
+.entropy-good,
+.entropy-medium {
+  color: var(--medium);
+}
+
+.entropy-strong,
+.entropy-very-strong {
+  color: var(--success);
+}
+
+.privacy-note {
+  border-top: 1px solid var(--line);
+  padding-top: 10px;
+  margin-bottom: 0;
+  font-size: 0.78rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 4px 0;
+  text-align: center;
+}
+
+.privacy-note span,
+.privacy-note a {
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.footer-separator {
+  margin: 0 12px;
+  color: var(--muted);
+  opacity: 0.75;
+}
+
+.privacy-note a {
+  color: inherit;
+  opacity: 0.86;
+  text-decoration: none;
+}
+
+.privacy-note a:hover {
+  color: var(--accent-strong);
+  opacity: 1;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+.screen-reader-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+}
+
+:focus-visible {
+  outline: 3px solid var(--focus);
+  outline-offset: 2px;
+}
+
+@media (max-width: 680px) {
+  .page {
+    width: min(100% - 16px, 780px);
+    padding: 8px 0;
+  }
+
+  .tool-shell {
+    padding: 14px;
+  }
+
+  .settings {
+    grid-template-columns: minmax(110px, 170px) minmax(110px, 170px);
+    justify-items: center;
+  }
+
+  .check-group {
+    grid-column: 1 / -1;
+    min-height: 0;
+    width: auto;
+    justify-items: center;
+  }
+
+  .check-row {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 440px) {
+  .button-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .settings {
+    grid-template-columns: 1fr;
+  }
+
+  .field,
+  .field-number {
+    width: min(100%, 170px);
+    max-width: 170px;
+    justify-self: center;
+  }
+
+  .check-group {
+    justify-self: center;
+  }
+
+  .title-row {
+    grid-template-columns: minmax(0, 1fr) 30px;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0f1716;
+    --panel: #172220;
+    --text: #edf7f4;
+    --muted: #a7bbb6;
+    --line: #304541;
+    --soft: #132b27;
+    --accent: #75d0bd;
+    --accent-strong: #a0e1d4;
+    --success: #6ee3b2;
+    --medium: #ffc45c;
+    --danger: #ff8e8e;
+    --danger-soft: #3a2020;
+    --focus: #f0b44c;
+  }
+
+  .tool-shell {
+    box-shadow: 0 18px 45px rgba(0, 0, 0, 0.28);
+  }
+
+  .button-secondary,
+  .field input[type="number"],
+  .field input[type="text"] {
+    background: #111c1a;
+  }
+
+  .button-primary {
+    color: #071615;
+  }
+
+}
