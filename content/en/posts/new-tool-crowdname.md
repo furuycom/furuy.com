@@ -30,4 +30,4 @@ Instead of mashing random words together, CrowdName uses official U.S. Census an
 
 Runs entirely in your browser. No tracking, no bloat.
 
-[**Try CrowdName →**](/tools/CrowdName/)
+[**Try CrowdName →**](/tools/crowdname/)

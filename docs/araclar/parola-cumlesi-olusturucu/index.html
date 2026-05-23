@@ -28,7 +28,7 @@
     <section class="tool-shell" aria-labelledby="toolTitle">
       <header class="tool-header">
         <div class="title-row">
-          <h1 id="toolTitle">🎲 Parola Cümlesi Oluşturucu</h1>
+          <h1 id="toolTitle"><span class="title-icon" aria-hidden="true">🎲</span><span>Parola Cümlesi Oluşturucu</span></h1>
           <a id="faqToggle" class="help-button" href="/tr/turkce-parola-cumlesi-olusturucu/" target="_blank" rel="noopener noreferrer" aria-label="Parola cümlesi hakkında bilgi">?</a>
         </div>
       </header>
@@ -41,7 +41,7 @@
 
       <section class="output-section" aria-labelledby="outputTitle">
         <h2 id="outputTitle" class="screen-reader-only">Üretilen parola cümlesi</h2>
-        <div id="passphraseOutput" class="passphrase-output" role="textbox" aria-readonly="true" tabindex="0" aria-describedby="privacyNote copyStatus"></div>
+        <div id="passphraseOutput" class="passphrase-output" role="textbox" aria-readonly="true" tabindex="0" aria-describedby="copyStatus"></div>
 
         <div class="button-row">
           <button id="refreshButton" class="button button-primary" type="button"><span aria-hidden="true">↻</span> Yenile</button>
@@ -75,12 +75,11 @@
 
       </form>
 
+      <span id="listSize" hidden></span>
       <footer class="privacy-note" id="privacyNote">
-        <span>Cihazınızda üretilir, kaydedilmez.</span>
-        <span class="footer-separator" aria-hidden="true">·</span>
-        <a href="https://github.com/furuycom/turkce-parola-cumlesi-listesi" target="_blank" rel="noopener noreferrer">Türkçe Parola Cümlesi Listesi <span id="listSize">(Hesaplanıyor)</span></a>
-        <span class="footer-separator" aria-hidden="true">·</span>
-        <a href="/yasal/#lisans-cc0-10" target="_blank">CC0 1.0 Evrensel</a>
+        <a href="https://furuy.com/" target="_blank" rel="noopener noreferrer"><span aria-hidden="true">🮰</span> Sitemi ziyaret edin</a>
+        <a href="https://github.com/furuycom/furuy.com/tree/main/static/araclar/parola-cumlesi-olusturucu/" target="_blank" rel="noopener noreferrer"><span aria-hidden="true">&lt;/&gt;</span> GitHub</a>
+        <a href="https://github.com/sponsors/furuycom" target="_blank" rel="noopener noreferrer"><span aria-hidden="true">♡</span> Sponsor</a>
       </footer>
     </section>
   </main>

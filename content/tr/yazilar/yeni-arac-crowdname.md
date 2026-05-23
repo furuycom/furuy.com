@@ -30,4 +30,4 @@ Rastgele kelimeleri yan yana getirmek yerine CrowdName, matematiksel olarak ger�
 
 Tamamen tarayıcınızın içinde çalışır. İzleme (tracking) yok, gereksiz yük (bloat) yok.
 
-[**CrowdName'i deneyin →**](/tools/CrowdName/)
+[**CrowdName'i deneyin →**](/tools/crowdname/)

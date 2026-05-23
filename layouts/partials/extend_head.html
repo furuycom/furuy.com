@@ -1,1 +1,63 @@
 <meta name="fediverse:creator" content="@furuycom@mastodon.social" />
+<style>
+    .tools-list {
+        display: grid;
+        gap: 16px;
+        margin-top: 4px;
+    }
+
+    .tools-list .tool-card {
+        min-height: 0;
+        margin: 0;
+        padding: 22px 24px;
+    }
+
+    .tools-list .entry-header h2 {
+        margin: 0;
+        font-size: 1.45rem;
+        line-height: 1.25;
+    }
+
+    .tools-list .entry-content {
+        margin: 12px 0 16px;
+    }
+
+    .tools-list .entry-content p {
+        margin: 0;
+    }
+
+    .tools-list .tool-card-actions {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        margin: 0;
+        font-size: 0.95rem;
+    }
+
+    .tools-list .tool-card-actions a {
+        color: var(--secondary);
+        text-decoration: none;
+        box-shadow: none;
+    }
+
+    .tools-list .tool-card-actions a:hover {
+        color: var(--primary);
+        box-shadow: none;
+    }
+
+    .tools-list .tool-card-actions .tool-link {
+        margin-left: auto;
+        color: var(--primary);
+        font-weight: 600;
+    }
+
+    @media (max-width: 480px) {
+        .tools-list .tool-card {
+            padding: 18px;
+        }
+
+        .tools-list .entry-header h2 {
+            font-size: 1.25rem;
+        }
+    }
+</style>
