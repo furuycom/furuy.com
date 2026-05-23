@@ -145,7 +145,7 @@ Tire genellikle en uyumlu seçenektir. Boşluk bazı sitelerde sorun çıkarabil
 
 Hazırladığım bu araç tarayıcıda çalışır. Oluşturulan parola cümlesi sunucuya gönderilmez, kaydedilmez ve takip edilmez.
 
-Aracı buradan deneyebilirsiniz: [Parola Cümlesi Oluşturucu](https://furuy.com/araclar/parola-cumlesi-olusturucu/)
+Aracı buradan deneyebilirsiniz: [Parola Cümlesi Oluşturucu](/araclar/parola-cumlesi-olusturucu/)
 
 Özellikler:
 
