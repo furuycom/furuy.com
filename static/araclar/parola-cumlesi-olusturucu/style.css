@@ -319,6 +319,50 @@ h1 {
   text-align: center;
 }
 
+.number-control {
+  display: grid;
+  grid-template-columns: 38px minmax(0, 1fr) 38px;
+}
+
+.number-control input[type="number"] {
+  min-width: 0;
+  border-radius: 0;
+  appearance: textfield;
+}
+
+.number-control input[type="number"]::-webkit-inner-spin-button,
+.number-control input[type="number"]::-webkit-outer-spin-button {
+  margin: 0;
+  appearance: none;
+}
+
+.number-button {
+  min-height: 38px;
+  padding: 0;
+  border: 1px solid var(--line);
+  background: var(--soft);
+  color: var(--text);
+  font: inherit;
+  font-weight: 750;
+  cursor: pointer;
+  touch-action: manipulation;
+}
+
+.number-button:first-child {
+  border-radius: 8px 0 0 8px;
+  border-right: 0;
+}
+
+.number-button:last-child {
+  border-radius: 0 8px 8px 0;
+  border-left: 0;
+}
+
+.number-button:disabled {
+  cursor: not-allowed;
+  opacity: 0.45;
+}
+
 .check-row {
   display: grid;
   grid-template-columns: 18px minmax(0, 1fr);
