@@ -17,8 +17,6 @@ const elements = {
   copyButtonIcon: document.querySelector("#copyButton span"),
   settingsForm: document.getElementById("settingsForm"),
   wordCount: document.getElementById("wordCount"),
-  decreaseWordCount: document.getElementById("decreaseWordCount"),
-  increaseWordCount: document.getElementById("increaseWordCount"),
   separator: document.getElementById("separator"),
   capitalize: document.getElementById("capitalize"),
   addRandomDigit: document.getElementById("addRandomDigit"),
@@ -213,18 +211,7 @@ function readSeparator(value) {
 
 function updateControls(options) {
   elements.wordCount.value = String(options.wordCount);
-  elements.decreaseWordCount.disabled = options.wordCount <= MIN_WORD_COUNT;
   elements.separator.value = options.separator;
-}
-
-function adjustWordCount(change) {
-  const currentValue = Number(elements.wordCount.value);
-  const wordCount = Number.isInteger(currentValue) && currentValue >= MIN_WORD_COUNT
-    ? currentValue
-    : DEFAULT_WORD_COUNT;
-
-  elements.wordCount.value = String(Math.max(MIN_WORD_COUNT, wordCount + change));
-  render();
 }
 
 function updateInfo(entropy, listSize) {
@@ -412,12 +399,6 @@ elements.wordCount.addEventListener("input", function updateWordCount() {
   }
 });
 elements.wordCount.addEventListener("change", render);
-elements.decreaseWordCount.addEventListener("click", function decreaseWordCount() {
-  adjustWordCount(-1);
-});
-elements.increaseWordCount.addEventListener("click", function increaseWordCount() {
-  adjustWordCount(1);
-});
 elements.separator.addEventListener("input", render);
 elements.capitalize.addEventListener("change", render);
 elements.addRandomDigit.addEventListener("change", render);
