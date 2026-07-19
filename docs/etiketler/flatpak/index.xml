@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Flatpak on Furkan Uysal</title>
+    <link>https://furuy.com/etiketler/flatpak/</link>
+    <description>Recent content in Flatpak on Furkan Uysal</description>
+    <generator>Hugo</generator>
+    <language>tr-TR</language>
+    <copyright>Arşiv · Yasal · CC0 1.0 Evrensel</copyright>
+    <lastBuildDate>Thu, 26 Feb 2026 00:00:00 +0300</lastBuildDate>
+    <atom:link href="https://furuy.com/etiketler/flatpak/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linux&#39;ta Chromium Tabanlı Tarayıcı Dilini Değiştirme</title>
+      <link>https://furuy.com/linux-chromium-tarayici-dilini-degistirme/</link>
+      <pubDate>Thu, 26 Feb 2026 00:00:00 +0300</pubDate>
+      <guid>https://furuy.com/linux-chromium-tarayici-dilini-degistirme/</guid>
+      <description>&lt;p&gt;Linux&amp;rsquo;ta Chromium tabanlı tarayıcılarda (Chrome, Brave vb.) tarayıcının arayüz dilini değiştirme seçeneği olmasa da bunu yapmak mümkün.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;1-tek-seferlik-cli&#34;&gt;1) Tek seferlik: CLI&lt;/h2&gt;
+&lt;p&gt;En pratik yöntem, tarayıcıyı çalıştırırken &lt;code&gt;LANGUAGE&lt;/code&gt; değişkenini vermek.&lt;/p&gt;
+&lt;p&gt;🇹🇷 &lt;strong&gt;Türkçe (TR)&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nv&#34;&gt;LANGUAGE&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;tr_TR:tr chromium-browser
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;🇺🇸 &lt;strong&gt;English (EN)&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nv&#34;&gt;LANGUAGE&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;en_US:en chromium-browser
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Sisteme göre komut adı farklı olabilir. Örnekler:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;chromium-browser&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;chromium&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;veya tam yol ile: &lt;code&gt;/usr/bin/chromium-browser&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Genel format:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nv&#34;&gt;LANGUAGE&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;hedef_dil /path/to/browser
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;lc_all-gerekli-mi&#34;&gt;&lt;code&gt;LC_ALL&lt;/code&gt; gerekli mi?&lt;/h3&gt;
+&lt;p&gt;Çoğu durumda gerekli değil. Eğer arayüzün bir kısmı eski dilde veya formatta kalıyorsa deneyebilirsiniz:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -20,49 +20,49 @@
     ></script>
 
     <script>
-        <!-- Syncs Giscus theme with site theme toggle -->
+        // Keep Giscus in sync with the site theme.
         (() => {
-            const ORIGIN = "https://giscus.app";
-            const container = document.currentScript.closest(".comments");
-            if (!container) return;
-
-            const mql = window.matchMedia("(prefers-color-scheme: dark)");
-            let lastTheme;
-
-            const getTheme = () => {
-                const t = document.documentElement.dataset.theme; // "light" | "dark" | "auto" | ""
-                const dark =
-                    t === "dark" || ((t === "auto" || !t) && mql.matches);
-                return dark ? "transparent_dark" : "light";
-            };
-
-            const sync = () => {
+            const container = document.currentScript.parentElement;
+            const syncTheme = () => {
                 const iframe = container.querySelector("iframe.giscus-frame");
-                if (!iframe) return false;
-
-                const theme = getTheme();
-                if (theme === lastTheme) return true; // gereksiz postMessage yok
+                if (!iframe) return;
 
                 iframe.contentWindow.postMessage(
-                    { giscus: { setConfig: { theme } } },
-                    ORIGIN,
+                    {
+                        giscus: {
+                            setConfig: {
+                                theme:
+                                    document.documentElement.dataset.theme ===
+                                    "dark"
+                                        ? "transparent_dark"
+                                        : "light",
+                            },
+                        },
+                    },
+                    "https://giscus.app",
                 );
-
-                lastTheme = theme;
-                return true;
             };
 
-            sync();
-
-            new MutationObserver(sync).observe(document.documentElement, {
+            new MutationObserver(syncTheme).observe(document.documentElement, {
                 attributes: true,
                 attributeFilter: ["data-theme"],
             });
 
-            const obs = new MutationObserver(() => {
-                if (sync()) obs.disconnect();
-            });
-            obs.observe(container, { childList: true, subtree: true });
+            const attach = () => {
+                const iframe = container.querySelector("iframe.giscus-frame");
+                if (!iframe) return false;
+
+                iframe.addEventListener("load", syncTheme, { once: true });
+                syncTheme();
+                return true;
+            };
+
+            if (!attach()) {
+                const observer = new MutationObserver(() => {
+                    if (attach()) observer.disconnect();
+                });
+                observer.observe(container, { childList: true, subtree: true });
+            }
         })();
     </script>
 </div>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="#050608"/>
+  <g transform="translate(38.4) scale(.85) translate(0 45.2)">
+    <g fill="#0C8F60">
+      <path d="M110 25 217 116h78L402 25l-66 118 8 32-63 63v141h-50V238l-63-63 8-32Z"/>
+      <path id="ear" d="M108 29 132 151 100 183Z"/>
+      <use href="#ear" transform="translate(512) scale(-1 1)"/>
+      <path id="cheek" d="M132 172 142 196 201 254 154 237 166 278 213 325 217 395 245 422v16h-35l-14-15-4-42-56-55 28 66-104-67 40-62-46-2Z"/>
+      <use href="#cheek" transform="translate(512) scale(-1 1)"/>
+      <path d="M222 453h68l-34 34Z"/>
+    </g>
+    <g fill="#35F0A1">
+      <path id="eye" d="M168 243 202 255 214 276 184 265Z"/>
+      <use href="#eye" transform="translate(512) scale(-1 1)"/>
+    </g>
+  </g>
+</svg>

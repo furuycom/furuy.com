@@ -1,82 +1,60 @@
 baseURL = "https://furuy.com/"
 title = "Furkan Uysal"
 theme = "PaperMod"
-publishDir = "docs"
 cleanDestinationDir = true
 disableHugoGeneratorInject = true
-timeZone = "Europe/Istanbul"
-
-# Default language
-defaultContentLanguage = "en"
-defaultContentLanguageInSubdir = false
-
-# Build & SEO
 enableRobotsTXT = true
-canonifyURLs = true
 enableGitInfo = true
+timeZone = "Europe/Istanbul"
+defaultContentLanguage = "tr"
+locale = "tr-TR"
+copyright = "[Arşiv](/arsiv/) · [Yasal](/yasal/) · [CC0 1.0 Evrensel](/yasal/#lisans-cc0-10)"
 
-# Permalinks
 [permalinks]
     [permalinks.page]
-        posts = "/:contentbasename/"
-        yazilar = "/:contentbasename/"
+        yazilar = "/:slugorcontentbasename/"
+    [permalinks.taxonomy]
+        tags = "/etiketler/"
+    [permalinks.term]
+        tags = "/etiketler/:slug/"
 
-# Outputs
+[taxonomies]
+    tag = "tags"
+
 [outputs]
     home = ["HTML", "RSS", "JSON"]
 
-# Minify
 [minify]
     disableXML = true
     minifyOutput = true
 
-# -----------------------------------------------------------------------------
-# Global Parameters
-# -----------------------------------------------------------------------------
 [params]
-    env = "production"
     author = "Furkan Uysal"
+    description = "Furkan Uysal'ın kişisel sitesi. CV, projeler ve yazılar."
+    DateFormat = "2 January 2006"
     hideAuthor = true
-    #description = ""
     comments = true
-
-    displayFullLangName = true
-    defaultTheme = "auto"
-    disableThemeToggle = false
-
-    # UI Elements
     ShowReadingTime = true
-    ShowShareButtons = false
     ShowPostNavLinks = true
-    ShowBreadCrumbs = false
     ShowCodeCopyButtons = true
-    ShowLastMod = true
-
-    # RSS & TOC
-    ShowFullTextinRSS = false
     ShowRssButtonInSectionTermList = true
     UseHugoToc = true
     ShowToc = true
-    TocOpen = false
 
-  # Assets
     [params.assets]
         disableHLJS = true
         theme_color = "#050608"
         msapplication_TileColor = "#0c8f60"
-        # Favicon
-        favicon = "/assets/img/favicon.svg"
-        favicon16x16 = "/assets/img/favicon16x16.png"
-        favicon32x32 = "/assets/img/favicon32x32.png"
-        apple_touch_icon = "/assets/img/apple_touch_icon.png"
-        safari_pinned_tab = "/assets/img/favicon.svg"
+        favicon = "/assets/brand/favicon.svg"
+        favicon16x16 = "/assets/brand/favicon-16x16.png"
+        favicon32x32 = "/assets/brand/favicon-32x32.png"
+        apple_touch_icon = "/assets/brand/apple-touch-icon.png"
+        safari_pinned_tab = "/assets/brand/boru-monochrome.svg"
 
-    # Label
     [params.label]
         text = "Furkan Uysal"
-        icon = "/assets/img/favicon.svg"
+        icon = "/assets/brand/boru-social.svg"
 
-    # Social Icons
     [[params.socialIcons]]
         name = "github"
         title = "GitHub"
@@ -97,245 +75,78 @@ enableGitInfo = true
         title = "Email"
         url = "mailto:furuycom@protonmail.com"
 
-    # Cover
     [params.cover]
         hidden = true
-        hiddenInList = true
-        hiddenInSingle = true
-        relative = true
-        linkFullImages = true
 
-    # Search Config
     [params.fuseOpts]
-        isCaseSensitive = false
-        ignoreLocation = true
-        shouldSort = true
-        location = 0
         distance = 1000
-        threshold = 0.4
-        minMatchCharLength = 0
         limit = 10
-        keys = ["title", "permalink", "summary", "content"]
 
-# -----------------------------------------------------------------------------
-# Languages
-# -----------------------------------------------------------------------------
-[languages]
-
-    [languages.en]
-        languageName = "English"
-        languageCode = "en-US"
-        weight = 1
-        contentDir = "content/en"
+    [params.profileMode]
+        enabled = true
         title = "Furkan Uysal"
-        copyright = "Furkan Uysal — [Support](https://github.com/sponsors/furuycom) · [Archive](/archives/) · [Legal](/legal/) · [CC0 1.0 Universal](/legal/#license-cc0-10)"
+        imageUrl = "/assets/brand/boru-social.svg"
+        imageTitle = "Furkan Uysal"
+        imageWidth = 120
+        imageHeight = 120
 
-    [[languages.en.menus.main]]
-        identifier = "cv"
-        name = "CV"
-        pageRef = "/cv/"
-        weight = 10
-
-    [[languages.en.menus.main]]
-        identifier = "about"
-        name = "About"
-        pageRef = "/about/"
-        weight = 20
-
-    [[languages.en.menus.main]]
-        identifier = "posts"
-        name = "Posts"
-        pageRef = "/posts/"
-        weight = 30
-
-    [[languages.en.menus.main]]
-        identifier = "tools"
-        name = "Tools"
-        pageRef = "/tools/"
-        weight = 35
-
-    [[languages.en.menus.main]]
-        identifier = "search"
-        name = "Search"
-        pageRef = "/search/"
-        weight = 40
-
-    [languages.en.params]
-        description = "Furkan Uysal's personal website. CV, projects, and writing."
-        DateFormat = "Jan 2, 2006"
-
-        [languages.en.params.profileMode]
-            enabled = true
-            title = "Hi, I'm Furkan."
-            #subtitle = ""
-            imageUrl = "/assets/img/favicon.svg"
-            imageTitle = "Furkan Uysal"
-            imageWidth = 120
-            imageHeight = 120
-
-        [[languages.en.params.profileMode.buttons]]
-            name = "CV"
-            url = "/cv/"
-
-        [[languages.en.params.profileMode.buttons]]
-            name = "Blog"
-            url = "/posts/"
-
-        [languages.en.params.schema]
-            publisherType = "Person"
-            sameAs = [
-                "https://github.com/furuycom",
-                "https://mastodon.social/@furuycom",
-                "https://www.linkedin.com/in/furkanuysal",
-            ]
-
-        [languages.en.params.editPost]
-            URL = "https://github.com/furuycom/furuy.com/edit/main/content/en"
-            Text = "Suggest Changes"
-            appendFilePath = true
-
-    [languages.tr]
-        languageName = "Türkçe"
-        languageCode = "tr-TR"
-        weight = 2
-        contentDir = "content/tr"
-        title = "Furkan Uysal"
-        copyright = "Furkan Uysal — [Destek](https://github.com/sponsors/furuycom) · [Arşiv](/tr/arsiv/) · [Yasal](/tr/yasal/) · [CC0 1.0 Evrensel](/tr/yasal/#lisans-cc0-10)"
-
-    [languages.tr.permalinks]
-        [languages.tr.permalinks.page]
-            yazilar = "/:slugorcontentbasename/"
-
-        [languages.tr.permalinks.taxonomy]
-            #categories = "/kategoriler/"
-            tags       = "/etiketler/"
-
-        [languages.tr.permalinks.term]
-            #categories = "/kategoriler/:slug/"
-            tags       = "/etiketler/:slug/"
-
-        [[languages.tr.menus.main]]
-            identifier = "cv"
-            name = "CV"
-            pageRef = "/cv/"
-            weight = 10
-
-        [[languages.tr.menus.main]]
-            identifier = "hakkimda"
-            name = "Hakkımda"
-            pageRef = "/hakkimda/"
-            weight = 20
-
-        [[languages.tr.menus.main]]
-            identifier = "yazilar"
-            name = "Yazılar"
-            pageRef = "/yazilar/"
-            weight = 30
-
-        [[languages.tr.menus.main]]
-            identifier = "araclar"
-            name = "Araçlar"
-            url = "../../araclar/"
-            weight = 35
-
-        [[languages.tr.menus.main]]
-            identifier = "ara"
-            name = "Ara"
-            pageRef = "/ara/"
-            weight = 40
-
-    [languages.tr.params]
-        description = "Furkan Uysal'ın kişisel sitesi. CV, projeler ve yazılar."
-        DateFormat = "2 January 2006"
-
-        [languages.tr.params.profileMode]
-            enabled = true
-            title = "Selam, Ben Furkan."
-            #subtitle = ""
-            imageUrl = "/assets/img/favicon.svg"
-            imageTitle = "Furkan Uysal"
-            imageWidth = 120
-            imageHeight = 120
-
-        [[languages.tr.params.profileMode.buttons]]
-            name = "CV"
-            url = "/tr/cv/"
-
-        [[languages.tr.params.profileMode.buttons]]
-            name = "Blog"
-            url = "/tr/yazilar/"
-
-        [languages.tr.params.schema]
-            publisherType = "Person"
-            sameAs = [
-                "https://github.com/furuycom",
-                "https://mastodon.social/@furuycom",
-                "https://www.linkedin.com/in/furkanuysal",
+    [params.schema]
+        publisherType = "Person"
+        sameAs = [
+            "https://github.com/furuycom",
+            "https://mastodon.social/@furuycom",
+            "https://www.linkedin.com/in/furkanuysal",
         ]
 
-        [languages.tr.params.editPost]
-            URL = "https://github.com/furuycom/furuy.com/edit/main/content/tr"
-            Text = "Değişiklik Öner"
-            appendFilePath = true
+    [params.editPost]
+        URL = "https://github.com/furuycom/furuy.com/edit/main/content"
+        Text = "Değişiklik Öner"
+        appendFilePath = true
 
+[[menus.main]]
+    identifier = "yazilar"
+    name = "Yazılar"
+    pageRef = "/yazilar/"
+    weight = 10
 
-# -----------------------------------------------------------------------------
-# Syntax Highlighting
-# -----------------------------------------------------------------------------
+[[menus.main]]
+    identifier = "araclar"
+    name = "Araçlar"
+    pageRef = "/araclar/"
+    weight = 20
+
+[[menus.main]]
+    identifier = "cv"
+    name = "CV"
+    pageRef = "/cv/"
+    weight = 30
+
+[[menus.main]]
+    identifier = "ara"
+    name = "Ara"
+    pageRef = "/ara/"
+    weight = 40
+
+[frontmatter]
+    lastmod = ["lastmod", ":git", "date", "publishDate"]
+
 [markup]
-
     [markup.highlight]
-        noClasses = true
-        style = "dracula"
+        noClasses = false
         lineNos = true
-        codeFences = true
         guessSyntax = true
-        anchorLineNos = false
-
     [markup.goldmark.renderer]
         unsafe = true
 
-# -----------------------------------------------------------------------------
-# Imaging
-# -----------------------------------------------------------------------------
 [imaging.exif]
     disableDate = true
     disableLatLong = true
     excludeFields = ".*"
 
-# -----------------------------------------------------------------------------
-# Privacy Settings
-# -----------------------------------------------------------------------------
 [privacy]
-    [privacy.disqus]
-        disable = true
-
-    [privacy.googleAnalytics]
-        disable = true
-        respectDoNotTrack = true
-
-    [privacy.instagram]
-        disable = true
-        simple = true
-
-    [privacy.vimeo]
-        disable = true
-        enableDNT = true
-        simple = true
-
-    [privacy.x]
-        disable = false
-        enableDNT = true
-        simple = true
-
     [privacy.youTube]
-        disable = false
         privacyEnhanced = true
 
-# -----------------------------------------------------------------------------
-# Global Cascade
-# Set 'noindex' for all taxonomy lists and term pages.
-# -----------------------------------------------------------------------------
 [[cascade]]
     [cascade.params]
         robotsNoIndex = true

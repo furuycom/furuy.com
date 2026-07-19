@@ -20,7 +20,7 @@
 
 /* Mobile Menu: Center and stack */
 @media screen and (max-width: 768px) {
-    .nav {
+    .header-nav {
         flex-direction: column;
         align-items: center;
         height: auto;
@@ -41,23 +41,12 @@
     opacity: 0.9;
 }
 
-/* Mark old posts by spinning the hourglass icon once. */
-.post-meta .stale-icon::before {
-    content: "⌛︎";
-    margin-right: 0.35em;
-    opacity: 0.8;
-    display: inline-block;
-    animation: stale-attn 900ms linear 1;
+.logo a {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: -0.01em;
 }
 
-@keyframes stale-attn {
-    to {
-        transform: rotate(360deg);
-    }
-}
-
-@media (prefers-reduced-motion: reduce) {
-    .post-meta .stale-icon::before {
-        animation: none;
-    }
+.logo img {
+    border-radius: 50%;
 }

@@ -1,0 +1,41 @@
+---
+title: "GoDaddy & Cloudflare DNSSEC Kurulumu"
+date: "2021-09-17"
+tags:
+  - "DNSSEC"
+  - "Cloudflare"
+  - "DNS"
+aliases:
+  - /yazilar/godaddy-cloudflare-dnssec/
+  - /tr/godaddy-cloudflare-dnssec/
+---
+
+GoDaddy'de barınan ve Cloudflare'a bağlı bir alan adı için DNSSEC'i aktifleştirmek çok kolay. DNSSEC özelliğini, aktifleştirebildiğiniz her alan adınız için aktifleştirmenizi tavsiye ederim. Şimdi gelin, bunu nasıl yapabileceğimize bakalım.
+
+## Cloudflare
+
+Öncelikle, Cloudflare hesabınıza giriş yapın ve istediğiniz alan adınızı seçin. Ardından, menüde bulunan DNS'e tıklayın. Sayfanın biraz aşağısında, DNSSEC bölümünü bulacaksınız. `Enable DNSSEC` butonuna basın ve burada görünen `Key Tag, Algorithm, Digest Type-2, Digest` bilgilerini not edin ve `Confirm` butonuna tıklayarak onaylayın.
+
+![Cloudflare DNSSEC Pending](/assets/img/cloudflare-dnssec-pending.webp)
+
+## GoDaddy
+
+GoDaddy hesabınıza giriş yapın ve istediğiniz alan adınızın `DNS Yönetimi` sayfasına gidin. Sayfanın aşağısındaki `DNSSEC` bağlantısına tıklayın. `EKLE` butonuna tıklayın. Alanları, not ettiğiniz bilgilerden doldurun:
+
+`Anahtar Etiketi - Key Tag`
+
+`Algoritma - Algorithm`
+
+`Özet Türü - Digest Type-2 (SHA-256 ise 2'yi seçin)`
+
+`Özet - Digest`
+
+Bilgileri doğru bir şekilde girdikten sonra güncelle butonuna tıklayın.
+
+## Sonuç
+
+Değişiklik gösterebilir; kısa bir süre bekleyin. İşlemler tamamlandığı zaman, Cloudflare panelinde bunu görebileceksiniz. ![Cloudflare DNSSEC Success](/assets/img/cloudflare-dnssec-success.webp)
+
+Ayrıca [dnssec-analyzer.verisignlabs.com](https://dnssec-analyzer.verisignlabs.com/) bağlantısından da durumunu kontrol edebilirsiniz.
+
+![Verisign DNSSEC](/assets/img/verisign-dnssec.webp)

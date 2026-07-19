@@ -24,7 +24,7 @@
 }
 
 #menu .active {
-    border-bottom-color: var(--accent);
+    text-decoration-color: var(--accent);
 }
 
 #menu a:hover,
