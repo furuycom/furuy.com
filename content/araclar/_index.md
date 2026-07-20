@@ -1,6 +1,5 @@
 ---
 title: "Araçlar"
-description: "Parola cümlesi ve isim oluşturma araçları."
 url: "/araclar/"
 aliases:
   - /tr/araclar/
@@ -10,6 +9,8 @@ ShowToc: false
 ShowRssButtonInSectionTermList: false
 comments: false
 ---
+
+<!--more-->
 
 <div class="tools-list">
 

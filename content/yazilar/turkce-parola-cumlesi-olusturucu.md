@@ -1,6 +1,5 @@
 ---
 title: "Parola Cümlesi Nedir, Nasıl Oluşturulur"
-description: "Türkçe kelime listesiyle çalışan parola cümlesi oluşturucuyu ve parola cümlesi kullanımını anlatan rehber."
 date: "2026-05-22"
 aliases:
   - /tr/turkce-parola-cumlesi-olusturucu/
