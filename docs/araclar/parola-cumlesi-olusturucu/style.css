@@ -12,6 +12,12 @@
   --medium: #b06b00;
   --danger: #b23838;
   --danger-soft: #fff1f1;
+  --entropy-1: #b23838;
+  --entropy-2: #b6532f;
+  --entropy-3: #a66d00;
+  --entropy-4: #71802c;
+  --entropy-5: #3d8a61;
+  --entropy-6: #0f6f4f;
   --focus: #b07a1a;
 }
 
@@ -190,11 +196,28 @@ h1 {
 .passphrase-separator {
   color: var(--medium);
   font-weight: 850;
+  white-space: pre;
 }
 
 .passphrase-digit {
   color: var(--danger);
   font-weight: 850;
+}
+
+.passphrase-zero {
+  position: relative;
+  display: inline-block;
+}
+
+.passphrase-zero::after {
+  position: absolute;
+  top: 50%;
+  left: 12%;
+  width: 76%;
+  border-top: 0.08em solid currentColor;
+  content: "";
+  pointer-events: none;
+  transform: rotate(-60deg);
 }
 
 .button-row {
@@ -278,6 +301,30 @@ h1 {
   color: var(--danger);
 }
 
+.entropy-1 {
+  color: var(--entropy-1);
+}
+
+.entropy-2 {
+  color: var(--entropy-2);
+}
+
+.entropy-3 {
+  color: var(--entropy-3);
+}
+
+.entropy-4 {
+  color: var(--entropy-4);
+}
+
+.entropy-5 {
+  color: var(--entropy-5);
+}
+
+.entropy-6 {
+  color: var(--entropy-6);
+}
+
 .settings {
   display: grid;
   grid-template-columns: repeat(2, 120px) 190px;
@@ -340,22 +387,6 @@ h1 {
   align-content: center;
   min-height: 64px;
   width: 190px;
-}
-
-.entropy-very-weak,
-.entropy-weak,
-.entropy-low {
-  color: var(--danger);
-}
-
-.entropy-good,
-.entropy-medium {
-  color: var(--medium);
-}
-
-.entropy-strong,
-.entropy-very-strong {
-  color: var(--success);
 }
 
 .privacy-note {
@@ -479,6 +510,12 @@ h1 {
     --medium: #ffc45c;
     --danger: #ff8e8e;
     --danger-soft: #3a2020;
+    --entropy-1: #ff8e8e;
+    --entropy-2: #f2a071;
+    --entropy-3: #ffc45c;
+    --entropy-4: #c6d46a;
+    --entropy-5: #84d8af;
+    --entropy-6: #35b982;
     --focus: #f0b44c;
   }
 

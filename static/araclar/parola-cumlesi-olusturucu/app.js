@@ -6,7 +6,6 @@ const UINT32_RANGE = 2 ** 32;
 const CLEAN_WORD_PATTERN = /^[A-Za-zÇĞİÖŞÜçğıöşü]+$/;
 const EXCLUDED_LETTER_PATTERN = /[qQwWxX]/;
 const VOWEL_PATTERN = /[aeıioöuüAEIİOÖUÜ]/;
-const CONTROL_CHARACTER_PATTERN = /[\u0000-\u001F\u007F]/g;
 
 const elements = {
   errorBox: document.getElementById("errorBox"),
@@ -26,8 +25,8 @@ const elements = {
 let currentPassphrase = "";
 let statusTimer = 0;
 let copyIconTimer = 0;
-let currentStrengthMessage = "";
-let currentStrengthClass = "";
+let currentInfoMessage = "";
+let currentInfoClass = "";
 
 function getWordList() {
   const wordList = window.PASSPHRASE_TR_WORDLIST;
@@ -150,7 +149,7 @@ function render() {
     elements.copyButton.disabled = false;
     elements.refreshButton.disabled = false;
     setError("");
-    updateInfo(entropy, wordList.length);
+    updateInfo(entropy, wordList.length, options.wordCount);
   } catch (error) {
     currentPassphrase = "";
     elements.passphraseOutput.textContent = "";
@@ -161,7 +160,7 @@ function render() {
     elements.copyButton.disabled = true;
     elements.refreshButton.disabled = true;
     setError(error instanceof Error ? error.message : "Beklenmeyen bir hata oluştu.");
-    updateInfo(null, getLoadedWordListSize());
+    updateInfo(null, getLoadedWordListSize(), options.wordCount);
   }
 }
 
@@ -206,36 +205,22 @@ function clampWordCount(value) {
 }
 
 function readSeparator(value) {
-  return String(value).replace(CONTROL_CHARACTER_PATTERN, "");
+  return String(value) || " ";
 }
 
 function updateControls(options) {
   elements.wordCount.value = String(options.wordCount);
-  elements.separator.value = options.separator;
 }
 
-function updateInfo(entropy, listSize) {
-  const strength = entropy === null ? null : calculateStrength(entropy);
-  const message = strength === null ? "Güç hesaplanamadı" : `${strength.label} · ≈ ${entropy.toFixed(1)} bit`;
+function updateInfo(entropy, listSize, wordCount) {
+  const message = entropy === null ? "Entropi hesaplanamadı" : `≈ ${entropy.toFixed(1)} bit entropi`;
+  const className = entropy === null ? "status-error" : `entropy-${Math.min(wordCount, 6)}`;
 
-  currentStrengthMessage = message;
-  currentStrengthClass = strength === null ? "" : strength.className;
-
+  currentInfoMessage = message;
+  currentInfoClass = className;
   elements.listSize.textContent = `(${listSize})`;
   elements.copyStatus.textContent = message;
-  elements.copyStatus.classList.remove(
-    "entropy-very-weak",
-    "entropy-weak",
-    "entropy-good",
-    "entropy-strong",
-    "entropy-very-strong",
-    "status-success",
-    "status-error"
-  );
-
-  if (strength !== null) {
-    elements.copyStatus.classList.add(strength.className);
-  }
+  elements.copyStatus.className = `status ${className}`;
 }
 
 function renderPassphraseOutput(words, separator) {
@@ -287,7 +272,7 @@ function appendHighlightedWord(parentElement, value) {
   Array.from(String(value)).forEach(function appendCharacter(character) {
     if (/\d/.test(character)) {
       const digitElement = document.createElement("span");
-      digitElement.className = "passphrase-digit";
+      digitElement.className = character === "0" ? "passphrase-digit passphrase-zero" : "passphrase-digit";
       digitElement.textContent = character;
       parentElement.appendChild(digitElement);
       return;
@@ -302,29 +287,11 @@ function setError(message) {
   elements.errorBox.hidden = message.length === 0;
 }
 
-function calculateStrength(entropy) {
-  if (entropy < 50) {
-    return { label: "Zayıf", className: "entropy-weak" };
-  }
-
-  if (entropy < 65) {
-    return { label: "Orta", className: "entropy-good" };
-  }
-
-  if (entropy < 80) {
-    return { label: "Güvenli", className: "entropy-strong" };
-  }
-
-  return { label: "Çok güvenli", className: "entropy-very-strong" };
-}
-
 function setStatus(message, type) {
   window.clearTimeout(statusTimer);
   statusTimer = 0;
   elements.copyStatus.textContent = message;
-  elements.copyStatus.classList.remove("entropy-very-weak", "entropy-weak", "entropy-good", "entropy-strong", "entropy-very-strong");
-  elements.copyStatus.classList.toggle("status-success", type === "success");
-  elements.copyStatus.classList.toggle("status-error", type === "error");
+  elements.copyStatus.className = `status status-${type}`;
 
   if (message) {
     statusTimer = window.setTimeout(function hideStatus() {
@@ -339,12 +306,8 @@ function clearStatus(options) {
   }
 
   statusTimer = 0;
-  elements.copyStatus.textContent = currentStrengthMessage;
-  elements.copyStatus.classList.remove("status-success", "status-error");
-
-  if (currentStrengthClass) {
-    elements.copyStatus.classList.add(currentStrengthClass);
-  }
+  elements.copyStatus.textContent = currentInfoMessage;
+  elements.copyStatus.className = `status ${currentInfoClass}`;
 }
 
 function showCopySuccessIcon() {
@@ -356,7 +319,7 @@ function showCopySuccessIcon() {
   elements.copyButtonIcon.textContent = "✓";
   elements.copyButton.classList.add("button-copied");
 
-  copyIconTimer = window.setTimeout(resetCopyIcon, 2200);
+  copyIconTimer = window.setTimeout(resetCopyIcon, 500);
 }
 
 function resetCopyIcon() {
