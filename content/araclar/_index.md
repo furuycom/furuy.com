@@ -22,7 +22,7 @@ comments: false
   </div>
   <footer class="entry-footer tool-card-actions">
     <a class="article-link" href="/turkce-parola-cumlesi-olusturucu/">↗ Yazıyı oku</a>
-    <a class="tool-link" href="/araclar/parola-cumlesi-olusturucu/">Aracı aç →</a>
+    <a class="tool-link" href="/araclar/parola-cumlesi-olusturucu/" target="_blank">Aracı aç →</a>
   </footer>
 </article>
 
@@ -35,7 +35,7 @@ comments: false
   </div>
   <footer class="entry-footer tool-card-actions">
     <a class="article-link" href="/crowdname/">↗ Read article</a>
-    <a class="tool-link" href="/tools/crowdname/">Open tool →</a>
+    <a class="tool-link" href="/tools/crowdname/" target="_blank">Open tool →</a>
   </footer>
 </article>
 
