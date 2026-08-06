@@ -18,6 +18,39 @@
     background-color: unset !important;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+.menu-search-icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.125em;
+}
+
+#menu a[href$="/ara/"] .active {
+    position: relative;
+    text-decoration: none;
+}
+
+#menu a[href$="/ara/"] .active::after {
+    position: absolute;
+    right: 0;
+    bottom: -0.3rem;
+    left: 0;
+    height: 2px;
+    content: "";
+    background: var(--accent);
+}
+
 /* Mobile Menu: Center and stack */
 @media screen and (max-width: 768px) {
     .header-nav {
