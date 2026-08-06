@@ -14,5 +14,4 @@ comments: false
 ## Bağlantılar
 
 - [GitHub](https://github.com/furuycom)
-- [Mastodon](https://mastodon.social/@furuycom)
 - [LinkedIn](https://www.linkedin.com/in/furkanuysal)
