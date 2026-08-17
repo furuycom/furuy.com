@@ -7,15 +7,14 @@
     <generator>Hugo</generator>
     <language>tr-TR</language>
     <copyright>Arşiv · Yasal · CC0 1.0 Evrensel</copyright>
-    <lastBuildDate>Mon, 20 Jul 2026 01:16:14 +0300</lastBuildDate>
+    <lastBuildDate>Mon, 17 Aug 2026 00:00:00 +0300</lastBuildDate>
     <atom:link href="https://furuy.com/etiketler/siber-g%C3%BCvenlik/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Parola Cümlesi Nedir, Nasıl Oluşturulur</title>
       <link>https://furuy.com/turkce-parola-cumlesi-olusturucu/</link>
       <pubDate>Fri, 22 May 2026 00:00:00 +0300</pubDate>
       <guid>https://furuy.com/turkce-parola-cumlesi-olusturucu/</guid>
-      <description>&lt;p&gt;Parola yöneticisi fikrini ilk duyduğum zaman bana pek güvenli gelmemişti. Daha çok, kolaycı insanların tüm parolalarını yazdığı bir not defteri gibi bir şey olduğunu sandım. Araştırdıkça, belirli kurallara uyduğunuz sürece parola yöneticilerinin aslında çok pratik ve bir o kadar da güvenli olduğunu fark ettim. Bunun hakkında daha önce bir yazı da yazmıştım: &lt;a href=&#34;https://furuy.com/guvenli-parola-yoneticisi/&#34;&gt;Parola Yöneticileri İçin Güvenlik Tavsiyeleri&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Parola yöneticisi kullanmaya karar verdikten sonra yapmam gereken en önemli şeylerden biri; uzun, daha önce hiçbir yerde kullanmadığım, tahmin edilemez, güçlü, hiçbir yere yazmayacağım ve unutmayacağım bir ana parola oluşturmaktı.&lt;/p&gt;</description>
+      <description>Parola cümlesi (passphrase) nedir ve nasıl güvenli oluşturulur? Türkçe kelime listesi, entropi hesabı ve kullanım önerileri.</description>
     </item>
     <item>
       <title>Kaçak Telefonların Ulusal Siber Güvenliğe Zararları</title>

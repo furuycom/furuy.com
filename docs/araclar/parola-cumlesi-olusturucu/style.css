@@ -9,14 +9,14 @@
   --accent: #1f6f62;
   --accent-strong: #174f47;
   --success: #0f7a55;
-  --medium: #b06b00;
+  --medium: #8a5200;
   --danger: #b23838;
   --danger-soft: #fff1f1;
   --entropy-1: #b23838;
   --entropy-2: #b6532f;
-  --entropy-3: #a66d00;
-  --entropy-4: #71802c;
-  --entropy-5: #3d8a61;
+  --entropy-3: #805b00;
+  --entropy-4: #596b1f;
+  --entropy-5: #2f704e;
   --entropy-6: #0f6f4f;
   --focus: #b07a1a;
 }
@@ -409,7 +409,6 @@ h1 {
 
 .privacy-note a {
   color: inherit;
-  opacity: 0.86;
   text-decoration: none;
 }
 
@@ -533,4 +532,10 @@ h1 {
     color: #071615;
   }
 
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .is-spinning span:first-child {
+    animation: none;
+  }
 }

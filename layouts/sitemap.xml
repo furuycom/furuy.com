@@ -18,8 +18,10 @@
   {{- end }}
   <url>
     <loc>{{ "araclar/parola-cumlesi-olusturucu/" | absURL }}</loc>
+    <lastmod>2026-08-17T00:00:00+03:00</lastmod>
   </url>
   <url>
     <loc>{{ "tools/crowdname/" | absURL }}</loc>
+    <lastmod>2026-08-17T00:00:00+03:00</lastmod>
   </url>
 </urlset>

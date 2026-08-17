@@ -1,11 +1,14 @@
 "use strict";
 
 const MIN_WORD_COUNT = 1;
+const MAX_WORD_COUNT = 20;
 const DEFAULT_WORD_COUNT = 5;
+const COPY_FEEDBACK_DURATION = 500;
+const STATUS_DURATION = 5000;
 const UINT32_RANGE = 2 ** 32;
-const CLEAN_WORD_PATTERN = /^[A-Za-zÇĞİÖŞÜçğıöşü]+$/;
+const CLEAN_WORD_PATTERN = /^[A-Za-z]+$/;
 const EXCLUDED_LETTER_PATTERN = /[qQwWxX]/;
-const VOWEL_PATTERN = /[aeıioöuüAEIİOÖUÜ]/;
+const VOWEL_PATTERN = /[aeiouAEIOU]/;
 
 const elements = {
   errorBox: document.getElementById("errorBox"),
@@ -23,6 +26,7 @@ const elements = {
 };
 
 let currentPassphrase = "";
+let validatedWordList = null;
 let statusTimer = 0;
 let copyIconTimer = 0;
 let currentInfoMessage = "";
@@ -30,6 +34,10 @@ let currentInfoClass = "";
 
 function getWordList() {
   const wordList = window.PASSPHRASE_TR_WORDLIST;
+
+  if (validatedWordList === wordList) {
+    return validatedWordList;
+  }
 
   if (!Array.isArray(wordList)) {
     throw new Error("Kelime listesi yüklenemedi. Parola cümlesi üretilemiyor.");
@@ -53,7 +61,8 @@ function getWordList() {
     throw new Error("Kelime listesinde temizleme kurallarına uymayan veya tekrar eden girdi var. İşlem durduruldu.");
   }
 
-  return wordList;
+  validatedWordList = wordList;
+  return validatedWordList;
 }
 
 function isCleanWord(word) {
@@ -116,7 +125,7 @@ function capitalizeWord(word) {
     return "";
   }
 
-  characters[0] = characters[0].toLocaleUpperCase("tr-TR");
+  characters[0] = characters[0].toUpperCase();
   return characters.join("");
 }
 
@@ -177,7 +186,7 @@ async function copyToClipboard() {
 
   try {
     await navigator.clipboard.writeText(currentPassphrase);
-    clearStatus({ keepTimer: false });
+    setStatus("Panoya kopyalandı.", "success", COPY_FEEDBACK_DURATION);
     showCopySuccessIcon();
   } catch (error) {
     setStatus("Kopyalama başarısız oldu. Tarayıcınız pano erişimine izin vermemiş olabilir.", "error");
@@ -201,7 +210,7 @@ function clampWordCount(value) {
     return DEFAULT_WORD_COUNT;
   }
 
-  return value;
+  return Math.min(value, MAX_WORD_COUNT);
 }
 
 function readSeparator(value) {
@@ -287,7 +296,7 @@ function setError(message) {
   elements.errorBox.hidden = message.length === 0;
 }
 
-function setStatus(message, type) {
+function setStatus(message, type, duration = STATUS_DURATION) {
   window.clearTimeout(statusTimer);
   statusTimer = 0;
   elements.copyStatus.textContent = message;
@@ -296,7 +305,7 @@ function setStatus(message, type) {
   if (message) {
     statusTimer = window.setTimeout(function hideStatus() {
       clearStatus({ keepTimer: true });
-    }, 5000);
+    }, duration);
   }
 }
 
@@ -319,7 +328,7 @@ function showCopySuccessIcon() {
   elements.copyButtonIcon.textContent = "✓";
   elements.copyButton.classList.add("button-copied");
 
-  copyIconTimer = window.setTimeout(resetCopyIcon, 500);
+  copyIconTimer = window.setTimeout(resetCopyIcon, COPY_FEEDBACK_DURATION);
 }
 
 function resetCopyIcon() {

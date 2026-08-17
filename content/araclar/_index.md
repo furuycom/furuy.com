@@ -8,6 +8,9 @@ hideMeta: true
 ShowToc: false
 ShowRssButtonInSectionTermList: false
 comments: false
+robotsNoIndexFollow: true
+sitemap:
+  disable: true
 ---
 
 <!--more-->
@@ -16,14 +19,14 @@ comments: false
 
 <article class="post-entry tool-card">
   <header class="entry-header">
-    <h2>🎲 Parola Cümlesi Oluşturucu</h2>
+    <h2>🎲 Türkçe Parola Cümlesi Oluşturucu</h2>
   </header>
   <div class="entry-content">
-    <p>Türkçe parola cümlesi (passphrase) üretir.</p>
+    <p>8192 kelimelik Türkçe listeden rastgele parola cümlesi (passphrase) üretir.</p>
   </div>
   <footer class="entry-footer tool-card-actions">
     <a class="article-link" href="/turkce-parola-cumlesi-olusturucu/">↗ Yazıyı oku</a>
-    <a class="tool-link" href="/araclar/parola-cumlesi-olusturucu/" target="_blank">Aracı aç →</a>
+    <a class="tool-link" href="/araclar/parola-cumlesi-olusturucu/" target="_blank" rel="noopener noreferrer">Aracı aç →</a>
   </footer>
 </article>
 

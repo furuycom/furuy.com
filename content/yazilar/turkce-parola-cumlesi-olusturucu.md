@@ -1,10 +1,11 @@
 ---
 title: "Parola Cümlesi Nedir, Nasıl Oluşturulur"
 date: "2026-05-22"
+lastmod: "2026-08-17"
+description: "Parola cümlesi (passphrase) nedir ve nasıl güvenli oluşturulur? Türkçe kelime listesi, entropi hesabı ve kullanım önerileri."
 aliases:
   - /tr/turkce-parola-cumlesi-olusturucu/
   - /yazilar/turkce-parola-cumlesi-olusturucu/
-lastmod: "2026-05-22"
 tags: ["Araçlar", "Siber Güvenlik"]
 ---
 
@@ -17,6 +18,8 @@ Parola yöneticisi kullanmaya karar verdikten sonra yapmam gereken en önemli ş
 İlk baştaki anlaşılır sözlerden epey uzaktı ve ben bile bazen karıştırıyordum. Daha kötüsü, bunun sandığım kadar güvenli olmadığını fark ettim. Çünkü aslında tahmin edilebilir bazı kelimeleri ve cümleleri alıp üzerlerinde küçük değişiklikler yapmıştım.
 
 Bunun üzerine "nasıl güvenli parola oluşturulur?" diye araştırmaya başladım. Karşıma parola cümlesi oluşturma araçları çıktı. İngilizcede buna "passphrase" deniyor. Türkçede bence en doğru karşılık "parola cümlesi". Bundan sonra bu şekilde kullanacağım.
+
+Doğrudan denemek isterseniz [Türkçe parola cümlesi oluşturucuyu açabilirsiniz](/araclar/parola-cumlesi-olusturucu/).
 
 ## Parola cümlesi nedir?
 
@@ -145,9 +148,9 @@ Tire genellikle en uyumlu seçenektir. Boşluk bazı sitelerde sorun çıkarabil
 
 ## Türkçe parola cümlesi oluşturucu
 
-Hazırladığım bu araç tarayıcıda çalışır. Oluşturulan parola cümlesi sunucuya gönderilmez, kaydedilmez ve takip edilmez.
+Hazırladığım araç parola cümlesini tarayıcıda oluşturur. Araç sonucu sunucuya göndermez, URL'ye eklemez, çerez veya tarayıcı depolamasına yazmaz.
 
-Aracı buradan deneyebilirsiniz: [Parola Cümlesi Oluşturucu](/araclar/parola-cumlesi-olusturucu/)
+Aracı buradan deneyebilirsiniz: [Türkçe parola cümlesi (passphrase) oluşturucu](/araclar/parola-cumlesi-olusturucu/)
 
 Özellikler:
 

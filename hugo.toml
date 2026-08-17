@@ -99,6 +99,7 @@ copyright = "[Arşiv](/arsiv/) · [Yasal](/yasal/) · [CC0 1.0 Evrensel](/yasal/
 [[menus.main]]
     identifier = "cv"
     name = "CV"
+    title = "CV"
     pageRef = "/cv/"
     weight = 20
 

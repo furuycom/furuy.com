@@ -1,0 +1,14 @@
+{{- define "main" }}
+<article class="post-single cv-page">
+  {{- with .Content }}
+  <div class="post-content md-content">
+    {{- if not ($.Param "disableAnchoredHeadings") }}
+    {{- partial "anchored_headings.html" . }}
+    {{- else }}{{ . }}{{ end }}
+  </div>
+  {{- end }}
+</article>
+<script>
+  document.getElementById("cv-print")?.addEventListener("click", () => window.print());
+</script>
+{{- end }}

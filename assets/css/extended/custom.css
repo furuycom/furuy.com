@@ -83,3 +83,52 @@
 .logo img {
     border-radius: 50%;
 }
+
+/* CV */
+.cv { margin-top: 4px; }
+.cv a { text-decoration: none; box-shadow: none; }
+.cv-header { padding-bottom: 26px; border-bottom: 1px solid var(--border); }
+.cv-header .cv-name { display: flex; align-items: center; gap: 10px; margin: 0; font-size: 40px; letter-spacing: -.03em; }
+.cv-mark { display: inline-flex; align-items: center; justify-content: center; width: 31px; height: 24px; border: 1px solid var(--border); border-radius: 4px; color: var(--secondary); font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size: 12px; font-weight: 700; letter-spacing: .04em; line-height: 1; }
+.cv-role { margin: 7px 0 14px; color: var(--secondary); }
+.cv-links { display: flex; flex-wrap: wrap; gap: 10px 22px; }
+.cv-links a, .cv-links .cv-print { display: inline-flex; align-items: center; gap: 7px; min-width: 0; color: var(--secondary); font-size: 13px; overflow-wrap: anywhere; }
+.cv-links .cv-print { margin-inline-start: auto; }
+.cv-links a:hover, .cv-links .cv-print:hover { color: var(--accent); }
+.cv-links svg { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+.cv-section { padding: 27px 0; border-bottom: 1px solid var(--border); }
+.cv-section:last-child { border-bottom: 0; }
+.cv-section h2 { margin: 0 0 14px; font-size: 16px; letter-spacing: -.01em; }
+.cv-section h2:only-child { margin-bottom: 0; }
+.cv-section > p { margin: 0; color: var(--secondary); line-height: 1.7; }
+.cv-entry + .cv-entry { margin-top: 24px; }
+.cv-entry-head { display: flex; justify-content: space-between; gap: 20px; }
+.cv-entry-muted .cv-entry-head strong { color: var(--secondary); font-weight: 600; }
+.cv-date { flex: none; color: var(--secondary); font-size: 13px; }
+.cv-school { display: inline-flex; align-items: center; gap: 8px; }
+.cv-school-logo { width: 18px; height: 18px; flex: none; background-color: currentColor; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+.cv-school-logo-medipol { -webkit-mask: url("/assets/img/ankara-medipol-universitesi-logo.svg") center / contain no-repeat; mask: url("/assets/img/ankara-medipol-universitesi-logo.svg") center / contain no-repeat; }
+.cv-school-logo-kirikkale { -webkit-mask: url("/assets/img/kirikkale-universitesi-logo.svg") center / contain no-repeat; mask: url("/assets/img/kirikkale-universitesi-logo.svg") center / contain no-repeat; }
+.cv-entry > p { margin: 3px 0 8px; color: var(--secondary); font-size: 14px; }
+@media screen and (max-width: 480px) {
+    .cv-header .cv-name { font-size: 32px; }
+    .cv-links .cv-print { margin-inline-start: 0; }
+    .cv-entry-head { flex-direction: column; gap: 2px; }
+}
+
+@media print {
+    :root:has(.cv),
+    :root[data-theme="dark"]:has(.cv),
+    :root[data-theme="light"]:has(.cv) { --theme: #fff; --entry: #fff; --primary: #111; --secondary: #333; --content: #222; --border: #ddd; color-scheme: light; }
+    body:has(.cv) .header, body:has(.cv) .footer, body:has(.cv) .top-link { display: none !important; }
+    @page cv { size: A4; margin: 15mm 18mm; }
+    body:has(.cv), body:has(.cv).list, body:has(.cv).dark { background: #fff !important; color: #111 !important; }
+    body:has(.cv) .main { max-width: 180mm; padding: 0; }
+    body:has(.cv) .post-single { margin: 0; page: cv; }
+    .main:has(.cv) .post-content { margin: 0; }
+    .cv { font-size: 10.5pt; }
+    .cv-print { display: none !important; }
+    .cv-header .cv-name { font-size: 24pt; }
+    .cv-section { padding: 5mm 0; break-inside: avoid; }
+    .cv-links a, .cv-role, .cv-section > p, .cv-entry > p, .cv-date, .cv-entry-muted .cv-entry-head strong { color: #333 !important; }
+}

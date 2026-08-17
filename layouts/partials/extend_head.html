@@ -60,3 +60,28 @@
         }
     }
 </style>
+
+{{- if .Param "robotsNoIndexFollow" }}
+<meta name="robots" content="noindex, follow">
+{{- end }}
+
+{{- if eq (.Param "schemaType") "ProfilePage" }}
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "ProfilePage",
+    "name": "Furkan Uysal — CV",
+    "description": {{ .Description | jsonify | safeJS }},
+    "url": {{ .Permalink | jsonify | safeJS }},
+    "mainEntity": {
+        "@type": "Person",
+        "name": "Furkan Uysal",
+        "email": "mailto:furuycom@protonmail.com",
+        "sameAs": [
+            "https://github.com/furuycom",
+            "https://www.linkedin.com/in/furkanuysal"
+        ]
+    }
+}
+</script>
+{{- end }}
