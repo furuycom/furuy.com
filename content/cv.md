@@ -4,6 +4,7 @@ description: "Furkan Uysal'ın özgeçmişi."
 type: "cv"
 schemaType: "ProfilePage"
 date: 2026-02-16
+lastmod: 2026-08-18
 aliases:
   - /tr/cv/
   - /hakkimda/
@@ -19,7 +20,7 @@ ShowWordCount: false
 <div class="cv" itemscope itemtype="https://schema.org/Person">
 <header class="cv-header">
   <h1 class="cv-name"><span itemprop="name">Furkan Uysal</span><span class="cv-mark">CV</span></h1>
-  <p class="cv-role">...</p>
+  <p class="cv-role" itemprop="jobTitle">Siber Güvenlik Uzmanı</p>
   <nav class="cv-links" aria-label="İletişim bağlantıları">
     <a href="mailto:furuycom@protonmail.com" itemprop="email" aria-label="E-posta: furuycom@protonmail.com"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2Z"/><path d="m22 6-10 7L2 6"/></svg><span>furuycom@protonmail.com</span></a>
     <!--
@@ -33,21 +34,53 @@ ShowWordCount: false
 
 <section class="cv-section">
   <h2>Hakkımda</h2>
+  <p>2019'dan bu yana siber güvenlik alanında bağımsız olarak çalışıyorum. Web Security ve Linux Security başta olmak üzere siber güvenliğin farklı alanlarında deneyime sahibim. Siber güvenliğe ilgim çocuklukta Visual Basic ile oyun hileleri yazarak başladı; zaman içinde kariyerimin odağı haline geldi.</p>
 </section>
 
 <section class="cv-section">
-  <h2>Eğitim</h2>
+  <h2>İş Deneyimi</h2>
   <article class="cv-entry">
-    <div class="cv-entry-head"><strong class="cv-school"><span class="cv-school-logo cv-school-logo-medipol" aria-hidden="true"></span>Ankara Medipol Üniversitesi</strong><span class="visually-hidden">, </span><span class="cv-date"><time datetime="2021-09">Eylül 2021</time> – <time datetime="2026-08">Ağustos 2026</time></span></div>
-    <p>Yönetim Bilişim Sistemleri, Lisans</p>
-  </article>
-  <article class="cv-entry cv-entry-muted">
-    <div class="cv-entry-head"><strong class="cv-school"><span class="cv-school-logo cv-school-logo-kirikkale" aria-hidden="true"></span>Kırıkkale Üniversitesi</strong><span class="visually-hidden">, </span><span class="cv-date"><time datetime="2018">2018</time> – <time datetime="2020">2020</time></span></div>
-    <p>Fransızca Mütercim ve Tercümanlık, Lisans Eğitimi</p>
+    <div class="cv-entry-head">
+      <strong>Siber Güvenlik Uzmanı (Freelance)</strong>
+      <span class="cv-date"><time datetime="2019-01">Ocak 2019</time> – Günümüz</span>
+    </div>
+    <ul>
+      <li>200'e yakın WordPress tabanlı web sitesinde dosya sistemi ve veri tabanı düzeyinde zararlı yazılım, shell ve hacklink tespiti ve temizliği yaptım.</li>
+      <li>WordPress, PHP ve sunucu tarafında güvenlik iyileştirmeleri yaptım; dosya izinleri, erişim kontrolleri, HTTPS/HSTS, HTTP güvenlik başlıkları, DNSSEC ve Cloudflare yapılandırmalarını uyguladım. Sonuçları teknik raporlarla müşterilere sundum.</li>
+    </ul>
+    <p class="cv-reference"><a href="https://www.r10.net/wordpress-seo-guvenlik-bakim/2701327-wpguvenlik-wordpress-virus-temizleme-guvenlik-optimizasyonu.html">Müşteri yorumları - R10.net</a></p>
   </article>
 </section>
 
 <section class="cv-section">
   <h2>Yetkinlikler</h2>
+  <p>Linux Security · Web Security · WordPress · Bash/Shell · Git</p>
+</section>
+
+<section class="cv-section">
+  <h2>Eğitim</h2>
+  <article class="cv-entry">
+    <div class="cv-entry-head">
+      <strong class="cv-school"><span class="cv-school-logo cv-school-logo-medipol" aria-hidden="true"></span>Ankara Medipol Üniversitesi</strong>
+      <span class="cv-date"><time datetime="2021-09">Eylül 2021</time> – <time datetime="2026-08">Ağustos 2026</time></span>
+    </div>
+    <p>Yönetim Bilişim Sistemleri, Lisans<br>GNO: 3.03 / 4.00</p>
+  </article>
+  <article class="cv-entry cv-entry-muted">
+    <div class="cv-entry-head">
+      <strong class="cv-school"><span class="cv-school-logo cv-school-logo-kirikkale" aria-hidden="true"></span>Kırıkkale Üniversitesi</strong>
+      <span class="cv-date"><time datetime="2018">2018</time> – <time datetime="2020">2020</time></span>
+    </div>
+    <p>Fransızca Mütercim ve Tercümanlık, Lisans Eğitimi</p>
+  </article>
+</section>
+
+<section class="cv-section">
+  <h2>Diller</h2>
+  <ul>
+    <li><strong>Türkçe</strong> (Ana dil)</li>
+    <li><strong>İngilizce</strong> ( Profesyonel çalışma yetkinliği)</li>
+    <li><strong>Fransızca</strong> ( Başlangıç düzeyi)</li>
+  </ul>
 </section>
 </div>
