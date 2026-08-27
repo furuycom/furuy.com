@@ -20,7 +20,7 @@ ShowWordCount: false
 <div class="cv" itemscope itemtype="https://schema.org/Person">
 <header class="cv-header">
 <div class="cv-header-top">
-<h1 class="cv-name"><span itemprop="name">Furkan Uysal</span><span class="cv-mark">CV</span></h1>
+<h1 class="cv-name"><span itemprop="name">Furkan Uysal</span></h1>
 <button class="cv-print" id="cv-print" type="button" title="Yazdırma penceresini açar"><svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9V2h12v7"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><path d="M6 14h12v8H6z"/></svg></button>
 </div>
 <p class="cv-role" itemprop="jobTitle">Siber Güvenlik Uzmanı</p>

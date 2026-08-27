@@ -93,7 +93,6 @@
 .cv-header-top { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 15px; }
 
 .cv-header .cv-name { display: flex; align-items: center; gap: 10px; margin: 0; font-size: 40px; letter-spacing: -.03em; }
-.cv-mark { display: inline-flex; align-items: center; justify-content: center; width: 31px; height: 24px; border: 1px solid var(--border); border-radius: 4px; color: var(--secondary); font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size: 12px; font-weight: 700; letter-spacing: .04em; line-height: 1; }
 .cv-role { margin: 7px 0 14px; color: var(--secondary); }
 .cv-links { display: flex; flex-wrap: wrap; gap: 10px 22px; }
 
@@ -118,9 +117,33 @@
 .cv-entry > p { margin: 3px 0 8px; color: var(--secondary); font-size: 14px; }
 
 @media screen and (max-width: 480px) {
-    .cv-header-top { flex-direction: column; align-items: flex-start; gap: 8px; }
-    .cv-header .cv-name { font-size: 32px; }
-    .cv-entry-head { flex-direction: column; gap: 2px; }
+    /* Başlık ve yazdır ikonunu ortala, ikonu ismin yanına çek */
+    .cv-header-top {
+        justify-content: center;
+        gap: 12px;
+    }
+
+    /* İsmi küçült ve kendi içinde ortala */
+    .cv-header .cv-name {
+        font-size: 32px;
+        justify-content: center;
+    }
+
+    /* Unvanı ortala */
+    .cv-role {
+        text-align: center;
+    }
+
+    /* İletişim bağlantılarını ortala */
+    .cv-links {
+        justify-content: center;
+    }
+
+    /* Alt kısımdaki İş/Eğitim listeleri sola dayalı kalmaya devam etsin ama mobilde alt alta geçsin */
+    .cv-entry-head {
+        flex-direction: column;
+        gap: 2px;
+    }
 }
 
 @media print {
