@@ -88,14 +88,20 @@
 .cv { margin-top: 4px; }
 .cv a { text-decoration: none; box-shadow: none; }
 .cv-header { padding-bottom: 26px; border-bottom: 1px solid var(--border); }
+
+/* Yeni Kısım: Başlık ve Buton Hizalaması */
+.cv-header-top { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 15px; }
+
 .cv-header .cv-name { display: flex; align-items: center; gap: 10px; margin: 0; font-size: 40px; letter-spacing: -.03em; }
 .cv-mark { display: inline-flex; align-items: center; justify-content: center; width: 31px; height: 24px; border: 1px solid var(--border); border-radius: 4px; color: var(--secondary); font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size: 12px; font-weight: 700; letter-spacing: .04em; line-height: 1; }
 .cv-role { margin: 7px 0 14px; color: var(--secondary); }
 .cv-links { display: flex; flex-wrap: wrap; gap: 10px 22px; }
-.cv-links a, .cv-links .cv-print { display: inline-flex; align-items: center; gap: 7px; min-width: 0; color: var(--secondary); font-size: 13px; overflow-wrap: anywhere; }
-.cv-links .cv-print { margin-inline-start: auto; }
-.cv-links a:hover, .cv-links .cv-print:hover { color: var(--accent); }
-.cv-links svg { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+
+/* Butonu ve linkleri ortak eski tarzıyla stillendiriyoruz */
+.cv-links a, .cv-print { display: inline-flex; align-items: center; gap: 7px; min-width: 0; color: var(--secondary); font-size: 13px; overflow-wrap: anywhere; background: transparent; border: none; padding: 0; cursor: pointer; }
+.cv-links a:hover, .cv-print:hover { color: var(--accent); }
+.cv-links svg, .cv-print svg { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+
 .cv-section { padding: 27px 0; border-bottom: 1px solid var(--border); }
 .cv-section:last-child { border-bottom: 0; }
 .cv-section h2 { margin: 0 0 14px; font-size: 16px; letter-spacing: -.01em; }
@@ -110,9 +116,10 @@
 .cv-school-logo-medipol { -webkit-mask: url("/assets/img/ankara-medipol-universitesi-logo.svg") center / contain no-repeat; mask: url("/assets/img/ankara-medipol-universitesi-logo.svg") center / contain no-repeat; }
 .cv-school-logo-kirikkale { -webkit-mask: url("/assets/img/kirikkale-universitesi-logo.svg") center / contain no-repeat; mask: url("/assets/img/kirikkale-universitesi-logo.svg") center / contain no-repeat; }
 .cv-entry > p { margin: 3px 0 8px; color: var(--secondary); font-size: 14px; }
+
 @media screen and (max-width: 480px) {
+    .cv-header-top { flex-direction: column; align-items: flex-start; gap: 8px; }
     .cv-header .cv-name { font-size: 32px; }
-    .cv-links .cv-print { margin-inline-start: 0; }
     .cv-entry-head { flex-direction: column; gap: 2px; }
 }
 
