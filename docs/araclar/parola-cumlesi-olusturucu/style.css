@@ -70,6 +70,13 @@ a {
   text-align: center;
 }
 
+.tool-description {
+  margin: 14px 0;
+  color: var(--muted);
+  font-size: 0.85rem;
+  text-align: center;
+}
+
 .title-row {
   display: inline-grid;
   grid-template-columns: minmax(0, auto) 32px;

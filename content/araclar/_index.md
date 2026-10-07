@@ -26,7 +26,7 @@ sitemap:
   </div>
   <footer class="entry-footer tool-card-actions">
     <a class="article-link" href="/turkce-parola-cumlesi-olusturucu/">↗ Yazıyı oku</a>
-    <a class="tool-link" href="/araclar/parola-cumlesi-olusturucu/" target="_blank" rel="noopener noreferrer">Aracı aç →</a>
+    <a class="tool-link" href="/araclar/parola-cumlesi-olusturucu/" target="_blank" rel="noopener noreferrer">Parola oluştur →</a>
   </footer>
 </article>
 

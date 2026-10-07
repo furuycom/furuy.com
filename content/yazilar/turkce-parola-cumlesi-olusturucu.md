@@ -1,7 +1,7 @@
 ---
 title: "Parola Cümlesi Nedir, Nasıl Oluşturulur"
 date: "2026-05-22"
-lastmod: "2026-08-17"
+lastmod: "2026-10-07"
 description: "Parola cümlesi (passphrase) nedir ve nasıl güvenli oluşturulur? Türkçe kelime listesi, entropi hesabı ve kullanım önerileri."
 aliases:
   - /tr/turkce-parola-cumlesi-olusturucu/
@@ -57,6 +57,8 @@ Yani parola yöneticisi kullanıyorsanız, her site için ayrı parola cümlesi 
 
 Parola cümlesi oluşturma araçlarında genellikle büyük kelime listeleri kullanılır. Örneğin klasik Diceware listeleri 7776 veya 8192 kelimeden oluşur. Benim hazırladığım Türkçe listede 8192 kelime var. Bu listelerden kelimeler tamamen rastgele seçilir.
 
+Araçta varsayılan olarak bu listenin gündelik hayatta daha tanıdık kelimeleri kullanılır. "Yaygın kelimeler" seçeneğini kapatarak listenin tamamını kullanabilirsiniz.
+
 İlk oluşturulan parola cümlesi size çok garip gelebilir. Bilmediğiniz kelimeler içerebilir. Hatta ilk bakışta ezberlenemez bir saçmalık gibi görünebilir. Kendinizi, aşina olduğunuz kelimelerden oluşan bir örüntü bulana kadar tekrar tekrar oluştur düğmesine basarken bulabilirsiniz.
 
 Bunu çok fazla yapmanızı önermem. Rahatsız edici veya yazması çok zor bir kelime çıkarsa yeniden oluşturmak normaldir. Ama sadece kulağa güzel gelen, anlamlı bir cümleye benzeyen veya size tanıdık gelen kelimeleri aramak iyi bir alışkanlık değildir. Çünkü bu durumda rastgeleliği fark etmeden azaltmış olursunuz.
@@ -91,7 +93,7 @@ Parola yöneticinizin ana parolasını kaybederseniz, genellikle geri dönüş y
 
 Parola cümlelerinde güvenlik hesabı genellikle entropi üzerinden yapılır. Basitçe söylemek gerekirse entropi, parolanın tahmin edilmesinin ne kadar zor olduğunu ifade eder.
 
-Bu araçta 8192 kelimelik bir liste kullanılıyor.
+Bu aracın tam listesinde 8192 kelime var. Listenin tamamı kullanıldığında:
 
 `8192 = 2^13`
 
@@ -107,11 +109,11 @@ Yaklaşık değerler:
 |      8 kelime | ≈ 104 bit |
 |      9 kelime | ≈ 117 bit |
 
-65 bit civarı çoğu kullanım için güçlü ve kullanışlı bir dengedir. 80 bit üstü güçlü, 90 bit üstü ise çoğu kişisel kullanım için oldukça güçlü kabul edilebilir.
+Bu tablo listenin tamamı için geçerlidir. "Yaygın kelimeler" seçildiğinde liste küçülür ve kelime başına düşen entropi azalır. Araç değeri seçili listeye göre hesaplar.
 
-Hazırladığım aracın varsayılan ayarı 5 kelimedir ve yaklaşık 65 bit entropi üretir. Bu, günlük kullanım ve hatırlanabilirlik açısından iyi bir başlangıçtır.
+Varsayılan ayarda 6 yaygın kelime ve rastgele bir kelimenin sonuna eklenen 1 rakam kullanılır. Mevcut listeyle yaklaşık 77,7 bit entropi elde edilir.
 
-Parola yöneticisi ana parolası, disk şifreleme parolası veya çok kritik kullanımlar için 6, 7 veya 8 kelime öneririm.
+Entropi tek başına güvenlik garantisi değildir. Parola yöneticisi ana parolası veya disk şifreleme gibi kritik kullanımlarda daha fazla kelime seçebilirsiniz.
 
 Daha fazla güvenlik istiyorsanız, sembol veya rakam eklemek yerine kelime sayısını artırın.
 
@@ -148,18 +150,21 @@ Tire genellikle en uyumlu seçenektir. Boşluk bazı sitelerde sorun çıkarabil
 
 ## Türkçe parola cümlesi oluşturucu
 
-Hazırladığım araç parola cümlesini tarayıcıda oluşturur. Araç sonucu sunucuya göndermez, URL'ye eklemez, çerez veya tarayıcı depolamasına yazmaz.
+Hazırladığım araç parola cümlesini tarayıcıda oluşturur. Araç sonucu sunucuya göndermez, URL'ye eklemez, çerez veya tarayıcı depolamasına yazmaz. Sayfa yüklendikten sonra internet bağlantısı olmadan da çalışır.
 
 Aracı buradan deneyebilirsiniz: [Türkçe parola cümlesi (passphrase) oluşturucu](/araclar/parola-cumlesi-olusturucu/)
 
 Özellikler:
 
 * 8192 kelimelik Türkçe liste
+* yaygın kelimeleri kullanma seçeneği
+* hatırlamaya yardımcı emoji ipuçları
 * yaklaşık güç ve entropi hesabı
 * kelime sayısı seçimi
 * ayraç seçimi
 * baş harfleri büyütme seçeneği
 * rastgele rakam ekleme seçeneği
+* yazdırma ve indirme
 
 Kelime listesini de ayrıca GitHub'da yayınladım:
 
