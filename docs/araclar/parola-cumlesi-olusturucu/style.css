@@ -277,7 +277,7 @@ h1 {
   justify-content: center;
   flex-wrap: wrap;
   text-align: center;
-  font-size: clamp(1.04rem, 2.5vw, 1.28rem);
+  font-size: clamp(1rem, 2.5vw, 1.28rem);
   font-weight: 650;
   line-height: 1.42;
   overflow: hidden;
@@ -407,6 +407,10 @@ h1 {
 
 .button-secondary:hover:not(:disabled) {
   border-color: var(--accent);
+  color: var(--accent-strong);
+}
+
+#refreshButton {
   color: var(--accent-strong);
 }
 
@@ -793,12 +797,17 @@ h1 {
   }
 
   .page {
-    width: min(100% - 16px, 780px);
+    width: min(100% - 12px, 780px);
     padding: 10px 0;
   }
 
   .tool-shell {
-    padding: 14px;
+    padding: 12px;
+  }
+
+  .passphrase-output {
+    padding-inline: 8px;
+    letter-spacing: -0.01em;
   }
 
   .button-row {
@@ -809,18 +818,16 @@ h1 {
 
 @media (max-width: 520px) {
   .settings {
-    grid-template-columns: 1fr;
-    justify-items: center;
+    grid-template-columns: minmax(0, 246px);
+    justify-items: stretch;
   }
 
   .field-group {
-    width: min(100%, 170px);
-    max-width: 170px;
-    justify-self: center;
+    width: 100%;
   }
 
   .check-group {
-    justify-self: center;
+    width: 100%;
   }
 }
 
