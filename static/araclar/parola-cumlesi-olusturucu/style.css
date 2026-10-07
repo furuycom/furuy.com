@@ -15,10 +15,11 @@
   --entropy-1: #b23838;
   --entropy-2: #b6532f;
   --entropy-3: #805b00;
-  --entropy-4: #596b1f;
+  --entropy-4: #8a5200;
   --entropy-5: #2f704e;
   --entropy-6: #0f6f4f;
   --focus: #b07a1a;
+  --update: #b94d00;
 }
 
 * {
@@ -110,6 +111,7 @@ h1 {
 .help-button {
   width: 30px;
   height: 30px;
+  padding: 0;
   border: 1px solid var(--line);
   border-radius: 999px;
   background: var(--soft);
@@ -125,6 +127,119 @@ h1 {
 
 .help-button:hover {
   border-color: var(--accent);
+}
+
+.version-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  border: 0;
+  padding: 0;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.version-button.has-update {
+  color: var(--update);
+  font-weight: 750;
+}
+
+.version-button.has-update::after {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--update);
+  content: "";
+  animation: update-pulse 1.8s ease-in-out infinite;
+}
+
+@keyframes update-pulse {
+  50% {
+    opacity: 0.4;
+    transform: scale(0.8);
+  }
+}
+
+.changelog-dialog {
+  width: min(480px, calc(100% - 32px));
+  max-height: calc(100% - 48px);
+  margin: auto;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 20px;
+  background: var(--panel);
+  color: var(--text);
+  overflow: auto;
+}
+
+.changelog-dialog::backdrop {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.changelog-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+.changelog-header h2 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.changelog-close {
+  width: 32px;
+  height: 32px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--soft);
+  color: var(--text);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.changelog-close svg {
+  width: 18px;
+  height: 18px;
+  flex: none;
+}
+
+.changelog-entry {
+  margin-top: 20px;
+  border-top: 1px solid var(--line);
+  padding-top: 16px;
+}
+
+.changelog-entry h3 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 8px 12px;
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: var(--accent-strong);
+}
+
+.changelog-entry time {
+  color: var(--muted);
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
+.changelog-entry ul {
+  margin: 12px 0 0;
+  padding-left: 20px;
+}
+
+.changelog-entry li + li {
+  margin-top: 8px;
 }
 
 .message {
@@ -176,9 +291,36 @@ h1 {
 }
 
 .passphrase-token {
-  display: inline-flex;
+  display: inline-grid;
+  grid-template-columns: minmax(0, auto) minmax(0, auto);
+  grid-template-rows: 1.2em auto;
   flex: 0 0 auto;
-  white-space: nowrap;
+  min-width: 0;
+  max-width: 100%;
+  overflow-wrap: anywhere;
+}
+
+.passphrase-output:not(.passphrase-output-hints) :is(.passphrase-word, .passphrase-separator) {
+  position: relative;
+  top: -0.6em;
+}
+
+.passphrase-output:not(.passphrase-output-hints) .passphrase-hint {
+  visibility: hidden;
+}
+
+.passphrase-word {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.passphrase-hint {
+  grid-column: 1;
+  grid-row: 1;
+  align-self: center;
+  font-size: 0.9em;
+  line-height: 1;
+  user-select: none;
 }
 
 .passphrase-output-long {
@@ -194,9 +336,11 @@ h1 {
 }
 
 .passphrase-separator {
+  grid-column: 2;
+  grid-row: 2;
   color: var(--medium);
   font-weight: 850;
-  white-space: pre;
+  white-space: pre-wrap;
 }
 
 .passphrase-digit {
@@ -221,10 +365,11 @@ h1 {
 }
 
 .button-row {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  max-width: 560px;
   gap: 8px;
-  margin-top: 16px;
+  margin: 16px auto 0;
 }
 
 .button {
@@ -265,13 +410,47 @@ h1 {
   color: var(--accent-strong);
 }
 
+.split-control {
+  display: grid;
+  grid-template-columns: minmax(0, 3fr) minmax(32px, 1fr);
+  width: 100%;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+
+.split-control .button {
+  min-height: 36px;
+  border: 0;
+  border-radius: 7px 0 0 7px;
+}
+
+.split-control .split-action {
+  border-left: 1px solid var(--line);
+  border-radius: 0 7px 7px 0;
+  padding-inline: 6px;
+  background: var(--soft);
+  color: var(--accent);
+}
+
+.split-control [hidden] {
+  display: none;
+}
+
+.print-control:has([hidden]) {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.print-control:has([hidden]) .button {
+  border-radius: 7px;
+}
+
 .button-copied,
 .button-copied:hover:not(:disabled) {
   border-color: var(--success);
   color: var(--success);
 }
 
-.is-spinning span:first-child {
+.is-spinning svg {
   animation: refresh-spin 0.45s ease-in-out;
 }
 
@@ -284,6 +463,19 @@ h1 {
   }
 }
 
+.entropy-info {
+  text-align: center;
+}
+
+#copyStatus {
+  max-width: 100%;
+  border: 0;
+  padding: 0;
+  background: none;
+  cursor: help;
+  vertical-align: top;
+}
+
 .status {
   min-height: 22px;
   margin: 6px 0 0;
@@ -291,10 +483,6 @@ h1 {
   font-weight: 700;
   line-height: 22px;
   text-align: center;
-}
-
-.status-success {
-  color: var(--accent-strong);
 }
 
 .status-error {
@@ -327,17 +515,30 @@ h1 {
 
 .settings {
   display: grid;
-  grid-template-columns: repeat(2, 120px) 190px;
-  align-items: end;
+  grid-template-columns: 144px 246px;
+  align-items: center;
   justify-content: center;
-  gap: 14px;
+  gap: 24px 32px;
   border-top: 1px solid var(--line);
-  padding-top: 14px;
+  padding-top: 20px;
+}
+
+.field-group {
+  display: grid;
+  gap: 16px;
+}
+
+.field-label {
+  display: grid;
+  grid-template-columns: max-content 18px;
+  align-items: center;
+  justify-content: start;
+  gap: 8px;
 }
 
 .field {
   display: grid;
-  gap: 5px;
+  gap: 8px;
 }
 
 .field label,
@@ -347,7 +548,7 @@ h1 {
 }
 
 .field label {
-  text-align: center;
+  text-align: left;
 }
 
 .field input[type="number"],
@@ -377,16 +578,157 @@ h1 {
 .check-row input {
   width: 17px;
   height: 17px;
+  margin: 0;
   accent-color: var(--accent);
 }
 
 .check-group {
   display: grid;
-  gap: 8px;
+  gap: 12px;
   justify-items: start;
   align-content: center;
   min-height: 64px;
-  width: 190px;
+  width: 246px;
+}
+
+.check-row label {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.option-icon {
+  width: 16px;
+  height: 16px;
+  flex: none;
+  color: var(--muted);
+}
+
+.check-row-help {
+  grid-template-columns: 18px max-content 18px;
+}
+
+.button svg {
+  width: 18px;
+  height: 18px;
+  flex: none;
+}
+
+.popup-action {
+  width: 100%;
+  margin-top: 12px;
+}
+
+.option-help {
+  position: relative;
+  width: 18px;
+  height: 18px;
+  font-size: 0.75rem;
+}
+
+.option-help::before {
+  content: "";
+  position: absolute;
+  inset: -3px;
+}
+
+.option-help svg {
+  width: 13px;
+  height: 13px;
+}
+
+.is-inactive {
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.warning-button {
+  color: var(--medium);
+  border-color: currentColor;
+}
+
+.popup-field {
+  width: 100px;
+  margin: 12px auto 0;
+}
+
+#digitSettingsPanel .popup-field,
+#downloadPanel .popup-field {
+  margin-inline: 0;
+}
+
+.help-description {
+  margin: 12px 0 0;
+  font-size: 0.85rem;
+}
+
+.separator-choices {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.separator-choice {
+  width: 38px;
+  padding: 0;
+  border-color: currentColor;
+  background: var(--soft);
+  color: var(--accent);
+  font-family: ui-monospace, monospace;
+  font-size: 1.1rem;
+}
+
+.separator-choice[data-separator="_"] { color: #6551b3; }
+.separator-choice[data-separator="."] { color: #9b5a00; }
+
+.option-popover {
+  position: fixed;
+  inset: auto;
+  margin: 0;
+  width: min(280px, calc(100vw - 16px));
+  max-height: calc(100dvh - 16px);
+  overflow: auto;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 12px;
+  background: var(--panel);
+  color: var(--text);
+  box-shadow: 0 6px 22px rgba(0, 0, 0, 0.2);
+}
+
+.option-popover::backdrop {
+  background: transparent;
+  pointer-events: none;
+}
+
+#capitalizeSettingsPanel,
+#digitSettingsPanel {
+  width: max-content;
+  max-width: calc(100vw - 16px);
+}
+
+.common-help-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
+
+.common-help-header h2 {
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+.common-help-header > label {
+  font-size: 0.95rem;
+  font-weight: 750;
+}
+
+.common-help-header button {
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  flex: none;
 }
 
 .privacy-note {
@@ -396,6 +738,7 @@ h1 {
   font-size: 0.78rem;
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   justify-content: center;
   gap: 3px 14px;
   text-align: center;
@@ -408,11 +751,21 @@ h1 {
 }
 
 .privacy-note a {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
   color: inherit;
   text-decoration: none;
 }
 
-.privacy-note a:hover {
+.privacy-note svg {
+  width: 14px;
+  height: 14px;
+  flex: none;
+}
+
+.privacy-note a:hover,
+.version-button:hover {
   color: var(--accent-strong);
   opacity: 1;
   text-decoration: underline;
@@ -448,35 +801,19 @@ h1 {
     padding: 14px;
   }
 
-  .settings {
-    grid-template-columns: minmax(110px, 170px) minmax(110px, 170px);
-    justify-items: center;
+  .button-row {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .check-group {
-    grid-column: 1 / -1;
-    min-height: 0;
-    width: auto;
-    justify-items: center;
-  }
-
-  .check-row {
-    justify-content: center;
-  }
 }
 
-@media (max-width: 440px) {
-  .button-row {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-
+@media (max-width: 520px) {
   .settings {
     grid-template-columns: 1fr;
+    justify-items: center;
   }
 
-  .field,
-  .field-number {
+  .field-group {
     width: min(100%, 170px);
     max-width: 170px;
     justify-self: center;
@@ -484,6 +821,12 @@ h1 {
 
   .check-group {
     justify-self: center;
+  }
+}
+
+@media (max-width: 440px) {
+  .button {
+    padding-inline: 8px;
   }
 
   .title-row {
@@ -512,10 +855,11 @@ h1 {
     --entropy-1: #ff8e8e;
     --entropy-2: #f2a071;
     --entropy-3: #ffc45c;
-    --entropy-4: #c6d46a;
+    --entropy-4: #ffc45c;
     --entropy-5: #84d8af;
     --entropy-6: #35b982;
     --focus: #f0b44c;
+    --update: #ffb04c;
   }
 
   .tool-shell {
@@ -532,10 +876,14 @@ h1 {
     color: #071615;
   }
 
+  .separator-choice[data-separator="_"] { color: #c0a9ff; }
+  .separator-choice[data-separator="."] { color: #ffbf73; }
+
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .is-spinning span:first-child {
+  .is-spinning svg,
+  .version-button.has-update::after {
     animation: none;
   }
 }

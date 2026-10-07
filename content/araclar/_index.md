@@ -39,7 +39,7 @@ sitemap:
   </div>
   <footer class="entry-footer tool-card-actions">
     <a class="article-link" href="/crowdname/">↗ Read article</a>
-    <a class="tool-link" href="/tools/crowdname/" target="_blank">Open tool →</a>
+    <a class="tool-link" href="/tools/crowdname/" target="_blank" rel="noopener noreferrer">Open tool →</a>
   </footer>
 </article>
 

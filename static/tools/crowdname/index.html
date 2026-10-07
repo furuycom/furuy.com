@@ -1251,7 +1251,8 @@
 
                 <footer class="app-footer">
                     <div class="footer-text">
-                        Built with AI &middot; Last updated: 11 March 2026
+                        Built with AI &middot; Last updated:
+                        <time datetime="2026-10-06">6 October 2026</time>
                     </div>
                     <div
                         style="
@@ -2385,31 +2386,55 @@
                 const thead = byId("modalTableHead");
                 const tbody = byId("modalTableBody");
                 thead.innerHTML = "";
-                tbody.innerHTML = "";
+                tbody.replaceChildren();
+
+                const appendRow = (values) => {
+                    const row = document.createElement("tr");
+                    values.forEach((value, index) => {
+                        const cell = document.createElement("td");
+                        if (index === 1) {
+                            const strong = document.createElement("strong");
+                            strong.textContent = String(value);
+                            cell.appendChild(strong);
+                        } else {
+                            cell.textContent = String(value);
+                        }
+                        row.appendChild(cell);
+                    });
+                    tbody.appendChild(row);
+                };
 
                 if (dataset.id === "ssa-common-given") {
                     thead.innerHTML = `<tr><th style="width:60px">#</th><th>Name</th><th style="width:80px">Gender</th></tr>`;
                     dataset.items.forEach((item, i) => {
-                        tbody.innerHTML += `<tr><td>${item.rank}</td><td><strong>${item.name}</strong></td><td>${item.g}</td></tr>`;
+                        appendRow([item.rank, item.name, item.g]);
                     });
                 } else if (dataset.id === "census-common-surnames") {
                     thead.innerHTML = `<tr><th style="width:60px">#</th><th>Surname</th><th>W %</th><th>B %</th><th>H %</th><th>A %</th></tr>`;
                     dataset.items.forEach((item, i) => {
-                        tbody.innerHTML += `<tr><td>${i + 1}</td><td><strong>${item.name}</strong></td><td>${item.w}</td><td>${item.b}</td><td>${item.h}</td><td>${item.a}</td></tr>`;
+                        appendRow([i + 1, item.name, item.w, item.b, item.h, item.a]);
                     });
                 } else {
                     thead.innerHTML = `<tr><th style="width:60px">#</th><th>Item</th></tr>`;
                     dataset.items.forEach((item, i) => {
-                        tbody.innerHTML += `<tr><td>${i + 1}</td><td><strong>${item}</strong></td></tr>`;
+                        appendRow([i + 1, item]);
                     });
                 }
 
                 const footer = byId("modalFooter");
-                footer.innerHTML = "";
+                footer.replaceChildren();
+                const source = document.createElement("span");
+                source.textContent = dataset.href
+                    ? `Source: ${dataset.source}`
+                    : dataset.source || "Custom Data";
+                footer.appendChild(source);
                 if (dataset.href) {
-                    footer.innerHTML = `<span>Source: ${dataset.source}</span> <a href="${dataset.href}" target="_blank" rel="noopener noreferrer">View Original Data &rarr;</a>`;
-                } else {
-                    footer.innerHTML = `<span>${dataset.source || "Custom Data"}</span>`;
+                    const link = document.createElement("a");
+                    link.href = dataset.href;
+                    link.target = "_blank";
+                    link.rel = "noopener noreferrer";
+                    link.textContent = "View Original Data →";
+                    footer.appendChild(link);
                 }
 
                 byId("datasetModal").classList.add("active");
