@@ -1,7 +1,7 @@
 ---
 title: "Parola Cümlesi Nedir, Nasıl Oluşturulur"
 date: "2026-05-22"
-lastmod: "2026-10-07"
+lastmod: "2026-10-08"
 description: "Parola cümlesi (passphrase) nedir ve nasıl güvenli oluşturulur? Türkçe kelime listesi, entropi hesabı ve kullanım önerileri."
 aliases:
   - /tr/turkce-parola-cumlesi-olusturucu/
@@ -31,7 +31,7 @@ Parola cümlesi, rastgele seçilmiş birden fazla kelimenin bir araya getirilmes
 
 Burada önemli nokta, kelimeleri sizin seçmemenizdir. Kelimeler güvenli bir rastgele sayı üreteciyle seçilmelidir. Çünkü insan olarak biz rastgele seçim yapmakta sandığımız kadar iyi değiliz. Sevdiğimiz, alıştığımız, kulağımıza güzel gelen veya aklımıza ilk gelen kelimeleri seçmeye eğilimliyiz. Bu da parolayı zayıflatabilir.
 
-Parola cümlesinin gücü, kelimelerin gerçekten rastgele seçilmesinden ve toplam uzunluğun yüksek olmasından gelir.
+Parola cümlesinin gücü, kelimelerin rastgele seçilmesine, kelime sayısına ve kullanılan listenin büyüklüğüne bağlıdır.
 
 ## Neden klasik parola yerine parola cümlesi?
 
@@ -41,7 +41,7 @@ Kısa ama karmaşık görünen parolalar genellikle zor hatırlanır:
 
 Böyle bir şey güçlü görünebilir ama insan için kullanması zordur. Üstelik insanlar bunu hatırlayabilmek için çoğu zaman bir kalıptan üretir. Harfleri rakamlarla değiştirmek, sonuna ünlem koymak, yılı eklemek gibi yöntemler sanıldığı kadar yaratıcı değildir.
 
-Parola cümlesi ise daha uzun olduğu için güçlüdür, kelimelerden oluştuğu için de hatırlaması daha kolay olabilir.
+Yeterli sayıda rastgele kelimeden oluşan parola cümleleri güçlü ve hatırlaması daha kolay olabilir.
 
 Burada amaç, her hesap için ayrı ayrı parola cümlesi ezberlemek değildir. Günlük siteler için parola yöneticisinin ürettiği benzersiz parolaları kullanmak daha doğrudur. Parola cümlesi ise özellikle gerçekten ezberlemeniz gereken birkaç kritik parola için uygundur:
 
@@ -55,7 +55,7 @@ Yani parola yöneticisi kullanıyorsanız, her site için ayrı parola cümlesi 
 
 ## İlk oluşturulan parola cümlesi garip görünebilir
 
-Parola cümlesi oluşturma araçlarında genellikle büyük kelime listeleri kullanılır. Örneğin klasik Diceware listeleri 7776 veya 8192 kelimeden oluşur. Benim hazırladığım Türkçe listede 8192 kelime var. Bu listelerden kelimeler tamamen rastgele seçilir.
+Parola cümlesi oluşturma araçlarında genellikle büyük kelime listeleri kullanılır. Klasik Diceware listesinde 7776 girdi vardır. Benim hazırladığım Türkçe listede 8192 kelime var. Bu listelerden kelimeler tamamen rastgele seçilir.
 
 Araçta varsayılan olarak bu listenin gündelik hayatta daha tanıdık kelimeleri kullanılır. "Yaygın kelimeler" seçeneğini kapatarak listenin tamamını kullanabilirsiniz.
 
@@ -77,15 +77,23 @@ Kelime anlamlarını öğrendikçe ve parola cümlesini birkaç gün boyunca tek
 
 ## Nasıl ezberlenir?
 
+Kelimeleri sırayla bir hikâyenin içine yerleştirebilirsiniz. Örneğin `bitki-pabuc-bombe2-kaykay-iguana-aziz` için:
+
+> Bir bitkinin yanında bir pabuç vardı. Pabucun bombeli, yani kabarık kısmında 2 yazıyordu. Pabuç bir kaykay gibiydi ve üzerinde bir iguana kayıyordu. Bu iguana da bir azizdi.
+
+![Bitkinin yanında, bombesinde 2 yazan pabuç üzerinde kayan aziz iguana](/assets/img/parola-cumlesi-ezberleme-ornegi.webp)
+
+Bu parola yalnızca örnektir; kullanmayın.
+
 Benim önerim şu:
 
 1. Parola cümlesini güvenli bir şekilde oluşturun.
 2. İlk aşamada tercihen bir kağıda yazın ve kimsenin erişemeyeceği veya bakmayacağı bir yerde saklayın.
 3. Birkaç gün boyunca düzenli olarak yazıp tekrar edin.
 4. Bilmediğiniz kelimelerin anlamlarına bakın.
-5. Ezberlediğinizden emin olduktan sonra kağıdı geri döndürülemez biçimde yok edin.
+5. Ezberledikten sonra geçici notu yok edebilirsiniz. Unutmaya karşı yedek saklamak isterseniz güvenli bir yerde tutun.
 
-Burada önemli nokta şu: Bu kağıt kalıcı bir yedek gibi ortalıkta durmamalı. İlk ezberleme sürecinde geçici bir araç olarak kullanılmalı. Fotoğrafını çekmeyin, not defterine kaydetmeyin veya mesaj olarak kendinize göndermeyin. Ezberlediğinizden emin olduktan sonra kağıdı geri döndürülemez biçimde yok edin.
+Bu kâğıdı ortalıkta bırakmayın. Fotoğrafını çekmeyin veya mesaj olarak kendinize göndermeyin.
 
 Parola yöneticinizin ana parolasını kaybederseniz, genellikle geri dönüş yoktur. Bu yüzden hem güvenli hem de gerçekten ezberlenebilir bir şey oluşturmak önemlidir.
 
@@ -151,6 +159,8 @@ Tire genellikle en uyumlu seçenektir. Boşluk bazı sitelerde sorun çıkarabil
 ## Türkçe parola cümlesi oluşturucu
 
 Hazırladığım araç parola cümlesini tarayıcıda oluşturur. Araç sonucu sunucuya göndermez, URL'ye eklemez, çerez veya tarayıcı depolamasına yazmaz. Sayfa yüklendikten sonra internet bağlantısı olmadan da çalışır.
+
+Yaygın kelimeleri yapay zekâ yardımıyla, günlük hayatta tanıdık olmalarına göre seçtim. Hatırlamayı kolaylaştırmak için bunlara emoji ipuçları da ekledim.
 
 Aracı buradan deneyebilirsiniz: [Türkçe parola cümlesi (passphrase) oluşturucu](/araclar/parola-cumlesi-olusturucu/)
 
