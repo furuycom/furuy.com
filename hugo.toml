@@ -50,11 +50,11 @@ copyright = "[Arşiv](/arsiv/) · [Yasal](/yasal/) · [CC0 1.0 Evrensel](/yasal/
         favicon16x16 = "/assets/brand/favicon-16x16.png"
         favicon32x32 = "/assets/brand/favicon-32x32.png"
         apple_touch_icon = "/assets/brand/apple-touch-icon.png"
-        safari_pinned_tab = "/assets/brand/boru-monochrome.svg"
+        safari_pinned_tab = "/assets/brand/börü-monochrome.svg"
 
     [params.label]
         text = "Furkan Uysal"
-        icon = "/assets/brand/boru-social.svg"
+        icon = "/assets/brand/börü-social.svg"
 
     [[params.socialIcons]]
         name = "github"
