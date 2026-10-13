@@ -34,6 +34,7 @@ copyright = "[Arşiv](/arsiv/) · [Yasal](/yasal/) · [CC0 1.0 Evrensel](/yasal/
     DateFormat = "2 January 2006"
     disableSpecial1stPost = true
     hideAuthor = true
+    hideSummary = true
     comments = true
     ShowReadingTime = true
     ShowPostNavLinks = true
@@ -72,7 +73,8 @@ copyright = "[Arşiv](/arsiv/) · [Yasal](/yasal/) · [CC0 1.0 Evrensel](/yasal/
         url = "mailto:furuycom@protonmail.com"
 
     [params.cover]
-        hidden = true
+        hiddenInList = false
+        hiddenInSingle = true
 
     [params.fuseOpts]
         distance = 1000
