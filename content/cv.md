@@ -70,6 +70,13 @@ ShowWordCount: false
 </div>
 <p>Yönetim Bilişim Sistemleri, Lisans (Mezun)<br>GNO: 3,03 / 4,00</p>
 </article>
+<article class="cv-entry cv-entry-muted">
+<div class="cv-entry-head">
+<strong class="cv-school"><span class="cv-school-logo cv-school-logo-kirikkale" aria-hidden="true"></span>Kırıkkale Üniversitesi</strong>
+<span class="cv-date"><time datetime="2018">2018</time> – <time datetime="2020">2020</time></span>
+</div>
+<p>Fransızca Mütercim ve Tercümanlık, Lisans Eğitimi (Tamamlanmadı)</p>
+</article>
 </section>
 
 <section class="cv-section">
@@ -77,6 +84,7 @@ ShowWordCount: false
 <ul>
 <li><strong>Türkçe</strong> (Ana dil)</li>
 <li><strong>İngilizce</strong> (Profesyonel çalışma yetkinliği)</li>
+<li><strong>Fransızca</strong> (Başlangıç düzeyi)</li>
 </ul>
 </section>
 </div>
