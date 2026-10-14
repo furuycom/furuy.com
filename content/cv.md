@@ -47,10 +47,9 @@ ShowWordCount: false
 <span class="cv-date"><time datetime="2019">2019</time> – <time datetime="2025">2025</time></span>
 </div>
 <ul>
-<li>200'e yakın WordPress tabanlı web sitesinde dosya sistemi ve veri tabanı düzeyinde zararlı yazılım, web shell ve hacklink tespiti ve temizliği gerçekleştirdim.</li>
-<li>WordPress, PHP ve sunucu tarafında dosya izinleri ve erişim kontrolleri başta olmak üzere güvenlik iyileştirmeleri uyguladım.</li>
-<li>HTTPS/HSTS, HTTP güvenlik başlıkları, DNSSEC ve Cloudflare yapılandırmalarını gerçekleştirdim.</li>
-<li>Yapılan işlemleri ve sonuçlarını teknik raporlarla müşterilere sundum.</li>
+<li>200'e yakın WordPress sitesinde dosya ve veri tabanı düzeyinde zararlı yazılım, web shell ve hacklink tespiti ve temizliği yaptım.</li>
+<li>WordPress/PHP ve sunucularda dosya izinleri, erişim kontrolleri, HTTPS/HSTS, HTTP güvenlik başlıkları, DNSSEC ve Cloudflare yapılandırmaları uyguladım.</li>
+<li>İşlemleri ve sonuçları teknik raporlarla müşterilere sundum.</li>
 </ul>
 <p class="cv-reference"><a href="https://www.r10.net/wordpress-seo-guvenlik-bakim/2701327-wpguvenlik-wordpress-virus-temizleme-guvenlik-optimizasyonu.html">Müşteri Değerlendirmeleri</a></p>
 </article>

@@ -207,6 +207,6 @@
     .cv-print { display: none !important; }
     .cv-links { break-inside: avoid; }
     .cv-header .cv-name { font-size: 24pt; }
-    .cv-section { padding: 5mm 0; break-inside: avoid; }
+    .cv-section { padding: 3mm 0; break-inside: avoid; }
     .cv-links a, .cv-links > span, .cv-role, .cv-section > p, .cv-entry > p, .cv-date, .cv-entry-muted .cv-entry-head strong { color: #333 !important; }
 }
