@@ -136,7 +136,8 @@ h1 {
   border-color: var(--accent);
 }
 
-.version-button {
+.version-button,
+.settings-clear-button {
   display: inline-flex;
   align-items: center;
   gap: 5px;
@@ -147,6 +148,10 @@ h1 {
   font: inherit;
   white-space: nowrap;
   cursor: pointer;
+}
+
+.settings-clear-button[hidden] {
+  display: none;
 }
 
 .version-button.has-update {
@@ -712,8 +717,7 @@ h1 {
   pointer-events: none;
 }
 
-#capitalizeSettingsPanel,
-#digitSettingsPanel {
+#capitalizeSettingsPanel {
   width: max-content;
   max-width: calc(100vw - 16px);
 }
@@ -776,7 +780,8 @@ h1 {
 }
 
 .privacy-note a:hover,
-.version-button:hover {
+.version-button:hover,
+.settings-clear-button:hover {
   color: var(--accent-strong);
   opacity: 1;
   text-decoration: underline;

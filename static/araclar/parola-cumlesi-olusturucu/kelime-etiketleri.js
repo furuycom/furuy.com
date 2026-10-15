@@ -7084,7 +7084,7 @@ window.PASSPHRASE_TR_METADATA = {
   "tefeul": [0],
   "teganni": [0,"🎤"],
   "tegelti": [0],
-  "tegmen": [1,"🎖️"],
+  "tegmen": [1,"⚔️"],
   "tehacum": [0],
   "tehaluk": [0],
   "tehyic": [0],

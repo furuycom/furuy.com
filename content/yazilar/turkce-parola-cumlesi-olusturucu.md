@@ -1,7 +1,7 @@
 ---
 title: "Parola Cümlesi Nedir, Nasıl Oluşturulur"
 date: "2026-05-22"
-lastmod: "2026-10-08"
+lastmod: "2026-10-15"
 description: "Parola cümlesi (passphrase) nedir ve nasıl güvenli oluşturulur? Türkçe kelime listesi, entropi hesabı ve kullanım önerileri."
 aliases:
   - /tr/turkce-parola-cumlesi-olusturucu/
@@ -119,7 +119,7 @@ Yaklaşık değerler:
 
 Bu tablo listenin tamamı için geçerlidir. "Yaygın kelimeler" seçildiğinde liste küçülür ve kelime başına düşen entropi azalır. Araç değeri seçili listeye göre hesaplar.
 
-Varsayılan ayarda 6 yaygın kelime ve rastgele bir kelimenin sonuna eklenen 1 rakam kullanılır. Mevcut listeyle yaklaşık 77,7 bit entropi elde edilir.
+Varsayılan ayarda 6 yaygın kelime ve rastgele bir kelimenin başına veya sonuna eklenen 1 rakam kullanılır. Mevcut listeyle yaklaşık 78,7 bit entropi elde edilir.
 
 Entropi tek başına güvenlik garantisi değildir. Parola yöneticisi ana parolası veya disk şifreleme gibi kritik kullanımlarda daha fazla kelime seçebilirsiniz.
 
@@ -145,6 +145,8 @@ Bu biraz estetik kayıp yaratıyor ama pratikte daha az sorun çıkaran bir terc
 
 Güvenlik için asıl önemli olan kelimelerin rastgele seçilmesi ve kelime sayısının yeterli olmasıdır. Rastgele rakam eklemek az miktarda ek entropi sağlar. Ayrıca bazı sitelerin "parolada rakam olmalı" kuralını karşılamak için işe yarayabilir.
 
+"Rakam sayısı" eklenecek toplam rakam adedidir. Her rakam için kelime ve başa mı sona mı ekleneceği bağımsız, rastgele seçilir. Aynı yer tekrar seçilebilir; rakamlar kelimelere eşit dağılmak zorunda değildir. Sayıyı artırdığınızda mevcut kelimeler ve rakamlar korunur, yeni rakamlar eklenir. Entropi hesabı, aynı sonucu verebilen farklı ekleme sıralarını dikkate alır; sayısal ayraçlarda konum katkısı hesaba katılmaz.
+
 ## Ayraç olarak ne kullanılmalı?
 
 Ayraç güvenlikten çok okunabilirlik meselesidir.
@@ -160,6 +162,8 @@ Tire genellikle en uyumlu seçenektir. Boşluk bazı sitelerde sorun çıkarabil
 
 Hazırladığım araç parola cümlesini tarayıcıda oluşturur. Araç sonucu sunucuya göndermez, URL'ye eklemez, çerez veya tarayıcı depolamasına yazmaz. Sayfa yüklendikten sonra internet bağlantısı olmadan da çalışır.
 
+Ayarlarınız bu tarayıcıda otomatik hatırlanır. Alttaki çöp simgesine tıklayarak kayıtlı ayarları silebilir ve varsayılanlara dönebilirsiniz. Parolalar ve parola geçmişi kaydedilmez.
+
 Yaygın kelimeleri yapay zekâ yardımıyla, günlük hayatta tanıdık olmalarına göre seçtim. Hatırlamayı kolaylaştırmak için bunlara emoji ipuçları da ekledim.
 
 Aracı buradan deneyebilirsiniz: [Türkçe parola cümlesi (passphrase) oluşturucu](/araclar/parola-cumlesi-olusturucu/)
@@ -174,6 +178,7 @@ Aracı buradan deneyebilirsiniz: [Türkçe parola cümlesi (passphrase) oluştur
 * ayraç seçimi
 * baş harfleri büyütme seçeneği
 * rastgele rakam ekleme seçeneği
+* ayarları otomatik hatırlama ve silme
 * yazdırma ve indirme
 
 Kelime listesini de ayrıca GitHub'da yayınladım:

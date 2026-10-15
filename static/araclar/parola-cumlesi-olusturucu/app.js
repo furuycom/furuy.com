@@ -17,6 +17,8 @@ const CLEAN_WORD_PATTERN = /^[A-Za-z]+$/;
 const EXCLUDED_LETTER_PATTERN = /[qQwWxX]/;
 const VOWEL_PATTERN = /[aeiouAEIOU]/;
 const VERSION_STORAGE_KEY = "passphrase-last-seen-version";
+const SETTINGS_STORAGE_KEY = "passphrase-settings";
+const SETTINGS_FIELDS = ["wordCount", "separator", "capitalize", "capitalizeAll", "addRandomDigit", "digitCount", "commonOnly", "showEmojis"];
 
 const elements = {
   errorBox: document.getElementById("errorBox"),
@@ -32,6 +34,7 @@ const elements = {
   downloadConfirm: document.getElementById("downloadConfirm"),
   versionButton: document.getElementById("versionButton"),
   changelogDialog: document.getElementById("changelogDialog"),
+  clearSettingsButton: document.getElementById("clearSettingsButton"),
   copyStatus: document.getElementById("copyStatus"),
   copyButtonIcon: document.querySelector("#copyButton path"),
   settingsForm: document.getElementById("settingsForm"),
@@ -146,7 +149,7 @@ function generatePassphrase(options, wordList = getSelectedWordList(options), in
 
   return {
     sourceWords,
-    digit: null,
+    digits: [],
     hints: includeHints ? sourceWords.map(word => {
       const emojis = window.PASSPHRASE_TR_METADATA?.[word]?.slice(1);
       return emojis?.length ? emojis[secureRandomInt(emojis.length)] : "";
@@ -169,23 +172,37 @@ function calculateEntropy(options, wordListLength) {
   let entropy = options.wordCount * Math.log2(wordListLength);
 
   if (options.addRandomDigit) {
-    entropy += Math.log2(options.wordCount) + options.digitCount * Math.log2(10);
+    const slotCount = options.wordCount * 2;
+    const digitsPerSlot = Math.floor(options.digitCount / slotCount);
+    let placementEntropy = 0;
+
+    if (/\D/.test(options.separator)) {
+      // Count the most likely final layout, not all insertion histories.
+      // Its balanced slot counts have digitCount! / product(count!) histories.
+      placementEntropy = options.digitCount * Math.log2(slotCount);
+      for (let count = 2; count <= options.digitCount; count += 1) {
+        placementEntropy -= Math.log2(count);
+      }
+      for (let count = 2; count <= digitsPerSlot; count += 1) {
+        placementEntropy += slotCount * Math.log2(count);
+      }
+      placementEntropy += (options.digitCount % slotCount) * Math.log2(digitsPerSlot + 1);
+    }
+    // Numeric separators can merge adjacent digit groups; omit their position gain.
+    entropy += options.digitCount * Math.log2(10) + Math.max(0, placementEntropy);
   }
 
   return entropy;
 }
 
-function updatePhraseDigit(phrase, options) {
-  if (options.addRandomDigit && !phrase.digit) {
-    phrase.digit = { index: secureRandomInt(options.wordCount), value: "" };
-  } else if (!options.addRandomDigit) {
-    phrase.digit = null;
-  }
-  if (phrase.digit) {
-    phrase.digit.value = phrase.digit.value.slice(0, options.digitCount);
-    while (phrase.digit.value.length < options.digitCount) {
-      phrase.digit.value += String(secureRandomInt(10));
-    }
+function updatePhraseDigits(phrase, options) {
+  const count = options.addRandomDigit ? options.digitCount : 0;
+  phrase.digits.length = Math.min(phrase.digits.length, count);
+  while (phrase.digits.length < count) {
+    phrase.digits.push({
+      position: secureRandomInt(options.wordCount * 2),
+      value: String(secureRandomInt(10))
+    });
   }
 }
 
@@ -194,15 +211,20 @@ function getPhraseWords(phrase, options) {
     if (!options.capitalize) return word;
     return options.capitalizeAll ? word.toUpperCase() : capitalizeWord(word);
   });
-  if (phrase.digit) words[phrase.digit.index] += phrase.digit.value;
+  for (const digit of phrase.digits) {
+    const index = Math.floor(digit.position / 2);
+    words[index] = digit.position % 2 === 0
+      ? digit.value + words[index] : words[index] + digit.value;
+  }
   return words;
 }
 
-function render(regenerate = true) {
+function render(regenerate = true, persistSettings = true) {
   const options = readOptions();
 
   clearStatus({ keepTimer: false });
   updateControls(options);
+  updateClearSettingsButton();
 
   try {
     if (options.separator.length > MAX_SEPARATOR_LENGTH) {
@@ -215,7 +237,7 @@ function render(regenerate = true) {
     if (regenerate || !currentPhrase || currentPhrase.sourceWords.length !== options.wordCount) {
       currentPhrase = generatePassphrase(options, wordList);
     }
-    updatePhraseDigit(currentPhrase, options);
+    updatePhraseDigits(currentPhrase, options);
     const words = getPhraseWords(currentPhrase, options);
     const entropy = calculateEntropy(options, wordList.length);
 
@@ -234,6 +256,7 @@ function render(regenerate = true) {
     setError("");
     updateInfo(entropy);
     updateWordListDetails();
+    if (persistSettings) saveSettings(options);
   } catch (error) {
     if (regenerate) currentPhrase = null;
     currentPassphrase = "";
@@ -271,11 +294,11 @@ async function downloadPassphrases(useOptions = false) {
   try {
     if (count > 1) {
       const wordList = getSelectedWordList(options);
-      const choicesPerPhrase = options.wordCount + (options.addRandomDigit ? options.digitCount : 0);
+      const choicesPerPhrase = options.wordCount + (options.addRandomDigit ? options.digitCount * 2 : 0);
       const batchSize = Math.max(1, Math.floor(1000 / choicesPerPhrase));
       for (let index = 1; index < count; index += 1) {
         const phrase = generatePassphrase(options, wordList, false);
-        updatePhraseDigit(phrase, options);
+        updatePhraseDigits(phrase, options);
         lines.push(getPhraseWords(phrase, options).join(options.separator));
         if (index % batchSize === 0 && index + 1 < count) {
           await new Promise(resolve => window.setTimeout(resolve, 0));
@@ -371,6 +394,65 @@ function positiveInteger(value, fallback, maximum) {
 
 function readSeparator(value) {
   return String(value) || " ";
+}
+
+function loadSettings() {
+  try {
+    const saved = JSON.parse(localStorage.getItem(SETTINGS_STORAGE_KEY));
+    if (!saved || typeof saved !== "object" || Array.isArray(saved)) return;
+
+    // Stored preferences are untrusted; invalid fields keep their HTML defaults.
+    for (const name of SETTINGS_FIELDS) {
+      const field = elements[name];
+      const value = saved[name];
+      if (field.type === "checkbox") {
+        if (typeof value === "boolean") field.checked = value;
+      } else if (field.type === "number") {
+        if (Number.isInteger(value) && value >= Number(field.min) && value <= Number(field.max)) {
+          field.value = String(value);
+        }
+      } else if (typeof value === "string" && value.length <= MAX_SEPARATOR_LENGTH && !/\p{L}/u.test(value)) {
+        field.value = value;
+      }
+    }
+  } catch {
+    // Missing, corrupt or blocked storage must not prevent offline generation.
+  }
+}
+
+function saveSettings(options) {
+  try {
+    // Keep an explicit allowlist: never persist the phrase or its random choices.
+    const saved = {};
+    for (const name of SETTINGS_FIELDS) {
+      saved[name] = name === "separator" ? elements.separator.value : options[name];
+    }
+    localStorage.setItem(SETTINGS_STORAGE_KEY, JSON.stringify(saved));
+  } catch {
+    // Preferences are optional when browser storage is blocked or full.
+  }
+}
+
+function clearSettings() {
+  try {
+    // Preserve unrelated site data and the last-seen version notification.
+    localStorage.removeItem(SETTINGS_STORAGE_KEY);
+  } catch {
+    setStatus("Kayıtlı ayarlar silinemedi.", "error");
+    return;
+  }
+  elements.settingsForm.reset();
+  // Do not recreate the deleted preference entry with default values.
+  render(true, false);
+  elements.refreshButton.focus();
+}
+
+function updateClearSettingsButton() {
+  elements.clearSettingsButton.hidden = !SETTINGS_FIELDS.some(name => {
+    const field = elements[name];
+    return field.type === "checkbox"
+      ? field.checked !== field.defaultChecked : field.value !== field.defaultValue;
+  });
 }
 
 function updateControls(options) {
@@ -564,6 +646,7 @@ elements.printButton.addEventListener("click", () => printPassphrase());
 elements.printEmojiButton.addEventListener("click", () => printPassphrase(true));
 elements.downloadButton.addEventListener("click", () => downloadPassphrases());
 elements.downloadConfirm.addEventListener("click", () => downloadPassphrases(true));
+elements.clearSettingsButton.addEventListener("click", clearSettings);
 elements.downloadCount.addEventListener("change", () => {
   elements.downloadCount.value = String(positiveInteger(Number(elements.downloadCount.value), 1, MAX_DOWNLOAD_COUNT));
 });
@@ -707,5 +790,6 @@ elements.digitCount.addEventListener("change", () => render(false));
 elements.commonOnly.addEventListener("change", render);
 elements.showEmojis.addEventListener("change", () => render(false));
 
+loadSettings();
 checkVersionUpdate();
-render();
+render(true, false);
